@@ -1,0 +1,14 @@
+# Apple iOS devices — idevicerestore / Corer
+# Install to /etc/udev/rules.d/ or /usr/lib/udev/rules.d/
+# These rules grant desktop users access to Apple USB devices
+# without requiring sudo, using the uaccess tag for logind.
+
+# Apple USB devices — broad vendor rule
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="05ac", MODE="0664", GROUP="plugdev", TAG+="uaccess"
+
+# Recovery mode (specific product IDs)
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="05ac", ATTR{idProduct}=="1280", MODE="0664", GROUP="plugdev", TAG+="uaccess"
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="05ac", ATTR{idProduct}=="1281", MODE="0664", GROUP="plugdev", TAG+="uaccess"
+
+# DFU mode
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="05ac", ATTR{idProduct}=="1227", MODE="0664", GROUP="plugdev", TAG+="uaccess"

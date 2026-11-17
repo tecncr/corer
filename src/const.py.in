@@ -1,0 +1,11 @@
+# const.py
+#
+# Copyright 2026 Nícolas Castillo
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+APP_ID = '@APP_ID@'
+VERSION = '@VERSION@'
+PROFILE = '@PROFILE@'
+RESOURCE_PATH = '/com/tecncr/Corer'
+SETTINGS_ID = 'com.tecncr.Corer'

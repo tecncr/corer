@@ -1,0 +1,184 @@
+{
+    "id": "com.tecncr.Corer",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "51",
+    "sdk": "org.gnome.Sdk",
+    "command": "corer",
+    "finish-args": [
+        "--share=network",
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=wayland",
+        "--device=all",
+        "--filesystem=xdg-download:ro",
+        "--filesystem=/run/usbmuxd",
+        "--filesystem=/run/udev:ro",
+        "--talk-name=org.freedesktop.Flatpak"
+    ],
+    "cleanup": [
+        "/include",
+        "/lib/pkgconfig",
+        "/lib/cmake",
+        "/lib/udev",
+        "/man",
+        "/share/doc",
+        "/share/gtk-doc",
+        "/share/man",
+        "/share/pkgconfig",
+        "*.la",
+        "*.a"
+    ],
+    "modules": [
+        {
+            "name": "libplist",
+            "buildsystem": "autotools",
+            "config-opts": [
+                "--without-cython"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/libimobiledevice/libplist.git",
+                    "branch": "master",
+                    "disable-shallow-clone": true
+                }
+            ]
+        },
+        {
+            "name": "libimobiledevice-glue",
+            "buildsystem": "autotools",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/libimobiledevice/libimobiledevice-glue.git",
+                    "branch": "master",
+                    "disable-shallow-clone": true
+                }
+            ]
+        },
+        {
+            "name": "libusbmuxd",
+            "buildsystem": "autotools",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/libimobiledevice/libusbmuxd.git",
+                    "branch": "master",
+                    "disable-shallow-clone": true
+                }
+            ]
+        },
+        {
+            "name": "libtatsu",
+            "buildsystem": "autotools",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/libimobiledevice/libtatsu.git",
+                    "branch": "master",
+                    "disable-shallow-clone": true
+                }
+            ]
+        },
+        {
+            "name": "libimobiledevice",
+            "buildsystem": "autotools",
+            "config-opts": [
+                "--without-cython"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/libimobiledevice/libimobiledevice.git",
+                    "branch": "master",
+                    "disable-shallow-clone": true
+                }
+            ]
+        },
+        {
+            "name": "libirecovery",
+            "buildsystem": "autotools",
+            "config-opts": [
+                "--without-udev"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/libimobiledevice/libirecovery.git",
+                    "branch": "master",
+                    "disable-shallow-clone": true
+                }
+            ]
+        },
+        {
+            "name": "usbmuxd",
+            "buildsystem": "autotools",
+            "config-opts": [
+                "--without-systemd",
+                "--sbindir=/app/bin",
+                "--with-udevrulesdir=/app/lib/udev/rules.d"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/libimobiledevice/usbmuxd.git",
+                    "branch": "master",
+                    "disable-shallow-clone": true
+                }
+            ]
+        },
+        {
+            "name": "libzip",
+            "builddir": true,
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+                "-DBUILD_SHARED_LIBS=ON",
+                "-DBUILD_TOOLS=OFF",
+                "-DBUILD_REGRESS=OFF",
+                "-DBUILD_EXAMPLES=OFF",
+                "-DBUILD_DOC=OFF",
+                "-DBUILD_OSSFUZZ=OFF"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/nih-at/libzip.git",
+                    "branch": "main"
+                }
+            ]
+        },
+        {
+            "name": "idevicerestore",
+            "buildsystem": "autotools",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/libimobiledevice/idevicerestore.git",
+                    "branch": "master"
+                }
+            ]
+        },
+        {
+            "name": "corer",
+            "builddir": true,
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Dprofile=default"
+            ],
+            "sources": [
+                {
+                    "type": "dir",
+                    "path": ".",
+                    "skip": [
+                        ".flatpak-builder",
+                        ".flatpak",
+                        "build",
+                        "builddir",
+                        "_build"
+                    ]
+                }
+            ]
+        }
+    ]
+}

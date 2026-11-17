@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>@APP_ID@</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <name>Corer</name>
+  <summary>Restore and update Apple devices</summary>
+  <description>
+    <p>
+      Corer installs firmware on iPhone, iPad and iPod touch. Connect a device,
+      pick a version and choose whether to keep or erase its content.
+    </p>
+    <ul>
+      <li>Update a device while keeping its data, or erase and restore it</li>
+      <li>Download currently signed firmware on demand and reuse it later</li>
+      <li>Use a firmware file you already have</li>
+      <li>Recover devices stuck in recovery or DFU mode</li>
+    </ul>
+    <p>
+      Corer is powered by idevicerestore and libimobiledevice. It is not
+      affiliated with or endorsed by Apple Inc.
+    </p>
+  </description>
+
+  <developer id="com.tecncr">
+    <name translate="no">Nícolas Castillo</name>
+  </developer>
+
+  <url type="homepage">https://github.com/tecncr/corer</url>
+  <url type="vcs-browser">https://github.com/tecncr/corer</url>
+  <url type="bugtracker">https://github.com/tecncr/corer/issues</url>
+
+  <translation type="gettext">corer</translation>
+  <launchable type="desktop-id">@APP_ID@.desktop</launchable>
+  <content_rating type="oars-1.1" />
+
+  <requires>
+    <display_length compare="ge">360</display_length>
+    <internet>first-run</internet>
+  </requires>
+  <supports>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </supports>
+
+  <branding>
+    <color type="primary" scheme_preference="light">#99c1f1</color>
+    <color type="primary" scheme_preference="dark">#1a5fb4</color>
+  </branding>
+
+  <releases>
+    <release version="0.1.0" date="2026-11-16">
+      <description translate="no">
+        <p>Initial release.</p>
+      </description>
+    </release>
+  </releases>
+</component>

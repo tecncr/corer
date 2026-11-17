@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/tecncr/Corer">
+    <file preprocess="xml-stripblanks">window.ui</file>
+    <file preprocess="xml-stripblanks">shortcuts-dialog.ui</file>
+    <file alias="71-corer-apple-devices.rules">../data/71-corer-apple-devices.rules</file>
+  </gresource>
+  <!-- Icons from the Adwaita icon theme (CC-BY-SA-3.0 / LGPL-3.0), bundled
+       so they do not depend on the icon theme in use. -->
+  <gresource prefix="/com/tecncr/Corer/icons/scalable/devices">
+    <file preprocess="xml-stripblanks" alias="corer-iphone-symbolic.svg">icons/corer-iphone-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-ipad-symbolic.svg">icons/corer-ipad-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-ipod-symbolic.svg">icons/corer-ipod-symbolic.svg</file>
+  </gresource>
+  <gresource prefix="/com/tecncr/Corer/icons/scalable/actions">
+    <file preprocess="xml-stripblanks" alias="corer-applications-engineering-symbolic.svg">icons/corer-applications-engineering-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-folder-open-symbolic.svg">icons/corer-folder-open-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-folder-download-symbolic.svg">icons/corer-folder-download-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-dialog-error-symbolic.svg">icons/corer-dialog-error-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-dialog-information-symbolic.svg">icons/corer-dialog-information-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-document-open-symbolic.svg">icons/corer-document-open-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-document-save-symbolic.svg">icons/corer-document-save-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-edit-clear-symbolic.svg">icons/corer-edit-clear-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-edit-copy-symbolic.svg">icons/corer-edit-copy-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-object-select-symbolic.svg">icons/corer-object-select-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-view-refresh-symbolic.svg">icons/corer-view-refresh-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-tv-symbolic.svg">icons/corer-tv-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-computer-symbolic.svg">icons/corer-computer-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-emblem-system-symbolic.svg">icons/corer-emblem-system-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-document-send-symbolic.svg">icons/corer-document-send-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-security-high-symbolic.svg">icons/corer-security-high-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-system-software-install-symbolic.svg">icons/corer-system-software-install-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-network-cellular-signal-excellent-symbolic.svg">icons/corer-network-cellular-signal-excellent-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-application-x-firmware-symbolic.svg">icons/corer-application-x-firmware-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-media-flash-symbolic.svg">icons/corer-media-flash-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-process-stop-symbolic.svg">icons/corer-process-stop-symbolic.svg</file>
+  </gresource>
+</gresources>

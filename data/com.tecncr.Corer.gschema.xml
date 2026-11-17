@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="corer">
+  <schema id="com.tecncr.Corer" path="/com/tecncr/Corer/">
+    <key name="window-width" type="i">
+      <default>880</default>
+      <summary>Window width</summary>
+    </key>
+    <key name="window-height" type="i">
+      <default>680</default>
+      <summary>Window height</summary>
+    </key>
+    <key name="window-maximized" type="b">
+      <default>false</default>
+      <summary>Whether the window is maximized</summary>
+    </key>
+    <key name="keep-firmware" type="b">
+      <default>true</default>
+      <summary>Keep downloaded firmware</summary>
+      <description>Keep downloaded firmware files in the cache after a successful restore so they can be reused.</description>
+    </key>
+    <key name="debug" type="b">
+      <default>false</default>
+      <summary>Verbose logging</summary>
+      <description>Ask idevicerestore to print additional debug output.</description>
+    </key>
+    <key name="allow-restore-mode" type="b">
+      <default>false</default>
+      <summary>Allow restoring from restore mode</summary>
+    </key>
+    <key name="ignore-errors" type="b">
+      <default>false</default>
+      <summary>Continue after certain errors</summary>
+      <description>Try to continue the restore process after certain errors, like a failed baseband update.</description>
+    </key>
+    <key name="exclude-baseband" type="b">
+      <default>false</default>
+      <summary>Skip NOR and baseband upgrade</summary>
+    </key>
+    <key name="keep-personalized" type="b">
+      <default>false</default>
+      <summary>Keep personalized components</summary>
+      <description>Write personalized components to files for debugging.</description>
+    </key>
+    <key name="custom-firmware" type="b">
+      <default>false</default>
+      <summary>Restore custom firmware</summary>
+      <description>Restore with a custom firmware. Requires a bootrom exploit.</description>
+    </key>
+    <key name="no-restore" type="b">
+      <default>false</default>
+      <summary>Stop after booting the ramdisk</summary>
+    </key>
+    <key name="signing-server" type="s">
+      <default>''</default>
+      <summary>Signing server URL</summary>
+      <description>Overrides the default signing server request URL. Empty uses the default.</description>
+    </key>
+    <key name="variant" type="s">
+      <default>''</default>
+      <summary>Restore variant</summary>
+      <description>Build identity variant to use. Empty selects it automatically.</description>
+    </key>
+  </schema>
+</schemalist>

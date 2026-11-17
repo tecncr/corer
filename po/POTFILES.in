@@ -1,0 +1,14 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+data/com.tecncr.Corer.desktop.in.in
+data/com.tecncr.Corer.gschema.xml
+data/com.tecncr.Corer.metainfo.xml.in.in
+src/devices.py
+src/firmware.py
+src/log_dialog.py
+src/main.py
+src/preferences.py
+src/restore.py
+src/shortcuts-dialog.ui
+src/window.py
+src/window.ui

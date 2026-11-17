@@ -54,7 +54,7 @@
                       <object class="AdwStatusPage">
                         <property name="icon-name">corer-iphone-symbolic</property>
                         <property name="title" translatable="yes">Connect a Device</property>
-                        <property name="description" translatable="yes">Plug in an iPhone, iPad or iPod touch with a USB cable. Devices in recovery or DFU mode work too.</property>
+                        <property name="description" translatable="yes">Plug in an Apple device with a USB cable. Devices in recovery or DFU mode work too. A Mac with Apple silicon has to be in DFU mode.</property>
                       </object>
                     </property>
                   </object>

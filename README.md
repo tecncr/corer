@@ -10,8 +10,7 @@
 
 Corer is a libadwaita front end for
 [idevicerestore](https://github.com/libimobiledevice/idevicerestore). Connect an
-iPhone, iPad or iPod touch, pick a version and choose whether to keep or erase
-its content. Corer downloads the firmware, walks the device through the
+Apple device, pick a version and choose whether to keep or erase its content. Corer downloads the firmware, walks the device through the
 process and shows where it is at every stage.
 
 Corer is not affiliated with or endorsed by Apple Inc.
@@ -26,6 +25,8 @@ Corer is not affiliated with or endorsed by Apple Inc.
 - **Bring your own IPSW**: use a firmware file you already have, with a
   warning when it does not match the device or is no longer signed
 - **Any device state**: works with devices in normal, recovery and DFU mode
+- **Not only phones**: iPhone, iPad, iPod touch and Apple TV, as well as Mac
+  computers with Apple silicon in DFU mode
 - **Recovery mode at a click**: put a device into recovery mode or get it back
   out
 - **SHSH blobs**: save them for the selected version

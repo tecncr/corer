@@ -6,11 +6,13 @@
     <file alias="71-corer-apple-devices.rules">../data/71-corer-apple-devices.rules</file>
   </gresource>
   <!-- Icons from the Adwaita icon theme (CC-BY-SA-3.0 / LGPL-3.0), bundled
-       so they do not depend on the icon theme in use. -->
+       so they do not depend on the icon theme in use. The laptop is our own,
+       as Adwaita has none. -->
   <gresource prefix="/com/tecncr/Corer/icons/scalable/devices">
     <file preprocess="xml-stripblanks" alias="corer-iphone-symbolic.svg">icons/corer-iphone-symbolic.svg</file>
     <file preprocess="xml-stripblanks" alias="corer-ipad-symbolic.svg">icons/corer-ipad-symbolic.svg</file>
     <file preprocess="xml-stripblanks" alias="corer-ipod-symbolic.svg">icons/corer-ipod-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="corer-laptop-symbolic.svg">icons/corer-laptop-symbolic.svg</file>
   </gresource>
   <gresource prefix="/com/tecncr/Corer/icons/scalable/actions">
     <file preprocess="xml-stripblanks" alias="corer-applications-engineering-symbolic.svg">icons/corer-applications-engineering-symbolic.svg</file>

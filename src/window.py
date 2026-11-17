@@ -148,6 +148,9 @@ class CorerWindow(Adw.ApplicationWindow):
         return (self.monitor.display_name(device.product_type)
                 or _('Apple Device'))
 
+    def _device_icon(self, device):
+        return device.icon_name(self.monitor.display_name(device.product_type))
+
     def _device_subtitle(self, device):
         parts = []
         model = self.monitor.display_name(device.product_type)
@@ -196,7 +199,7 @@ class CorerWindow(Adw.ApplicationWindow):
         if device is None:
             self._update_controls()
             return
-        self.device_icon.set_from_icon_name(device.icon_name)
+        self.device_icon.set_from_icon_name(self._device_icon(device))
         self.device_title.set_label(self._device_title(device))
         subtitle = self._device_subtitle(device)
         self.device_subtitle.set_label(subtitle)
@@ -650,7 +653,7 @@ class CorerWindow(Adw.ApplicationWindow):
     def _set_step(self, step):
         icon_name = STEP_ICONS[step] if 0 <= step < len(STEP_ICONS) else None
         if icon_name is None:
-            icon_name = (self._device.icon_name if self._device
+            icon_name = (self._device_icon(self._device) if self._device
                          else 'corer-iphone-symbolic')
         self._set_stage(step_label(step), icon_name)
 

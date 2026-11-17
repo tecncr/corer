@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: corer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-17 01:59-0500\n"
+"POT-Creation-Date: 2026-11-17 02:42-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,7 +30,7 @@ msgstr ""
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/com.tecncr.Corer.desktop.in.in:12
-msgid "iOS;iPhone;iPad;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;"
+msgid "iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;"
 msgstr ""
 
 #: data/com.tecncr.Corer.gschema.xml:6
@@ -124,37 +124,38 @@ msgstr ""
 
 #: data/com.tecncr.Corer.metainfo.xml.in.in:10
 msgid ""
-"Corer installs firmware on iPhone, iPad and iPod touch. Connect a device, "
-"pick a version and choose whether to keep or erase its content."
-msgstr ""
-
-#: data/com.tecncr.Corer.metainfo.xml.in.in:15
-msgid "Update a device while keeping its data, or erase and restore it"
+"Corer installs firmware on Apple devices, including Mac computers with Apple "
+"silicon in DFU mode. Connect a device, pick a version and choose whether to "
+"keep or erase its content."
 msgstr ""
 
 #: data/com.tecncr.Corer.metainfo.xml.in.in:16
-msgid "Download currently signed firmware on demand and reuse it later"
+msgid "Update a device while keeping its data, or erase and restore it"
 msgstr ""
 
 #: data/com.tecncr.Corer.metainfo.xml.in.in:17
-msgid "Use a firmware file you already have"
+msgid "Download currently signed firmware on demand and reuse it later"
 msgstr ""
 
 #: data/com.tecncr.Corer.metainfo.xml.in.in:18
+msgid "Use a firmware file you already have"
+msgstr ""
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:19
 msgid "Recover devices stuck in recovery or DFU mode"
 msgstr ""
 
-#: data/com.tecncr.Corer.metainfo.xml.in.in:20
+#: data/com.tecncr.Corer.metainfo.xml.in.in:21
 msgid ""
 "Corer is powered by idevicerestore and libimobiledevice. It is not "
 "affiliated with or endorsed by Apple Inc."
 msgstr ""
 
-#: src/devices.py:83
+#: src/devices.py:89
 msgid "Recovery Mode"
 msgstr ""
 
-#: src/devices.py:85
+#: src/devices.py:91
 msgid "DFU Mode"
 msgstr ""
 
@@ -210,7 +211,7 @@ msgstr ""
 msgid "Output appears here when a device is restored."
 msgstr ""
 
-#: src/log_dialog.py:81 src/window.py:307
+#: src/log_dialog.py:81 src/window.py:310
 msgid "Copied to clipboard"
 msgstr ""
 
@@ -365,7 +366,7 @@ msgstr ""
 msgid "Firmware will be downloaded again the next time it is needed."
 msgstr ""
 
-#: src/preferences.py:144 src/window.py:582 src/window.ui:322
+#: src/preferences.py:144 src/window.py:585 src/window.ui:322
 msgid "_Cancel"
 msgstr ""
 
@@ -453,280 +454,280 @@ msgstr ""
 msgid "Apple Device"
 msgstr ""
 
-#: src/window.py:214
+#: src/window.py:217
 msgid "Corer needs permission to access this device over USB"
 msgstr ""
 
-#: src/window.py:215
+#: src/window.py:218
 msgid "_Set Up"
 msgstr ""
 
-#: src/window.py:220
+#: src/window.py:223
 msgid "The system device service (usbmuxd) is not responding"
 msgstr ""
 
-#: src/window.py:221
+#: src/window.py:224
 msgid "_Restart It"
 msgstr ""
 
-#: src/window.py:226
+#: src/window.py:229
 msgid "The device service (usbmuxd) is not available"
 msgstr ""
 
-#: src/window.py:257
+#: src/window.py:260
 msgid "USB access was set up"
 msgstr ""
 
-#: src/window.py:270
+#: src/window.py:273
 msgid "The device service was restarted"
 msgstr ""
 
-#: src/window.py:272
+#: src/window.py:275
 msgid ""
 "Could not restart it. Run “sudo systemctl restart usbmuxd” in a terminal"
 msgstr ""
 
-#: src/window.py:281
+#: src/window.py:284
 msgid "Set Up USB Access Manually"
 msgstr ""
 
-#: src/window.py:282
+#: src/window.py:285
 msgid ""
 "The setup could not be completed. Run these commands in a terminal to "
 "install the device access rule, then reconnect the device."
 msgstr ""
 
-#: src/window.py:298
+#: src/window.py:301
 msgid "_Close"
 msgstr ""
 
-#: src/window.py:299
+#: src/window.py:302
 msgid "C_opy Commands"
 msgstr ""
 
-#: src/window.py:407
+#: src/window.py:410
 msgid "Looking for available versions…"
 msgstr ""
 
-#: src/window.py:411
+#: src/window.py:414
 msgid "Choose a firmware file for this device"
 msgstr ""
 
-#: src/window.py:413
+#: src/window.py:416
 msgid "No firmware is currently signed for this device"
 msgstr ""
 
-#: src/window.py:415
+#: src/window.py:418
 msgid "Using the firmware file"
 msgstr ""
 
-#: src/window.py:419
+#: src/window.py:422
 msgid "Downloaded"
 msgstr ""
 
 #. Translators: {size} is a file size such as “8.1 GB”
-#: src/window.py:422
+#: src/window.py:425
 #, python-brace-format
 msgid "{size} download"
 msgstr ""
 
-#: src/window.py:426
+#: src/window.py:429
 msgid "Offline — showing downloaded firmware"
 msgstr ""
 
-#: src/window.py:433
+#: src/window.py:436
 msgid "Use an IPSW file from this computer"
 msgstr ""
 
 #. Translators: {filename} is the name of a firmware file
-#: src/window.py:437
+#: src/window.py:440
 #, python-brace-format
 msgid "{filename} is not compatible with this device"
 msgstr ""
 
-#: src/window.py:450 src/window.py:584
+#: src/window.py:453 src/window.py:587
 msgid "_Erase and Restore"
 msgstr ""
 
-#: src/window.py:450 src/window.py:588
+#: src/window.py:453 src/window.py:591
 msgid "_Update"
 msgstr ""
 
-#: src/window.py:465
+#: src/window.py:468
 msgid "Exit _Recovery Mode"
 msgstr ""
 
-#: src/window.py:468
+#: src/window.py:471
 msgid "Enter _Recovery Mode"
 msgstr ""
 
-#: src/window.py:499
+#: src/window.py:502
 msgid "Firmware Files"
 msgstr ""
 
-#: src/window.py:504
+#: src/window.py:507
 msgid "Choose Firmware File"
 msgstr ""
 
-#: src/window.py:515
+#: src/window.py:518
 msgid "This file cannot be used"
 msgstr ""
 
 #. Translators: {name} is the name of a device
-#: src/window.py:560
+#: src/window.py:563
 #, python-brace-format
 msgid "Erase “{name}”?"
 msgstr ""
 
 #. Translators: {version} is a system version such as “iOS 18.1”
-#: src/window.py:562
+#: src/window.py:565
 #, python-brace-format
 msgid ""
 "All content and settings will be permanently erased and {version} will be "
 "installed. This cannot be undone."
 msgstr ""
 
-#: src/window.py:566
+#: src/window.py:569
 #, python-brace-format
 msgid "Update “{name}”?"
 msgstr ""
 
-#: src/window.py:567
+#: src/window.py:570
 #, python-brace-format
 msgid ""
 "{version} will be installed and your content and settings will be kept. Make "
 "sure you have a backup before continuing."
 msgstr ""
 
-#: src/window.py:573
+#: src/window.py:576
 msgid ""
 "This version is older than the one on the device. Downgrading without "
 "erasing is likely to fail and can cause complete data loss."
 msgstr ""
 
-#: src/window.py:577
+#: src/window.py:580
 msgid ""
 "This firmware no longer appears to be signed, so the device will probably "
 "refuse it."
 msgstr ""
 
-#: src/window.py:579
+#: src/window.py:582
 msgid "Keep the device connected until the process finishes."
 msgstr ""
 
-#: src/window.py:625
+#: src/window.py:628
 msgid "A device is being restored"
 msgstr ""
 
-#: src/window.py:637 src/window.py:663
+#: src/window.py:640 src/window.py:666
 msgid "Verifying Firmware"
 msgstr ""
 
-#: src/window.py:639 src/window.py:665
+#: src/window.py:642 src/window.py:668
 msgid "Downloading Firmware"
 msgstr ""
 
 #. Translators: download progress, e.g. “1.2 GB of 8.1 GB”
-#: src/window.py:669
+#: src/window.py:672
 #, python-brace-format
 msgid "{done} of {total}"
 msgstr ""
 
 #. Translators: download speed, e.g. “12.5 MB/s”
-#: src/window.py:676
+#: src/window.py:679
 #, python-brace-format
 msgid "{speed}/s"
 msgstr ""
 
-#: src/window.py:782
+#: src/window.py:785
 msgid "Stop the Process?"
 msgstr ""
 
-#: src/window.py:783
+#: src/window.py:786
 msgid ""
 "Interrupting now can leave the device unusable until it is restored again."
 msgstr ""
 
-#: src/window.py:785 src/window.py:959
+#: src/window.py:788 src/window.py:962
 msgid "_Continue"
 msgstr ""
 
-#: src/window.py:786
+#: src/window.py:789
 msgid "_Stop"
 msgstr ""
 
-#: src/window.py:804
+#: src/window.py:807
 msgid "Stopping…"
 msgstr ""
 
-#: src/window.py:836
+#: src/window.py:839
 msgid "Stopped"
 msgstr ""
 
-#: src/window.py:839
+#: src/window.py:842
 msgid "SHSH Blobs Saved"
 msgstr ""
 
-#: src/window.py:842
+#: src/window.py:845
 msgid "Device Restored"
 msgstr ""
 
-#: src/window.py:843
+#: src/window.py:846
 msgid "The device will restart and show the setup assistant."
 msgstr ""
 
-#: src/window.py:846
+#: src/window.py:849
 msgid "Device Updated"
 msgstr ""
 
-#: src/window.py:847
+#: src/window.py:850
 msgid "The device will restart when it has finished updating."
 msgstr ""
 
-#: src/window.py:855
+#: src/window.py:858
 msgid "Could Not Save SHSH Blobs"
 msgstr ""
 
-#: src/window.py:856
+#: src/window.py:859
 msgid "Restore Failed"
 msgstr ""
 
-#: src/window.py:860
+#: src/window.py:863
 msgid "Check the log for details."
 msgstr ""
 
-#: src/window.py:896
+#: src/window.py:899
 msgid "The device was not found. Reconnect it and try again"
 msgstr ""
 
-#: src/window.py:922
+#: src/window.py:925
 msgid "The device is restarting"
 msgstr ""
 
-#: src/window.py:923
+#: src/window.py:926
 msgid "Could not exit recovery mode"
 msgstr ""
 
-#: src/window.py:926
+#: src/window.py:929
 msgid "The device is restarting in recovery mode"
 msgstr ""
 
-#: src/window.py:927
+#: src/window.py:930
 msgid ""
 "Could not enter recovery mode. Unlock the device and trust this computer"
 msgstr ""
 
-#: src/window.py:956
+#: src/window.py:959
 msgid "Stop and Quit?"
 msgstr ""
 
-#: src/window.py:957
+#: src/window.py:960
 msgid ""
 "A device is being restored. Interrupting now can leave it unusable until it "
 "is restored again."
 msgstr ""
 
-#: src/window.py:960
+#: src/window.py:963
 msgid "_Stop and Quit"
 msgstr ""
 
@@ -740,8 +741,8 @@ msgstr ""
 
 #: src/window.ui:57
 msgid ""
-"Plug in an iPhone, iPad or iPod touch with a USB cable. Devices in recovery "
-"or DFU mode work too."
+"Plug in an Apple device with a USB cable. Devices in recovery or DFU mode "
+"work too. A Mac with Apple silicon has to be in DFU mode."
 msgstr ""
 
 #: src/window.ui:124

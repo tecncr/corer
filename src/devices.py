@@ -64,13 +64,19 @@ class Device:
             return 'visionOS'
         return 'iOS'
 
-    @property
-    def icon_name(self):
+    def icon_name(self, display_name=''):
+        """Icon for the device.
+
+        Recent Mac product types such as Mac14,2 do not tell laptops and
+        desktops apart, so the marketing name is looked at as well.
+        """
         product = self.product_type
         if product.startswith('iPad'):
             return 'corer-ipad-symbolic'
         if product.startswith('iPod'):
             return 'corer-ipod-symbolic'
+        if product.startswith('MacBook') or 'MacBook' in display_name:
+            return 'corer-laptop-symbolic'
         if product.startswith(('Mac', 'iMac', 'VirtualMac')):
             return 'corer-computer-symbolic'
         if product.startswith('AppleTV'):
@@ -107,7 +113,7 @@ def scan_usb():
         elif product in DFU_PRODUCTS:
             mode = MODE_DFU
         elif product.startswith('12') or product in ('8600', '1901'):
-            # iPhone, iPad, iPod touch and friends in normal or restore mode
+            # Mobile devices in normal or restore mode
             mode = MODE_NORMAL
         else:
             continue

@@ -8,8 +8,9 @@
   <summary>Restore and update Apple devices</summary>
   <description>
     <p>
-      Corer installs firmware on iPhone, iPad and iPod touch. Connect a device,
-      pick a version and choose whether to keep or erase its content.
+      Corer installs firmware on Apple devices, including Mac computers with
+      Apple silicon in DFU mode. Connect a device, pick a version and choose
+      whether to keep or erase its content.
     </p>
     <ul>
       <li>Update a device while keeping its data, or erase and restore it</li>

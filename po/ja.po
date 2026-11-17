@@ -1,0 +1,821 @@
+# Japanese translation for Corer.
+# Copyright (C) 2026 Corer contributors
+# This file is distributed under the same license as the corer package.
+# Nícolas Castillo <code@tecncr.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: corer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 02:42-0500\n"
+"PO-Revision-Date: 2026-11-17 03:47-0500\n"
+"Last-Translator: Nícolas Castillo <code@tecncr.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/com.tecncr.Corer.desktop.in.in:2
+#: data/com.tecncr.Corer.metainfo.xml.in.in:7 src/window.ui:6
+msgid "Corer"
+msgstr "Corer"
+
+#. Translators: Short description shown in GNOME Shell search and app grids.
+#. Keep it under 80 characters.
+#: data/com.tecncr.Corer.desktop.in.in:5
+msgid "Restore firmware to Apple devices"
+msgstr "Apple デバイスのファームウェアを復元"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/com.tecncr.Corer.desktop.in.in:12
+msgid ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;"
+msgstr ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;ファームウェア;Restore;復元;Update;アップデート;IPSW;Recovery;リカバリ;DFU;"
+
+#: data/com.tecncr.Corer.gschema.xml:6
+msgid "Window width"
+msgstr "ウィンドウの幅"
+
+#: data/com.tecncr.Corer.gschema.xml:10
+msgid "Window height"
+msgstr "ウィンドウの高さ"
+
+#: data/com.tecncr.Corer.gschema.xml:14
+msgid "Whether the window is maximized"
+msgstr "ウィンドウを最大化するかどうか"
+
+#: data/com.tecncr.Corer.gschema.xml:18
+msgid "Keep downloaded firmware"
+msgstr "ダウンロードしたファームウェアを保持する"
+
+#: data/com.tecncr.Corer.gschema.xml:19
+msgid ""
+"Keep downloaded firmware files in the cache after a successful restore so "
+"they can be reused."
+msgstr "復元が成功した後も、ダウンロードしたファームウェアファイルをキャッシュに保持して再利用できるようにします。"
+
+#: data/com.tecncr.Corer.gschema.xml:23
+msgid "Verbose logging"
+msgstr "詳細なログ出力"
+
+#: data/com.tecncr.Corer.gschema.xml:24
+msgid "Ask idevicerestore to print additional debug output."
+msgstr "idevicerestore に追加のデバッグ出力を表示するよう要求します。"
+
+#: data/com.tecncr.Corer.gschema.xml:28
+msgid "Allow restoring from restore mode"
+msgstr "リストアモードからの復元を許可する"
+
+#: data/com.tecncr.Corer.gschema.xml:32
+msgid "Continue after certain errors"
+msgstr "特定のエラーの後も続行する"
+
+#: data/com.tecncr.Corer.gschema.xml:33
+msgid ""
+"Try to continue the restore process after certain errors, like a failed "
+"baseband update."
+msgstr "ベースバンドの更新失敗など、特定のエラーが発生しても復元処理の続行を試みます。"
+
+#: data/com.tecncr.Corer.gschema.xml:37
+msgid "Skip NOR and baseband upgrade"
+msgstr "NOR とベースバンドのアップグレードをスキップする"
+
+#: data/com.tecncr.Corer.gschema.xml:41
+msgid "Keep personalized components"
+msgstr "パーソナライズされたコンポーネントを保持する"
+
+#: data/com.tecncr.Corer.gschema.xml:42
+msgid "Write personalized components to files for debugging."
+msgstr "デバッグ用にパーソナライズされたコンポーネントをファイルに書き込みます。"
+
+#: data/com.tecncr.Corer.gschema.xml:46
+msgid "Restore custom firmware"
+msgstr "カスタムファームウェアを復元する"
+
+#: data/com.tecncr.Corer.gschema.xml:47
+msgid "Restore with a custom firmware. Requires a bootrom exploit."
+msgstr "カスタムファームウェアで復元します。bootrom の脆弱性を利用したエクスプロイトが必要です。"
+
+#: data/com.tecncr.Corer.gschema.xml:51
+msgid "Stop after booting the ramdisk"
+msgstr "ramdisk の起動後に停止する"
+
+#: data/com.tecncr.Corer.gschema.xml:55
+msgid "Signing server URL"
+msgstr "署名サーバーの URL"
+
+#: data/com.tecncr.Corer.gschema.xml:56
+msgid ""
+"Overrides the default signing server request URL. Empty uses the default."
+msgstr "署名サーバーへのリクエストに使用する既定の URL を上書きします。空の場合は既定の URL を使用します。"
+
+#: data/com.tecncr.Corer.gschema.xml:60
+msgid "Restore variant"
+msgstr "復元バリアント"
+
+#: data/com.tecncr.Corer.gschema.xml:61
+msgid "Build identity variant to use. Empty selects it automatically."
+msgstr "使用するビルドアイデンティティのバリアントです。空の場合は自動的に選択されます。"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:8
+msgid "Restore and update Apple devices"
+msgstr "Apple デバイスの復元とアップデート"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:10
+msgid ""
+"Corer installs firmware on Apple devices, including Mac computers with Apple"
+" silicon in DFU mode. Connect a device, pick a version and choose whether to"
+" keep or erase its content."
+msgstr ""
+"Corer は、DFU モードの Apple シリコン搭載 Mac を含む Apple "
+"デバイスにファームウェアをインストールします。デバイスを接続し、バージョンを選んで、内容を保持するか消去するかを選択します。"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:16
+msgid "Update a device while keeping its data, or erase and restore it"
+msgstr "データを保持したままデバイスをアップデート、または消去して復元"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:17
+msgid "Download currently signed firmware on demand and reuse it later"
+msgstr "現在署名されているファームウェアを必要に応じてダウンロードし、後で再利用"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:18
+msgid "Use a firmware file you already have"
+msgstr "すでに持っているファームウェアファイルを使用"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:19
+msgid "Recover devices stuck in recovery or DFU mode"
+msgstr "リカバリモードや DFU モードで動かなくなったデバイスを復旧"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:21
+msgid ""
+"Corer is powered by idevicerestore and libimobiledevice. It is not "
+"affiliated with or endorsed by Apple Inc."
+msgstr ""
+"Corer は idevicerestore と libimobiledevice を利用しています。Apple Inc. "
+"とは提携しておらず、承認も受けていません。"
+
+#: src/devices.py:89
+msgid "Recovery Mode"
+msgstr "リカバリモード"
+
+#: src/devices.py:91
+msgid "DFU Mode"
+msgstr "DFU モード"
+
+#: src/firmware.py:145 src/firmware.py:150
+msgid "Could not load the list of available versions"
+msgstr "利用可能なバージョンの一覧を読み込めませんでした"
+
+#: src/firmware.py:185
+msgid "This is not a valid firmware file"
+msgstr "有効なファームウェアファイルではありません"
+
+#: src/firmware.py:335
+msgid "This firmware is not available for download"
+msgstr "このファームウェアはダウンロードできません"
+
+#: src/firmware.py:349
+msgid "Not enough free disk space to download the firmware"
+msgstr "ファームウェアをダウンロードするためのディスクの空き容量が不足しています"
+
+#: src/firmware.py:360
+msgid "The download server refused the request"
+msgstr "ダウンロードサーバーがリクエストを拒否しました"
+
+#: src/firmware.py:367
+msgid "The download failed. Check your network connection"
+msgstr "ダウンロードに失敗しました。ネットワーク接続を確認してください"
+
+#: src/firmware.py:374
+msgid "The downloaded firmware is incomplete"
+msgstr "ダウンロードしたファームウェアが不完全です"
+
+#: src/firmware.py:377
+msgid "The downloaded firmware is corrupted"
+msgstr "ダウンロードしたファームウェアが破損しています"
+
+#: src/log_dialog.py:16
+msgid "Log"
+msgstr "ログ"
+
+#: src/log_dialog.py:24
+msgid "Copy"
+msgstr "コピー"
+
+#: src/log_dialog.py:28
+msgid "Save…"
+msgstr "保存…"
+
+#: src/log_dialog.py:36
+msgid "No Log Yet"
+msgstr "ログはまだありません"
+
+#: src/log_dialog.py:37
+msgid "Output appears here when a device is restored."
+msgstr "デバイスの復元中に、ここに出力が表示されます。"
+
+#: src/log_dialog.py:81 src/window.py:310
+msgid "Copied to clipboard"
+msgstr "クリップボードにコピーしました"
+
+#: src/log_dialog.py:84
+msgid "Save Log"
+msgstr "ログを保存"
+
+#. Translators: Replace "translator-credits" with your name/username, and
+#. optionally an email or URL.
+#: src/main.py:90
+msgid "translator-credits"
+msgstr "Nícolas Castillo <code@tecncr.com>"
+
+#: src/main.py:96
+msgid "Powered By"
+msgstr "搭載技術"
+
+#. Firmware
+#: src/preferences.py:23 src/preferences.py:77
+msgid "Firmware"
+msgstr "ファームウェア"
+
+#: src/preferences.py:28
+msgid "Downloads"
+msgstr "ダウンロード"
+
+#: src/preferences.py:29
+msgid ""
+"Downloaded firmware is stored so that it does not have to be downloaded "
+"again."
+msgstr "ダウンロードしたファームウェアは、再ダウンロードを避けるために保存されます。"
+
+#: src/preferences.py:33
+msgid "_Keep Downloaded Firmware"
+msgstr "ダウンロードしたファームウェアを保持する(_K)"
+
+#: src/preferences.py:34
+msgid "Turn off to delete firmware after a successful restore"
+msgstr "復元の成功後にファームウェアを削除するには、オフにします"
+
+#: src/preferences.py:36
+msgid "Stored Firmware"
+msgstr "保存されたファームウェア"
+
+#: src/preferences.py:37
+msgid "Calculating…"
+msgstr "計算中…"
+
+#: src/preferences.py:39 src/preferences.py:96
+msgid "Open Folder"
+msgstr "フォルダーを開く"
+
+#: src/preferences.py:44 src/preferences.py:145
+msgid "_Delete"
+msgstr "削除(_D)"
+
+#. Advanced
+#: src/preferences.py:54
+msgid "Advanced"
+msgstr "詳細"
+
+#: src/preferences.py:59
+msgid "Restore"
+msgstr "復元"
+
+#: src/preferences.py:60
+msgid ""
+"These options can leave a device unable to start. Change them only if you "
+"know what they do."
+msgstr "これらのオプションを変更すると、デバイスが起動しなくなる可能性があります。内容を理解している場合にのみ変更してください。"
+
+#: src/preferences.py:64
+msgid "Restore From _Restore Mode"
+msgstr "リストアモードから復元する(_R)"
+
+#: src/preferences.py:65
+msgid "Allow starting with a device that is already in restore mode"
+msgstr "すでにリストアモードにあるデバイスで開始できるようにします"
+
+#: src/preferences.py:67
+msgid "_Ignore Errors"
+msgstr "エラーを無視する(_I)"
+
+#: src/preferences.py:68
+msgid "Try to continue after certain errors, like a failed baseband update"
+msgstr "ベースバンドの更新失敗など、特定のエラーが発生しても続行を試みます"
+
+#: src/preferences.py:71
+msgid "Skip _Baseband"
+msgstr "ベースバンドをスキップする(_B)"
+
+#: src/preferences.py:72
+msgid "Do not upgrade NOR and baseband on legacy devices"
+msgstr "旧型デバイスで NOR とベースバンドをアップグレードしません"
+
+#: src/preferences.py:74
+msgid "_Stop After Ramdisk"
+msgstr "ramdisk の後で停止する(_S)"
+
+#: src/preferences.py:75
+msgid "Boot the restore ramdisk without restoring"
+msgstr "復元せずに復元用 ramdisk を起動します"
+
+#: src/preferences.py:80
+msgid "_Custom Firmware"
+msgstr "カスタムファームウェア(_C)"
+
+#: src/preferences.py:81
+msgid "Restore custom firmware. Requires a bootrom exploit"
+msgstr "カスタムファームウェアを復元します。bootrom の脆弱性を利用したエクスプロイトが必要です"
+
+#: src/preferences.py:82
+msgid "Restore _Variant"
+msgstr "復元バリアント(_V)"
+
+#: src/preferences.py:83
+msgid "Signing Server _URL"
+msgstr "署名サーバーの URL(_U)"
+
+#: src/preferences.py:86
+msgid "Troubleshooting"
+msgstr "トラブルシューティング"
+
+#: src/preferences.py:89
+msgid "_Detailed Log"
+msgstr "詳細なログ(_D)"
+
+#: src/preferences.py:90
+msgid "Include all debugging output from idevicerestore in the log"
+msgstr "idevicerestore のデバッグ出力をすべてログに含めます"
+
+#: src/preferences.py:92
+msgid "Log Files"
+msgstr "ログファイル"
+
+#: src/preferences.py:93
+msgid "Every restore is recorded, even if Corer quits unexpectedly"
+msgstr "Corer が予期せず終了しても、すべての復元が記録されます"
+
+#: src/preferences.py:103
+msgid "Keep _Personalized Components"
+msgstr "パーソナライズされたコンポーネントを保持する(_P)"
+
+#: src/preferences.py:104
+msgid "Write personalized components to files for debugging"
+msgstr "デバッグ用にパーソナライズされたコンポーネントをファイルに書き込みます"
+
+#: src/preferences.py:141
+msgid "Delete Stored Firmware?"
+msgstr "保存されたファームウェアを削除しますか?"
+
+#: src/preferences.py:142
+msgid "Firmware will be downloaded again the next time it is needed."
+msgstr "次に必要になったときに、ファームウェアが再ダウンロードされます。"
+
+#: src/preferences.py:144 src/window.py:585 src/window.ui:322
+msgid "_Cancel"
+msgstr "キャンセル(_C)"
+
+#: src/restore.py:27
+msgid "Detecting Device"
+msgstr "デバイスを検出しています"
+
+#: src/restore.py:28
+msgid "Preparing Device"
+msgstr "デバイスを準備しています"
+
+#: src/restore.py:29
+msgid "Sending Filesystem"
+msgstr "ファイルシステムを送信しています"
+
+#: src/restore.py:30
+msgid "Verifying Filesystem"
+msgstr "ファイルシステムを検証しています"
+
+#: src/restore.py:31
+msgid "Installing Firmware"
+msgstr "ファームウェアをインストールしています"
+
+#: src/restore.py:32
+msgid "Updating Baseband"
+msgstr "ベースバンドを更新しています"
+
+#: src/restore.py:33
+msgid "Updating Components"
+msgstr "コンポーネントを更新しています"
+
+#: src/restore.py:34
+msgid "Sending Images"
+msgstr "イメージを送信しています"
+
+#: src/restore.py:63
+msgid "Restoring"
+msgstr "復元しています"
+
+#: src/restore.py:134
+msgid "idevicerestore could not be started"
+msgstr "idevicerestore を起動できませんでした"
+
+#: src/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "Device"
+msgstr "デバイス"
+
+#: src/shortcuts-dialog.ui:9
+msgctxt "shortcut window"
+msgid "Choose Firmware File"
+msgstr "ファームウェアファイルを選択"
+
+#: src/shortcuts-dialog.ui:15
+msgctxt "shortcut window"
+msgid "Look for Devices"
+msgstr "デバイスを検索"
+
+#: src/shortcuts-dialog.ui:21
+msgctxt "shortcut window"
+msgid "View Log"
+msgstr "ログを表示"
+
+#: src/shortcuts-dialog.ui:29
+msgctxt "shortcut window"
+msgid "General"
+msgstr "一般"
+
+#: src/shortcuts-dialog.ui:32
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr "設定"
+
+#: src/shortcuts-dialog.ui:38
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "ショートカットを表示"
+
+#: src/shortcuts-dialog.ui:44
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "終了"
+
+#: src/window.py:149
+msgid "Apple Device"
+msgstr "Apple デバイス"
+
+#: src/window.py:217
+msgid "Corer needs permission to access this device over USB"
+msgstr "USB 経由でこのデバイスにアクセスするには、Corer に許可が必要です"
+
+#: src/window.py:218
+msgid "_Set Up"
+msgstr "設定(_S)"
+
+#: src/window.py:223
+msgid "The system device service (usbmuxd) is not responding"
+msgstr "システムのデバイスサービス (usbmuxd) が応答していません"
+
+#: src/window.py:224
+msgid "_Restart It"
+msgstr "再起動(_R)"
+
+#: src/window.py:229
+msgid "The device service (usbmuxd) is not available"
+msgstr "デバイスサービス (usbmuxd) は利用できません"
+
+#: src/window.py:260
+msgid "USB access was set up"
+msgstr "USB アクセスを設定しました"
+
+#: src/window.py:273
+msgid "The device service was restarted"
+msgstr "デバイスサービスを再起動しました"
+
+#: src/window.py:275
+msgid ""
+"Could not restart it. Run “sudo systemctl restart usbmuxd” in a terminal"
+msgstr "再起動できませんでした。ターミナルで「sudo systemctl restart usbmuxd」を実行してください"
+
+#: src/window.py:284
+msgid "Set Up USB Access Manually"
+msgstr "USB アクセスを手動で設定"
+
+#: src/window.py:285
+msgid ""
+"The setup could not be completed. Run these commands in a terminal to "
+"install the device access rule, then reconnect the device."
+msgstr "設定を完了できませんでした。ターミナルで次のコマンドを実行してデバイスアクセスルールをインストールし、デバイスを接続し直してください。"
+
+#: src/window.py:301
+msgid "_Close"
+msgstr "閉じる(_C)"
+
+#: src/window.py:302
+msgid "C_opy Commands"
+msgstr "コマンドをコピー(_O)"
+
+#: src/window.py:410
+msgid "Looking for available versions…"
+msgstr "利用可能なバージョンを検索しています…"
+
+#: src/window.py:414
+msgid "Choose a firmware file for this device"
+msgstr "このデバイス用のファームウェアファイルを選択してください"
+
+#: src/window.py:416
+msgid "No firmware is currently signed for this device"
+msgstr "このデバイス用に現在署名されているファームウェアはありません"
+
+#: src/window.py:418
+msgid "Using the firmware file"
+msgstr "使用するファームウェアファイル"
+
+#: src/window.py:422
+msgid "Downloaded"
+msgstr "ダウンロード済み"
+
+#. Translators: {size} is a file size such as “8.1 GB”
+#: src/window.py:425
+#, python-brace-format
+msgid "{size} download"
+msgstr "{size} をダウンロード"
+
+#: src/window.py:429
+msgid "Offline — showing downloaded firmware"
+msgstr "オフライン — ダウンロード済みのファームウェアを表示しています"
+
+#: src/window.py:436
+msgid "Use an IPSW file from this computer"
+msgstr "このコンピューターの IPSW ファイルを使用"
+
+#. Translators: {filename} is the name of a firmware file
+#: src/window.py:440
+#, python-brace-format
+msgid "{filename} is not compatible with this device"
+msgstr "{filename} はこのデバイスと互換性がありません"
+
+#: src/window.py:453 src/window.py:587
+msgid "_Erase and Restore"
+msgstr "消去して復元(_E)"
+
+#: src/window.py:453 src/window.py:591
+msgid "_Update"
+msgstr "アップデート(_U)"
+
+#: src/window.py:468
+msgid "Exit _Recovery Mode"
+msgstr "リカバリモードを終了(_R)"
+
+#: src/window.py:471
+msgid "Enter _Recovery Mode"
+msgstr "リカバリモードに入る(_R)"
+
+#: src/window.py:502
+msgid "Firmware Files"
+msgstr "ファームウェアファイル"
+
+#: src/window.py:507
+msgid "Choose Firmware File"
+msgstr "ファームウェアファイルを選択"
+
+#: src/window.py:518
+msgid "This file cannot be used"
+msgstr "このファイルは使用できません"
+
+#. Translators: {name} is the name of a device
+#: src/window.py:563
+#, python-brace-format
+msgid "Erase “{name}”?"
+msgstr "「{name}」を消去しますか?"
+
+#. Translators: {version} is a system version such as “iOS 18.1”
+#: src/window.py:565
+#, python-brace-format
+msgid ""
+"All content and settings will be permanently erased and {version} will be "
+"installed. This cannot be undone."
+msgstr "すべてのコンテンツと設定が完全に消去され、{version} がインストールされます。この操作は取り消せません。"
+
+#: src/window.py:569
+#, python-brace-format
+msgid "Update “{name}”?"
+msgstr "「{name}」をアップデートしますか?"
+
+#: src/window.py:570
+#, python-brace-format
+msgid ""
+"{version} will be installed and your content and settings will be kept. Make"
+" sure you have a backup before continuing."
+msgstr "{version} がインストールされ、コンテンツと設定は保持されます。続行する前にバックアップがあることを確認してください。"
+
+#: src/window.py:576
+msgid ""
+"This version is older than the one on the device. Downgrading without "
+"erasing is likely to fail and can cause complete data loss."
+msgstr ""
+"このバージョンはデバイス上のバージョンより古いものです。消去せずにダウングレードすると失敗する可能性が高く、すべてのデータを失うおそれがあります。"
+
+#: src/window.py:580
+msgid ""
+"This firmware no longer appears to be signed, so the device will probably "
+"refuse it."
+msgstr "このファームウェアはすでに署名されていないようで、デバイスに拒否される可能性があります。"
+
+#: src/window.py:582
+msgid "Keep the device connected until the process finishes."
+msgstr "処理が完了するまで、デバイスを接続したままにしてください。"
+
+#: src/window.py:628
+msgid "A device is being restored"
+msgstr "デバイスを復元しています"
+
+#: src/window.py:640 src/window.py:666
+msgid "Verifying Firmware"
+msgstr "ファームウェアを検証しています"
+
+#: src/window.py:642 src/window.py:668
+msgid "Downloading Firmware"
+msgstr "ファームウェアをダウンロードしています"
+
+#. Translators: download progress, e.g. “1.2 GB of 8.1 GB”
+#: src/window.py:672
+#, python-brace-format
+msgid "{done} of {total}"
+msgstr "{done} / {total}"
+
+#. Translators: download speed, e.g. “12.5 MB/s”
+#: src/window.py:679
+#, python-brace-format
+msgid "{speed}/s"
+msgstr "{speed}/秒"
+
+#: src/window.py:785
+msgid "Stop the Process?"
+msgstr "処理を停止しますか?"
+
+#: src/window.py:786
+msgid ""
+"Interrupting now can leave the device unusable until it is restored again."
+msgstr "今中断すると、再び復元するまでデバイスが使用できなくなる可能性があります。"
+
+#: src/window.py:788 src/window.py:962
+msgid "_Continue"
+msgstr "続行(_C)"
+
+#: src/window.py:789
+msgid "_Stop"
+msgstr "停止(_S)"
+
+#: src/window.py:807
+msgid "Stopping…"
+msgstr "停止しています…"
+
+#: src/window.py:839
+msgid "Stopped"
+msgstr "停止しました"
+
+#: src/window.py:842
+msgid "SHSH Blobs Saved"
+msgstr "SHSH blob を保存しました"
+
+#: src/window.py:845
+msgid "Device Restored"
+msgstr "デバイスを復元しました"
+
+#: src/window.py:846
+msgid "The device will restart and show the setup assistant."
+msgstr "デバイスが再起動し、設定アシスタントが表示されます。"
+
+#: src/window.py:849
+msgid "Device Updated"
+msgstr "デバイスをアップデートしました"
+
+#: src/window.py:850
+msgid "The device will restart when it has finished updating."
+msgstr "アップデートが完了すると、デバイスが再起動します。"
+
+#: src/window.py:858
+msgid "Could Not Save SHSH Blobs"
+msgstr "SHSH blob を保存できませんでした"
+
+#: src/window.py:859
+msgid "Restore Failed"
+msgstr "復元に失敗しました"
+
+#: src/window.py:863
+msgid "Check the log for details."
+msgstr "詳細についてはログを確認してください。"
+
+#: src/window.py:899
+msgid "The device was not found. Reconnect it and try again"
+msgstr "デバイスが見つかりません。接続し直してもう一度お試しください"
+
+#: src/window.py:925
+msgid "The device is restarting"
+msgstr "デバイスを再起動しています"
+
+#: src/window.py:926
+msgid "Could not exit recovery mode"
+msgstr "リカバリモードを終了できませんでした"
+
+#: src/window.py:929
+msgid "The device is restarting in recovery mode"
+msgstr "デバイスがリカバリモードで再起動しています"
+
+#: src/window.py:930
+msgid ""
+"Could not enter recovery mode. Unlock the device and trust this computer"
+msgstr "リカバリモードに入れませんでした。デバイスのロックを解除し、このコンピューターを信頼してください"
+
+#: src/window.py:959
+msgid "Stop and Quit?"
+msgstr "停止して終了しますか?"
+
+#: src/window.py:960
+msgid ""
+"A device is being restored. Interrupting now can leave it unusable until it "
+"is restored again."
+msgstr "デバイスを復元しています。今中断すると、再び復元するまでデバイスが使用できなくなる可能性があります。"
+
+#: src/window.py:963
+msgid "_Stop and Quit"
+msgstr "停止して終了(_S)"
+
+#: src/window.ui:21
+msgid "Main Menu"
+msgstr "メインメニュー"
+
+#: src/window.ui:56
+msgid "Connect a Device"
+msgstr "デバイスを接続"
+
+#: src/window.ui:57
+msgid ""
+"Plug in an Apple device with a USB cable. Devices in recovery or DFU mode "
+"work too. A Mac with Apple silicon has to be in DFU mode."
+msgstr ""
+"USB ケーブルで Apple デバイスを接続してください。リカバリモードや DFU モードのデバイスも使用できます。Apple シリコン搭載の Mac"
+" は DFU モードにする必要があります。"
+
+#: src/window.ui:124
+msgid "Device"
+msgstr "デバイス"
+
+#: src/window.ui:131
+msgid "Version"
+msgstr "バージョン"
+
+#: src/window.ui:145
+msgid "Try Again"
+msgstr "再試行"
+
+#: src/window.ui:156
+msgid "Firmware File"
+msgstr "ファームウェアファイル"
+
+#: src/window.ui:164
+msgid "Remove File"
+msgstr "ファイルを削除"
+
+#: src/window.ui:175
+msgid "Choose File"
+msgstr "ファイルを選択"
+
+#: src/window.ui:190
+msgid "Erase Device"
+msgstr "デバイスを消去"
+
+#: src/window.ui:191
+msgid "Remove all content and settings"
+msgstr "すべてのコンテンツと設定を削除します"
+
+#: src/window.ui:312 src/window.ui:377 src/window.ui:427
+msgid "View _Log"
+msgstr "ログを表示(_L)"
+
+#: src/window.ui:349
+msgid "_Done"
+msgstr "完了(_D)"
+
+#: src/window.ui:387
+msgid "_Back"
+msgstr "戻る(_B)"
+
+#: src/window.ui:397
+msgid "_Try Again"
+msgstr "再試行(_T)"
+
+#: src/window.ui:423
+msgid "_Save SHSH Blobs"
+msgstr "SHSH blob を保存(_S)"
+
+#: src/window.ui:433
+msgid "_Preferences"
+msgstr "設定(_P)"
+
+#: src/window.ui:437
+msgid "_Keyboard Shortcuts"
+msgstr "キーボードショートカット(_K)"
+
+#: src/window.ui:441
+msgid "_About Corer"
+msgstr "Corer について(_A)"

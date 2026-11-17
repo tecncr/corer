@@ -1,0 +1,856 @@
+# Slovenian translation for Corer.
+# Copyright (C) 2026 Corer contributors
+# This file is distributed under the same license as the corer package.
+# Nícolas Castillo <code@tecncr.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: corer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 02:42-0500\n"
+"PO-Revision-Date: 2026-11-17 03:50-0500\n"
+"Last-Translator: Nícolas Castillo <code@tecncr.com>\n"
+"Language-Team: Slovenian\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+
+#: data/com.tecncr.Corer.desktop.in.in:2
+#: data/com.tecncr.Corer.metainfo.xml.in.in:7 src/window.ui:6
+msgid "Corer"
+msgstr "Corer"
+
+#. Translators: Short description shown in GNOME Shell search and app grids.
+#. Keep it under 80 characters.
+#: data/com.tecncr.Corer.desktop.in.in:5
+msgid "Restore firmware to Apple devices"
+msgstr "Obnovitev vdelane programske opreme naprav Apple"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/com.tecncr.Corer.desktop.in.in:12
+msgid ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;"
+msgstr ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Vdelana programska "
+"oprema;Restore;Obnovitev;Update;Posodobitev;IPSW;Recovery;DFU;"
+
+#: data/com.tecncr.Corer.gschema.xml:6
+msgid "Window width"
+msgstr "Širina okna"
+
+#: data/com.tecncr.Corer.gschema.xml:10
+msgid "Window height"
+msgstr "Višina okna"
+
+#: data/com.tecncr.Corer.gschema.xml:14
+msgid "Whether the window is maximized"
+msgstr "Ali je okno povečano"
+
+#: data/com.tecncr.Corer.gschema.xml:18
+msgid "Keep downloaded firmware"
+msgstr "Ohrani prenesen firmware"
+
+#: data/com.tecncr.Corer.gschema.xml:19
+msgid ""
+"Keep downloaded firmware files in the cache after a successful restore so "
+"they can be reused."
+msgstr ""
+"Po uspešni obnovitvi ohrani prenesene datoteke firmwarea v predpomnilniku, "
+"da jih je mogoče ponovno uporabiti."
+
+#: data/com.tecncr.Corer.gschema.xml:23
+msgid "Verbose logging"
+msgstr "Podrobno beleženje"
+
+#: data/com.tecncr.Corer.gschema.xml:24
+msgid "Ask idevicerestore to print additional debug output."
+msgstr "Prosi idevicerestore, naj izpiše dodatne podatke za razhroščevanje."
+
+#: data/com.tecncr.Corer.gschema.xml:28
+msgid "Allow restoring from restore mode"
+msgstr "Dovoli obnovitev iz obnovitvenega načina"
+
+#: data/com.tecncr.Corer.gschema.xml:32
+msgid "Continue after certain errors"
+msgstr "Nadaljuj po nekaterih napakah"
+
+#: data/com.tecncr.Corer.gschema.xml:33
+msgid ""
+"Try to continue the restore process after certain errors, like a failed "
+"baseband update."
+msgstr ""
+"Poskusi nadaljevati obnovitev po nekaterih napakah, kot je neuspela "
+"posodobitev baseband."
+
+#: data/com.tecncr.Corer.gschema.xml:37
+msgid "Skip NOR and baseband upgrade"
+msgstr "Preskoči nadgradnjo NOR in baseband"
+
+#: data/com.tecncr.Corer.gschema.xml:41
+msgid "Keep personalized components"
+msgstr "Ohrani prilagojene komponente"
+
+#: data/com.tecncr.Corer.gschema.xml:42
+msgid "Write personalized components to files for debugging."
+msgstr "Prilagojene komponente zapiše v datoteke za razhroščevanje."
+
+#: data/com.tecncr.Corer.gschema.xml:46
+msgid "Restore custom firmware"
+msgstr "Obnovi lasten firmware"
+
+#: data/com.tecncr.Corer.gschema.xml:47
+msgid "Restore with a custom firmware. Requires a bootrom exploit."
+msgstr ""
+"Obnovi z lastnim firmwareom. Zahteva izkoriščanje ranljivosti bootrom."
+
+#: data/com.tecncr.Corer.gschema.xml:51
+msgid "Stop after booting the ramdisk"
+msgstr "Ustavi po zagonu ramdiska"
+
+#: data/com.tecncr.Corer.gschema.xml:55
+msgid "Signing server URL"
+msgstr "URL strežnika za podpisovanje"
+
+#: data/com.tecncr.Corer.gschema.xml:56
+msgid ""
+"Overrides the default signing server request URL. Empty uses the default."
+msgstr ""
+"Preglasi privzeti URL zahtev do strežnika za podpisovanje. Če je prazno, se "
+"uporabi privzeti."
+
+#: data/com.tecncr.Corer.gschema.xml:60
+msgid "Restore variant"
+msgstr "Različica obnovitve"
+
+#: data/com.tecncr.Corer.gschema.xml:61
+msgid "Build identity variant to use. Empty selects it automatically."
+msgstr ""
+"Različica identitete izdelave, ki bo uporabljena. Če je prazna, se izbere "
+"samodejno."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:8
+msgid "Restore and update Apple devices"
+msgstr "Obnovitev in posodobitev naprav Apple"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:10
+msgid ""
+"Corer installs firmware on Apple devices, including Mac computers with Apple"
+" silicon in DFU mode. Connect a device, pick a version and choose whether to"
+" keep or erase its content."
+msgstr ""
+"Corer namesti firmware na naprave Apple, vključno z računalniki Mac s čipom "
+"Apple silicon v načinu DFU. Priključite napravo, izberite različico in se "
+"odločite, ali želite vsebino obdržati ali izbrisati."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:16
+msgid "Update a device while keeping its data, or erase and restore it"
+msgstr ""
+"Posodobite napravo z ohranitvijo podatkov ali jo izbrišite in obnovite"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:17
+msgid "Download currently signed firmware on demand and reuse it later"
+msgstr ""
+"Po potrebi prenesite trenutno podpisan firmware in ga pozneje znova "
+"uporabite"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:18
+msgid "Use a firmware file you already have"
+msgstr "Uporabite datoteko firmwarea, ki jo že imate"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:19
+msgid "Recover devices stuck in recovery or DFU mode"
+msgstr "Rešite naprave, ki so obtičale v obnovitvenem načinu ali načinu DFU"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:21
+msgid ""
+"Corer is powered by idevicerestore and libimobiledevice. It is not "
+"affiliated with or endorsed by Apple Inc."
+msgstr ""
+"Corer poganjata idevicerestore in libimobiledevice. Ni povezan s podjetjem "
+"Apple Inc. in ga to podjetje ne podpira."
+
+#: src/devices.py:89
+msgid "Recovery Mode"
+msgstr "Obnovitveni način"
+
+#: src/devices.py:91
+msgid "DFU Mode"
+msgstr "Način DFU"
+
+#: src/firmware.py:145 src/firmware.py:150
+msgid "Could not load the list of available versions"
+msgstr "Seznama razpoložljivih različic ni bilo mogoče naložiti"
+
+#: src/firmware.py:185
+msgid "This is not a valid firmware file"
+msgstr "To ni veljavna datoteka firmwarea"
+
+#: src/firmware.py:335
+msgid "This firmware is not available for download"
+msgstr "Ta firmware ni na voljo za prenos"
+
+#: src/firmware.py:349
+msgid "Not enough free disk space to download the firmware"
+msgstr "Na disku ni dovolj prostega prostora za prenos firmwarea"
+
+#: src/firmware.py:360
+msgid "The download server refused the request"
+msgstr "Strežnik za prenos je zavrnil zahtevo"
+
+#: src/firmware.py:367
+msgid "The download failed. Check your network connection"
+msgstr "Prenos ni uspel. Preverite omrežno povezavo"
+
+#: src/firmware.py:374
+msgid "The downloaded firmware is incomplete"
+msgstr "Preneseni firmware je nepopoln"
+
+#: src/firmware.py:377
+msgid "The downloaded firmware is corrupted"
+msgstr "Preneseni firmware je poškodovan"
+
+#: src/log_dialog.py:16
+msgid "Log"
+msgstr "Dnevnik"
+
+#: src/log_dialog.py:24
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: src/log_dialog.py:28
+msgid "Save…"
+msgstr "Shrani …"
+
+#: src/log_dialog.py:36
+msgid "No Log Yet"
+msgstr "Dnevnika še ni"
+
+#: src/log_dialog.py:37
+msgid "Output appears here when a device is restored."
+msgstr "Izpis se bo prikazal tukaj, ko bo naprava obnovljena."
+
+#: src/log_dialog.py:81 src/window.py:310
+msgid "Copied to clipboard"
+msgstr "Kopirano v odložišče"
+
+#: src/log_dialog.py:84
+msgid "Save Log"
+msgstr "Shrani dnevnik"
+
+#. Translators: Replace "translator-credits" with your name/username, and
+#. optionally an email or URL.
+#: src/main.py:90
+msgid "translator-credits"
+msgstr "Nícolas Castillo <code@tecncr.com>"
+
+#: src/main.py:96
+msgid "Powered By"
+msgstr "Poganja"
+
+#. Firmware
+#: src/preferences.py:23 src/preferences.py:77
+msgid "Firmware"
+msgstr "Firmware"
+
+#: src/preferences.py:28
+msgid "Downloads"
+msgstr "Prenosi"
+
+#: src/preferences.py:29
+msgid ""
+"Downloaded firmware is stored so that it does not have to be downloaded "
+"again."
+msgstr "Preneseni firmware se shrani, da ga ni treba znova prenašati."
+
+#: src/preferences.py:33
+msgid "_Keep Downloaded Firmware"
+msgstr "_Ohrani prenesen firmware"
+
+#: src/preferences.py:34
+msgid "Turn off to delete firmware after a successful restore"
+msgstr "Izklopite, če želite firmware po uspešni obnovitvi izbrisati"
+
+#: src/preferences.py:36
+msgid "Stored Firmware"
+msgstr "Shranjen firmware"
+
+#: src/preferences.py:37
+msgid "Calculating…"
+msgstr "Izračunavanje …"
+
+#: src/preferences.py:39 src/preferences.py:96
+msgid "Open Folder"
+msgstr "Odpri mapo"
+
+#: src/preferences.py:44 src/preferences.py:145
+msgid "_Delete"
+msgstr "_Izbriši"
+
+#. Advanced
+#: src/preferences.py:54
+msgid "Advanced"
+msgstr "Napredno"
+
+#: src/preferences.py:59
+msgid "Restore"
+msgstr "Obnovitev"
+
+#: src/preferences.py:60
+msgid ""
+"These options can leave a device unable to start. Change them only if you "
+"know what they do."
+msgstr ""
+"Te možnosti lahko povzročijo, da se naprava ne bo zagnala. Spreminjajte jih "
+"le, če veste, kaj počnejo."
+
+#: src/preferences.py:64
+msgid "Restore From _Restore Mode"
+msgstr "Obnovi iz _obnovitvenega načina"
+
+#: src/preferences.py:65
+msgid "Allow starting with a device that is already in restore mode"
+msgstr "Omogoči začetek z napravo, ki je že v obnovitvenem načinu"
+
+#: src/preferences.py:67
+msgid "_Ignore Errors"
+msgstr "_Prezri napake"
+
+#: src/preferences.py:68
+msgid "Try to continue after certain errors, like a failed baseband update"
+msgstr ""
+"Poskusi nadaljevati po nekaterih napakah, kot je neuspela posodobitev "
+"baseband"
+
+#: src/preferences.py:71
+msgid "Skip _Baseband"
+msgstr "Preskoči _baseband"
+
+#: src/preferences.py:72
+msgid "Do not upgrade NOR and baseband on legacy devices"
+msgstr "Ne nadgrajuj NOR in baseband na starejših napravah"
+
+#: src/preferences.py:74
+msgid "_Stop After Ramdisk"
+msgstr "_Ustavi po ramdisku"
+
+#: src/preferences.py:75
+msgid "Boot the restore ramdisk without restoring"
+msgstr "Zažene obnovitveni ramdisk brez obnavljanja"
+
+#: src/preferences.py:80
+msgid "_Custom Firmware"
+msgstr "_Lasten firmware"
+
+#: src/preferences.py:81
+msgid "Restore custom firmware. Requires a bootrom exploit"
+msgstr "Obnovi lasten firmware. Zahteva izkoriščanje ranljivosti bootrom"
+
+#: src/preferences.py:82
+msgid "Restore _Variant"
+msgstr "_Različica obnovitve"
+
+#: src/preferences.py:83
+msgid "Signing Server _URL"
+msgstr "_URL strežnika za podpisovanje"
+
+#: src/preferences.py:86
+msgid "Troubleshooting"
+msgstr "Odpravljanje težav"
+
+#: src/preferences.py:89
+msgid "_Detailed Log"
+msgstr "_Podroben dnevnik"
+
+#: src/preferences.py:90
+msgid "Include all debugging output from idevicerestore in the log"
+msgstr "V dnevnik vključi ves izpis idevicerestore za razhroščevanje"
+
+#: src/preferences.py:92
+msgid "Log Files"
+msgstr "Dnevniške datoteke"
+
+#: src/preferences.py:93
+msgid "Every restore is recorded, even if Corer quits unexpectedly"
+msgstr "Vsaka obnovitev je zabeležena, tudi če se Corer nepričakovano zapre"
+
+#: src/preferences.py:103
+msgid "Keep _Personalized Components"
+msgstr "Ohrani _prilagojene komponente"
+
+#: src/preferences.py:104
+msgid "Write personalized components to files for debugging"
+msgstr "Prilagojene komponente zapiše v datoteke za razhroščevanje"
+
+#: src/preferences.py:141
+msgid "Delete Stored Firmware?"
+msgstr "Želite izbrisati shranjen firmware?"
+
+#: src/preferences.py:142
+msgid "Firmware will be downloaded again the next time it is needed."
+msgstr "Firmware bo ob naslednji potrebi znova prenesen."
+
+#: src/preferences.py:144 src/window.py:585 src/window.ui:322
+msgid "_Cancel"
+msgstr "_Prekliči"
+
+#: src/restore.py:27
+msgid "Detecting Device"
+msgstr "Zaznavanje naprave"
+
+#: src/restore.py:28
+msgid "Preparing Device"
+msgstr "Priprava naprave"
+
+#: src/restore.py:29
+msgid "Sending Filesystem"
+msgstr "Pošiljanje datotečnega sistema"
+
+#: src/restore.py:30
+msgid "Verifying Filesystem"
+msgstr "Preverjanje datotečnega sistema"
+
+#: src/restore.py:31
+msgid "Installing Firmware"
+msgstr "Nameščanje firmwarea"
+
+#: src/restore.py:32
+msgid "Updating Baseband"
+msgstr "Posodabljanje baseband"
+
+#: src/restore.py:33
+msgid "Updating Components"
+msgstr "Posodabljanje komponent"
+
+#: src/restore.py:34
+msgid "Sending Images"
+msgstr "Pošiljanje slik"
+
+#: src/restore.py:63
+msgid "Restoring"
+msgstr "Obnavljanje"
+
+#: src/restore.py:134
+msgid "idevicerestore could not be started"
+msgstr "Zagon idevicerestore ni uspel"
+
+#: src/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "Device"
+msgstr "Naprava"
+
+#: src/shortcuts-dialog.ui:9
+msgctxt "shortcut window"
+msgid "Choose Firmware File"
+msgstr "Izberi datoteko firmwarea"
+
+#: src/shortcuts-dialog.ui:15
+msgctxt "shortcut window"
+msgid "Look for Devices"
+msgstr "Poišči naprave"
+
+#: src/shortcuts-dialog.ui:21
+msgctxt "shortcut window"
+msgid "View Log"
+msgstr "Pokaži dnevnik"
+
+#: src/shortcuts-dialog.ui:29
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Splošno"
+
+#: src/shortcuts-dialog.ui:32
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr "Nastavitve"
+
+#: src/shortcuts-dialog.ui:38
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Pokaži bližnjice"
+
+#: src/shortcuts-dialog.ui:44
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Končaj"
+
+#: src/window.py:149
+msgid "Apple Device"
+msgstr "Naprava Apple"
+
+#: src/window.py:217
+msgid "Corer needs permission to access this device over USB"
+msgstr "Corer potrebuje dovoljenje za dostop do te naprave prek USB"
+
+#: src/window.py:218
+msgid "_Set Up"
+msgstr "_Nastavi"
+
+#: src/window.py:223
+msgid "The system device service (usbmuxd) is not responding"
+msgstr "Sistemska storitev naprav (usbmuxd) se ne odziva"
+
+#: src/window.py:224
+msgid "_Restart It"
+msgstr "_Znova zaženi"
+
+#: src/window.py:229
+msgid "The device service (usbmuxd) is not available"
+msgstr "Storitev naprav (usbmuxd) ni na voljo"
+
+#: src/window.py:260
+msgid "USB access was set up"
+msgstr "Dostop prek USB je nastavljen"
+
+#: src/window.py:273
+msgid "The device service was restarted"
+msgstr "Storitev naprav je bila znova zagnana"
+
+#: src/window.py:275
+msgid ""
+"Could not restart it. Run “sudo systemctl restart usbmuxd” in a terminal"
+msgstr ""
+"Ponovni zagon ni uspel. V terminalu zaženite »sudo systemctl restart "
+"usbmuxd«"
+
+#: src/window.py:284
+msgid "Set Up USB Access Manually"
+msgstr "Ročno nastavi dostop prek USB"
+
+#: src/window.py:285
+msgid ""
+"The setup could not be completed. Run these commands in a terminal to "
+"install the device access rule, then reconnect the device."
+msgstr ""
+"Nastavitve ni bilo mogoče dokončati. V terminalu zaženite te ukaze, da "
+"namestite pravilo za dostop do naprave, nato napravo znova priključite."
+
+#: src/window.py:301
+msgid "_Close"
+msgstr "_Zapri"
+
+#: src/window.py:302
+msgid "C_opy Commands"
+msgstr "_Kopiraj ukaze"
+
+#: src/window.py:410
+msgid "Looking for available versions…"
+msgstr "Iskanje razpoložljivih različic …"
+
+#: src/window.py:414
+msgid "Choose a firmware file for this device"
+msgstr "Izberite datoteko firmwarea za to napravo"
+
+#: src/window.py:416
+msgid "No firmware is currently signed for this device"
+msgstr "Za to napravo trenutno ni podpisan noben firmware"
+
+#: src/window.py:418
+msgid "Using the firmware file"
+msgstr "Uporaba datoteke firmwarea"
+
+#: src/window.py:422
+msgid "Downloaded"
+msgstr "Preneseno"
+
+#. Translators: {size} is a file size such as “8.1 GB”
+#: src/window.py:425
+#, python-brace-format
+msgid "{size} download"
+msgstr "Prenos {size}"
+
+#: src/window.py:429
+msgid "Offline — showing downloaded firmware"
+msgstr "Brez povezave – prikazan je preneseni firmware"
+
+#: src/window.py:436
+msgid "Use an IPSW file from this computer"
+msgstr "Uporabi datoteko IPSW s tega računalnika"
+
+#. Translators: {filename} is the name of a firmware file
+#: src/window.py:440
+#, python-brace-format
+msgid "{filename} is not compatible with this device"
+msgstr "Datoteka {filename} ni združljiva s to napravo"
+
+#: src/window.py:453 src/window.py:587
+msgid "_Erase and Restore"
+msgstr "_Izbriši in obnovi"
+
+#: src/window.py:453 src/window.py:591
+msgid "_Update"
+msgstr "_Posodobi"
+
+#: src/window.py:468
+msgid "Exit _Recovery Mode"
+msgstr "Izhod iz _obnovitvenega načina"
+
+#: src/window.py:471
+msgid "Enter _Recovery Mode"
+msgstr "Vstop v _obnovitveni način"
+
+#: src/window.py:502
+msgid "Firmware Files"
+msgstr "Datoteke firmwarea"
+
+#: src/window.py:507
+msgid "Choose Firmware File"
+msgstr "Izberi datoteko firmwarea"
+
+#: src/window.py:518
+msgid "This file cannot be used"
+msgstr "Te datoteke ni mogoče uporabiti"
+
+#. Translators: {name} is the name of a device
+#: src/window.py:563
+#, python-brace-format
+msgid "Erase “{name}”?"
+msgstr "Želite izbrisati »{name}«?"
+
+#. Translators: {version} is a system version such as “iOS 18.1”
+#: src/window.py:565
+#, python-brace-format
+msgid ""
+"All content and settings will be permanently erased and {version} will be "
+"installed. This cannot be undone."
+msgstr ""
+"Vsa vsebina in nastavitve bodo trajno izbrisane, nameščen pa bo {version}. "
+"Tega ni mogoče razveljaviti."
+
+#: src/window.py:569
+#, python-brace-format
+msgid "Update “{name}”?"
+msgstr "Želite posodobiti »{name}«?"
+
+#: src/window.py:570
+#, python-brace-format
+msgid ""
+"{version} will be installed and your content and settings will be kept. Make"
+" sure you have a backup before continuing."
+msgstr ""
+"Nameščen bo {version}, vaša vsebina in nastavitve pa bodo ohranjene. Pred "
+"nadaljevanjem poskrbite, da imate varnostno kopijo."
+
+#: src/window.py:576
+msgid ""
+"This version is older than the one on the device. Downgrading without "
+"erasing is likely to fail and can cause complete data loss."
+msgstr ""
+"Ta različica je starejša od tiste v napravi. Prehod na starejšo različico "
+"brez brisanja bo verjetno spodletel in lahko povzroči popolno izgubo "
+"podatkov."
+
+#: src/window.py:580
+msgid ""
+"This firmware no longer appears to be signed, so the device will probably "
+"refuse it."
+msgstr ""
+"Videti je, da ta firmware ni več podpisan, zato ga bo naprava verjetno "
+"zavrnila."
+
+#: src/window.py:582
+msgid "Keep the device connected until the process finishes."
+msgstr "Naprave ne odklopite, dokler se postopek ne konča."
+
+#: src/window.py:628
+msgid "A device is being restored"
+msgstr "Naprava se obnavlja"
+
+#: src/window.py:640 src/window.py:666
+msgid "Verifying Firmware"
+msgstr "Preverjanje firmwarea"
+
+#: src/window.py:642 src/window.py:668
+msgid "Downloading Firmware"
+msgstr "Prenašanje firmwarea"
+
+#. Translators: download progress, e.g. “1.2 GB of 8.1 GB”
+#: src/window.py:672
+#, python-brace-format
+msgid "{done} of {total}"
+msgstr "{done} od {total}"
+
+#. Translators: download speed, e.g. “12.5 MB/s”
+#: src/window.py:679
+#, python-brace-format
+msgid "{speed}/s"
+msgstr "{speed}/s"
+
+#: src/window.py:785
+msgid "Stop the Process?"
+msgstr "Želite ustaviti postopek?"
+
+#: src/window.py:786
+msgid ""
+"Interrupting now can leave the device unusable until it is restored again."
+msgstr ""
+"Prekinitev zdaj lahko napravo naredi neuporabno, dokler ni znova obnovljena."
+
+#: src/window.py:788 src/window.py:962
+msgid "_Continue"
+msgstr "_Nadaljuj"
+
+#: src/window.py:789
+msgid "_Stop"
+msgstr "_Ustavi"
+
+#: src/window.py:807
+msgid "Stopping…"
+msgstr "Ustavljanje …"
+
+#: src/window.py:839
+msgid "Stopped"
+msgstr "Ustavljeno"
+
+#: src/window.py:842
+msgid "SHSH Blobs Saved"
+msgstr "SHSH blobi shranjeni"
+
+#: src/window.py:845
+msgid "Device Restored"
+msgstr "Naprava obnovljena"
+
+#: src/window.py:846
+msgid "The device will restart and show the setup assistant."
+msgstr "Naprava se bo znova zagnala in prikazala pomočnika za nastavitev."
+
+#: src/window.py:849
+msgid "Device Updated"
+msgstr "Naprava posodobljena"
+
+#: src/window.py:850
+msgid "The device will restart when it has finished updating."
+msgstr "Naprava se bo znova zagnala, ko bo posodobitev končana."
+
+#: src/window.py:858
+msgid "Could Not Save SHSH Blobs"
+msgstr "SHSH blobov ni bilo mogoče shraniti"
+
+#: src/window.py:859
+msgid "Restore Failed"
+msgstr "Obnovitev ni uspela"
+
+#: src/window.py:863
+msgid "Check the log for details."
+msgstr "Podrobnosti poiščite v dnevniku."
+
+#: src/window.py:899
+msgid "The device was not found. Reconnect it and try again"
+msgstr "Naprave ni bilo mogoče najti. Znova jo priključite in poskusite znova"
+
+#: src/window.py:925
+msgid "The device is restarting"
+msgstr "Naprava se znova zaganja"
+
+#: src/window.py:926
+msgid "Could not exit recovery mode"
+msgstr "Izhod iz obnovitvenega načina ni uspel"
+
+#: src/window.py:929
+msgid "The device is restarting in recovery mode"
+msgstr "Naprava se znova zaganja v obnovitvenem načinu"
+
+#: src/window.py:930
+msgid ""
+"Could not enter recovery mode. Unlock the device and trust this computer"
+msgstr ""
+"Vstop v obnovitveni način ni uspel. Odklenite napravo in zaupajte temu "
+"računalniku"
+
+#: src/window.py:959
+msgid "Stop and Quit?"
+msgstr "Želite ustaviti in končati?"
+
+#: src/window.py:960
+msgid ""
+"A device is being restored. Interrupting now can leave it unusable until it "
+"is restored again."
+msgstr ""
+"Naprava se obnavlja. Prekinitev zdaj jo lahko naredi neuporabno, dokler ni "
+"znova obnovljena."
+
+#: src/window.py:963
+msgid "_Stop and Quit"
+msgstr "_Ustavi in končaj"
+
+#: src/window.ui:21
+msgid "Main Menu"
+msgstr "Glavni meni"
+
+#: src/window.ui:56
+msgid "Connect a Device"
+msgstr "Priključite napravo"
+
+#: src/window.ui:57
+msgid ""
+"Plug in an Apple device with a USB cable. Devices in recovery or DFU mode "
+"work too. A Mac with Apple silicon has to be in DFU mode."
+msgstr ""
+"Napravo Apple priključite s kablom USB. Delujejo tudi naprave v obnovitvenem"
+" načinu ali načinu DFU. Mac s čipom Apple silicon mora biti v načinu DFU."
+
+#: src/window.ui:124
+msgid "Device"
+msgstr "Naprava"
+
+#: src/window.ui:131
+msgid "Version"
+msgstr "Različica"
+
+#: src/window.ui:145
+msgid "Try Again"
+msgstr "Poskusi znova"
+
+#: src/window.ui:156
+msgid "Firmware File"
+msgstr "Datoteka firmwarea"
+
+#: src/window.ui:164
+msgid "Remove File"
+msgstr "Odstrani datoteko"
+
+#: src/window.ui:175
+msgid "Choose File"
+msgstr "Izberi datoteko"
+
+#: src/window.ui:190
+msgid "Erase Device"
+msgstr "Izbriši napravo"
+
+#: src/window.ui:191
+msgid "Remove all content and settings"
+msgstr "Odstrani vso vsebino in nastavitve"
+
+#: src/window.ui:312 src/window.ui:377 src/window.ui:427
+msgid "View _Log"
+msgstr "Pokaži _dnevnik"
+
+#: src/window.ui:349
+msgid "_Done"
+msgstr "_Končano"
+
+#: src/window.ui:387
+msgid "_Back"
+msgstr "_Nazaj"
+
+#: src/window.ui:397
+msgid "_Try Again"
+msgstr "_Poskusi znova"
+
+#: src/window.ui:423
+msgid "_Save SHSH Blobs"
+msgstr "_Shrani SHSH blobe"
+
+#: src/window.ui:433
+msgid "_Preferences"
+msgstr "_Nastavitve"
+
+#: src/window.ui:437
+msgid "_Keyboard Shortcuts"
+msgstr "_Bližnjice na tipkovnici"
+
+#: src/window.ui:441
+msgid "_About Corer"
+msgstr "_O programu Corer"

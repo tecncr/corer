@@ -1,0 +1,862 @@
+# Armenian translation for Corer.
+# Copyright (C) 2026 Corer contributors
+# This file is distributed under the same license as the corer package.
+# Nícolas Castillo <code@tecncr.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: corer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 02:42-0500\n"
+"PO-Revision-Date: 2026-11-17 03:45-0500\n"
+"Last-Translator: Nícolas Castillo <code@tecncr.com>\n"
+"Language-Team: Armenian\n"
+"Language: hy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/com.tecncr.Corer.desktop.in.in:2
+#: data/com.tecncr.Corer.metainfo.xml.in.in:7 src/window.ui:6
+msgid "Corer"
+msgstr "Corer"
+
+#. Translators: Short description shown in GNOME Shell search and app grids.
+#. Keep it under 80 characters.
+#: data/com.tecncr.Corer.desktop.in.in:5
+msgid "Restore firmware to Apple devices"
+msgstr "Վերականգնել Apple սարքերի որոնիչը"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/com.tecncr.Corer.desktop.in.in:12
+msgid ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;"
+msgstr ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Որոնիչ;Restore;Վերականգնում;Update;Թարմացում;IPSW;Recovery;DFU;"
+
+#: data/com.tecncr.Corer.gschema.xml:6
+msgid "Window width"
+msgstr "Պատուհանի լայնությունը"
+
+#: data/com.tecncr.Corer.gschema.xml:10
+msgid "Window height"
+msgstr "Պատուհանի բարձրությունը"
+
+#: data/com.tecncr.Corer.gschema.xml:14
+msgid "Whether the window is maximized"
+msgstr "Արդյոք պատուհանն ընդլայնված է"
+
+#: data/com.tecncr.Corer.gschema.xml:18
+msgid "Keep downloaded firmware"
+msgstr "Պահել ներբեռնված որոնիչը"
+
+#: data/com.tecncr.Corer.gschema.xml:19
+msgid ""
+"Keep downloaded firmware files in the cache after a successful restore so "
+"they can be reused."
+msgstr ""
+"Հաջող վերականգնումից հետո պահում է ներբեռնված որոնիչի ֆայլերը քեշում, "
+"որպեսզի դրանք կարողանան կրկին օգտագործվել։"
+
+#: data/com.tecncr.Corer.gschema.xml:23
+msgid "Verbose logging"
+msgstr "Մանրամասն մատյանավորում"
+
+#: data/com.tecncr.Corer.gschema.xml:24
+msgid "Ask idevicerestore to print additional debug output."
+msgstr ""
+"Խնդրում է idevicerestore-ին ցուցադրել վրիպազերծման լրացուցիչ տվյալներ։"
+
+#: data/com.tecncr.Corer.gschema.xml:28
+msgid "Allow restoring from restore mode"
+msgstr "Թույլատրել վերականգնումը վերականգնման ռեժիմից"
+
+#: data/com.tecncr.Corer.gschema.xml:32
+msgid "Continue after certain errors"
+msgstr "Շարունակել որոշ սխալներից հետո"
+
+#: data/com.tecncr.Corer.gschema.xml:33
+msgid ""
+"Try to continue the restore process after certain errors, like a failed "
+"baseband update."
+msgstr ""
+"Փորձում է շարունակել վերականգնումը որոշ սխալներից հետո, օրինակ baseband-ի "
+"թարմացման ձախողումից հետո։"
+
+#: data/com.tecncr.Corer.gschema.xml:37
+msgid "Skip NOR and baseband upgrade"
+msgstr "Բաց թողնել NOR-ի և baseband-ի թարմացումը"
+
+#: data/com.tecncr.Corer.gschema.xml:41
+msgid "Keep personalized components"
+msgstr "Պահել անհատականացված բաղադրիչները"
+
+#: data/com.tecncr.Corer.gschema.xml:42
+msgid "Write personalized components to files for debugging."
+msgstr "Գրում է անհատականացված բաղադրիչները ֆայլերում՝ վրիպազերծման համար։"
+
+#: data/com.tecncr.Corer.gschema.xml:46
+msgid "Restore custom firmware"
+msgstr "Վերականգնել հատուկ որոնիչ"
+
+#: data/com.tecncr.Corer.gschema.xml:47
+msgid "Restore with a custom firmware. Requires a bootrom exploit."
+msgstr ""
+"Վերականգնում է հատուկ որոնիչով։ Պահանջում է bootrom-ի խոցելիության "
+"շահագործում։"
+
+#: data/com.tecncr.Corer.gschema.xml:51
+msgid "Stop after booting the ramdisk"
+msgstr "Կանգ առնել ramdisk-ը բեռնելուց հետո"
+
+#: data/com.tecncr.Corer.gschema.xml:55
+msgid "Signing server URL"
+msgstr "Ստորագրման սերվերի URL"
+
+#: data/com.tecncr.Corer.gschema.xml:56
+msgid ""
+"Overrides the default signing server request URL. Empty uses the default."
+msgstr ""
+"Վերագրում է ստորագրման սերվերին ուղարկվող հարցումների լռելյայն URL-ը։ Դատարկ"
+" լինելու դեպքում օգտագործվում է լռելյայնը։"
+
+#: data/com.tecncr.Corer.gschema.xml:60
+msgid "Restore variant"
+msgstr "Վերականգնման տարբերակ"
+
+#: data/com.tecncr.Corer.gschema.xml:61
+msgid "Build identity variant to use. Empty selects it automatically."
+msgstr ""
+"Օգտագործվող կառուցման նույնականացման տարբերակը։ Դատարկ լինելու դեպքում "
+"ընտրվում է ավտոմատ։"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:8
+msgid "Restore and update Apple devices"
+msgstr "Apple սարքերի վերականգնում և թարմացում"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:10
+msgid ""
+"Corer installs firmware on Apple devices, including Mac computers with Apple"
+" silicon in DFU mode. Connect a device, pick a version and choose whether to"
+" keep or erase its content."
+msgstr ""
+"Corer-ը տեղադրում է որոնիչ Apple սարքերում, այդ թվում՝ DFU ռեժիմում գտնվող "
+"Apple սիլիկոնով Mac համակարգիչներում։ Միացրեք սարքը, ընտրեք տարբերակ և "
+"որոշեք՝ պահել, թե ջնջել դրա բովանդակությունը։"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:16
+msgid "Update a device while keeping its data, or erase and restore it"
+msgstr "Թարմացրեք սարքը՝ պահելով տվյալները, կամ ջնջեք և վերականգնեք այն"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:17
+msgid "Download currently signed firmware on demand and reuse it later"
+msgstr ""
+"Ներբեռնեք ընթացիկ ստորագրված որոնիչը ըստ պահանջի և օգտագործեք այն կրկին "
+"հետագայում"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:18
+msgid "Use a firmware file you already have"
+msgstr "Օգտագործեք որոնիչի ֆայլ, որն արդեն ունեք"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:19
+msgid "Recover devices stuck in recovery or DFU mode"
+msgstr "Փրկեք վերականգնման կամ DFU ռեժիմում խրված սարքերը"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:21
+msgid ""
+"Corer is powered by idevicerestore and libimobiledevice. It is not "
+"affiliated with or endorsed by Apple Inc."
+msgstr ""
+"Corer-ն աշխատում է idevicerestore-ի և libimobiledevice-ի հիման վրա։ Այն "
+"կապված չէ Apple Inc.-ի հետ և չի հավանության արժանացել նրա կողմից։"
+
+#: src/devices.py:89
+msgid "Recovery Mode"
+msgstr "Վերականգնման ռեժիմ"
+
+#: src/devices.py:91
+msgid "DFU Mode"
+msgstr "DFU ռեժիմ"
+
+#: src/firmware.py:145 src/firmware.py:150
+msgid "Could not load the list of available versions"
+msgstr "Չհաջողվեց բեռնել հասանելի տարբերակների ցանկը"
+
+#: src/firmware.py:185
+msgid "This is not a valid firmware file"
+msgstr "Սա որոնիչի վավեր ֆայլ չէ"
+
+#: src/firmware.py:335
+msgid "This firmware is not available for download"
+msgstr "Այս որոնիչը հասանելի չէ ներբեռնման համար"
+
+#: src/firmware.py:349
+msgid "Not enough free disk space to download the firmware"
+msgstr "Սկավառակում բավարար ազատ տեղ չկա որոնիչը ներբեռնելու համար"
+
+#: src/firmware.py:360
+msgid "The download server refused the request"
+msgstr "Ներբեռնման սերվերը մերժեց հարցումը"
+
+#: src/firmware.py:367
+msgid "The download failed. Check your network connection"
+msgstr "Ներբեռնումը ձախողվեց։ Ստուգեք ցանցային կապը"
+
+#: src/firmware.py:374
+msgid "The downloaded firmware is incomplete"
+msgstr "Ներբեռնված որոնիչը թերի է"
+
+#: src/firmware.py:377
+msgid "The downloaded firmware is corrupted"
+msgstr "Ներբեռնված որոնիչը վնասված է"
+
+#: src/log_dialog.py:16
+msgid "Log"
+msgstr "Մատյան"
+
+#: src/log_dialog.py:24
+msgid "Copy"
+msgstr "Պատճենել"
+
+#: src/log_dialog.py:28
+msgid "Save…"
+msgstr "Պահել…"
+
+#: src/log_dialog.py:36
+msgid "No Log Yet"
+msgstr "Մատյան դեռ չկա"
+
+#: src/log_dialog.py:37
+msgid "Output appears here when a device is restored."
+msgstr "Արդյունքը կհայտնվի այստեղ, երբ սարքը վերականգնվի։"
+
+#: src/log_dialog.py:81 src/window.py:310
+msgid "Copied to clipboard"
+msgstr "Պատճենվեց սեղմատախտակին"
+
+#: src/log_dialog.py:84
+msgid "Save Log"
+msgstr "Պահել մատյանը"
+
+#. Translators: Replace "translator-credits" with your name/username, and
+#. optionally an email or URL.
+#: src/main.py:90
+msgid "translator-credits"
+msgstr "Nícolas Castillo <code@tecncr.com>"
+
+#: src/main.py:96
+msgid "Powered By"
+msgstr "Աշխատում է հետևյալի շնորհիվ՝"
+
+#. Firmware
+#: src/preferences.py:23 src/preferences.py:77
+msgid "Firmware"
+msgstr "Որոնիչ"
+
+#: src/preferences.py:28
+msgid "Downloads"
+msgstr "Ներբեռնումներ"
+
+#: src/preferences.py:29
+msgid ""
+"Downloaded firmware is stored so that it does not have to be downloaded "
+"again."
+msgstr "Ներբեռնված որոնիչը պահվում է, որպեսզի կրկին ներբեռնելու կարիք չլինի։"
+
+#: src/preferences.py:33
+msgid "_Keep Downloaded Firmware"
+msgstr "_Պահել ներբեռնված որոնիչը"
+
+#: src/preferences.py:34
+msgid "Turn off to delete firmware after a successful restore"
+msgstr "Անջատեք՝ հաջող վերականգնումից հետո որոնիչը ջնջելու համար"
+
+#: src/preferences.py:36
+msgid "Stored Firmware"
+msgstr "Պահված որոնիչ"
+
+#: src/preferences.py:37
+msgid "Calculating…"
+msgstr "Հաշվարկվում է…"
+
+#: src/preferences.py:39 src/preferences.py:96
+msgid "Open Folder"
+msgstr "Բացել պանակը"
+
+#: src/preferences.py:44 src/preferences.py:145
+msgid "_Delete"
+msgstr "_Ջնջել"
+
+#. Advanced
+#: src/preferences.py:54
+msgid "Advanced"
+msgstr "Լրացուցիչ"
+
+#: src/preferences.py:59
+msgid "Restore"
+msgstr "Վերականգնում"
+
+#: src/preferences.py:60
+msgid ""
+"These options can leave a device unable to start. Change them only if you "
+"know what they do."
+msgstr ""
+"Այս ընտրանքները կարող են խանգարել սարքի գործարկմանը։ Փոխեք դրանք միայն եթե "
+"գիտեք, թե ինչ են անում։"
+
+#: src/preferences.py:64
+msgid "Restore From _Restore Mode"
+msgstr "Վերականգնել _վերականգնման ռեժիմից"
+
+#: src/preferences.py:65
+msgid "Allow starting with a device that is already in restore mode"
+msgstr ""
+"Թույլ է տալիս սկսել այն սարքով, որն արդեն գտնվում է վերականգնման ռեժիմում"
+
+#: src/preferences.py:67
+msgid "_Ignore Errors"
+msgstr "_Անտեսել սխալները"
+
+#: src/preferences.py:68
+msgid "Try to continue after certain errors, like a failed baseband update"
+msgstr ""
+"Փորձում է շարունակել որոշ սխալներից հետո, օրինակ baseband-ի թարմացման "
+"ձախողումից հետո"
+
+#: src/preferences.py:71
+msgid "Skip _Baseband"
+msgstr "Բաց թողնել _baseband-ը"
+
+#: src/preferences.py:72
+msgid "Do not upgrade NOR and baseband on legacy devices"
+msgstr "Չթարմացնել NOR-ը և baseband-ը հին սարքերում"
+
+#: src/preferences.py:74
+msgid "_Stop After Ramdisk"
+msgstr "_Կանգ առնել ramdisk-ից հետո"
+
+#: src/preferences.py:75
+msgid "Boot the restore ramdisk without restoring"
+msgstr "Բեռնում է վերականգնման ramdisk-ը՝ առանց վերականգնելու"
+
+#: src/preferences.py:80
+msgid "_Custom Firmware"
+msgstr "_Հատուկ որոնիչ"
+
+#: src/preferences.py:81
+msgid "Restore custom firmware. Requires a bootrom exploit"
+msgstr ""
+"Վերականգնում է հատուկ որոնիչ։ Պահանջում է bootrom-ի խոցելիության շահագործում"
+
+#: src/preferences.py:82
+msgid "Restore _Variant"
+msgstr "Վերականգնման _տարբերակ"
+
+#: src/preferences.py:83
+msgid "Signing Server _URL"
+msgstr "Ստորագրման սերվերի _URL"
+
+#: src/preferences.py:86
+msgid "Troubleshooting"
+msgstr "Խնդիրների լուծում"
+
+#: src/preferences.py:89
+msgid "_Detailed Log"
+msgstr "_Մանրամասն մատյան"
+
+#: src/preferences.py:90
+msgid "Include all debugging output from idevicerestore in the log"
+msgstr "Ներառել մատյանում idevicerestore-ի վրիպազերծման ողջ արդյունքը"
+
+#: src/preferences.py:92
+msgid "Log Files"
+msgstr "Մատյանի ֆայլեր"
+
+#: src/preferences.py:93
+msgid "Every restore is recorded, even if Corer quits unexpectedly"
+msgstr ""
+"Յուրաքանչյուր վերականգնում գրանցվում է, նույնիսկ եթե Corer-ը անսպասելիորեն "
+"փակվի"
+
+#: src/preferences.py:103
+msgid "Keep _Personalized Components"
+msgstr "Պահել _անհատականացված բաղադրիչները"
+
+#: src/preferences.py:104
+msgid "Write personalized components to files for debugging"
+msgstr "Գրում է անհատականացված բաղադրիչները ֆայլերում՝ վրիպազերծման համար"
+
+#: src/preferences.py:141
+msgid "Delete Stored Firmware?"
+msgstr "Ջնջե՞լ պահված որոնիչը"
+
+#: src/preferences.py:142
+msgid "Firmware will be downloaded again the next time it is needed."
+msgstr "Որոնիչը կրկին կներբեռնվի հաջորդ անգամ, երբ այն անհրաժեշտ լինի։"
+
+#: src/preferences.py:144 src/window.py:585 src/window.ui:322
+msgid "_Cancel"
+msgstr "_Չեղարկել"
+
+#: src/restore.py:27
+msgid "Detecting Device"
+msgstr "Սարքի հայտնաբերում"
+
+#: src/restore.py:28
+msgid "Preparing Device"
+msgstr "Սարքի նախապատրաստում"
+
+#: src/restore.py:29
+msgid "Sending Filesystem"
+msgstr "Ֆայլային համակարգի ուղարկում"
+
+#: src/restore.py:30
+msgid "Verifying Filesystem"
+msgstr "Ֆայլային համակարգի ստուգում"
+
+#: src/restore.py:31
+msgid "Installing Firmware"
+msgstr "Որոնիչի տեղադրում"
+
+#: src/restore.py:32
+msgid "Updating Baseband"
+msgstr "Baseband-ի թարմացում"
+
+#: src/restore.py:33
+msgid "Updating Components"
+msgstr "Բաղադրիչների թարմացում"
+
+#: src/restore.py:34
+msgid "Sending Images"
+msgstr "Պատկերների ուղարկում"
+
+#: src/restore.py:63
+msgid "Restoring"
+msgstr "Վերականգնում"
+
+#: src/restore.py:134
+msgid "idevicerestore could not be started"
+msgstr "Չհաջողվեց գործարկել idevicerestore-ը"
+
+#: src/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "Device"
+msgstr "Սարք"
+
+#: src/shortcuts-dialog.ui:9
+msgctxt "shortcut window"
+msgid "Choose Firmware File"
+msgstr "Ընտրել որոնիչի ֆայլ"
+
+#: src/shortcuts-dialog.ui:15
+msgctxt "shortcut window"
+msgid "Look for Devices"
+msgstr "Որոնել սարքեր"
+
+#: src/shortcuts-dialog.ui:21
+msgctxt "shortcut window"
+msgid "View Log"
+msgstr "Դիտել մատյանը"
+
+#: src/shortcuts-dialog.ui:29
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Ընդհանուր"
+
+#: src/shortcuts-dialog.ui:32
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr "Նախապատվություններ"
+
+#: src/shortcuts-dialog.ui:38
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Ցուցադրել դյուրանցումները"
+
+#: src/shortcuts-dialog.ui:44
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Դուրս գալ"
+
+#: src/window.py:149
+msgid "Apple Device"
+msgstr "Apple սարք"
+
+#: src/window.py:217
+msgid "Corer needs permission to access this device over USB"
+msgstr "Corer-ին թույլտվություն է պետք այս սարքին USB-ով հասանելու համար"
+
+#: src/window.py:218
+msgid "_Set Up"
+msgstr "_Կարգավորել"
+
+#: src/window.py:223
+msgid "The system device service (usbmuxd) is not responding"
+msgstr "Համակարգի սարքերի ծառայությունը (usbmuxd) չի արձագանքում"
+
+#: src/window.py:224
+msgid "_Restart It"
+msgstr "_Վերագործարկել"
+
+#: src/window.py:229
+msgid "The device service (usbmuxd) is not available"
+msgstr "Սարքերի ծառայությունը (usbmuxd) հասանելի չէ"
+
+#: src/window.py:260
+msgid "USB access was set up"
+msgstr "USB հասանելիությունը կարգավորվեց"
+
+#: src/window.py:273
+msgid "The device service was restarted"
+msgstr "Սարքերի ծառայությունը վերագործարկվեց"
+
+#: src/window.py:275
+msgid ""
+"Could not restart it. Run “sudo systemctl restart usbmuxd” in a terminal"
+msgstr ""
+"Չհաջողվեց վերագործարկել։ Տերմինալում կատարեք «sudo systemctl restart "
+"usbmuxd»"
+
+#: src/window.py:284
+msgid "Set Up USB Access Manually"
+msgstr "Կարգավորել USB հասանելիությունը ձեռքով"
+
+#: src/window.py:285
+msgid ""
+"The setup could not be completed. Run these commands in a terminal to "
+"install the device access rule, then reconnect the device."
+msgstr ""
+"Կարգավորումը չհաջողվեց ավարտել։ Սարքի հասանելիության կանոնը տեղադրելու համար"
+" տերմինալում կատարեք այս հրամանները, ապա նորից միացրեք սարքը։"
+
+#: src/window.py:301
+msgid "_Close"
+msgstr "_Փակել"
+
+#: src/window.py:302
+msgid "C_opy Commands"
+msgstr "_Պատճենել հրամանները"
+
+#: src/window.py:410
+msgid "Looking for available versions…"
+msgstr "Հասանելի տարբերակների որոնում…"
+
+#: src/window.py:414
+msgid "Choose a firmware file for this device"
+msgstr "Ընտրեք որոնիչի ֆայլ այս սարքի համար"
+
+#: src/window.py:416
+msgid "No firmware is currently signed for this device"
+msgstr "Այս պահին այս սարքի համար ստորագրված որոնիչ չկա"
+
+#: src/window.py:418
+msgid "Using the firmware file"
+msgstr "Օգտագործվում է որոնիչի ֆայլը"
+
+#: src/window.py:422
+msgid "Downloaded"
+msgstr "Ներբեռնված է"
+
+#. Translators: {size} is a file size such as “8.1 GB”
+#: src/window.py:425
+#, python-brace-format
+msgid "{size} download"
+msgstr "{size} ներբեռնում"
+
+#: src/window.py:429
+msgid "Offline — showing downloaded firmware"
+msgstr "Անցանց — ցուցադրվում է ներբեռնված որոնիչը"
+
+#: src/window.py:436
+msgid "Use an IPSW file from this computer"
+msgstr "Օգտագործել IPSW ֆայլ այս համակարգչից"
+
+#. Translators: {filename} is the name of a firmware file
+#: src/window.py:440
+#, python-brace-format
+msgid "{filename} is not compatible with this device"
+msgstr "{filename}-ը համատեղելի չէ այս սարքի հետ"
+
+#: src/window.py:453 src/window.py:587
+msgid "_Erase and Restore"
+msgstr "_Ջնջել և վերականգնել"
+
+#: src/window.py:453 src/window.py:591
+msgid "_Update"
+msgstr "_Թարմացնել"
+
+#: src/window.py:468
+msgid "Exit _Recovery Mode"
+msgstr "Դուրս գալ _վերականգնման ռեժիմից"
+
+#: src/window.py:471
+msgid "Enter _Recovery Mode"
+msgstr "Մտնել _վերականգնման ռեժիմ"
+
+#: src/window.py:502
+msgid "Firmware Files"
+msgstr "Որոնիչի ֆայլեր"
+
+#: src/window.py:507
+msgid "Choose Firmware File"
+msgstr "Ընտրել որոնիչի ֆայլ"
+
+#: src/window.py:518
+msgid "This file cannot be used"
+msgstr "Այս ֆայլը չի կարող օգտագործվել"
+
+#. Translators: {name} is the name of a device
+#: src/window.py:563
+#, python-brace-format
+msgid "Erase “{name}”?"
+msgstr "Ջնջե՞լ «{name}»-ը"
+
+#. Translators: {version} is a system version such as “iOS 18.1”
+#: src/window.py:565
+#, python-brace-format
+msgid ""
+"All content and settings will be permanently erased and {version} will be "
+"installed. This cannot be undone."
+msgstr ""
+"Ողջ բովանդակությունը և կարգավորումները մշտապես կջնջվեն, և կտեղադրվի "
+"{version}-ը։ Սա հնարավոր չէ հետարկել։"
+
+#: src/window.py:569
+#, python-brace-format
+msgid "Update “{name}”?"
+msgstr "Թարմացնե՞լ «{name}»-ը"
+
+#: src/window.py:570
+#, python-brace-format
+msgid ""
+"{version} will be installed and your content and settings will be kept. Make"
+" sure you have a backup before continuing."
+msgstr ""
+"Կտեղադրվի {version}-ը, իսկ ձեր բովանդակությունն ու կարգավորումները "
+"կպահպանվեն։ Շարունակելուց առաջ համոզվեք, որ պահուստային պատճեն ունեք։"
+
+#: src/window.py:576
+msgid ""
+"This version is older than the one on the device. Downgrading without "
+"erasing is likely to fail and can cause complete data loss."
+msgstr ""
+"Այս տարբերակն ավելի հին է, քան սարքում եղածը։ Առանց ջնջելու վերադառնալը, "
+"ամենայն հավանականությամբ, կձախողվի և կարող է առաջացնել տվյալների լրիվ "
+"կորուստ։"
+
+#: src/window.py:580
+msgid ""
+"This firmware no longer appears to be signed, so the device will probably "
+"refuse it."
+msgstr ""
+"Թվում է՝ այս որոնիչն այլևս ստորագրված չէ, ուստի սարքը, ամենայն "
+"հավանականությամբ, կմերժի այն։"
+
+#: src/window.py:582
+msgid "Keep the device connected until the process finishes."
+msgstr "Սարքը մնացեք միացված, մինչև գործընթացն ավարտվի։"
+
+#: src/window.py:628
+msgid "A device is being restored"
+msgstr "Սարքը վերականգնվում է"
+
+#: src/window.py:640 src/window.py:666
+msgid "Verifying Firmware"
+msgstr "Որոնիչի ստուգում"
+
+#: src/window.py:642 src/window.py:668
+msgid "Downloading Firmware"
+msgstr "Որոնիչի ներբեռնում"
+
+#. Translators: download progress, e.g. “1.2 GB of 8.1 GB”
+#: src/window.py:672
+#, python-brace-format
+msgid "{done} of {total}"
+msgstr "{done}՝ {total}-ից"
+
+#. Translators: download speed, e.g. “12.5 MB/s”
+#: src/window.py:679
+#, python-brace-format
+msgid "{speed}/s"
+msgstr "{speed}/վ"
+
+#: src/window.py:785
+msgid "Stop the Process?"
+msgstr "Կանգնեցնե՞լ գործընթացը"
+
+#: src/window.py:786
+msgid ""
+"Interrupting now can leave the device unusable until it is restored again."
+msgstr ""
+"Հիմա ընդհատելը կարող է սարքը անգործածելի դարձնել, մինչև այն նորից "
+"վերականգնվի։"
+
+#: src/window.py:788 src/window.py:962
+msgid "_Continue"
+msgstr "_Շարունակել"
+
+#: src/window.py:789
+msgid "_Stop"
+msgstr "_Կանգնեցնել"
+
+#: src/window.py:807
+msgid "Stopping…"
+msgstr "Կանգնեցվում է…"
+
+#: src/window.py:839
+msgid "Stopped"
+msgstr "Կանգնեցվեց"
+
+#: src/window.py:842
+msgid "SHSH Blobs Saved"
+msgstr "SHSH blob-երը պահվեցին"
+
+#: src/window.py:845
+msgid "Device Restored"
+msgstr "Սարքը վերականգնվեց"
+
+#: src/window.py:846
+msgid "The device will restart and show the setup assistant."
+msgstr "Սարքը կվերագործարկվի և կցուցադրի կարգավորման օգնականը։"
+
+#: src/window.py:849
+msgid "Device Updated"
+msgstr "Սարքը թարմացվեց"
+
+#: src/window.py:850
+msgid "The device will restart when it has finished updating."
+msgstr "Սարքը կվերագործարկվի թարմացումն ավարտվելուն պես։"
+
+#: src/window.py:858
+msgid "Could Not Save SHSH Blobs"
+msgstr "Չհաջողվեց պահել SHSH blob-երը"
+
+#: src/window.py:859
+msgid "Restore Failed"
+msgstr "Վերականգնումը ձախողվեց"
+
+#: src/window.py:863
+msgid "Check the log for details."
+msgstr "Մանրամասների համար տես մատյանը։"
+
+#: src/window.py:899
+msgid "The device was not found. Reconnect it and try again"
+msgstr "Սարքը չգտնվեց։ Նորից միացրեք այն և կրկին փորձեք"
+
+#: src/window.py:925
+msgid "The device is restarting"
+msgstr "Սարքը վերագործարկվում է"
+
+#: src/window.py:926
+msgid "Could not exit recovery mode"
+msgstr "Չհաջողվեց դուրս գալ վերականգնման ռեժիմից"
+
+#: src/window.py:929
+msgid "The device is restarting in recovery mode"
+msgstr "Սարքը վերագործարկվում է վերականգնման ռեժիմում"
+
+#: src/window.py:930
+msgid ""
+"Could not enter recovery mode. Unlock the device and trust this computer"
+msgstr ""
+"Չհաջողվեց մտնել վերականգնման ռեժիմ։ Ապակողպեք սարքը և վստահեք այս "
+"համակարգչին"
+
+#: src/window.py:959
+msgid "Stop and Quit?"
+msgstr "Կանգնեցնե՞լ և դուրս գալ"
+
+#: src/window.py:960
+msgid ""
+"A device is being restored. Interrupting now can leave it unusable until it "
+"is restored again."
+msgstr ""
+"Սարք է վերականգնվում։ Հիմա ընդհատելը կարող է այն անգործածելի դարձնել, մինչև "
+"նորից վերականգնվի։"
+
+#: src/window.py:963
+msgid "_Stop and Quit"
+msgstr "_Կանգնեցնել և դուրս գալ"
+
+#: src/window.ui:21
+msgid "Main Menu"
+msgstr "Գլխավոր ցանկ"
+
+#: src/window.ui:56
+msgid "Connect a Device"
+msgstr "Միացրեք սարք"
+
+#: src/window.ui:57
+msgid ""
+"Plug in an Apple device with a USB cable. Devices in recovery or DFU mode "
+"work too. A Mac with Apple silicon has to be in DFU mode."
+msgstr ""
+"Միացրեք Apple սարքը USB մալուխով։ Վերականգնման կամ DFU ռեժիմում գտնվող "
+"սարքերը նույնպես աշխատում են։ Apple սիլիկոնով Mac-ը պետք է լինի DFU "
+"ռեժիմում։"
+
+#: src/window.ui:124
+msgid "Device"
+msgstr "Սարք"
+
+#: src/window.ui:131
+msgid "Version"
+msgstr "Տարբերակ"
+
+#: src/window.ui:145
+msgid "Try Again"
+msgstr "Կրկին փորձել"
+
+#: src/window.ui:156
+msgid "Firmware File"
+msgstr "Որոնիչի ֆայլ"
+
+#: src/window.ui:164
+msgid "Remove File"
+msgstr "Հեռացնել ֆայլը"
+
+#: src/window.ui:175
+msgid "Choose File"
+msgstr "Ընտրել ֆայլ"
+
+#: src/window.ui:190
+msgid "Erase Device"
+msgstr "Ջնջել սարքը"
+
+#: src/window.ui:191
+msgid "Remove all content and settings"
+msgstr "Հեռացնել ողջ բովանդակությունը և կարգավորումները"
+
+#: src/window.ui:312 src/window.ui:377 src/window.ui:427
+msgid "View _Log"
+msgstr "Դիտել _մատյանը"
+
+#: src/window.ui:349
+msgid "_Done"
+msgstr "_Պատրաստ է"
+
+#: src/window.ui:387
+msgid "_Back"
+msgstr "_Հետ"
+
+#: src/window.ui:397
+msgid "_Try Again"
+msgstr "_Կրկին փորձել"
+
+#: src/window.ui:423
+msgid "_Save SHSH Blobs"
+msgstr "_Պահել SHSH blob-երը"
+
+#: src/window.ui:433
+msgid "_Preferences"
+msgstr "_Նախապատվություններ"
+
+#: src/window.ui:437
+msgid "_Keyboard Shortcuts"
+msgstr "_Ստեղնաշարի դյուրանցումներ"
+
+#: src/window.ui:441
+msgid "_About Corer"
+msgstr "_Corer-ի մասին"

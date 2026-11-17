@@ -1,0 +1,860 @@
+# Finnish translation for Corer.
+# Copyright (C) 2026 Corer contributors
+# This file is distributed under the same license as the corer package.
+# Nícolas Castillo <code@tecncr.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: corer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 02:42-0500\n"
+"PO-Revision-Date: 2026-11-17 03:42-0500\n"
+"Last-Translator: Nícolas Castillo <code@tecncr.com>\n"
+"Language-Team: Finnish\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/com.tecncr.Corer.desktop.in.in:2
+#: data/com.tecncr.Corer.metainfo.xml.in.in:7 src/window.ui:6
+msgid "Corer"
+msgstr "Corer"
+
+#. Translators: Short description shown in GNOME Shell search and app grids.
+#. Keep it under 80 characters.
+#: data/com.tecncr.Corer.desktop.in.in:5
+msgid "Restore firmware to Apple devices"
+msgstr "Palauta Apple-laitteiden laiteohjelmisto"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/com.tecncr.Corer.desktop.in.in:12
+msgid ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;"
+msgstr ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Laiteohjelmisto;Restore;Palautus;Update;Päivitys;IPSW;Recovery;DFU;"
+
+#: data/com.tecncr.Corer.gschema.xml:6
+msgid "Window width"
+msgstr "Ikkunan leveys"
+
+#: data/com.tecncr.Corer.gschema.xml:10
+msgid "Window height"
+msgstr "Ikkunan korkeus"
+
+#: data/com.tecncr.Corer.gschema.xml:14
+msgid "Whether the window is maximized"
+msgstr "Onko ikkuna suurennettu"
+
+#: data/com.tecncr.Corer.gschema.xml:18
+msgid "Keep downloaded firmware"
+msgstr "Säilytä ladattu laiteohjelmisto"
+
+#: data/com.tecncr.Corer.gschema.xml:19
+msgid ""
+"Keep downloaded firmware files in the cache after a successful restore so "
+"they can be reused."
+msgstr ""
+"Säilyttää ladatut laiteohjelmistotiedostot välimuistissa onnistuneen "
+"palautuksen jälkeen, jotta niitä voi käyttää uudelleen."
+
+#: data/com.tecncr.Corer.gschema.xml:23
+msgid "Verbose logging"
+msgstr "Yksityiskohtainen lokitus"
+
+#: data/com.tecncr.Corer.gschema.xml:24
+msgid "Ask idevicerestore to print additional debug output."
+msgstr "Pyytää idevicerestorea tulostamaan lisää vianetsintätietoja."
+
+#: data/com.tecncr.Corer.gschema.xml:28
+msgid "Allow restoring from restore mode"
+msgstr "Salli palautus palautustilasta"
+
+#: data/com.tecncr.Corer.gschema.xml:32
+msgid "Continue after certain errors"
+msgstr "Jatka tiettyjen virheiden jälkeen"
+
+#: data/com.tecncr.Corer.gschema.xml:33
+msgid ""
+"Try to continue the restore process after certain errors, like a failed "
+"baseband update."
+msgstr ""
+"Yrittää jatkaa palautusta tiettyjen virheiden jälkeen, kuten epäonnistuneen "
+"baseband-päivityksen jälkeen."
+
+#: data/com.tecncr.Corer.gschema.xml:37
+msgid "Skip NOR and baseband upgrade"
+msgstr "Ohita NOR- ja baseband-päivitys"
+
+#: data/com.tecncr.Corer.gschema.xml:41
+msgid "Keep personalized components"
+msgstr "Säilytä yksilöidyt osat"
+
+#: data/com.tecncr.Corer.gschema.xml:42
+msgid "Write personalized components to files for debugging."
+msgstr "Kirjoittaa yksilöidyt osat tiedostoihin vianetsintää varten."
+
+#: data/com.tecncr.Corer.gschema.xml:46
+msgid "Restore custom firmware"
+msgstr "Palauta mukautettu laiteohjelmisto"
+
+#: data/com.tecncr.Corer.gschema.xml:47
+msgid "Restore with a custom firmware. Requires a bootrom exploit."
+msgstr ""
+"Palauttaa mukautetulla laiteohjelmistolla. Vaatii bootrom-haavoittuvuuden."
+
+#: data/com.tecncr.Corer.gschema.xml:51
+msgid "Stop after booting the ramdisk"
+msgstr "Pysähdy ramdiskin käynnistyksen jälkeen"
+
+#: data/com.tecncr.Corer.gschema.xml:55
+msgid "Signing server URL"
+msgstr "Allekirjoituspalvelimen URL-osoite"
+
+#: data/com.tecncr.Corer.gschema.xml:56
+msgid ""
+"Overrides the default signing server request URL. Empty uses the default."
+msgstr ""
+"Ohittaa allekirjoituspalvelimen pyyntöjen oletus-URL-osoitteen. Tyhjänä "
+"käytetään oletusta."
+
+#: data/com.tecncr.Corer.gschema.xml:60
+msgid "Restore variant"
+msgstr "Palautusvariantti"
+
+#: data/com.tecncr.Corer.gschema.xml:61
+msgid "Build identity variant to use. Empty selects it automatically."
+msgstr ""
+"Käytettävä koontitunnisteen variantti. Tyhjänä se valitaan automaattisesti."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:8
+msgid "Restore and update Apple devices"
+msgstr "Palauta ja päivitä Apple-laitteita"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:10
+msgid ""
+"Corer installs firmware on Apple devices, including Mac computers with Apple"
+" silicon in DFU mode. Connect a device, pick a version and choose whether to"
+" keep or erase its content."
+msgstr ""
+"Corer asentaa laiteohjelmiston Apple-laitteisiin, mukaan lukien DFU-tilassa "
+"olevat Apple-piirillä varustetut Mac-tietokoneet. Liitä laite, valitse "
+"versio ja päätä, säilytetäänkö vai tyhjennetäänkö sen sisältö."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:16
+msgid "Update a device while keeping its data, or erase and restore it"
+msgstr "Päivitä laite säilyttäen sen tiedot tai tyhjennä ja palauta se"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:17
+msgid "Download currently signed firmware on demand and reuse it later"
+msgstr ""
+"Lataa parhaillaan allekirjoitettu laiteohjelmisto tarvittaessa ja käytä sitä"
+" myöhemmin uudelleen"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:18
+msgid "Use a firmware file you already have"
+msgstr "Käytä laiteohjelmistotiedostoa, joka sinulla jo on"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:19
+msgid "Recover devices stuck in recovery or DFU mode"
+msgstr "Pelasta palautus- tai DFU-tilaan jumiutuneet laitteet"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:21
+msgid ""
+"Corer is powered by idevicerestore and libimobiledevice. It is not "
+"affiliated with or endorsed by Apple Inc."
+msgstr ""
+"Corerin pohjana ovat idevicerestore ja libimobiledevice. Se ei ole "
+"yhteydessä Apple Inc:iin eikä Apple ole hyväksynyt sitä."
+
+#: src/devices.py:89
+msgid "Recovery Mode"
+msgstr "Palautustila"
+
+#: src/devices.py:91
+msgid "DFU Mode"
+msgstr "DFU-tila"
+
+#: src/firmware.py:145 src/firmware.py:150
+msgid "Could not load the list of available versions"
+msgstr "Saatavilla olevien versioiden luetteloa ei voitu ladata"
+
+#: src/firmware.py:185
+msgid "This is not a valid firmware file"
+msgstr "Tämä ei ole kelvollinen laiteohjelmistotiedosto"
+
+#: src/firmware.py:335
+msgid "This firmware is not available for download"
+msgstr "Tämä laiteohjelmisto ei ole ladattavissa"
+
+#: src/firmware.py:349
+msgid "Not enough free disk space to download the firmware"
+msgstr "Levyllä ei ole tarpeeksi vapaata tilaa laiteohjelmiston lataamiseen"
+
+#: src/firmware.py:360
+msgid "The download server refused the request"
+msgstr "Lataspalvelin hylkäsi pyynnön"
+
+#: src/firmware.py:367
+msgid "The download failed. Check your network connection"
+msgstr "Lataus epäonnistui. Tarkista verkkoyhteys"
+
+#: src/firmware.py:374
+msgid "The downloaded firmware is incomplete"
+msgstr "Ladattu laiteohjelmisto on epätäydellinen"
+
+#: src/firmware.py:377
+msgid "The downloaded firmware is corrupted"
+msgstr "Ladattu laiteohjelmisto on vioittunut"
+
+#: src/log_dialog.py:16
+msgid "Log"
+msgstr "Loki"
+
+#: src/log_dialog.py:24
+msgid "Copy"
+msgstr "Kopioi"
+
+#: src/log_dialog.py:28
+msgid "Save…"
+msgstr "Tallenna…"
+
+#: src/log_dialog.py:36
+msgid "No Log Yet"
+msgstr "Ei vielä lokia"
+
+#: src/log_dialog.py:37
+msgid "Output appears here when a device is restored."
+msgstr "Tuloste näkyy tässä, kun laitetta palautetaan."
+
+#: src/log_dialog.py:81 src/window.py:310
+msgid "Copied to clipboard"
+msgstr "Kopioitu leikepöydälle"
+
+#: src/log_dialog.py:84
+msgid "Save Log"
+msgstr "Tallenna loki"
+
+#. Translators: Replace "translator-credits" with your name/username, and
+#. optionally an email or URL.
+#: src/main.py:90
+msgid "translator-credits"
+msgstr "Nícolas Castillo <code@tecncr.com>"
+
+#: src/main.py:96
+msgid "Powered By"
+msgstr "Käyttää"
+
+#. Firmware
+#: src/preferences.py:23 src/preferences.py:77
+msgid "Firmware"
+msgstr "Laiteohjelmisto"
+
+#: src/preferences.py:28
+msgid "Downloads"
+msgstr "Lataukset"
+
+#: src/preferences.py:29
+msgid ""
+"Downloaded firmware is stored so that it does not have to be downloaded "
+"again."
+msgstr ""
+"Ladattu laiteohjelmisto tallennetaan, jotta sitä ei tarvitse ladata "
+"uudelleen."
+
+#: src/preferences.py:33
+msgid "_Keep Downloaded Firmware"
+msgstr "_Säilytä ladattu laiteohjelmisto"
+
+#: src/preferences.py:34
+msgid "Turn off to delete firmware after a successful restore"
+msgstr ""
+"Poista käytöstä, jos haluat poistaa laiteohjelmiston onnistuneen palautuksen"
+" jälkeen"
+
+#: src/preferences.py:36
+msgid "Stored Firmware"
+msgstr "Tallennettu laiteohjelmisto"
+
+#: src/preferences.py:37
+msgid "Calculating…"
+msgstr "Lasketaan…"
+
+#: src/preferences.py:39 src/preferences.py:96
+msgid "Open Folder"
+msgstr "Avaa kansio"
+
+#: src/preferences.py:44 src/preferences.py:145
+msgid "_Delete"
+msgstr "_Poista"
+
+#. Advanced
+#: src/preferences.py:54
+msgid "Advanced"
+msgstr "Lisäasetukset"
+
+#: src/preferences.py:59
+msgid "Restore"
+msgstr "Palautus"
+
+#: src/preferences.py:60
+msgid ""
+"These options can leave a device unable to start. Change them only if you "
+"know what they do."
+msgstr ""
+"Nämä asetukset voivat estää laitetta käynnistymästä. Muuta niitä vain, jos "
+"tiedät mitä ne tekevät."
+
+#: src/preferences.py:64
+msgid "Restore From _Restore Mode"
+msgstr "Palauta _palautustilasta"
+
+#: src/preferences.py:65
+msgid "Allow starting with a device that is already in restore mode"
+msgstr "Sallii aloittamisen laitteella, joka on jo palautustilassa"
+
+#: src/preferences.py:67
+msgid "_Ignore Errors"
+msgstr "_Ohita virheet"
+
+#: src/preferences.py:68
+msgid "Try to continue after certain errors, like a failed baseband update"
+msgstr ""
+"Yrittää jatkaa tiettyjen virheiden jälkeen, kuten epäonnistuneen baseband-"
+"päivityksen jälkeen"
+
+#: src/preferences.py:71
+msgid "Skip _Baseband"
+msgstr "Ohita _baseband"
+
+#: src/preferences.py:72
+msgid "Do not upgrade NOR and baseband on legacy devices"
+msgstr "Älä päivitä NOR:ia ja basebandia vanhoissa laitteissa"
+
+#: src/preferences.py:74
+msgid "_Stop After Ramdisk"
+msgstr "_Pysähdy ramdiskin jälkeen"
+
+#: src/preferences.py:75
+msgid "Boot the restore ramdisk without restoring"
+msgstr "Käynnistää palautus-ramdiskin palauttamatta"
+
+#: src/preferences.py:80
+msgid "_Custom Firmware"
+msgstr "_Mukautettu laiteohjelmisto"
+
+#: src/preferences.py:81
+msgid "Restore custom firmware. Requires a bootrom exploit"
+msgstr "Palauttaa mukautetun laiteohjelmiston. Vaatii bootrom-haavoittuvuuden"
+
+#: src/preferences.py:82
+msgid "Restore _Variant"
+msgstr "Palautus_variantti"
+
+#: src/preferences.py:83
+msgid "Signing Server _URL"
+msgstr "Allekirjoituspalvelimen _URL"
+
+#: src/preferences.py:86
+msgid "Troubleshooting"
+msgstr "Vianetsintä"
+
+#: src/preferences.py:89
+msgid "_Detailed Log"
+msgstr "_Yksityiskohtainen loki"
+
+#: src/preferences.py:90
+msgid "Include all debugging output from idevicerestore in the log"
+msgstr "Sisällytä lokiin kaikki idevicerestoren vianetsintätuloste"
+
+#: src/preferences.py:92
+msgid "Log Files"
+msgstr "Lokitiedostot"
+
+#: src/preferences.py:93
+msgid "Every restore is recorded, even if Corer quits unexpectedly"
+msgstr "Jokainen palautus kirjataan, vaikka Corer sulkeutuisi odottamatta"
+
+#: src/preferences.py:103
+msgid "Keep _Personalized Components"
+msgstr "Säilytä _yksilöidyt osat"
+
+#: src/preferences.py:104
+msgid "Write personalized components to files for debugging"
+msgstr "Kirjoittaa yksilöidyt osat tiedostoihin vianetsintää varten"
+
+#: src/preferences.py:141
+msgid "Delete Stored Firmware?"
+msgstr "Poistetaanko tallennettu laiteohjelmisto?"
+
+#: src/preferences.py:142
+msgid "Firmware will be downloaded again the next time it is needed."
+msgstr ""
+"Laiteohjelmisto ladataan uudelleen, kun sitä seuraavan kerran tarvitaan."
+
+#: src/preferences.py:144 src/window.py:585 src/window.ui:322
+msgid "_Cancel"
+msgstr "_Peruuta"
+
+#: src/restore.py:27
+msgid "Detecting Device"
+msgstr "Tunnistetaan laitetta"
+
+#: src/restore.py:28
+msgid "Preparing Device"
+msgstr "Valmistellaan laitetta"
+
+#: src/restore.py:29
+msgid "Sending Filesystem"
+msgstr "Lähetetään tiedostojärjestelmää"
+
+#: src/restore.py:30
+msgid "Verifying Filesystem"
+msgstr "Vahvistetaan tiedostojärjestelmää"
+
+#: src/restore.py:31
+msgid "Installing Firmware"
+msgstr "Asennetaan laiteohjelmistoa"
+
+#: src/restore.py:32
+msgid "Updating Baseband"
+msgstr "Päivitetään basebandia"
+
+#: src/restore.py:33
+msgid "Updating Components"
+msgstr "Päivitetään osia"
+
+#: src/restore.py:34
+msgid "Sending Images"
+msgstr "Lähetetään levykuvia"
+
+#: src/restore.py:63
+msgid "Restoring"
+msgstr "Palautetaan"
+
+#: src/restore.py:134
+msgid "idevicerestore could not be started"
+msgstr "idevicerestorea ei voitu käynnistää"
+
+#: src/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "Device"
+msgstr "Laite"
+
+#: src/shortcuts-dialog.ui:9
+msgctxt "shortcut window"
+msgid "Choose Firmware File"
+msgstr "Valitse laiteohjelmistotiedosto"
+
+#: src/shortcuts-dialog.ui:15
+msgctxt "shortcut window"
+msgid "Look for Devices"
+msgstr "Etsi laitteita"
+
+#: src/shortcuts-dialog.ui:21
+msgctxt "shortcut window"
+msgid "View Log"
+msgstr "Näytä loki"
+
+#: src/shortcuts-dialog.ui:29
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Yleiset"
+
+#: src/shortcuts-dialog.ui:32
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr "Asetukset"
+
+#: src/shortcuts-dialog.ui:38
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Näytä pikanäppäimet"
+
+#: src/shortcuts-dialog.ui:44
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Lopeta"
+
+#: src/window.py:149
+msgid "Apple Device"
+msgstr "Apple-laite"
+
+#: src/window.py:217
+msgid "Corer needs permission to access this device over USB"
+msgstr "Corer tarvitsee luvan käyttää tätä laitetta USB:n kautta"
+
+#: src/window.py:218
+msgid "_Set Up"
+msgstr "_Määritä"
+
+#: src/window.py:223
+msgid "The system device service (usbmuxd) is not responding"
+msgstr "Järjestelmän laitepalvelu (usbmuxd) ei vastaa"
+
+#: src/window.py:224
+msgid "_Restart It"
+msgstr "_Käynnistä uudelleen"
+
+#: src/window.py:229
+msgid "The device service (usbmuxd) is not available"
+msgstr "Laitepalvelu (usbmuxd) ei ole käytettävissä"
+
+#: src/window.py:260
+msgid "USB access was set up"
+msgstr "USB-käyttö määritettiin"
+
+#: src/window.py:273
+msgid "The device service was restarted"
+msgstr "Laitepalvelu käynnistettiin uudelleen"
+
+#: src/window.py:275
+msgid ""
+"Could not restart it. Run “sudo systemctl restart usbmuxd” in a terminal"
+msgstr ""
+"Uudelleenkäynnistys epäonnistui. Suorita päätteessä ”sudo systemctl restart "
+"usbmuxd”"
+
+#: src/window.py:284
+msgid "Set Up USB Access Manually"
+msgstr "Määritä USB-käyttö käsin"
+
+#: src/window.py:285
+msgid ""
+"The setup could not be completed. Run these commands in a terminal to "
+"install the device access rule, then reconnect the device."
+msgstr ""
+"Määritystä ei voitu viimeistellä. Suorita nämä komennot päätteessä "
+"asentaaksesi laitteen käyttösäännön ja liitä laite sitten uudelleen."
+
+#: src/window.py:301
+msgid "_Close"
+msgstr "_Sulje"
+
+#: src/window.py:302
+msgid "C_opy Commands"
+msgstr "_Kopioi komennot"
+
+#: src/window.py:410
+msgid "Looking for available versions…"
+msgstr "Etsitään saatavilla olevia versioita…"
+
+#: src/window.py:414
+msgid "Choose a firmware file for this device"
+msgstr "Valitse tälle laitteelle laiteohjelmistotiedosto"
+
+#: src/window.py:416
+msgid "No firmware is currently signed for this device"
+msgstr ""
+"Tälle laitteelle ei ole tällä hetkellä allekirjoitettua laiteohjelmistoa"
+
+#: src/window.py:418
+msgid "Using the firmware file"
+msgstr "Käytössä oleva laiteohjelmistotiedosto"
+
+#: src/window.py:422
+msgid "Downloaded"
+msgstr "Ladattu"
+
+#. Translators: {size} is a file size such as “8.1 GB”
+#: src/window.py:425
+#, python-brace-format
+msgid "{size} download"
+msgstr "{size} lataus"
+
+#: src/window.py:429
+msgid "Offline — showing downloaded firmware"
+msgstr "Ei verkossa — näytetään ladattu laiteohjelmisto"
+
+#: src/window.py:436
+msgid "Use an IPSW file from this computer"
+msgstr "Käytä tämän tietokoneen IPSW-tiedostoa"
+
+#. Translators: {filename} is the name of a firmware file
+#: src/window.py:440
+#, python-brace-format
+msgid "{filename} is not compatible with this device"
+msgstr "{filename} ei ole yhteensopiva tämän laitteen kanssa"
+
+#: src/window.py:453 src/window.py:587
+msgid "_Erase and Restore"
+msgstr "_Tyhjennä ja palauta"
+
+#: src/window.py:453 src/window.py:591
+msgid "_Update"
+msgstr "_Päivitä"
+
+#: src/window.py:468
+msgid "Exit _Recovery Mode"
+msgstr "Poistu _palautustilasta"
+
+#: src/window.py:471
+msgid "Enter _Recovery Mode"
+msgstr "Siirry _palautustilaan"
+
+#: src/window.py:502
+msgid "Firmware Files"
+msgstr "Laiteohjelmistotiedostot"
+
+#: src/window.py:507
+msgid "Choose Firmware File"
+msgstr "Valitse laiteohjelmistotiedosto"
+
+#: src/window.py:518
+msgid "This file cannot be used"
+msgstr "Tätä tiedostoa ei voi käyttää"
+
+#. Translators: {name} is the name of a device
+#: src/window.py:563
+#, python-brace-format
+msgid "Erase “{name}”?"
+msgstr "Tyhjennetäänkö ”{name}”?"
+
+#. Translators: {version} is a system version such as “iOS 18.1”
+#: src/window.py:565
+#, python-brace-format
+msgid ""
+"All content and settings will be permanently erased and {version} will be "
+"installed. This cannot be undone."
+msgstr ""
+"Kaikki sisältö ja asetukset poistetaan pysyvästi ja {version} asennetaan. "
+"Tätä ei voi perua."
+
+#: src/window.py:569
+#, python-brace-format
+msgid "Update “{name}”?"
+msgstr "Päivitetäänkö ”{name}”?"
+
+#: src/window.py:570
+#, python-brace-format
+msgid ""
+"{version} will be installed and your content and settings will be kept. Make"
+" sure you have a backup before continuing."
+msgstr ""
+"{version} asennetaan ja sisältösi sekä asetuksesi säilytetään. Varmista, "
+"että sinulla on varmuuskopio, ennen kuin jatkat."
+
+#: src/window.py:576
+msgid ""
+"This version is older than the one on the device. Downgrading without "
+"erasing is likely to fail and can cause complete data loss."
+msgstr ""
+"Tämä versio on laitteessa olevaa vanhempi. Vanhempaan versioon palaaminen "
+"tyhjentämättä epäonnistuu todennäköisesti ja voi johtaa kaikkien tietojen "
+"menettämiseen."
+
+#: src/window.py:580
+msgid ""
+"This firmware no longer appears to be signed, so the device will probably "
+"refuse it."
+msgstr ""
+"Tätä laiteohjelmistoa ei näytä enää allekirjoitetun, joten laite "
+"todennäköisesti hylkää sen."
+
+#: src/window.py:582
+msgid "Keep the device connected until the process finishes."
+msgstr "Pidä laite liitettynä, kunnes prosessi on valmis."
+
+#: src/window.py:628
+msgid "A device is being restored"
+msgstr "Laitetta palautetaan"
+
+#: src/window.py:640 src/window.py:666
+msgid "Verifying Firmware"
+msgstr "Vahvistetaan laiteohjelmistoa"
+
+#: src/window.py:642 src/window.py:668
+msgid "Downloading Firmware"
+msgstr "Ladataan laiteohjelmistoa"
+
+#. Translators: download progress, e.g. “1.2 GB of 8.1 GB”
+#: src/window.py:672
+#, python-brace-format
+msgid "{done} of {total}"
+msgstr "{done} / {total}"
+
+#. Translators: download speed, e.g. “12.5 MB/s”
+#: src/window.py:679
+#, python-brace-format
+msgid "{speed}/s"
+msgstr "{speed}/s"
+
+#: src/window.py:785
+msgid "Stop the Process?"
+msgstr "Pysäytetäänkö prosessi?"
+
+#: src/window.py:786
+msgid ""
+"Interrupting now can leave the device unusable until it is restored again."
+msgstr ""
+"Keskeyttäminen nyt voi jättää laitteen käyttökelvottomaksi, kunnes se "
+"palautetaan uudelleen."
+
+#: src/window.py:788 src/window.py:962
+msgid "_Continue"
+msgstr "_Jatka"
+
+#: src/window.py:789
+msgid "_Stop"
+msgstr "_Pysäytä"
+
+#: src/window.py:807
+msgid "Stopping…"
+msgstr "Pysäytetään…"
+
+#: src/window.py:839
+msgid "Stopped"
+msgstr "Pysäytetty"
+
+#: src/window.py:842
+msgid "SHSH Blobs Saved"
+msgstr "SHSH-blobit tallennettu"
+
+#: src/window.py:845
+msgid "Device Restored"
+msgstr "Laite palautettu"
+
+#: src/window.py:846
+msgid "The device will restart and show the setup assistant."
+msgstr "Laite käynnistyy uudelleen ja näyttää asennusavustajan."
+
+#: src/window.py:849
+msgid "Device Updated"
+msgstr "Laite päivitetty"
+
+#: src/window.py:850
+msgid "The device will restart when it has finished updating."
+msgstr "Laite käynnistyy uudelleen, kun päivitys on valmis."
+
+#: src/window.py:858
+msgid "Could Not Save SHSH Blobs"
+msgstr "SHSH-blobien tallennus epäonnistui"
+
+#: src/window.py:859
+msgid "Restore Failed"
+msgstr "Palautus epäonnistui"
+
+#: src/window.py:863
+msgid "Check the log for details."
+msgstr "Katso lisätiedot lokista."
+
+#: src/window.py:899
+msgid "The device was not found. Reconnect it and try again"
+msgstr "Laitetta ei löytynyt. Liitä se uudelleen ja yritä uudelleen"
+
+#: src/window.py:925
+msgid "The device is restarting"
+msgstr "Laite käynnistyy uudelleen"
+
+#: src/window.py:926
+msgid "Could not exit recovery mode"
+msgstr "Palautustilasta poistuminen epäonnistui"
+
+#: src/window.py:929
+msgid "The device is restarting in recovery mode"
+msgstr "Laite käynnistyy uudelleen palautustilassa"
+
+#: src/window.py:930
+msgid ""
+"Could not enter recovery mode. Unlock the device and trust this computer"
+msgstr ""
+"Palautustilaan siirtyminen epäonnistui. Avaa laitteen lukitus ja luota tähän"
+" tietokoneeseen"
+
+#: src/window.py:959
+msgid "Stop and Quit?"
+msgstr "Pysäytetäänkö ja lopetetaanko?"
+
+#: src/window.py:960
+msgid ""
+"A device is being restored. Interrupting now can leave it unusable until it "
+"is restored again."
+msgstr ""
+"Laitetta palautetaan. Keskeyttäminen nyt voi jättää sen käyttökelvottomaksi,"
+" kunnes se palautetaan uudelleen."
+
+#: src/window.py:963
+msgid "_Stop and Quit"
+msgstr "_Pysäytä ja lopeta"
+
+#: src/window.ui:21
+msgid "Main Menu"
+msgstr "Päävalikko"
+
+#: src/window.ui:56
+msgid "Connect a Device"
+msgstr "Liitä laite"
+
+#: src/window.ui:57
+msgid ""
+"Plug in an Apple device with a USB cable. Devices in recovery or DFU mode "
+"work too. A Mac with Apple silicon has to be in DFU mode."
+msgstr ""
+"Liitä Apple-laite USB-kaapelilla. Myös palautus- tai DFU-tilassa olevat "
+"laitteet kelpaavat. Apple-piirillä varustetun Macin on oltava DFU-tilassa."
+
+#: src/window.ui:124
+msgid "Device"
+msgstr "Laite"
+
+#: src/window.ui:131
+msgid "Version"
+msgstr "Versio"
+
+#: src/window.ui:145
+msgid "Try Again"
+msgstr "Yritä uudelleen"
+
+#: src/window.ui:156
+msgid "Firmware File"
+msgstr "Laiteohjelmistotiedosto"
+
+#: src/window.ui:164
+msgid "Remove File"
+msgstr "Poista tiedosto"
+
+#: src/window.ui:175
+msgid "Choose File"
+msgstr "Valitse tiedosto"
+
+#: src/window.ui:190
+msgid "Erase Device"
+msgstr "Tyhjennä laite"
+
+#: src/window.ui:191
+msgid "Remove all content and settings"
+msgstr "Poista kaikki sisältö ja asetukset"
+
+#: src/window.ui:312 src/window.ui:377 src/window.ui:427
+msgid "View _Log"
+msgstr "Näytä _loki"
+
+#: src/window.ui:349
+msgid "_Done"
+msgstr "_Valmis"
+
+#: src/window.ui:387
+msgid "_Back"
+msgstr "_Takaisin"
+
+#: src/window.ui:397
+msgid "_Try Again"
+msgstr "_Yritä uudelleen"
+
+#: src/window.ui:423
+msgid "_Save SHSH Blobs"
+msgstr "_Tallenna SHSH-blobit"
+
+#: src/window.ui:433
+msgid "_Preferences"
+msgstr "_Asetukset"
+
+#: src/window.ui:437
+msgid "_Keyboard Shortcuts"
+msgstr "_Pikanäppäimet"
+
+#: src/window.ui:441
+msgid "_About Corer"
+msgstr "_Tietoja: Corer"

@@ -1,0 +1,875 @@
+# German translation for Corer.
+# Copyright (C) 2026 Corer contributors
+# This file is distributed under the same license as the corer package.
+# Nícolas Castillo <code@tecncr.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: corer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 02:42-0500\n"
+"PO-Revision-Date: 2026-11-17 03:38-0500\n"
+"Last-Translator: Nícolas Castillo <code@tecncr.com>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/com.tecncr.Corer.desktop.in.in:2
+#: data/com.tecncr.Corer.metainfo.xml.in.in:7 src/window.ui:6
+msgid "Corer"
+msgstr "Corer"
+
+#. Translators: Short description shown in GNOME Shell search and app grids.
+#. Keep it under 80 characters.
+#: data/com.tecncr.Corer.desktop.in.in:5
+msgid "Restore firmware to Apple devices"
+msgstr "Firmware auf Apple-Geräten wiederherstellen"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/com.tecncr.Corer.desktop.in.in:12
+msgid ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;"
+msgstr ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Wiederherstellen;Aktualisieren;Update;IPSW;Wiederherstellungsmodus;DFU;"
+
+#: data/com.tecncr.Corer.gschema.xml:6
+msgid "Window width"
+msgstr "Fensterbreite"
+
+#: data/com.tecncr.Corer.gschema.xml:10
+msgid "Window height"
+msgstr "Fensterhöhe"
+
+#: data/com.tecncr.Corer.gschema.xml:14
+msgid "Whether the window is maximized"
+msgstr "Ob das Fenster maximiert ist"
+
+#: data/com.tecncr.Corer.gschema.xml:18
+msgid "Keep downloaded firmware"
+msgstr "Heruntergeladene Firmware behalten"
+
+#: data/com.tecncr.Corer.gschema.xml:19
+msgid ""
+"Keep downloaded firmware files in the cache after a successful restore so "
+"they can be reused."
+msgstr ""
+"Heruntergeladene Firmware-Dateien nach einer erfolgreichen Wiederherstellung"
+" im Zwischenspeicher behalten, damit sie wiederverwendet werden können."
+
+#: data/com.tecncr.Corer.gschema.xml:23
+msgid "Verbose logging"
+msgstr "Ausführliche Protokollierung"
+
+#: data/com.tecncr.Corer.gschema.xml:24
+msgid "Ask idevicerestore to print additional debug output."
+msgstr "idevicerestore auffordern, zusätzliche Debug-Ausgaben anzuzeigen."
+
+#: data/com.tecncr.Corer.gschema.xml:28
+msgid "Allow restoring from restore mode"
+msgstr "Wiederherstellung aus dem Wiederherstellungsmodus erlauben"
+
+#: data/com.tecncr.Corer.gschema.xml:32
+msgid "Continue after certain errors"
+msgstr "Nach bestimmten Fehlern fortfahren"
+
+#: data/com.tecncr.Corer.gschema.xml:33
+msgid ""
+"Try to continue the restore process after certain errors, like a failed "
+"baseband update."
+msgstr ""
+"Versuchen, die Wiederherstellung nach bestimmten Fehlern fortzusetzen, etwa "
+"bei einem fehlgeschlagenen Baseband-Update."
+
+#: data/com.tecncr.Corer.gschema.xml:37
+msgid "Skip NOR and baseband upgrade"
+msgstr "NOR- und Baseband-Upgrade überspringen"
+
+#: data/com.tecncr.Corer.gschema.xml:41
+msgid "Keep personalized components"
+msgstr "Personalisierte Komponenten behalten"
+
+#: data/com.tecncr.Corer.gschema.xml:42
+msgid "Write personalized components to files for debugging."
+msgstr "Personalisierte Komponenten zur Fehlersuche in Dateien schreiben."
+
+#: data/com.tecncr.Corer.gschema.xml:46
+msgid "Restore custom firmware"
+msgstr "Benutzerdefinierte Firmware wiederherstellen"
+
+#: data/com.tecncr.Corer.gschema.xml:47
+msgid "Restore with a custom firmware. Requires a bootrom exploit."
+msgstr ""
+"Mit einer benutzerdefinierten Firmware wiederherstellen. Erfordert einen "
+"Bootrom-Exploit."
+
+#: data/com.tecncr.Corer.gschema.xml:51
+msgid "Stop after booting the ramdisk"
+msgstr "Nach dem Starten des Ramdisks anhalten"
+
+#: data/com.tecncr.Corer.gschema.xml:55
+msgid "Signing server URL"
+msgstr "URL des Signierservers"
+
+#: data/com.tecncr.Corer.gschema.xml:56
+msgid ""
+"Overrides the default signing server request URL. Empty uses the default."
+msgstr ""
+"Überschreibt die Standard-URL für Anfragen an den Signierserver. Ist das "
+"Feld leer, wird der Standard verwendet."
+
+#: data/com.tecncr.Corer.gschema.xml:60
+msgid "Restore variant"
+msgstr "Wiederherstellungsvariante"
+
+#: data/com.tecncr.Corer.gschema.xml:61
+msgid "Build identity variant to use. Empty selects it automatically."
+msgstr ""
+"Zu verwendende Build-Identity-Variante. Ist das Feld leer, wird sie "
+"automatisch gewählt."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:8
+msgid "Restore and update Apple devices"
+msgstr "Apple-Geräte wiederherstellen und aktualisieren"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:10
+msgid ""
+"Corer installs firmware on Apple devices, including Mac computers with Apple"
+" silicon in DFU mode. Connect a device, pick a version and choose whether to"
+" keep or erase its content."
+msgstr ""
+"Corer installiert Firmware auf Apple-Geräten, einschließlich Mac-Computern "
+"mit Apple Silicon im DFU-Modus. Verbinden Sie ein Gerät, wählen Sie eine "
+"Version und entscheiden Sie, ob die Inhalte behalten oder gelöscht werden "
+"sollen."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:16
+msgid "Update a device while keeping its data, or erase and restore it"
+msgstr ""
+"Ein Gerät unter Beibehaltung der Daten aktualisieren oder es löschen und "
+"wiederherstellen"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:17
+msgid "Download currently signed firmware on demand and reuse it later"
+msgstr ""
+"Aktuell signierte Firmware bei Bedarf herunterladen und später "
+"wiederverwenden"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:18
+msgid "Use a firmware file you already have"
+msgstr "Eine bereits vorhandene Firmware-Datei verwenden"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:19
+msgid "Recover devices stuck in recovery or DFU mode"
+msgstr "Geräte retten, die im Wiederherstellungs- oder DFU-Modus hängen"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:21
+msgid ""
+"Corer is powered by idevicerestore and libimobiledevice. It is not "
+"affiliated with or endorsed by Apple Inc."
+msgstr ""
+"Corer basiert auf idevicerestore und libimobiledevice. Es steht in keiner "
+"Verbindung zu Apple Inc. und wird nicht von Apple Inc. unterstützt."
+
+#: src/devices.py:89
+msgid "Recovery Mode"
+msgstr "Wiederherstellungsmodus"
+
+#: src/devices.py:91
+msgid "DFU Mode"
+msgstr "DFU-Modus"
+
+#: src/firmware.py:145 src/firmware.py:150
+msgid "Could not load the list of available versions"
+msgstr "Liste der verfügbaren Versionen konnte nicht geladen werden"
+
+#: src/firmware.py:185
+msgid "This is not a valid firmware file"
+msgstr "Dies ist keine gültige Firmware-Datei"
+
+#: src/firmware.py:335
+msgid "This firmware is not available for download"
+msgstr "Diese Firmware steht nicht zum Herunterladen bereit"
+
+#: src/firmware.py:349
+msgid "Not enough free disk space to download the firmware"
+msgstr "Nicht genügend freier Speicherplatz zum Herunterladen der Firmware"
+
+#: src/firmware.py:360
+msgid "The download server refused the request"
+msgstr "Der Download-Server hat die Anfrage abgelehnt"
+
+#: src/firmware.py:367
+msgid "The download failed. Check your network connection"
+msgstr "Der Download ist fehlgeschlagen. Prüfen Sie Ihre Netzwerkverbindung"
+
+#: src/firmware.py:374
+msgid "The downloaded firmware is incomplete"
+msgstr "Die heruntergeladene Firmware ist unvollständig"
+
+#: src/firmware.py:377
+msgid "The downloaded firmware is corrupted"
+msgstr "Die heruntergeladene Firmware ist beschädigt"
+
+#: src/log_dialog.py:16
+msgid "Log"
+msgstr "Protokoll"
+
+#: src/log_dialog.py:24
+msgid "Copy"
+msgstr "Kopieren"
+
+#: src/log_dialog.py:28
+msgid "Save…"
+msgstr "Speichern …"
+
+#: src/log_dialog.py:36
+msgid "No Log Yet"
+msgstr "Noch kein Protokoll"
+
+#: src/log_dialog.py:37
+msgid "Output appears here when a device is restored."
+msgstr "Die Ausgabe erscheint hier, sobald ein Gerät wiederhergestellt wird."
+
+#: src/log_dialog.py:81 src/window.py:310
+msgid "Copied to clipboard"
+msgstr "In die Zwischenablage kopiert"
+
+#: src/log_dialog.py:84
+msgid "Save Log"
+msgstr "Protokoll speichern"
+
+#. Translators: Replace "translator-credits" with your name/username, and
+#. optionally an email or URL.
+#: src/main.py:90
+msgid "translator-credits"
+msgstr "Nícolas Castillo <code@tecncr.com>"
+
+#: src/main.py:96
+msgid "Powered By"
+msgstr "Basiert auf"
+
+#. Firmware
+#: src/preferences.py:23 src/preferences.py:77
+msgid "Firmware"
+msgstr "Firmware"
+
+#: src/preferences.py:28
+msgid "Downloads"
+msgstr "Downloads"
+
+#: src/preferences.py:29
+msgid ""
+"Downloaded firmware is stored so that it does not have to be downloaded "
+"again."
+msgstr ""
+"Heruntergeladene Firmware wird gespeichert, damit sie nicht erneut "
+"heruntergeladen werden muss."
+
+#: src/preferences.py:33
+msgid "_Keep Downloaded Firmware"
+msgstr "Heruntergeladene Firmware _behalten"
+
+#: src/preferences.py:34
+msgid "Turn off to delete firmware after a successful restore"
+msgstr ""
+"Ausschalten, um die Firmware nach einer erfolgreichen Wiederherstellung zu "
+"löschen"
+
+#: src/preferences.py:36
+msgid "Stored Firmware"
+msgstr "Gespeicherte Firmware"
+
+#: src/preferences.py:37
+msgid "Calculating…"
+msgstr "Wird berechnet …"
+
+#: src/preferences.py:39 src/preferences.py:96
+msgid "Open Folder"
+msgstr "Ordner öffnen"
+
+#: src/preferences.py:44 src/preferences.py:145
+msgid "_Delete"
+msgstr "_Löschen"
+
+#. Advanced
+#: src/preferences.py:54
+msgid "Advanced"
+msgstr "Erweitert"
+
+#: src/preferences.py:59
+msgid "Restore"
+msgstr "Wiederherstellung"
+
+#: src/preferences.py:60
+msgid ""
+"These options can leave a device unable to start. Change them only if you "
+"know what they do."
+msgstr ""
+"Diese Optionen können dazu führen, dass ein Gerät nicht mehr startet. Ändern"
+" Sie sie nur, wenn Sie wissen, was sie bewirken."
+
+#: src/preferences.py:64
+msgid "Restore From _Restore Mode"
+msgstr "Aus dem _Wiederherstellungsmodus wiederherstellen"
+
+#: src/preferences.py:65
+msgid "Allow starting with a device that is already in restore mode"
+msgstr ""
+"Erlaubt den Start mit einem Gerät, das sich bereits im "
+"Wiederherstellungsmodus befindet"
+
+#: src/preferences.py:67
+msgid "_Ignore Errors"
+msgstr "Fehler _ignorieren"
+
+#: src/preferences.py:68
+msgid "Try to continue after certain errors, like a failed baseband update"
+msgstr ""
+"Versucht, nach bestimmten Fehlern fortzufahren, etwa bei einem "
+"fehlgeschlagenen Baseband-Update"
+
+#: src/preferences.py:71
+msgid "Skip _Baseband"
+msgstr "_Baseband überspringen"
+
+#: src/preferences.py:72
+msgid "Do not upgrade NOR and baseband on legacy devices"
+msgstr "NOR und Baseband auf älteren Geräten nicht aktualisieren"
+
+#: src/preferences.py:74
+msgid "_Stop After Ramdisk"
+msgstr "Nach dem _Ramdisk anhalten"
+
+#: src/preferences.py:75
+msgid "Boot the restore ramdisk without restoring"
+msgstr "Startet das Wiederherstellungs-Ramdisk, ohne wiederherzustellen"
+
+#: src/preferences.py:80
+msgid "_Custom Firmware"
+msgstr "_Benutzerdefinierte Firmware"
+
+#: src/preferences.py:81
+msgid "Restore custom firmware. Requires a bootrom exploit"
+msgstr ""
+"Stellt eine benutzerdefinierte Firmware wieder her. Erfordert einen Bootrom-"
+"Exploit"
+
+#: src/preferences.py:82
+msgid "Restore _Variant"
+msgstr "_Variante der Wiederherstellung"
+
+#: src/preferences.py:83
+msgid "Signing Server _URL"
+msgstr "_URL des Signierservers"
+
+#: src/preferences.py:86
+msgid "Troubleshooting"
+msgstr "Fehlerbehebung"
+
+#: src/preferences.py:89
+msgid "_Detailed Log"
+msgstr "_Ausführliches Protokoll"
+
+#: src/preferences.py:90
+msgid "Include all debugging output from idevicerestore in the log"
+msgstr "Alle Debug-Ausgaben von idevicerestore in das Protokoll aufnehmen"
+
+#: src/preferences.py:92
+msgid "Log Files"
+msgstr "Protokolldateien"
+
+#: src/preferences.py:93
+msgid "Every restore is recorded, even if Corer quits unexpectedly"
+msgstr ""
+"Jede Wiederherstellung wird aufgezeichnet, auch wenn Corer unerwartet "
+"beendet wird"
+
+#: src/preferences.py:103
+msgid "Keep _Personalized Components"
+msgstr "_Personalisierte Komponenten behalten"
+
+#: src/preferences.py:104
+msgid "Write personalized components to files for debugging"
+msgstr "Schreibt personalisierte Komponenten zur Fehlersuche in Dateien"
+
+#: src/preferences.py:141
+msgid "Delete Stored Firmware?"
+msgstr "Gespeicherte Firmware löschen?"
+
+#: src/preferences.py:142
+msgid "Firmware will be downloaded again the next time it is needed."
+msgstr "Die Firmware wird beim nächsten Bedarf erneut heruntergeladen."
+
+#: src/preferences.py:144 src/window.py:585 src/window.ui:322
+msgid "_Cancel"
+msgstr "_Abbrechen"
+
+#: src/restore.py:27
+msgid "Detecting Device"
+msgstr "Gerät wird erkannt"
+
+#: src/restore.py:28
+msgid "Preparing Device"
+msgstr "Gerät wird vorbereitet"
+
+#: src/restore.py:29
+msgid "Sending Filesystem"
+msgstr "Dateisystem wird gesendet"
+
+#: src/restore.py:30
+msgid "Verifying Filesystem"
+msgstr "Dateisystem wird überprüft"
+
+#: src/restore.py:31
+msgid "Installing Firmware"
+msgstr "Firmware wird installiert"
+
+#: src/restore.py:32
+msgid "Updating Baseband"
+msgstr "Baseband wird aktualisiert"
+
+#: src/restore.py:33
+msgid "Updating Components"
+msgstr "Komponenten werden aktualisiert"
+
+#: src/restore.py:34
+msgid "Sending Images"
+msgstr "Abbilder werden gesendet"
+
+#: src/restore.py:63
+msgid "Restoring"
+msgstr "Wiederherstellung läuft"
+
+#: src/restore.py:134
+msgid "idevicerestore could not be started"
+msgstr "idevicerestore konnte nicht gestartet werden"
+
+#: src/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "Device"
+msgstr "Gerät"
+
+#: src/shortcuts-dialog.ui:9
+msgctxt "shortcut window"
+msgid "Choose Firmware File"
+msgstr "Firmware-Datei auswählen"
+
+#: src/shortcuts-dialog.ui:15
+msgctxt "shortcut window"
+msgid "Look for Devices"
+msgstr "Nach Geräten suchen"
+
+#: src/shortcuts-dialog.ui:21
+msgctxt "shortcut window"
+msgid "View Log"
+msgstr "Protokoll anzeigen"
+
+#: src/shortcuts-dialog.ui:29
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Allgemein"
+
+#: src/shortcuts-dialog.ui:32
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr "Einstellungen"
+
+#: src/shortcuts-dialog.ui:38
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Tastenkürzel anzeigen"
+
+#: src/shortcuts-dialog.ui:44
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Beenden"
+
+#: src/window.py:149
+msgid "Apple Device"
+msgstr "Apple-Gerät"
+
+#: src/window.py:217
+msgid "Corer needs permission to access this device over USB"
+msgstr ""
+"Corer benötigt die Berechtigung, über USB auf dieses Gerät zuzugreifen"
+
+#: src/window.py:218
+msgid "_Set Up"
+msgstr "_Einrichten"
+
+#: src/window.py:223
+msgid "The system device service (usbmuxd) is not responding"
+msgstr "Der Gerätedienst des Systems (usbmuxd) antwortet nicht"
+
+#: src/window.py:224
+msgid "_Restart It"
+msgstr "_Neu starten"
+
+#: src/window.py:229
+msgid "The device service (usbmuxd) is not available"
+msgstr "Der Gerätedienst (usbmuxd) ist nicht verfügbar"
+
+#: src/window.py:260
+msgid "USB access was set up"
+msgstr "Der USB-Zugriff wurde eingerichtet"
+
+#: src/window.py:273
+msgid "The device service was restarted"
+msgstr "Der Gerätedienst wurde neu gestartet"
+
+#: src/window.py:275
+msgid ""
+"Could not restart it. Run “sudo systemctl restart usbmuxd” in a terminal"
+msgstr ""
+"Neustart nicht möglich. Führen Sie „sudo systemctl restart usbmuxd“ in einem"
+" Terminal aus"
+
+#: src/window.py:284
+msgid "Set Up USB Access Manually"
+msgstr "USB-Zugriff manuell einrichten"
+
+#: src/window.py:285
+msgid ""
+"The setup could not be completed. Run these commands in a terminal to "
+"install the device access rule, then reconnect the device."
+msgstr ""
+"Die Einrichtung konnte nicht abgeschlossen werden. Führen Sie diese Befehle "
+"in einem Terminal aus, um die Regel für den Gerätezugriff zu installieren, "
+"und verbinden Sie das Gerät anschließend erneut."
+
+#: src/window.py:301
+msgid "_Close"
+msgstr "_Schließen"
+
+#: src/window.py:302
+msgid "C_opy Commands"
+msgstr "Befehle _kopieren"
+
+#: src/window.py:410
+msgid "Looking for available versions…"
+msgstr "Verfügbare Versionen werden gesucht …"
+
+#: src/window.py:414
+msgid "Choose a firmware file for this device"
+msgstr "Eine Firmware-Datei für dieses Gerät auswählen"
+
+#: src/window.py:416
+msgid "No firmware is currently signed for this device"
+msgstr "Für dieses Gerät ist derzeit keine Firmware signiert"
+
+#: src/window.py:418
+msgid "Using the firmware file"
+msgstr "Verwendete Firmware-Datei"
+
+#: src/window.py:422
+msgid "Downloaded"
+msgstr "Heruntergeladen"
+
+#. Translators: {size} is a file size such as “8.1 GB”
+#: src/window.py:425
+#, python-brace-format
+msgid "{size} download"
+msgstr "{size} Download"
+
+#: src/window.py:429
+msgid "Offline — showing downloaded firmware"
+msgstr "Offline – heruntergeladene Firmware wird angezeigt"
+
+#: src/window.py:436
+msgid "Use an IPSW file from this computer"
+msgstr "Eine IPSW-Datei von diesem Computer verwenden"
+
+#. Translators: {filename} is the name of a firmware file
+#: src/window.py:440
+#, python-brace-format
+msgid "{filename} is not compatible with this device"
+msgstr "{filename} ist mit diesem Gerät nicht kompatibel"
+
+#: src/window.py:453 src/window.py:587
+msgid "_Erase and Restore"
+msgstr "_Löschen und wiederherstellen"
+
+#: src/window.py:453 src/window.py:591
+msgid "_Update"
+msgstr "_Aktualisieren"
+
+#: src/window.py:468
+msgid "Exit _Recovery Mode"
+msgstr "_Wiederherstellungsmodus verlassen"
+
+#: src/window.py:471
+msgid "Enter _Recovery Mode"
+msgstr "_Wiederherstellungsmodus aktivieren"
+
+#: src/window.py:502
+msgid "Firmware Files"
+msgstr "Firmware-Dateien"
+
+#: src/window.py:507
+msgid "Choose Firmware File"
+msgstr "Firmware-Datei auswählen"
+
+#: src/window.py:518
+msgid "This file cannot be used"
+msgstr "Diese Datei kann nicht verwendet werden"
+
+#. Translators: {name} is the name of a device
+#: src/window.py:563
+#, python-brace-format
+msgid "Erase “{name}”?"
+msgstr "„{name}“ löschen?"
+
+#. Translators: {version} is a system version such as “iOS 18.1”
+#: src/window.py:565
+#, python-brace-format
+msgid ""
+"All content and settings will be permanently erased and {version} will be "
+"installed. This cannot be undone."
+msgstr ""
+"Alle Inhalte und Einstellungen werden dauerhaft gelöscht und {version} wird "
+"installiert. Dies kann nicht rückgängig gemacht werden."
+
+#: src/window.py:569
+#, python-brace-format
+msgid "Update “{name}”?"
+msgstr "„{name}“ aktualisieren?"
+
+#: src/window.py:570
+#, python-brace-format
+msgid ""
+"{version} will be installed and your content and settings will be kept. Make"
+" sure you have a backup before continuing."
+msgstr ""
+"{version} wird installiert, Ihre Inhalte und Einstellungen bleiben erhalten."
+" Stellen Sie sicher, dass Sie eine Sicherung haben, bevor Sie fortfahren."
+
+#: src/window.py:576
+msgid ""
+"This version is older than the one on the device. Downgrading without "
+"erasing is likely to fail and can cause complete data loss."
+msgstr ""
+"Diese Version ist älter als die auf dem Gerät. Ein Downgrade ohne Löschen "
+"schlägt wahrscheinlich fehl und kann zum vollständigen Datenverlust führen."
+
+#: src/window.py:580
+msgid ""
+"This firmware no longer appears to be signed, so the device will probably "
+"refuse it."
+msgstr ""
+"Diese Firmware scheint nicht mehr signiert zu sein, daher wird das Gerät sie"
+" wahrscheinlich ablehnen."
+
+#: src/window.py:582
+msgid "Keep the device connected until the process finishes."
+msgstr "Lassen Sie das Gerät verbunden, bis der Vorgang abgeschlossen ist."
+
+#: src/window.py:628
+msgid "A device is being restored"
+msgstr "Ein Gerät wird wiederhergestellt"
+
+#: src/window.py:640 src/window.py:666
+msgid "Verifying Firmware"
+msgstr "Firmware wird überprüft"
+
+#: src/window.py:642 src/window.py:668
+msgid "Downloading Firmware"
+msgstr "Firmware wird heruntergeladen"
+
+#. Translators: download progress, e.g. “1.2 GB of 8.1 GB”
+#: src/window.py:672
+#, python-brace-format
+msgid "{done} of {total}"
+msgstr "{done} von {total}"
+
+#. Translators: download speed, e.g. “12.5 MB/s”
+#: src/window.py:679
+#, python-brace-format
+msgid "{speed}/s"
+msgstr "{speed}/s"
+
+#: src/window.py:785
+msgid "Stop the Process?"
+msgstr "Vorgang anhalten?"
+
+#: src/window.py:786
+msgid ""
+"Interrupting now can leave the device unusable until it is restored again."
+msgstr ""
+"Ein Abbruch jetzt kann das Gerät unbrauchbar machen, bis es erneut "
+"wiederhergestellt wird."
+
+#: src/window.py:788 src/window.py:962
+msgid "_Continue"
+msgstr "_Fortfahren"
+
+#: src/window.py:789
+msgid "_Stop"
+msgstr "_Anhalten"
+
+#: src/window.py:807
+msgid "Stopping…"
+msgstr "Wird angehalten …"
+
+#: src/window.py:839
+msgid "Stopped"
+msgstr "Angehalten"
+
+#: src/window.py:842
+msgid "SHSH Blobs Saved"
+msgstr "SHSH-Blobs gespeichert"
+
+#: src/window.py:845
+msgid "Device Restored"
+msgstr "Gerät wiederhergestellt"
+
+#: src/window.py:846
+msgid "The device will restart and show the setup assistant."
+msgstr ""
+"Das Gerät wird neu gestartet und zeigt den Einrichtungsassistenten an."
+
+#: src/window.py:849
+msgid "Device Updated"
+msgstr "Gerät aktualisiert"
+
+#: src/window.py:850
+msgid "The device will restart when it has finished updating."
+msgstr ""
+"Das Gerät wird neu gestartet, sobald die Aktualisierung abgeschlossen ist."
+
+#: src/window.py:858
+msgid "Could Not Save SHSH Blobs"
+msgstr "SHSH-Blobs konnten nicht gespeichert werden"
+
+#: src/window.py:859
+msgid "Restore Failed"
+msgstr "Wiederherstellung fehlgeschlagen"
+
+#: src/window.py:863
+msgid "Check the log for details."
+msgstr "Details finden Sie im Protokoll."
+
+#: src/window.py:899
+msgid "The device was not found. Reconnect it and try again"
+msgstr ""
+"Das Gerät wurde nicht gefunden. Verbinden Sie es erneut und versuchen Sie es"
+" noch einmal"
+
+#: src/window.py:925
+msgid "The device is restarting"
+msgstr "Das Gerät wird neu gestartet"
+
+#: src/window.py:926
+msgid "Could not exit recovery mode"
+msgstr "Der Wiederherstellungsmodus konnte nicht verlassen werden"
+
+#: src/window.py:929
+msgid "The device is restarting in recovery mode"
+msgstr "Das Gerät wird im Wiederherstellungsmodus neu gestartet"
+
+#: src/window.py:930
+msgid ""
+"Could not enter recovery mode. Unlock the device and trust this computer"
+msgstr ""
+"Der Wiederherstellungsmodus konnte nicht aktiviert werden. Entsperren Sie "
+"das Gerät und vertrauen Sie diesem Computer"
+
+#: src/window.py:959
+msgid "Stop and Quit?"
+msgstr "Anhalten und beenden?"
+
+#: src/window.py:960
+msgid ""
+"A device is being restored. Interrupting now can leave it unusable until it "
+"is restored again."
+msgstr ""
+"Ein Gerät wird wiederhergestellt. Ein Abbruch jetzt kann es unbrauchbar "
+"machen, bis es erneut wiederhergestellt wird."
+
+#: src/window.py:963
+msgid "_Stop and Quit"
+msgstr "_Anhalten und beenden"
+
+#: src/window.ui:21
+msgid "Main Menu"
+msgstr "Hauptmenü"
+
+#: src/window.ui:56
+msgid "Connect a Device"
+msgstr "Gerät verbinden"
+
+#: src/window.ui:57
+msgid ""
+"Plug in an Apple device with a USB cable. Devices in recovery or DFU mode "
+"work too. A Mac with Apple silicon has to be in DFU mode."
+msgstr ""
+"Schließen Sie ein Apple-Gerät per USB-Kabel an. Geräte im "
+"Wiederherstellungs- oder DFU-Modus funktionieren ebenfalls. Ein Mac mit "
+"Apple Silicon muss sich im DFU-Modus befinden."
+
+#: src/window.ui:124
+msgid "Device"
+msgstr "Gerät"
+
+#: src/window.ui:131
+msgid "Version"
+msgstr "Version"
+
+#: src/window.ui:145
+msgid "Try Again"
+msgstr "Erneut versuchen"
+
+#: src/window.ui:156
+msgid "Firmware File"
+msgstr "Firmware-Datei"
+
+#: src/window.ui:164
+msgid "Remove File"
+msgstr "Datei entfernen"
+
+#: src/window.ui:175
+msgid "Choose File"
+msgstr "Datei auswählen"
+
+#: src/window.ui:190
+msgid "Erase Device"
+msgstr "Gerät löschen"
+
+#: src/window.ui:191
+msgid "Remove all content and settings"
+msgstr "Alle Inhalte und Einstellungen entfernen"
+
+#: src/window.ui:312 src/window.ui:377 src/window.ui:427
+msgid "View _Log"
+msgstr "_Protokoll anzeigen"
+
+#: src/window.ui:349
+msgid "_Done"
+msgstr "_Fertig"
+
+#: src/window.ui:387
+msgid "_Back"
+msgstr "_Zurück"
+
+#: src/window.ui:397
+msgid "_Try Again"
+msgstr "_Erneut versuchen"
+
+#: src/window.ui:423
+msgid "_Save SHSH Blobs"
+msgstr "SHSH-Blobs _speichern"
+
+#: src/window.ui:433
+msgid "_Preferences"
+msgstr "_Einstellungen"
+
+#: src/window.ui:437
+msgid "_Keyboard Shortcuts"
+msgstr "_Tastenkürzel"
+
+#: src/window.ui:441
+msgid "_About Corer"
+msgstr "_Info zu Corer"

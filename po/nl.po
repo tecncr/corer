@@ -1,0 +1,862 @@
+# Dutch translation for Corer.
+# Copyright (C) 2026 Corer contributors
+# This file is distributed under the same license as the corer package.
+# Nícolas Castillo <code@tecncr.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: corer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 02:42-0500\n"
+"PO-Revision-Date: 2026-11-17 03:48-0500\n"
+"Last-Translator: Nícolas Castillo <code@tecncr.com>\n"
+"Language-Team: Dutch\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/com.tecncr.Corer.desktop.in.in:2
+#: data/com.tecncr.Corer.metainfo.xml.in.in:7 src/window.ui:6
+msgid "Corer"
+msgstr "Corer"
+
+#. Translators: Short description shown in GNOME Shell search and app grids.
+#. Keep it under 80 characters.
+#: data/com.tecncr.Corer.desktop.in.in:5
+msgid "Restore firmware to Apple devices"
+msgstr "Firmware van Apple-apparaten herstellen"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/com.tecncr.Corer.desktop.in.in:12
+msgid ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;"
+msgstr ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Herstellen;Update;Bijwerken;IPSW;Recovery;DFU;"
+
+#: data/com.tecncr.Corer.gschema.xml:6
+msgid "Window width"
+msgstr "Vensterbreedte"
+
+#: data/com.tecncr.Corer.gschema.xml:10
+msgid "Window height"
+msgstr "Vensterhoogte"
+
+#: data/com.tecncr.Corer.gschema.xml:14
+msgid "Whether the window is maximized"
+msgstr "Of het venster gemaximaliseerd is"
+
+#: data/com.tecncr.Corer.gschema.xml:18
+msgid "Keep downloaded firmware"
+msgstr "Gedownloade firmware bewaren"
+
+#: data/com.tecncr.Corer.gschema.xml:19
+msgid ""
+"Keep downloaded firmware files in the cache after a successful restore so "
+"they can be reused."
+msgstr ""
+"Bewaart gedownloade firmwarebestanden in de cache na een geslaagd herstel, "
+"zodat ze opnieuw gebruikt kunnen worden."
+
+#: data/com.tecncr.Corer.gschema.xml:23
+msgid "Verbose logging"
+msgstr "Uitgebreide logboekregistratie"
+
+#: data/com.tecncr.Corer.gschema.xml:24
+msgid "Ask idevicerestore to print additional debug output."
+msgstr "Vraagt idevicerestore om extra foutopsporingsuitvoer weer te geven."
+
+#: data/com.tecncr.Corer.gschema.xml:28
+msgid "Allow restoring from restore mode"
+msgstr "Herstellen vanuit herstelmodus toestaan"
+
+#: data/com.tecncr.Corer.gschema.xml:32
+msgid "Continue after certain errors"
+msgstr "Doorgaan na bepaalde fouten"
+
+#: data/com.tecncr.Corer.gschema.xml:33
+msgid ""
+"Try to continue the restore process after certain errors, like a failed "
+"baseband update."
+msgstr ""
+"Probeert het herstel voort te zetten na bepaalde fouten, zoals een mislukte "
+"baseband-update."
+
+#: data/com.tecncr.Corer.gschema.xml:37
+msgid "Skip NOR and baseband upgrade"
+msgstr "NOR- en baseband-upgrade overslaan"
+
+#: data/com.tecncr.Corer.gschema.xml:41
+msgid "Keep personalized components"
+msgstr "Gepersonaliseerde onderdelen bewaren"
+
+#: data/com.tecncr.Corer.gschema.xml:42
+msgid "Write personalized components to files for debugging."
+msgstr ""
+"Schrijft gepersonaliseerde onderdelen naar bestanden voor foutopsporing."
+
+#: data/com.tecncr.Corer.gschema.xml:46
+msgid "Restore custom firmware"
+msgstr "Aangepaste firmware herstellen"
+
+#: data/com.tecncr.Corer.gschema.xml:47
+msgid "Restore with a custom firmware. Requires a bootrom exploit."
+msgstr "Herstelt met een aangepaste firmware. Vereist een bootrom-exploit."
+
+#: data/com.tecncr.Corer.gschema.xml:51
+msgid "Stop after booting the ramdisk"
+msgstr "Stoppen na het opstarten van de ramdisk"
+
+#: data/com.tecncr.Corer.gschema.xml:55
+msgid "Signing server URL"
+msgstr "URL van de ondertekeningsserver"
+
+#: data/com.tecncr.Corer.gschema.xml:56
+msgid ""
+"Overrides the default signing server request URL. Empty uses the default."
+msgstr ""
+"Overschrijft de standaard-URL voor verzoeken aan de ondertekeningsserver. "
+"Indien leeg wordt de standaardwaarde gebruikt."
+
+#: data/com.tecncr.Corer.gschema.xml:60
+msgid "Restore variant"
+msgstr "Herstelvariant"
+
+#: data/com.tecncr.Corer.gschema.xml:61
+msgid "Build identity variant to use. Empty selects it automatically."
+msgstr ""
+"De te gebruiken buildidentiteitsvariant. Indien leeg wordt deze automatisch "
+"gekozen."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:8
+msgid "Restore and update Apple devices"
+msgstr "Apple-apparaten herstellen en bijwerken"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:10
+msgid ""
+"Corer installs firmware on Apple devices, including Mac computers with Apple"
+" silicon in DFU mode. Connect a device, pick a version and choose whether to"
+" keep or erase its content."
+msgstr ""
+"Corer installeert firmware op Apple-apparaten, inclusief Mac-computers met "
+"Apple silicon in DFU-modus. Sluit een apparaat aan, kies een versie en "
+"bepaal of de inhoud behouden of gewist wordt."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:16
+msgid "Update a device while keeping its data, or erase and restore it"
+msgstr ""
+"Werk een apparaat bij met behoud van de gegevens, of wis en herstel het"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:17
+msgid "Download currently signed firmware on demand and reuse it later"
+msgstr ""
+"Download de momenteel ondertekende firmware op aanvraag en gebruik die later"
+" opnieuw"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:18
+msgid "Use a firmware file you already have"
+msgstr "Gebruik een firmwarebestand dat u al hebt"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:19
+msgid "Recover devices stuck in recovery or DFU mode"
+msgstr "Red apparaten die vastzitten in herstel- of DFU-modus"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:21
+msgid ""
+"Corer is powered by idevicerestore and libimobiledevice. It is not "
+"affiliated with or endorsed by Apple Inc."
+msgstr ""
+"Corer wordt aangedreven door idevicerestore en libimobiledevice. Het is niet"
+" gelieerd aan of goedgekeurd door Apple Inc."
+
+#: src/devices.py:89
+msgid "Recovery Mode"
+msgstr "Herstelmodus"
+
+#: src/devices.py:91
+msgid "DFU Mode"
+msgstr "DFU-modus"
+
+#: src/firmware.py:145 src/firmware.py:150
+msgid "Could not load the list of available versions"
+msgstr "Kon de lijst met beschikbare versies niet laden"
+
+#: src/firmware.py:185
+msgid "This is not a valid firmware file"
+msgstr "Dit is geen geldig firmwarebestand"
+
+#: src/firmware.py:335
+msgid "This firmware is not available for download"
+msgstr "Deze firmware is niet beschikbaar om te downloaden"
+
+#: src/firmware.py:349
+msgid "Not enough free disk space to download the firmware"
+msgstr "Niet genoeg vrije schijfruimte om de firmware te downloaden"
+
+#: src/firmware.py:360
+msgid "The download server refused the request"
+msgstr "De downloadserver heeft het verzoek geweigerd"
+
+#: src/firmware.py:367
+msgid "The download failed. Check your network connection"
+msgstr "De download is mislukt. Controleer uw netwerkverbinding"
+
+#: src/firmware.py:374
+msgid "The downloaded firmware is incomplete"
+msgstr "De gedownloade firmware is onvolledig"
+
+#: src/firmware.py:377
+msgid "The downloaded firmware is corrupted"
+msgstr "De gedownloade firmware is beschadigd"
+
+#: src/log_dialog.py:16
+msgid "Log"
+msgstr "Logboek"
+
+#: src/log_dialog.py:24
+msgid "Copy"
+msgstr "Kopiëren"
+
+#: src/log_dialog.py:28
+msgid "Save…"
+msgstr "Opslaan…"
+
+#: src/log_dialog.py:36
+msgid "No Log Yet"
+msgstr "Nog geen logboek"
+
+#: src/log_dialog.py:37
+msgid "Output appears here when a device is restored."
+msgstr "Uitvoer verschijnt hier wanneer een apparaat wordt hersteld."
+
+#: src/log_dialog.py:81 src/window.py:310
+msgid "Copied to clipboard"
+msgstr "Gekopieerd naar klembord"
+
+#: src/log_dialog.py:84
+msgid "Save Log"
+msgstr "Logboek opslaan"
+
+#. Translators: Replace "translator-credits" with your name/username, and
+#. optionally an email or URL.
+#: src/main.py:90
+msgid "translator-credits"
+msgstr "Nícolas Castillo <code@tecncr.com>"
+
+#: src/main.py:96
+msgid "Powered By"
+msgstr "Mogelijk gemaakt door"
+
+#. Firmware
+#: src/preferences.py:23 src/preferences.py:77
+msgid "Firmware"
+msgstr "Firmware"
+
+#: src/preferences.py:28
+msgid "Downloads"
+msgstr "Downloads"
+
+#: src/preferences.py:29
+msgid ""
+"Downloaded firmware is stored so that it does not have to be downloaded "
+"again."
+msgstr ""
+"Gedownloade firmware wordt opgeslagen zodat deze niet opnieuw gedownload "
+"hoeft te worden."
+
+#: src/preferences.py:33
+msgid "_Keep Downloaded Firmware"
+msgstr "Gedownloade firmware _bewaren"
+
+#: src/preferences.py:34
+msgid "Turn off to delete firmware after a successful restore"
+msgstr "Schakel uit om firmware na een geslaagd herstel te verwijderen"
+
+#: src/preferences.py:36
+msgid "Stored Firmware"
+msgstr "Opgeslagen firmware"
+
+#: src/preferences.py:37
+msgid "Calculating…"
+msgstr "Berekenen…"
+
+#: src/preferences.py:39 src/preferences.py:96
+msgid "Open Folder"
+msgstr "Map openen"
+
+#: src/preferences.py:44 src/preferences.py:145
+msgid "_Delete"
+msgstr "_Verwijderen"
+
+#. Advanced
+#: src/preferences.py:54
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: src/preferences.py:59
+msgid "Restore"
+msgstr "Herstellen"
+
+#: src/preferences.py:60
+msgid ""
+"These options can leave a device unable to start. Change them only if you "
+"know what they do."
+msgstr ""
+"Deze opties kunnen ervoor zorgen dat een apparaat niet meer opstart. Wijzig "
+"ze alleen als u weet wat ze doen."
+
+#: src/preferences.py:64
+msgid "Restore From _Restore Mode"
+msgstr "Herstellen vanuit _herstelmodus"
+
+#: src/preferences.py:65
+msgid "Allow starting with a device that is already in restore mode"
+msgstr ""
+"Staat toe te starten met een apparaat dat zich al in herstelmodus bevindt"
+
+#: src/preferences.py:67
+msgid "_Ignore Errors"
+msgstr "Fouten _negeren"
+
+#: src/preferences.py:68
+msgid "Try to continue after certain errors, like a failed baseband update"
+msgstr ""
+"Probeert door te gaan na bepaalde fouten, zoals een mislukte baseband-update"
+
+#: src/preferences.py:71
+msgid "Skip _Baseband"
+msgstr "_Baseband overslaan"
+
+#: src/preferences.py:72
+msgid "Do not upgrade NOR and baseband on legacy devices"
+msgstr "NOR en baseband niet upgraden op oudere apparaten"
+
+#: src/preferences.py:74
+msgid "_Stop After Ramdisk"
+msgstr "_Stoppen na ramdisk"
+
+#: src/preferences.py:75
+msgid "Boot the restore ramdisk without restoring"
+msgstr "Start de herstel-ramdisk zonder te herstellen"
+
+#: src/preferences.py:80
+msgid "_Custom Firmware"
+msgstr "_Aangepaste firmware"
+
+#: src/preferences.py:81
+msgid "Restore custom firmware. Requires a bootrom exploit"
+msgstr "Herstelt een aangepaste firmware. Vereist een bootrom-exploit"
+
+#: src/preferences.py:82
+msgid "Restore _Variant"
+msgstr "Herstel_variant"
+
+#: src/preferences.py:83
+msgid "Signing Server _URL"
+msgstr "_URL van ondertekeningsserver"
+
+#: src/preferences.py:86
+msgid "Troubleshooting"
+msgstr "Probleemoplossing"
+
+#: src/preferences.py:89
+msgid "_Detailed Log"
+msgstr "_Uitgebreid logboek"
+
+#: src/preferences.py:90
+msgid "Include all debugging output from idevicerestore in the log"
+msgstr "Alle foutopsporingsuitvoer van idevicerestore in het logboek opnemen"
+
+#: src/preferences.py:92
+msgid "Log Files"
+msgstr "Logboekbestanden"
+
+#: src/preferences.py:93
+msgid "Every restore is recorded, even if Corer quits unexpectedly"
+msgstr "Elk herstel wordt vastgelegd, ook als Corer onverwacht afsluit"
+
+#: src/preferences.py:103
+msgid "Keep _Personalized Components"
+msgstr "_Gepersonaliseerde onderdelen bewaren"
+
+#: src/preferences.py:104
+msgid "Write personalized components to files for debugging"
+msgstr ""
+"Schrijft gepersonaliseerde onderdelen naar bestanden voor foutopsporing"
+
+#: src/preferences.py:141
+msgid "Delete Stored Firmware?"
+msgstr "Opgeslagen firmware verwijderen?"
+
+#: src/preferences.py:142
+msgid "Firmware will be downloaded again the next time it is needed."
+msgstr ""
+"De firmware wordt opnieuw gedownload wanneer die de volgende keer nodig is."
+
+#: src/preferences.py:144 src/window.py:585 src/window.ui:322
+msgid "_Cancel"
+msgstr "_Annuleren"
+
+#: src/restore.py:27
+msgid "Detecting Device"
+msgstr "Apparaat detecteren"
+
+#: src/restore.py:28
+msgid "Preparing Device"
+msgstr "Apparaat voorbereiden"
+
+#: src/restore.py:29
+msgid "Sending Filesystem"
+msgstr "Bestandssysteem verzenden"
+
+#: src/restore.py:30
+msgid "Verifying Filesystem"
+msgstr "Bestandssysteem verifiëren"
+
+#: src/restore.py:31
+msgid "Installing Firmware"
+msgstr "Firmware installeren"
+
+#: src/restore.py:32
+msgid "Updating Baseband"
+msgstr "Baseband bijwerken"
+
+#: src/restore.py:33
+msgid "Updating Components"
+msgstr "Onderdelen bijwerken"
+
+#: src/restore.py:34
+msgid "Sending Images"
+msgstr "Images verzenden"
+
+#: src/restore.py:63
+msgid "Restoring"
+msgstr "Herstellen"
+
+#: src/restore.py:134
+msgid "idevicerestore could not be started"
+msgstr "idevicerestore kon niet worden gestart"
+
+#: src/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "Device"
+msgstr "Apparaat"
+
+#: src/shortcuts-dialog.ui:9
+msgctxt "shortcut window"
+msgid "Choose Firmware File"
+msgstr "Firmwarebestand kiezen"
+
+#: src/shortcuts-dialog.ui:15
+msgctxt "shortcut window"
+msgid "Look for Devices"
+msgstr "Naar apparaten zoeken"
+
+#: src/shortcuts-dialog.ui:21
+msgctxt "shortcut window"
+msgid "View Log"
+msgstr "Logboek tonen"
+
+#: src/shortcuts-dialog.ui:29
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Algemeen"
+
+#: src/shortcuts-dialog.ui:32
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: src/shortcuts-dialog.ui:38
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Sneltoetsen tonen"
+
+#: src/shortcuts-dialog.ui:44
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Afsluiten"
+
+#: src/window.py:149
+msgid "Apple Device"
+msgstr "Apple-apparaat"
+
+#: src/window.py:217
+msgid "Corer needs permission to access this device over USB"
+msgstr ""
+"Corer heeft toestemming nodig om via USB toegang te krijgen tot dit apparaat"
+
+#: src/window.py:218
+msgid "_Set Up"
+msgstr "_Instellen"
+
+#: src/window.py:223
+msgid "The system device service (usbmuxd) is not responding"
+msgstr "De apparaatservice van het systeem (usbmuxd) reageert niet"
+
+#: src/window.py:224
+msgid "_Restart It"
+msgstr "_Herstarten"
+
+#: src/window.py:229
+msgid "The device service (usbmuxd) is not available"
+msgstr "De apparaatservice (usbmuxd) is niet beschikbaar"
+
+#: src/window.py:260
+msgid "USB access was set up"
+msgstr "USB-toegang is ingesteld"
+
+#: src/window.py:273
+msgid "The device service was restarted"
+msgstr "De apparaatservice is herstart"
+
+#: src/window.py:275
+msgid ""
+"Could not restart it. Run “sudo systemctl restart usbmuxd” in a terminal"
+msgstr ""
+"Herstarten is niet gelukt. Voer ‘sudo systemctl restart usbmuxd’ uit in een "
+"terminal"
+
+#: src/window.py:284
+msgid "Set Up USB Access Manually"
+msgstr "USB-toegang handmatig instellen"
+
+#: src/window.py:285
+msgid ""
+"The setup could not be completed. Run these commands in a terminal to "
+"install the device access rule, then reconnect the device."
+msgstr ""
+"De installatie kon niet worden voltooid. Voer deze opdrachten uit in een "
+"terminal om de regel voor apparaattoegang te installeren en sluit het "
+"apparaat daarna opnieuw aan."
+
+#: src/window.py:301
+msgid "_Close"
+msgstr "_Sluiten"
+
+#: src/window.py:302
+msgid "C_opy Commands"
+msgstr "Opdrachten _kopiëren"
+
+#: src/window.py:410
+msgid "Looking for available versions…"
+msgstr "Zoeken naar beschikbare versies…"
+
+#: src/window.py:414
+msgid "Choose a firmware file for this device"
+msgstr "Kies een firmwarebestand voor dit apparaat"
+
+#: src/window.py:416
+msgid "No firmware is currently signed for this device"
+msgstr "Er is momenteel geen firmware ondertekend voor dit apparaat"
+
+#: src/window.py:418
+msgid "Using the firmware file"
+msgstr "Het firmwarebestand gebruiken"
+
+#: src/window.py:422
+msgid "Downloaded"
+msgstr "Gedownload"
+
+#. Translators: {size} is a file size such as “8.1 GB”
+#: src/window.py:425
+#, python-brace-format
+msgid "{size} download"
+msgstr "{size} downloaden"
+
+#: src/window.py:429
+msgid "Offline — showing downloaded firmware"
+msgstr "Offline — gedownloade firmware wordt getoond"
+
+#: src/window.py:436
+msgid "Use an IPSW file from this computer"
+msgstr "Een IPSW-bestand van deze computer gebruiken"
+
+#. Translators: {filename} is the name of a firmware file
+#: src/window.py:440
+#, python-brace-format
+msgid "{filename} is not compatible with this device"
+msgstr "{filename} is niet compatibel met dit apparaat"
+
+#: src/window.py:453 src/window.py:587
+msgid "_Erase and Restore"
+msgstr "_Wissen en herstellen"
+
+#: src/window.py:453 src/window.py:591
+msgid "_Update"
+msgstr "_Bijwerken"
+
+#: src/window.py:468
+msgid "Exit _Recovery Mode"
+msgstr "_Herstelmodus verlaten"
+
+#: src/window.py:471
+msgid "Enter _Recovery Mode"
+msgstr "_Herstelmodus starten"
+
+#: src/window.py:502
+msgid "Firmware Files"
+msgstr "Firmwarebestanden"
+
+#: src/window.py:507
+msgid "Choose Firmware File"
+msgstr "Firmwarebestand kiezen"
+
+#: src/window.py:518
+msgid "This file cannot be used"
+msgstr "Dit bestand kan niet worden gebruikt"
+
+#. Translators: {name} is the name of a device
+#: src/window.py:563
+#, python-brace-format
+msgid "Erase “{name}”?"
+msgstr "‘{name}’ wissen?"
+
+#. Translators: {version} is a system version such as “iOS 18.1”
+#: src/window.py:565
+#, python-brace-format
+msgid ""
+"All content and settings will be permanently erased and {version} will be "
+"installed. This cannot be undone."
+msgstr ""
+"Alle inhoud en instellingen worden definitief gewist en {version} wordt "
+"geïnstalleerd. Dit kan niet ongedaan worden gemaakt."
+
+#: src/window.py:569
+#, python-brace-format
+msgid "Update “{name}”?"
+msgstr "‘{name}’ bijwerken?"
+
+#: src/window.py:570
+#, python-brace-format
+msgid ""
+"{version} will be installed and your content and settings will be kept. Make"
+" sure you have a backup before continuing."
+msgstr ""
+"{version} wordt geïnstalleerd en uw inhoud en instellingen blijven behouden."
+" Zorg dat u een back-up hebt voordat u doorgaat."
+
+#: src/window.py:576
+msgid ""
+"This version is older than the one on the device. Downgrading without "
+"erasing is likely to fail and can cause complete data loss."
+msgstr ""
+"Deze versie is ouder dan die op het apparaat. Downgraden zonder te wissen "
+"mislukt waarschijnlijk en kan leiden tot volledig gegevensverlies."
+
+#: src/window.py:580
+msgid ""
+"This firmware no longer appears to be signed, so the device will probably "
+"refuse it."
+msgstr ""
+"Deze firmware lijkt niet meer ondertekend te zijn, dus het apparaat zal deze"
+" waarschijnlijk weigeren."
+
+#: src/window.py:582
+msgid "Keep the device connected until the process finishes."
+msgstr "Houd het apparaat aangesloten totdat het proces is voltooid."
+
+#: src/window.py:628
+msgid "A device is being restored"
+msgstr "Een apparaat wordt hersteld"
+
+#: src/window.py:640 src/window.py:666
+msgid "Verifying Firmware"
+msgstr "Firmware verifiëren"
+
+#: src/window.py:642 src/window.py:668
+msgid "Downloading Firmware"
+msgstr "Firmware downloaden"
+
+#. Translators: download progress, e.g. “1.2 GB of 8.1 GB”
+#: src/window.py:672
+#, python-brace-format
+msgid "{done} of {total}"
+msgstr "{done} van {total}"
+
+#. Translators: download speed, e.g. “12.5 MB/s”
+#: src/window.py:679
+#, python-brace-format
+msgid "{speed}/s"
+msgstr "{speed}/s"
+
+#: src/window.py:785
+msgid "Stop the Process?"
+msgstr "Het proces stoppen?"
+
+#: src/window.py:786
+msgid ""
+"Interrupting now can leave the device unusable until it is restored again."
+msgstr ""
+"Onderbreken kan het apparaat onbruikbaar maken totdat het opnieuw wordt "
+"hersteld."
+
+#: src/window.py:788 src/window.py:962
+msgid "_Continue"
+msgstr "_Doorgaan"
+
+#: src/window.py:789
+msgid "_Stop"
+msgstr "_Stoppen"
+
+#: src/window.py:807
+msgid "Stopping…"
+msgstr "Stoppen…"
+
+#: src/window.py:839
+msgid "Stopped"
+msgstr "Gestopt"
+
+#: src/window.py:842
+msgid "SHSH Blobs Saved"
+msgstr "SHSH-blobs opgeslagen"
+
+#: src/window.py:845
+msgid "Device Restored"
+msgstr "Apparaat hersteld"
+
+#: src/window.py:846
+msgid "The device will restart and show the setup assistant."
+msgstr "Het apparaat wordt herstart en toont de configuratie-assistent."
+
+#: src/window.py:849
+msgid "Device Updated"
+msgstr "Apparaat bijgewerkt"
+
+#: src/window.py:850
+msgid "The device will restart when it has finished updating."
+msgstr "Het apparaat wordt herstart wanneer het bijwerken is voltooid."
+
+#: src/window.py:858
+msgid "Could Not Save SHSH Blobs"
+msgstr "SHSH-blobs konden niet worden opgeslagen"
+
+#: src/window.py:859
+msgid "Restore Failed"
+msgstr "Herstel mislukt"
+
+#: src/window.py:863
+msgid "Check the log for details."
+msgstr "Raadpleeg het logboek voor details."
+
+#: src/window.py:899
+msgid "The device was not found. Reconnect it and try again"
+msgstr ""
+"Het apparaat is niet gevonden. Sluit het opnieuw aan en probeer het opnieuw"
+
+#: src/window.py:925
+msgid "The device is restarting"
+msgstr "Het apparaat wordt herstart"
+
+#: src/window.py:926
+msgid "Could not exit recovery mode"
+msgstr "Kon herstelmodus niet verlaten"
+
+#: src/window.py:929
+msgid "The device is restarting in recovery mode"
+msgstr "Het apparaat wordt herstart in herstelmodus"
+
+#: src/window.py:930
+msgid ""
+"Could not enter recovery mode. Unlock the device and trust this computer"
+msgstr ""
+"Kon herstelmodus niet starten. Ontgrendel het apparaat en vertrouw deze "
+"computer"
+
+#: src/window.py:959
+msgid "Stop and Quit?"
+msgstr "Stoppen en afsluiten?"
+
+#: src/window.py:960
+msgid ""
+"A device is being restored. Interrupting now can leave it unusable until it "
+"is restored again."
+msgstr ""
+"Een apparaat wordt hersteld. Onderbreken kan het onbruikbaar maken totdat "
+"het opnieuw wordt hersteld."
+
+#: src/window.py:963
+msgid "_Stop and Quit"
+msgstr "_Stoppen en afsluiten"
+
+#: src/window.ui:21
+msgid "Main Menu"
+msgstr "Hoofdmenu"
+
+#: src/window.ui:56
+msgid "Connect a Device"
+msgstr "Een apparaat aansluiten"
+
+#: src/window.ui:57
+msgid ""
+"Plug in an Apple device with a USB cable. Devices in recovery or DFU mode "
+"work too. A Mac with Apple silicon has to be in DFU mode."
+msgstr ""
+"Sluit een Apple-apparaat aan met een USB-kabel. Apparaten in herstel- of "
+"DFU-modus werken ook. Een Mac met Apple silicon moet in DFU-modus staan."
+
+#: src/window.ui:124
+msgid "Device"
+msgstr "Apparaat"
+
+#: src/window.ui:131
+msgid "Version"
+msgstr "Versie"
+
+#: src/window.ui:145
+msgid "Try Again"
+msgstr "Opnieuw proberen"
+
+#: src/window.ui:156
+msgid "Firmware File"
+msgstr "Firmwarebestand"
+
+#: src/window.ui:164
+msgid "Remove File"
+msgstr "Bestand verwijderen"
+
+#: src/window.ui:175
+msgid "Choose File"
+msgstr "Bestand kiezen"
+
+#: src/window.ui:190
+msgid "Erase Device"
+msgstr "Apparaat wissen"
+
+#: src/window.ui:191
+msgid "Remove all content and settings"
+msgstr "Alle inhoud en instellingen verwijderen"
+
+#: src/window.ui:312 src/window.ui:377 src/window.ui:427
+msgid "View _Log"
+msgstr "_Logboek tonen"
+
+#: src/window.ui:349
+msgid "_Done"
+msgstr "_Gereed"
+
+#: src/window.ui:387
+msgid "_Back"
+msgstr "_Terug"
+
+#: src/window.ui:397
+msgid "_Try Again"
+msgstr "_Opnieuw proberen"
+
+#: src/window.ui:423
+msgid "_Save SHSH Blobs"
+msgstr "SHSH-blobs _opslaan"
+
+#: src/window.ui:433
+msgid "_Preferences"
+msgstr "_Voorkeuren"
+
+#: src/window.ui:437
+msgid "_Keyboard Shortcuts"
+msgstr "_Sneltoetsen"
+
+#: src/window.ui:441
+msgid "_About Corer"
+msgstr "_Over Corer"

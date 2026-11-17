@@ -1,0 +1,819 @@
+# Chinese (China) translation for Corer.
+# Copyright (C) 2026 Corer contributors
+# This file is distributed under the same license as the corer package.
+# Nícolas Castillo <code@tecncr.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: corer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 02:42-0500\n"
+"PO-Revision-Date: 2026-11-17 03:53-0500\n"
+"Last-Translator: Nícolas Castillo <code@tecncr.com>\n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/com.tecncr.Corer.desktop.in.in:2
+#: data/com.tecncr.Corer.metainfo.xml.in.in:7 src/window.ui:6
+msgid "Corer"
+msgstr "Corer"
+
+#. Translators: Short description shown in GNOME Shell search and app grids.
+#. Keep it under 80 characters.
+#: data/com.tecncr.Corer.desktop.in.in:5
+msgid "Restore firmware to Apple devices"
+msgstr "恢复 Apple 设备的固件"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/com.tecncr.Corer.desktop.in.in:12
+msgid ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;"
+msgstr ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;固件;Restore;恢复;Update;更新;IPSW;Recovery;DFU;"
+
+#: data/com.tecncr.Corer.gschema.xml:6
+msgid "Window width"
+msgstr "窗口宽度"
+
+#: data/com.tecncr.Corer.gschema.xml:10
+msgid "Window height"
+msgstr "窗口高度"
+
+#: data/com.tecncr.Corer.gschema.xml:14
+msgid "Whether the window is maximized"
+msgstr "窗口是否最大化"
+
+#: data/com.tecncr.Corer.gschema.xml:18
+msgid "Keep downloaded firmware"
+msgstr "保留已下载的固件"
+
+#: data/com.tecncr.Corer.gschema.xml:19
+msgid ""
+"Keep downloaded firmware files in the cache after a successful restore so "
+"they can be reused."
+msgstr "成功恢复后，将已下载的固件文件保留在缓存中，以便重复使用。"
+
+#: data/com.tecncr.Corer.gschema.xml:23
+msgid "Verbose logging"
+msgstr "详细日志"
+
+#: data/com.tecncr.Corer.gschema.xml:24
+msgid "Ask idevicerestore to print additional debug output."
+msgstr "要求 idevicerestore 输出额外的调试信息。"
+
+#: data/com.tecncr.Corer.gschema.xml:28
+msgid "Allow restoring from restore mode"
+msgstr "允许从恢复模式进行恢复"
+
+#: data/com.tecncr.Corer.gschema.xml:32
+msgid "Continue after certain errors"
+msgstr "出现某些错误后继续"
+
+#: data/com.tecncr.Corer.gschema.xml:33
+msgid ""
+"Try to continue the restore process after certain errors, like a failed "
+"baseband update."
+msgstr "出现某些错误（例如基带更新失败）后，尝试继续恢复过程。"
+
+#: data/com.tecncr.Corer.gschema.xml:37
+msgid "Skip NOR and baseband upgrade"
+msgstr "跳过 NOR 和基带升级"
+
+#: data/com.tecncr.Corer.gschema.xml:41
+msgid "Keep personalized components"
+msgstr "保留个性化组件"
+
+#: data/com.tecncr.Corer.gschema.xml:42
+msgid "Write personalized components to files for debugging."
+msgstr "将个性化组件写入文件以便调试。"
+
+#: data/com.tecncr.Corer.gschema.xml:46
+msgid "Restore custom firmware"
+msgstr "恢复自定义固件"
+
+#: data/com.tecncr.Corer.gschema.xml:47
+msgid "Restore with a custom firmware. Requires a bootrom exploit."
+msgstr "使用自定义固件进行恢复。需要 bootrom 漏洞利用。"
+
+#: data/com.tecncr.Corer.gschema.xml:51
+msgid "Stop after booting the ramdisk"
+msgstr "启动 ramdisk 后停止"
+
+#: data/com.tecncr.Corer.gschema.xml:55
+msgid "Signing server URL"
+msgstr "签名服务器 URL"
+
+#: data/com.tecncr.Corer.gschema.xml:56
+msgid ""
+"Overrides the default signing server request URL. Empty uses the default."
+msgstr "覆盖发往签名服务器请求的默认 URL。留空则使用默认值。"
+
+#: data/com.tecncr.Corer.gschema.xml:60
+msgid "Restore variant"
+msgstr "恢复变体"
+
+#: data/com.tecncr.Corer.gschema.xml:61
+msgid "Build identity variant to use. Empty selects it automatically."
+msgstr "要使用的构建标识变体。留空则自动选择。"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:8
+msgid "Restore and update Apple devices"
+msgstr "恢复和更新 Apple 设备"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:10
+msgid ""
+"Corer installs firmware on Apple devices, including Mac computers with Apple"
+" silicon in DFU mode. Connect a device, pick a version and choose whether to"
+" keep or erase its content."
+msgstr ""
+"Corer 可为 Apple 设备安装固件，包括处于 DFU 模式的搭载 Apple 芯片的 Mac "
+"电脑。连接设备，选择版本，并决定保留还是抹除其内容。"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:16
+msgid "Update a device while keeping its data, or erase and restore it"
+msgstr "更新设备并保留数据，或抹除并恢复设备"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:17
+msgid "Download currently signed firmware on demand and reuse it later"
+msgstr "按需下载当前已签名的固件，并在以后重复使用"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:18
+msgid "Use a firmware file you already have"
+msgstr "使用您已有的固件文件"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:19
+msgid "Recover devices stuck in recovery or DFU mode"
+msgstr "救援卡在恢复模式或 DFU 模式的设备"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:21
+msgid ""
+"Corer is powered by idevicerestore and libimobiledevice. It is not "
+"affiliated with or endorsed by Apple Inc."
+msgstr ""
+"Corer 基于 idevicerestore 和 libimobiledevice 开发。它与 Apple Inc. 无关联，也未获得 Apple "
+"Inc. 的认可。"
+
+#: src/devices.py:89
+msgid "Recovery Mode"
+msgstr "恢复模式"
+
+#: src/devices.py:91
+msgid "DFU Mode"
+msgstr "DFU 模式"
+
+#: src/firmware.py:145 src/firmware.py:150
+msgid "Could not load the list of available versions"
+msgstr "无法加载可用版本列表"
+
+#: src/firmware.py:185
+msgid "This is not a valid firmware file"
+msgstr "这不是有效的固件文件"
+
+#: src/firmware.py:335
+msgid "This firmware is not available for download"
+msgstr "此固件无法下载"
+
+#: src/firmware.py:349
+msgid "Not enough free disk space to download the firmware"
+msgstr "磁盘可用空间不足，无法下载固件"
+
+#: src/firmware.py:360
+msgid "The download server refused the request"
+msgstr "下载服务器拒绝了请求"
+
+#: src/firmware.py:367
+msgid "The download failed. Check your network connection"
+msgstr "下载失败。请检查网络连接"
+
+#: src/firmware.py:374
+msgid "The downloaded firmware is incomplete"
+msgstr "已下载的固件不完整"
+
+#: src/firmware.py:377
+msgid "The downloaded firmware is corrupted"
+msgstr "已下载的固件已损坏"
+
+#: src/log_dialog.py:16
+msgid "Log"
+msgstr "日志"
+
+#: src/log_dialog.py:24
+msgid "Copy"
+msgstr "复制"
+
+#: src/log_dialog.py:28
+msgid "Save…"
+msgstr "保存…"
+
+#: src/log_dialog.py:36
+msgid "No Log Yet"
+msgstr "暂无日志"
+
+#: src/log_dialog.py:37
+msgid "Output appears here when a device is restored."
+msgstr "恢复设备时，输出将显示在这里。"
+
+#: src/log_dialog.py:81 src/window.py:310
+msgid "Copied to clipboard"
+msgstr "已复制到剪贴板"
+
+#: src/log_dialog.py:84
+msgid "Save Log"
+msgstr "保存日志"
+
+#. Translators: Replace "translator-credits" with your name/username, and
+#. optionally an email or URL.
+#: src/main.py:90
+msgid "translator-credits"
+msgstr "Nícolas Castillo <code@tecncr.com>"
+
+#: src/main.py:96
+msgid "Powered By"
+msgstr "技术支持"
+
+#. Firmware
+#: src/preferences.py:23 src/preferences.py:77
+msgid "Firmware"
+msgstr "固件"
+
+#: src/preferences.py:28
+msgid "Downloads"
+msgstr "下载"
+
+#: src/preferences.py:29
+msgid ""
+"Downloaded firmware is stored so that it does not have to be downloaded "
+"again."
+msgstr "已下载的固件会被保存，以免重复下载。"
+
+#: src/preferences.py:33
+msgid "_Keep Downloaded Firmware"
+msgstr "保留已下载的固件(_K)"
+
+#: src/preferences.py:34
+msgid "Turn off to delete firmware after a successful restore"
+msgstr "关闭后，成功恢复后将删除固件"
+
+#: src/preferences.py:36
+msgid "Stored Firmware"
+msgstr "已存储的固件"
+
+#: src/preferences.py:37
+msgid "Calculating…"
+msgstr "正在计算…"
+
+#: src/preferences.py:39 src/preferences.py:96
+msgid "Open Folder"
+msgstr "打开文件夹"
+
+#: src/preferences.py:44 src/preferences.py:145
+msgid "_Delete"
+msgstr "删除(_D)"
+
+#. Advanced
+#: src/preferences.py:54
+msgid "Advanced"
+msgstr "高级"
+
+#: src/preferences.py:59
+msgid "Restore"
+msgstr "恢复"
+
+#: src/preferences.py:60
+msgid ""
+"These options can leave a device unable to start. Change them only if you "
+"know what they do."
+msgstr "这些选项可能导致设备无法启动。请仅在了解其作用时才进行更改。"
+
+#: src/preferences.py:64
+msgid "Restore From _Restore Mode"
+msgstr "从恢复模式恢复(_R)"
+
+#: src/preferences.py:65
+msgid "Allow starting with a device that is already in restore mode"
+msgstr "允许从已处于恢复模式的设备开始"
+
+#: src/preferences.py:67
+msgid "_Ignore Errors"
+msgstr "忽略错误(_I)"
+
+#: src/preferences.py:68
+msgid "Try to continue after certain errors, like a failed baseband update"
+msgstr "出现某些错误（例如基带更新失败）后，尝试继续"
+
+#: src/preferences.py:71
+msgid "Skip _Baseband"
+msgstr "跳过基带(_B)"
+
+#: src/preferences.py:72
+msgid "Do not upgrade NOR and baseband on legacy devices"
+msgstr "不升级旧设备上的 NOR 和基带"
+
+#: src/preferences.py:74
+msgid "_Stop After Ramdisk"
+msgstr "ramdisk 后停止(_S)"
+
+#: src/preferences.py:75
+msgid "Boot the restore ramdisk without restoring"
+msgstr "启动恢复 ramdisk 但不进行恢复"
+
+#: src/preferences.py:80
+msgid "_Custom Firmware"
+msgstr "自定义固件(_C)"
+
+#: src/preferences.py:81
+msgid "Restore custom firmware. Requires a bootrom exploit"
+msgstr "恢复自定义固件。需要 bootrom 漏洞利用"
+
+#: src/preferences.py:82
+msgid "Restore _Variant"
+msgstr "恢复变体(_V)"
+
+#: src/preferences.py:83
+msgid "Signing Server _URL"
+msgstr "签名服务器 URL(_U)"
+
+#: src/preferences.py:86
+msgid "Troubleshooting"
+msgstr "故障排除"
+
+#: src/preferences.py:89
+msgid "_Detailed Log"
+msgstr "详细日志(_D)"
+
+#: src/preferences.py:90
+msgid "Include all debugging output from idevicerestore in the log"
+msgstr "在日志中包含 idevicerestore 的所有调试输出"
+
+#: src/preferences.py:92
+msgid "Log Files"
+msgstr "日志文件"
+
+#: src/preferences.py:93
+msgid "Every restore is recorded, even if Corer quits unexpectedly"
+msgstr "即使 Corer 意外退出，每次恢复也会被记录"
+
+#: src/preferences.py:103
+msgid "Keep _Personalized Components"
+msgstr "保留个性化组件(_P)"
+
+#: src/preferences.py:104
+msgid "Write personalized components to files for debugging"
+msgstr "将个性化组件写入文件以便调试"
+
+#: src/preferences.py:141
+msgid "Delete Stored Firmware?"
+msgstr "删除已存储的固件？"
+
+#: src/preferences.py:142
+msgid "Firmware will be downloaded again the next time it is needed."
+msgstr "下次需要时将重新下载固件。"
+
+#: src/preferences.py:144 src/window.py:585 src/window.ui:322
+msgid "_Cancel"
+msgstr "取消(_C)"
+
+#: src/restore.py:27
+msgid "Detecting Device"
+msgstr "正在检测设备"
+
+#: src/restore.py:28
+msgid "Preparing Device"
+msgstr "正在准备设备"
+
+#: src/restore.py:29
+msgid "Sending Filesystem"
+msgstr "正在发送文件系统"
+
+#: src/restore.py:30
+msgid "Verifying Filesystem"
+msgstr "正在验证文件系统"
+
+#: src/restore.py:31
+msgid "Installing Firmware"
+msgstr "正在安装固件"
+
+#: src/restore.py:32
+msgid "Updating Baseband"
+msgstr "正在更新基带"
+
+#: src/restore.py:33
+msgid "Updating Components"
+msgstr "正在更新组件"
+
+#: src/restore.py:34
+msgid "Sending Images"
+msgstr "正在发送镜像"
+
+#: src/restore.py:63
+msgid "Restoring"
+msgstr "正在恢复"
+
+#: src/restore.py:134
+msgid "idevicerestore could not be started"
+msgstr "无法启动 idevicerestore"
+
+#: src/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "Device"
+msgstr "设备"
+
+#: src/shortcuts-dialog.ui:9
+msgctxt "shortcut window"
+msgid "Choose Firmware File"
+msgstr "选择固件文件"
+
+#: src/shortcuts-dialog.ui:15
+msgctxt "shortcut window"
+msgid "Look for Devices"
+msgstr "查找设备"
+
+#: src/shortcuts-dialog.ui:21
+msgctxt "shortcut window"
+msgid "View Log"
+msgstr "查看日志"
+
+#: src/shortcuts-dialog.ui:29
+msgctxt "shortcut window"
+msgid "General"
+msgstr "常规"
+
+#: src/shortcuts-dialog.ui:32
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr "首选项"
+
+#: src/shortcuts-dialog.ui:38
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "显示快捷键"
+
+#: src/shortcuts-dialog.ui:44
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "退出"
+
+#: src/window.py:149
+msgid "Apple Device"
+msgstr "Apple 设备"
+
+#: src/window.py:217
+msgid "Corer needs permission to access this device over USB"
+msgstr "Corer 需要权限才能通过 USB 访问此设备"
+
+#: src/window.py:218
+msgid "_Set Up"
+msgstr "设置(_S)"
+
+#: src/window.py:223
+msgid "The system device service (usbmuxd) is not responding"
+msgstr "系统设备服务 (usbmuxd) 没有响应"
+
+#: src/window.py:224
+msgid "_Restart It"
+msgstr "重新启动(_R)"
+
+#: src/window.py:229
+msgid "The device service (usbmuxd) is not available"
+msgstr "设备服务 (usbmuxd) 不可用"
+
+#: src/window.py:260
+msgid "USB access was set up"
+msgstr "已设置 USB 访问"
+
+#: src/window.py:273
+msgid "The device service was restarted"
+msgstr "设备服务已重新启动"
+
+#: src/window.py:275
+msgid ""
+"Could not restart it. Run “sudo systemctl restart usbmuxd” in a terminal"
+msgstr "无法重新启动。请在终端中运行“sudo systemctl restart usbmuxd”"
+
+#: src/window.py:284
+msgid "Set Up USB Access Manually"
+msgstr "手动设置 USB 访问"
+
+#: src/window.py:285
+msgid ""
+"The setup could not be completed. Run these commands in a terminal to "
+"install the device access rule, then reconnect the device."
+msgstr "无法完成设置。请在终端中运行这些命令以安装设备访问规则，然后重新连接设备。"
+
+#: src/window.py:301
+msgid "_Close"
+msgstr "关闭(_C)"
+
+#: src/window.py:302
+msgid "C_opy Commands"
+msgstr "复制命令(_O)"
+
+#: src/window.py:410
+msgid "Looking for available versions…"
+msgstr "正在查找可用版本…"
+
+#: src/window.py:414
+msgid "Choose a firmware file for this device"
+msgstr "为此设备选择固件文件"
+
+#: src/window.py:416
+msgid "No firmware is currently signed for this device"
+msgstr "目前没有适用于此设备的已签名固件"
+
+#: src/window.py:418
+msgid "Using the firmware file"
+msgstr "正在使用的固件文件"
+
+#: src/window.py:422
+msgid "Downloaded"
+msgstr "已下载"
+
+#. Translators: {size} is a file size such as “8.1 GB”
+#: src/window.py:425
+#, python-brace-format
+msgid "{size} download"
+msgstr "下载 {size}"
+
+#: src/window.py:429
+msgid "Offline — showing downloaded firmware"
+msgstr "离线 — 正在显示已下载的固件"
+
+#: src/window.py:436
+msgid "Use an IPSW file from this computer"
+msgstr "使用此电脑上的 IPSW 文件"
+
+#. Translators: {filename} is the name of a firmware file
+#: src/window.py:440
+#, python-brace-format
+msgid "{filename} is not compatible with this device"
+msgstr "{filename} 与此设备不兼容"
+
+#: src/window.py:453 src/window.py:587
+msgid "_Erase and Restore"
+msgstr "抹除并恢复(_E)"
+
+#: src/window.py:453 src/window.py:591
+msgid "_Update"
+msgstr "更新(_U)"
+
+#: src/window.py:468
+msgid "Exit _Recovery Mode"
+msgstr "退出恢复模式(_R)"
+
+#: src/window.py:471
+msgid "Enter _Recovery Mode"
+msgstr "进入恢复模式(_R)"
+
+#: src/window.py:502
+msgid "Firmware Files"
+msgstr "固件文件"
+
+#: src/window.py:507
+msgid "Choose Firmware File"
+msgstr "选择固件文件"
+
+#: src/window.py:518
+msgid "This file cannot be used"
+msgstr "无法使用此文件"
+
+#. Translators: {name} is the name of a device
+#: src/window.py:563
+#, python-brace-format
+msgid "Erase “{name}”?"
+msgstr "抹除“{name}”？"
+
+#. Translators: {version} is a system version such as “iOS 18.1”
+#: src/window.py:565
+#, python-brace-format
+msgid ""
+"All content and settings will be permanently erased and {version} will be "
+"installed. This cannot be undone."
+msgstr "所有内容和设置将被永久抹除，并将安装 {version}。此操作无法撤销。"
+
+#: src/window.py:569
+#, python-brace-format
+msgid "Update “{name}”?"
+msgstr "更新“{name}”？"
+
+#: src/window.py:570
+#, python-brace-format
+msgid ""
+"{version} will be installed and your content and settings will be kept. Make"
+" sure you have a backup before continuing."
+msgstr "将安装 {version}，并保留您的内容和设置。继续之前，请确保已有备份。"
+
+#: src/window.py:576
+msgid ""
+"This version is older than the one on the device. Downgrading without "
+"erasing is likely to fail and can cause complete data loss."
+msgstr "此版本比设备上的版本更旧。不抹除而降级很可能会失败，并可能导致数据全部丢失。"
+
+#: src/window.py:580
+msgid ""
+"This firmware no longer appears to be signed, so the device will probably "
+"refuse it."
+msgstr "此固件似乎已不再签名，因此设备很可能会拒绝它。"
+
+#: src/window.py:582
+msgid "Keep the device connected until the process finishes."
+msgstr "请在过程结束前保持设备连接。"
+
+#: src/window.py:628
+msgid "A device is being restored"
+msgstr "正在恢复设备"
+
+#: src/window.py:640 src/window.py:666
+msgid "Verifying Firmware"
+msgstr "正在验证固件"
+
+#: src/window.py:642 src/window.py:668
+msgid "Downloading Firmware"
+msgstr "正在下载固件"
+
+#. Translators: download progress, e.g. “1.2 GB of 8.1 GB”
+#: src/window.py:672
+#, python-brace-format
+msgid "{done} of {total}"
+msgstr "{done} / {total}"
+
+#. Translators: download speed, e.g. “12.5 MB/s”
+#: src/window.py:679
+#, python-brace-format
+msgid "{speed}/s"
+msgstr "{speed}/秒"
+
+#: src/window.py:785
+msgid "Stop the Process?"
+msgstr "停止此过程？"
+
+#: src/window.py:786
+msgid ""
+"Interrupting now can leave the device unusable until it is restored again."
+msgstr "现在中断可能会导致设备无法使用，直到再次恢复。"
+
+#: src/window.py:788 src/window.py:962
+msgid "_Continue"
+msgstr "继续(_C)"
+
+#: src/window.py:789
+msgid "_Stop"
+msgstr "停止(_S)"
+
+#: src/window.py:807
+msgid "Stopping…"
+msgstr "正在停止…"
+
+#: src/window.py:839
+msgid "Stopped"
+msgstr "已停止"
+
+#: src/window.py:842
+msgid "SHSH Blobs Saved"
+msgstr "已保存 SHSH blob"
+
+#: src/window.py:845
+msgid "Device Restored"
+msgstr "设备已恢复"
+
+#: src/window.py:846
+msgid "The device will restart and show the setup assistant."
+msgstr "设备将重新启动并显示设置助理。"
+
+#: src/window.py:849
+msgid "Device Updated"
+msgstr "设备已更新"
+
+#: src/window.py:850
+msgid "The device will restart when it has finished updating."
+msgstr "更新完成后，设备将重新启动。"
+
+#: src/window.py:858
+msgid "Could Not Save SHSH Blobs"
+msgstr "无法保存 SHSH blob"
+
+#: src/window.py:859
+msgid "Restore Failed"
+msgstr "恢复失败"
+
+#: src/window.py:863
+msgid "Check the log for details."
+msgstr "详情请查看日志。"
+
+#: src/window.py:899
+msgid "The device was not found. Reconnect it and try again"
+msgstr "未找到设备。请重新连接后再试"
+
+#: src/window.py:925
+msgid "The device is restarting"
+msgstr "设备正在重新启动"
+
+#: src/window.py:926
+msgid "Could not exit recovery mode"
+msgstr "无法退出恢复模式"
+
+#: src/window.py:929
+msgid "The device is restarting in recovery mode"
+msgstr "设备正在以恢复模式重新启动"
+
+#: src/window.py:930
+msgid ""
+"Could not enter recovery mode. Unlock the device and trust this computer"
+msgstr "无法进入恢复模式。请解锁设备并信任此电脑"
+
+#: src/window.py:959
+msgid "Stop and Quit?"
+msgstr "停止并退出？"
+
+#: src/window.py:960
+msgid ""
+"A device is being restored. Interrupting now can leave it unusable until it "
+"is restored again."
+msgstr "正在恢复设备。现在中断可能会导致设备无法使用，直到再次恢复。"
+
+#: src/window.py:963
+msgid "_Stop and Quit"
+msgstr "停止并退出(_S)"
+
+#: src/window.ui:21
+msgid "Main Menu"
+msgstr "主菜单"
+
+#: src/window.ui:56
+msgid "Connect a Device"
+msgstr "连接设备"
+
+#: src/window.ui:57
+msgid ""
+"Plug in an Apple device with a USB cable. Devices in recovery or DFU mode "
+"work too. A Mac with Apple silicon has to be in DFU mode."
+msgstr ""
+"使用 USB 数据线连接 Apple 设备。处于恢复模式或 DFU 模式的设备同样可用。搭载 Apple 芯片的 Mac 必须处于 DFU 模式。"
+
+#: src/window.ui:124
+msgid "Device"
+msgstr "设备"
+
+#: src/window.ui:131
+msgid "Version"
+msgstr "版本"
+
+#: src/window.ui:145
+msgid "Try Again"
+msgstr "重试"
+
+#: src/window.ui:156
+msgid "Firmware File"
+msgstr "固件文件"
+
+#: src/window.ui:164
+msgid "Remove File"
+msgstr "移除文件"
+
+#: src/window.ui:175
+msgid "Choose File"
+msgstr "选择文件"
+
+#: src/window.ui:190
+msgid "Erase Device"
+msgstr "抹除设备"
+
+#: src/window.ui:191
+msgid "Remove all content and settings"
+msgstr "移除所有内容和设置"
+
+#: src/window.ui:312 src/window.ui:377 src/window.ui:427
+msgid "View _Log"
+msgstr "查看日志(_L)"
+
+#: src/window.ui:349
+msgid "_Done"
+msgstr "完成(_D)"
+
+#: src/window.ui:387
+msgid "_Back"
+msgstr "返回(_B)"
+
+#: src/window.ui:397
+msgid "_Try Again"
+msgstr "重试(_T)"
+
+#: src/window.ui:423
+msgid "_Save SHSH Blobs"
+msgstr "保存 SHSH blob(_S)"
+
+#: src/window.ui:433
+msgid "_Preferences"
+msgstr "首选项(_P)"
+
+#: src/window.ui:437
+msgid "_Keyboard Shortcuts"
+msgstr "键盘快捷键(_K)"
+
+#: src/window.ui:441
+msgid "_About Corer"
+msgstr "关于 Corer(_A)"

@@ -1,0 +1,864 @@
+# Tamil translation for Corer.
+# Copyright (C) 2026 Corer contributors
+# This file is distributed under the same license as the corer package.
+# Nícolas Castillo <code@tecncr.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: corer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 02:42-0500\n"
+"PO-Revision-Date: 2026-11-17 03:51-0500\n"
+"Last-Translator: Nícolas Castillo <code@tecncr.com>\n"
+"Language-Team: Tamil\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/com.tecncr.Corer.desktop.in.in:2
+#: data/com.tecncr.Corer.metainfo.xml.in.in:7 src/window.ui:6
+msgid "Corer"
+msgstr "Corer"
+
+#. Translators: Short description shown in GNOME Shell search and app grids.
+#. Keep it under 80 characters.
+#: data/com.tecncr.Corer.desktop.in.in:5
+msgid "Restore firmware to Apple devices"
+msgstr "Apple சாதனங்களின் ஃபார்ம்வேரை மீட்டமைக்கவும்"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/com.tecncr.Corer.desktop.in.in:12
+msgid ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;"
+msgstr ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;ஃபார்ம்வேர்;Restore;மீட்டமை;Update;புதுப்பி;IPSW;Recovery;DFU;"
+
+#: data/com.tecncr.Corer.gschema.xml:6
+msgid "Window width"
+msgstr "சாளர அகலம்"
+
+#: data/com.tecncr.Corer.gschema.xml:10
+msgid "Window height"
+msgstr "சாளர உயரம்"
+
+#: data/com.tecncr.Corer.gschema.xml:14
+msgid "Whether the window is maximized"
+msgstr "சாளரம் பெரிதாக்கப்பட்டுள்ளதா"
+
+#: data/com.tecncr.Corer.gschema.xml:18
+msgid "Keep downloaded firmware"
+msgstr "பதிவிறக்கிய ஃபார்ம்வேரை வைத்திரு"
+
+#: data/com.tecncr.Corer.gschema.xml:19
+msgid ""
+"Keep downloaded firmware files in the cache after a successful restore so "
+"they can be reused."
+msgstr ""
+"வெற்றிகரமான மீட்டமைப்புக்குப் பிறகு பதிவிறக்கிய ஃபார்ம்வேர் கோப்புகளை "
+"தற்காலிக சேமிப்பில் வைத்திருக்கும், இதனால் அவற்றை மீண்டும் பயன்படுத்தலாம்."
+
+#: data/com.tecncr.Corer.gschema.xml:23
+msgid "Verbose logging"
+msgstr "விரிவான பதிவு"
+
+#: data/com.tecncr.Corer.gschema.xml:24
+msgid "Ask idevicerestore to print additional debug output."
+msgstr ""
+"கூடுதல் பிழைத்திருத்த வெளியீட்டை அச்சிடுமாறு idevicerestore-ஐக் கேட்கிறது."
+
+#: data/com.tecncr.Corer.gschema.xml:28
+msgid "Allow restoring from restore mode"
+msgstr "மீட்டமைப்பு பயன்முறையிலிருந்து மீட்டமைக்க அனுமதி"
+
+#: data/com.tecncr.Corer.gschema.xml:32
+msgid "Continue after certain errors"
+msgstr "சில பிழைகளுக்குப் பிறகும் தொடர்"
+
+#: data/com.tecncr.Corer.gschema.xml:33
+msgid ""
+"Try to continue the restore process after certain errors, like a failed "
+"baseband update."
+msgstr ""
+"baseband புதுப்பிப்பு தோல்வியடைவது போன்ற சில பிழைகளுக்குப் பிறகும் "
+"மீட்டமைப்புச் செயல்முறையைத் தொடர முயல்கிறது."
+
+#: data/com.tecncr.Corer.gschema.xml:37
+msgid "Skip NOR and baseband upgrade"
+msgstr "NOR மற்றும் baseband மேம்படுத்தலைத் தவிர்"
+
+#: data/com.tecncr.Corer.gschema.xml:41
+msgid "Keep personalized components"
+msgstr "தனிப்பயனாக்கப்பட்ட கூறுகளை வைத்திரு"
+
+#: data/com.tecncr.Corer.gschema.xml:42
+msgid "Write personalized components to files for debugging."
+msgstr ""
+"பிழைத்திருத்தத்திற்காக தனிப்பயனாக்கப்பட்ட கூறுகளை கோப்புகளில் எழுதுகிறது."
+
+#: data/com.tecncr.Corer.gschema.xml:46
+msgid "Restore custom firmware"
+msgstr "தனிப்பயன் ஃபார்ம்வேரை மீட்டமை"
+
+#: data/com.tecncr.Corer.gschema.xml:47
+msgid "Restore with a custom firmware. Requires a bootrom exploit."
+msgstr "தனிப்பயன் ஃபார்ம்வேருடன் மீட்டமைக்கிறது. bootrom எக்ஸ்ப்ளாய்ட் தேவை."
+
+#: data/com.tecncr.Corer.gschema.xml:51
+msgid "Stop after booting the ramdisk"
+msgstr "ramdisk துவக்கப்பட்ட பிறகு நிறுத்து"
+
+#: data/com.tecncr.Corer.gschema.xml:55
+msgid "Signing server URL"
+msgstr "கையொப்ப சேவையகத்தின் URL"
+
+#: data/com.tecncr.Corer.gschema.xml:56
+msgid ""
+"Overrides the default signing server request URL. Empty uses the default."
+msgstr ""
+"கையொப்ப சேவையகக் கோரிக்கைகளின் இயல்புநிலை URL-ஐ மேலெழுதுகிறது. காலியாக "
+"இருந்தால் இயல்புநிலை பயன்படுத்தப்படும்."
+
+#: data/com.tecncr.Corer.gschema.xml:60
+msgid "Restore variant"
+msgstr "மீட்டமைப்பு மாறுபாடு"
+
+#: data/com.tecncr.Corer.gschema.xml:61
+msgid "Build identity variant to use. Empty selects it automatically."
+msgstr ""
+"பயன்படுத்த வேண்டிய உருவாக்க அடையாள மாறுபாடு. காலியாக இருந்தால் தானாகத் "
+"தேர்ந்தெடுக்கப்படும்."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:8
+msgid "Restore and update Apple devices"
+msgstr "Apple சாதனங்களை மீட்டமைத்துப் புதுப்பிக்கவும்"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:10
+msgid ""
+"Corer installs firmware on Apple devices, including Mac computers with Apple"
+" silicon in DFU mode. Connect a device, pick a version and choose whether to"
+" keep or erase its content."
+msgstr ""
+"DFU பயன்முறையில் உள்ள Apple சிலிக்கான் Mac கணினிகள் உட்பட Apple சாதனங்களில் "
+"Corer ஃபார்ம்வேரை நிறுவுகிறது. சாதனத்தை இணைத்து, பதிப்பைத் தேர்ந்தெடுத்து, "
+"உள்ளடக்கத்தை வைத்திருப்பதா அழிப்பதா என்பதை முடிவு செய்யுங்கள்."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:16
+msgid "Update a device while keeping its data, or erase and restore it"
+msgstr ""
+"தரவை வைத்துக்கொண்டு சாதனத்தைப் புதுப்பிக்கவும், அல்லது அழித்து "
+"மீட்டமைக்கவும்"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:17
+msgid "Download currently signed firmware on demand and reuse it later"
+msgstr ""
+"தற்போது கையொப்பமிடப்பட்ட ஃபார்ம்வேரை தேவைப்படும்போது பதிவிறக்கி, பின்னர் "
+"மீண்டும் பயன்படுத்தவும்"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:18
+msgid "Use a firmware file you already have"
+msgstr "ஏற்கனவே உங்களிடம் உள்ள ஃபார்ம்வேர் கோப்பைப் பயன்படுத்தவும்"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:19
+msgid "Recover devices stuck in recovery or DFU mode"
+msgstr "மீட்பு அல்லது DFU பயன்முறையில் சிக்கிய சாதனங்களை மீட்கவும்"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:21
+msgid ""
+"Corer is powered by idevicerestore and libimobiledevice. It is not "
+"affiliated with or endorsed by Apple Inc."
+msgstr ""
+"Corer, idevicerestore மற்றும் libimobiledevice ஆகியவற்றால் இயங்குகிறது. இது "
+"Apple Inc. உடன் தொடர்புடையது அல்ல, அவர்களால் அங்கீகரிக்கப்பட்டதும் அல்ல."
+
+#: src/devices.py:89
+msgid "Recovery Mode"
+msgstr "மீட்பு பயன்முறை"
+
+#: src/devices.py:91
+msgid "DFU Mode"
+msgstr "DFU பயன்முறை"
+
+#: src/firmware.py:145 src/firmware.py:150
+msgid "Could not load the list of available versions"
+msgstr "கிடைக்கும் பதிப்புகளின் பட்டியலை ஏற்ற முடியவில்லை"
+
+#: src/firmware.py:185
+msgid "This is not a valid firmware file"
+msgstr "இது சரியான ஃபார்ம்வேர் கோப்பு அல்ல"
+
+#: src/firmware.py:335
+msgid "This firmware is not available for download"
+msgstr "இந்த ஃபார்ம்வேர் பதிவிறக்கத்திற்குக் கிடைக்கவில்லை"
+
+#: src/firmware.py:349
+msgid "Not enough free disk space to download the firmware"
+msgstr "ஃபார்ம்வேரைப் பதிவிறக்க வட்டில் போதுமான காலி இடம் இல்லை"
+
+#: src/firmware.py:360
+msgid "The download server refused the request"
+msgstr "பதிவிறக்க சேவையகம் கோரிக்கையை நிராகரித்தது"
+
+#: src/firmware.py:367
+msgid "The download failed. Check your network connection"
+msgstr "பதிவிறக்கம் தோல்வியடைந்தது. உங்கள் பிணைய இணைப்பைச் சரிபார்க்கவும்"
+
+#: src/firmware.py:374
+msgid "The downloaded firmware is incomplete"
+msgstr "பதிவிறக்கிய ஃபார்ம்வேர் முழுமையற்றது"
+
+#: src/firmware.py:377
+msgid "The downloaded firmware is corrupted"
+msgstr "பதிவிறக்கிய ஃபார்ம்வேர் சிதைந்துள்ளது"
+
+#: src/log_dialog.py:16
+msgid "Log"
+msgstr "பதிவு"
+
+#: src/log_dialog.py:24
+msgid "Copy"
+msgstr "நகலெடு"
+
+#: src/log_dialog.py:28
+msgid "Save…"
+msgstr "சேமி…"
+
+#: src/log_dialog.py:36
+msgid "No Log Yet"
+msgstr "இன்னும் பதிவு இல்லை"
+
+#: src/log_dialog.py:37
+msgid "Output appears here when a device is restored."
+msgstr "சாதனம் மீட்டமைக்கப்படும்போது வெளியீடு இங்கே தோன்றும்."
+
+#: src/log_dialog.py:81 src/window.py:310
+msgid "Copied to clipboard"
+msgstr "இடைநிலைப் பலகைக்கு நகலெடுக்கப்பட்டது"
+
+#: src/log_dialog.py:84
+msgid "Save Log"
+msgstr "பதிவைச் சேமி"
+
+#. Translators: Replace "translator-credits" with your name/username, and
+#. optionally an email or URL.
+#: src/main.py:90
+msgid "translator-credits"
+msgstr "Nícolas Castillo <code@tecncr.com>"
+
+#: src/main.py:96
+msgid "Powered By"
+msgstr "இவற்றால் இயங்குகிறது"
+
+#. Firmware
+#: src/preferences.py:23 src/preferences.py:77
+msgid "Firmware"
+msgstr "ஃபார்ம்வேர்"
+
+#: src/preferences.py:28
+msgid "Downloads"
+msgstr "பதிவிறக்கங்கள்"
+
+#: src/preferences.py:29
+msgid ""
+"Downloaded firmware is stored so that it does not have to be downloaded "
+"again."
+msgstr ""
+"பதிவிறக்கிய ஃபார்ம்வேர் மீண்டும் பதிவிறக்க வேண்டியதில்லை என்பதற்காகச் "
+"சேமிக்கப்படுகிறது."
+
+#: src/preferences.py:33
+msgid "_Keep Downloaded Firmware"
+msgstr "பதிவிறக்கிய ஃபார்ம்வேரை _வைத்திரு"
+
+#: src/preferences.py:34
+msgid "Turn off to delete firmware after a successful restore"
+msgstr "வெற்றிகரமான மீட்டமைப்புக்குப் பிறகு ஃபார்ம்வேரை நீக்க முடக்கவும்"
+
+#: src/preferences.py:36
+msgid "Stored Firmware"
+msgstr "சேமிக்கப்பட்ட ஃபார்ம்வேர்"
+
+#: src/preferences.py:37
+msgid "Calculating…"
+msgstr "கணக்கிடுகிறது…"
+
+#: src/preferences.py:39 src/preferences.py:96
+msgid "Open Folder"
+msgstr "கோப்புறையைத் திற"
+
+#: src/preferences.py:44 src/preferences.py:145
+msgid "_Delete"
+msgstr "_நீக்கு"
+
+#. Advanced
+#: src/preferences.py:54
+msgid "Advanced"
+msgstr "மேம்பட்டவை"
+
+#: src/preferences.py:59
+msgid "Restore"
+msgstr "மீட்டமை"
+
+#: src/preferences.py:60
+msgid ""
+"These options can leave a device unable to start. Change them only if you "
+"know what they do."
+msgstr ""
+"இந்த விருப்பங்கள் சாதனம் தொடங்காமல் போகச் செய்யலாம். அவை என்ன செய்கின்றன "
+"என்று தெரிந்தால் மட்டுமே மாற்றவும்."
+
+#: src/preferences.py:64
+msgid "Restore From _Restore Mode"
+msgstr "_மீட்டமைப்பு பயன்முறையிலிருந்து மீட்டமை"
+
+#: src/preferences.py:65
+msgid "Allow starting with a device that is already in restore mode"
+msgstr ""
+"ஏற்கனவே மீட்டமைப்பு பயன்முறையில் உள்ள சாதனத்துடன் தொடங்க அனுமதிக்கிறது"
+
+#: src/preferences.py:67
+msgid "_Ignore Errors"
+msgstr "பிழைகளைப் _புறக்கணி"
+
+#: src/preferences.py:68
+msgid "Try to continue after certain errors, like a failed baseband update"
+msgstr ""
+"baseband புதுப்பிப்பு தோல்வியடைவது போன்ற சில பிழைகளுக்குப் பிறகும் தொடர "
+"முயல்கிறது"
+
+#: src/preferences.py:71
+msgid "Skip _Baseband"
+msgstr "_baseband-ஐத் தவிர்"
+
+#: src/preferences.py:72
+msgid "Do not upgrade NOR and baseband on legacy devices"
+msgstr "பழைய சாதனங்களில் NOR மற்றும் baseband-ஐ மேம்படுத்தாதே"
+
+#: src/preferences.py:74
+msgid "_Stop After Ramdisk"
+msgstr "ramdisk-க்குப் பிறகு _நிறுத்து"
+
+#: src/preferences.py:75
+msgid "Boot the restore ramdisk without restoring"
+msgstr "மீட்டமைக்காமல் மீட்டமைப்பு ramdisk-ஐ துவக்குகிறது"
+
+#: src/preferences.py:80
+msgid "_Custom Firmware"
+msgstr "_தனிப்பயன் ஃபார்ம்வேர்"
+
+#: src/preferences.py:81
+msgid "Restore custom firmware. Requires a bootrom exploit"
+msgstr "தனிப்பயன் ஃபார்ம்வேரை மீட்டமைக்கிறது. bootrom எக்ஸ்ப்ளாய்ட் தேவை"
+
+#: src/preferences.py:82
+msgid "Restore _Variant"
+msgstr "மீட்டமைப்பு _மாறுபாடு"
+
+#: src/preferences.py:83
+msgid "Signing Server _URL"
+msgstr "கையொப்ப சேவையக _URL"
+
+#: src/preferences.py:86
+msgid "Troubleshooting"
+msgstr "சிக்கல் தீர்வு"
+
+#: src/preferences.py:89
+msgid "_Detailed Log"
+msgstr "_விரிவான பதிவு"
+
+#: src/preferences.py:90
+msgid "Include all debugging output from idevicerestore in the log"
+msgstr "idevicerestore-இன் அனைத்து பிழைத்திருத்த வெளியீட்டையும் பதிவில் சேர்"
+
+#: src/preferences.py:92
+msgid "Log Files"
+msgstr "பதிவுக் கோப்புகள்"
+
+#: src/preferences.py:93
+msgid "Every restore is recorded, even if Corer quits unexpectedly"
+msgstr ""
+"Corer எதிர்பாராமல் மூடப்பட்டாலும் ஒவ்வொரு மீட்டமைப்பும் பதிவு செய்யப்படும்"
+
+#: src/preferences.py:103
+msgid "Keep _Personalized Components"
+msgstr "தனிப்பயனாக்கப்பட்ட _கூறுகளை வைத்திரு"
+
+#: src/preferences.py:104
+msgid "Write personalized components to files for debugging"
+msgstr ""
+"பிழைத்திருத்தத்திற்காக தனிப்பயனாக்கப்பட்ட கூறுகளை கோப்புகளில் எழுதுகிறது"
+
+#: src/preferences.py:141
+msgid "Delete Stored Firmware?"
+msgstr "சேமிக்கப்பட்ட ஃபார்ம்வேரை நீக்கவா?"
+
+#: src/preferences.py:142
+msgid "Firmware will be downloaded again the next time it is needed."
+msgstr "அடுத்த முறை தேவைப்படும்போது ஃபார்ம்வேர் மீண்டும் பதிவிறக்கப்படும்."
+
+#: src/preferences.py:144 src/window.py:585 src/window.ui:322
+msgid "_Cancel"
+msgstr "_ரத்துசெய்"
+
+#: src/restore.py:27
+msgid "Detecting Device"
+msgstr "சாதனத்தைக் கண்டறிகிறது"
+
+#: src/restore.py:28
+msgid "Preparing Device"
+msgstr "சாதனத்தைத் தயார்செய்கிறது"
+
+#: src/restore.py:29
+msgid "Sending Filesystem"
+msgstr "கோப்பு முறைமையை அனுப்புகிறது"
+
+#: src/restore.py:30
+msgid "Verifying Filesystem"
+msgstr "கோப்பு முறைமையைச் சரிபார்க்கிறது"
+
+#: src/restore.py:31
+msgid "Installing Firmware"
+msgstr "ஃபார்ம்வேரை நிறுவுகிறது"
+
+#: src/restore.py:32
+msgid "Updating Baseband"
+msgstr "baseband-ஐப் புதுப்பிக்கிறது"
+
+#: src/restore.py:33
+msgid "Updating Components"
+msgstr "கூறுகளைப் புதுப்பிக்கிறது"
+
+#: src/restore.py:34
+msgid "Sending Images"
+msgstr "படங்களை அனுப்புகிறது"
+
+#: src/restore.py:63
+msgid "Restoring"
+msgstr "மீட்டமைக்கிறது"
+
+#: src/restore.py:134
+msgid "idevicerestore could not be started"
+msgstr "idevicerestore-ஐத் தொடங்க முடியவில்லை"
+
+#: src/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "Device"
+msgstr "சாதனம்"
+
+#: src/shortcuts-dialog.ui:9
+msgctxt "shortcut window"
+msgid "Choose Firmware File"
+msgstr "ஃபார்ம்வேர் கோப்பைத் தேர்ந்தெடு"
+
+#: src/shortcuts-dialog.ui:15
+msgctxt "shortcut window"
+msgid "Look for Devices"
+msgstr "சாதனங்களைத் தேடு"
+
+#: src/shortcuts-dialog.ui:21
+msgctxt "shortcut window"
+msgid "View Log"
+msgstr "பதிவைக் காட்டு"
+
+#: src/shortcuts-dialog.ui:29
+msgctxt "shortcut window"
+msgid "General"
+msgstr "பொது"
+
+#: src/shortcuts-dialog.ui:32
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr "விருப்பத்தேர்வுகள்"
+
+#: src/shortcuts-dialog.ui:38
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "குறுக்குவழிகளைக் காட்டு"
+
+#: src/shortcuts-dialog.ui:44
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "வெளியேறு"
+
+#: src/window.py:149
+msgid "Apple Device"
+msgstr "Apple சாதனம்"
+
+#: src/window.py:217
+msgid "Corer needs permission to access this device over USB"
+msgstr "USB வழியாக இந்தச் சாதனத்தை அணுக Corer-க்கு அனுமதி தேவை"
+
+#: src/window.py:218
+msgid "_Set Up"
+msgstr "_அமை"
+
+#: src/window.py:223
+msgid "The system device service (usbmuxd) is not responding"
+msgstr "கணினியின் சாதன சேவை (usbmuxd) பதிலளிக்கவில்லை"
+
+#: src/window.py:224
+msgid "_Restart It"
+msgstr "_மீண்டும் தொடங்கு"
+
+#: src/window.py:229
+msgid "The device service (usbmuxd) is not available"
+msgstr "சாதன சேவை (usbmuxd) கிடைக்கவில்லை"
+
+#: src/window.py:260
+msgid "USB access was set up"
+msgstr "USB அணுகல் அமைக்கப்பட்டது"
+
+#: src/window.py:273
+msgid "The device service was restarted"
+msgstr "சாதன சேவை மீண்டும் தொடங்கப்பட்டது"
+
+#: src/window.py:275
+msgid ""
+"Could not restart it. Run “sudo systemctl restart usbmuxd” in a terminal"
+msgstr ""
+"மீண்டும் தொடங்க முடியவில்லை. முனையத்தில் “sudo systemctl restart usbmuxd” ஐ "
+"இயக்கவும்"
+
+#: src/window.py:284
+msgid "Set Up USB Access Manually"
+msgstr "USB அணுகலை கைமுறையாக அமை"
+
+#: src/window.py:285
+msgid ""
+"The setup could not be completed. Run these commands in a terminal to "
+"install the device access rule, then reconnect the device."
+msgstr ""
+"அமைப்பை முடிக்க முடியவில்லை. சாதன அணுகல் விதியை நிறுவ முனையத்தில் இந்தக் "
+"கட்டளைகளை இயக்கி, பின்னர் சாதனத்தை மீண்டும் இணைக்கவும்."
+
+#: src/window.py:301
+msgid "_Close"
+msgstr "_மூடு"
+
+#: src/window.py:302
+msgid "C_opy Commands"
+msgstr "கட்டளைகளை _நகலெடு"
+
+#: src/window.py:410
+msgid "Looking for available versions…"
+msgstr "கிடைக்கும் பதிப்புகளைத் தேடுகிறது…"
+
+#: src/window.py:414
+msgid "Choose a firmware file for this device"
+msgstr "இந்தச் சாதனத்திற்கான ஃபார்ம்வேர் கோப்பைத் தேர்ந்தெடுக்கவும்"
+
+#: src/window.py:416
+msgid "No firmware is currently signed for this device"
+msgstr "இந்தச் சாதனத்திற்கு தற்போது கையொப்பமிடப்பட்ட ஃபார்ம்வேர் இல்லை"
+
+#: src/window.py:418
+msgid "Using the firmware file"
+msgstr "ஃபார்ம்வேர் கோப்பைப் பயன்படுத்துகிறது"
+
+#: src/window.py:422
+msgid "Downloaded"
+msgstr "பதிவிறக்கப்பட்டது"
+
+#. Translators: {size} is a file size such as “8.1 GB”
+#: src/window.py:425
+#, python-brace-format
+msgid "{size} download"
+msgstr "{size} பதிவிறக்கம்"
+
+#: src/window.py:429
+msgid "Offline — showing downloaded firmware"
+msgstr "இணைப்பில்லை — பதிவிறக்கிய ஃபார்ம்வேர் காட்டப்படுகிறது"
+
+#: src/window.py:436
+msgid "Use an IPSW file from this computer"
+msgstr "இந்தக் கணினியிலிருந்து IPSW கோப்பைப் பயன்படுத்து"
+
+#. Translators: {filename} is the name of a firmware file
+#: src/window.py:440
+#, python-brace-format
+msgid "{filename} is not compatible with this device"
+msgstr "{filename} இந்தச் சாதனத்துடன் இணக்கமானது அல்ல"
+
+#: src/window.py:453 src/window.py:587
+msgid "_Erase and Restore"
+msgstr "_அழித்து மீட்டமை"
+
+#: src/window.py:453 src/window.py:591
+msgid "_Update"
+msgstr "_புதுப்பி"
+
+#: src/window.py:468
+msgid "Exit _Recovery Mode"
+msgstr "_மீட்பு பயன்முறையிலிருந்து வெளியேறு"
+
+#: src/window.py:471
+msgid "Enter _Recovery Mode"
+msgstr "_மீட்பு பயன்முறையில் நுழை"
+
+#: src/window.py:502
+msgid "Firmware Files"
+msgstr "ஃபார்ம்வேர் கோப்புகள்"
+
+#: src/window.py:507
+msgid "Choose Firmware File"
+msgstr "ஃபார்ம்வேர் கோப்பைத் தேர்ந்தெடு"
+
+#: src/window.py:518
+msgid "This file cannot be used"
+msgstr "இந்தக் கோப்பைப் பயன்படுத்த முடியாது"
+
+#. Translators: {name} is the name of a device
+#: src/window.py:563
+#, python-brace-format
+msgid "Erase “{name}”?"
+msgstr "“{name}” ஐ அழிக்கவா?"
+
+#. Translators: {version} is a system version such as “iOS 18.1”
+#: src/window.py:565
+#, python-brace-format
+msgid ""
+"All content and settings will be permanently erased and {version} will be "
+"installed. This cannot be undone."
+msgstr ""
+"அனைத்து உள்ளடக்கமும் அமைப்புகளும் நிரந்தரமாக அழிக்கப்பட்டு {version} "
+"நிறுவப்படும். இதைச் செயல்தவிர்க்க முடியாது."
+
+#: src/window.py:569
+#, python-brace-format
+msgid "Update “{name}”?"
+msgstr "“{name}” ஐப் புதுப்பிக்கவா?"
+
+#: src/window.py:570
+#, python-brace-format
+msgid ""
+"{version} will be installed and your content and settings will be kept. Make"
+" sure you have a backup before continuing."
+msgstr ""
+"{version} நிறுவப்படும், உங்கள் உள்ளடக்கமும் அமைப்புகளும் வைக்கப்படும். "
+"தொடரும் முன் உங்களிடம் காப்புப்பிரதி உள்ளதா என்பதை உறுதிசெய்யவும்."
+
+#: src/window.py:576
+msgid ""
+"This version is older than the one on the device. Downgrading without "
+"erasing is likely to fail and can cause complete data loss."
+msgstr ""
+"இந்தப் பதிப்பு சாதனத்தில் உள்ளதை விடப் பழையது. அழிக்காமல் பதிப்பைக் "
+"குறைப்பது தோல்வியடைய வாய்ப்புள்ளது, மேலும் அனைத்துத் தரவையும் இழக்க "
+"நேரிடலாம்."
+
+#: src/window.py:580
+msgid ""
+"This firmware no longer appears to be signed, so the device will probably "
+"refuse it."
+msgstr ""
+"இந்த ஃபார்ம்வேர் இனி கையொப்பமிடப்படவில்லை எனத் தெரிகிறது, எனவே சாதனம் இதை "
+"நிராகரிக்க வாய்ப்புள்ளது."
+
+#: src/window.py:582
+msgid "Keep the device connected until the process finishes."
+msgstr "செயல்முறை முடியும் வரை சாதனத்தை இணைத்தபடியே வைத்திருக்கவும்."
+
+#: src/window.py:628
+msgid "A device is being restored"
+msgstr "ஒரு சாதனம் மீட்டமைக்கப்படுகிறது"
+
+#: src/window.py:640 src/window.py:666
+msgid "Verifying Firmware"
+msgstr "ஃபார்ம்வேரைச் சரிபார்க்கிறது"
+
+#: src/window.py:642 src/window.py:668
+msgid "Downloading Firmware"
+msgstr "ஃபார்ம்வேரைப் பதிவிறக்குகிறது"
+
+#. Translators: download progress, e.g. “1.2 GB of 8.1 GB”
+#: src/window.py:672
+#, python-brace-format
+msgid "{done} of {total}"
+msgstr "{total}-இல் {done}"
+
+#. Translators: download speed, e.g. “12.5 MB/s”
+#: src/window.py:679
+#, python-brace-format
+msgid "{speed}/s"
+msgstr "{speed}/வி"
+
+#: src/window.py:785
+msgid "Stop the Process?"
+msgstr "செயல்முறையை நிறுத்தவா?"
+
+#: src/window.py:786
+msgid ""
+"Interrupting now can leave the device unusable until it is restored again."
+msgstr ""
+"இப்போது இடைமறித்தால், சாதனம் மீண்டும் மீட்டமைக்கப்படும் வரை பயன்படுத்த "
+"முடியாமல் போகலாம்."
+
+#: src/window.py:788 src/window.py:962
+msgid "_Continue"
+msgstr "_தொடர்"
+
+#: src/window.py:789
+msgid "_Stop"
+msgstr "_நிறுத்து"
+
+#: src/window.py:807
+msgid "Stopping…"
+msgstr "நிறுத்துகிறது…"
+
+#: src/window.py:839
+msgid "Stopped"
+msgstr "நிறுத்தப்பட்டது"
+
+#: src/window.py:842
+msgid "SHSH Blobs Saved"
+msgstr "SHSH blobs சேமிக்கப்பட்டன"
+
+#: src/window.py:845
+msgid "Device Restored"
+msgstr "சாதனம் மீட்டமைக்கப்பட்டது"
+
+#: src/window.py:846
+msgid "The device will restart and show the setup assistant."
+msgstr "சாதனம் மீண்டும் தொடங்கி அமைவு உதவியாளரைக் காட்டும்."
+
+#: src/window.py:849
+msgid "Device Updated"
+msgstr "சாதனம் புதுப்பிக்கப்பட்டது"
+
+#: src/window.py:850
+msgid "The device will restart when it has finished updating."
+msgstr "புதுப்பித்தல் முடிந்ததும் சாதனம் மீண்டும் தொடங்கும்."
+
+#: src/window.py:858
+msgid "Could Not Save SHSH Blobs"
+msgstr "SHSH blobs-ஐச் சேமிக்க முடியவில்லை"
+
+#: src/window.py:859
+msgid "Restore Failed"
+msgstr "மீட்டமைப்பு தோல்வியடைந்தது"
+
+#: src/window.py:863
+msgid "Check the log for details."
+msgstr "விவரங்களுக்குப் பதிவைப் பார்க்கவும்."
+
+#: src/window.py:899
+msgid "The device was not found. Reconnect it and try again"
+msgstr "சாதனம் கிடைக்கவில்லை. மீண்டும் இணைத்து முயலவும்"
+
+#: src/window.py:925
+msgid "The device is restarting"
+msgstr "சாதனம் மீண்டும் தொடங்குகிறது"
+
+#: src/window.py:926
+msgid "Could not exit recovery mode"
+msgstr "மீட்பு பயன்முறையிலிருந்து வெளியேற முடியவில்லை"
+
+#: src/window.py:929
+msgid "The device is restarting in recovery mode"
+msgstr "சாதனம் மீட்பு பயன்முறையில் மீண்டும் தொடங்குகிறது"
+
+#: src/window.py:930
+msgid ""
+"Could not enter recovery mode. Unlock the device and trust this computer"
+msgstr ""
+"மீட்பு பயன்முறையில் நுழைய முடியவில்லை. சாதனத்தைத் திறந்து இந்தக் கணினியை "
+"நம்புங்கள்"
+
+#: src/window.py:959
+msgid "Stop and Quit?"
+msgstr "நிறுத்திவிட்டு வெளியேறவா?"
+
+#: src/window.py:960
+msgid ""
+"A device is being restored. Interrupting now can leave it unusable until it "
+"is restored again."
+msgstr ""
+"ஒரு சாதனம் மீட்டமைக்கப்படுகிறது. இப்போது இடைமறித்தால், அது மீண்டும் "
+"மீட்டமைக்கப்படும் வரை பயன்படுத்த முடியாமல் போகலாம்."
+
+#: src/window.py:963
+msgid "_Stop and Quit"
+msgstr "_நிறுத்திவிட்டு வெளியேறு"
+
+#: src/window.ui:21
+msgid "Main Menu"
+msgstr "முதன்மை பட்டி"
+
+#: src/window.ui:56
+msgid "Connect a Device"
+msgstr "சாதனத்தை இணைக்கவும்"
+
+#: src/window.ui:57
+msgid ""
+"Plug in an Apple device with a USB cable. Devices in recovery or DFU mode "
+"work too. A Mac with Apple silicon has to be in DFU mode."
+msgstr ""
+"USB கேபிள் மூலம் Apple சாதனத்தை இணைக்கவும். மீட்பு அல்லது DFU பயன்முறையில் "
+"உள்ள சாதனங்களும் செயல்படும். Apple சிலிக்கான் Mac DFU பயன்முறையில் இருக்க "
+"வேண்டும்."
+
+#: src/window.ui:124
+msgid "Device"
+msgstr "சாதனம்"
+
+#: src/window.ui:131
+msgid "Version"
+msgstr "பதிப்பு"
+
+#: src/window.ui:145
+msgid "Try Again"
+msgstr "மீண்டும் முயல்க"
+
+#: src/window.ui:156
+msgid "Firmware File"
+msgstr "ஃபார்ம்வேர் கோப்பு"
+
+#: src/window.ui:164
+msgid "Remove File"
+msgstr "கோப்பை அகற்று"
+
+#: src/window.ui:175
+msgid "Choose File"
+msgstr "கோப்பைத் தேர்ந்தெடு"
+
+#: src/window.ui:190
+msgid "Erase Device"
+msgstr "சாதனத்தை அழி"
+
+#: src/window.ui:191
+msgid "Remove all content and settings"
+msgstr "அனைத்து உள்ளடக்கத்தையும் அமைப்புகளையும் அகற்று"
+
+#: src/window.ui:312 src/window.ui:377 src/window.ui:427
+msgid "View _Log"
+msgstr "_பதிவைக் காட்டு"
+
+#: src/window.ui:349
+msgid "_Done"
+msgstr "_முடிந்தது"
+
+#: src/window.ui:387
+msgid "_Back"
+msgstr "_பின்செல்"
+
+#: src/window.ui:397
+msgid "_Try Again"
+msgstr "_மீண்டும் முயல்க"
+
+#: src/window.ui:423
+msgid "_Save SHSH Blobs"
+msgstr "SHSH blobs-ஐ _சேமி"
+
+#: src/window.ui:433
+msgid "_Preferences"
+msgstr "_விருப்பத்தேர்வுகள்"
+
+#: src/window.ui:437
+msgid "_Keyboard Shortcuts"
+msgstr "_விசைப்பலகை குறுக்குவழிகள்"
+
+#: src/window.ui:441
+msgid "_About Corer"
+msgstr "Corer _பற்றி"

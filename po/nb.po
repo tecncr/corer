@@ -1,0 +1,852 @@
+# Norwegian Bokmål translation for Corer.
+# Copyright (C) 2026 Corer contributors
+# This file is distributed under the same license as the corer package.
+# Nícolas Castillo <code@tecncr.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: corer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 02:42-0500\n"
+"PO-Revision-Date: 2026-11-17 03:47-0500\n"
+"Last-Translator: Nícolas Castillo <code@tecncr.com>\n"
+"Language-Team: Norwegian Bokmål\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/com.tecncr.Corer.desktop.in.in:2
+#: data/com.tecncr.Corer.metainfo.xml.in.in:7 src/window.ui:6
+msgid "Corer"
+msgstr "Corer"
+
+#. Translators: Short description shown in GNOME Shell search and app grids.
+#. Keep it under 80 characters.
+#: data/com.tecncr.Corer.desktop.in.in:5
+msgid "Restore firmware to Apple devices"
+msgstr "Gjenopprett fastvare på Apple-enheter"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/com.tecncr.Corer.desktop.in.in:12
+msgid ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;"
+msgstr ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Fastvare;Restore;Gjenopprett;Update;Oppdater;IPSW;Recovery;DFU;"
+
+#: data/com.tecncr.Corer.gschema.xml:6
+msgid "Window width"
+msgstr "Vindusbredde"
+
+#: data/com.tecncr.Corer.gschema.xml:10
+msgid "Window height"
+msgstr "Vindushøyde"
+
+#: data/com.tecncr.Corer.gschema.xml:14
+msgid "Whether the window is maximized"
+msgstr "Om vinduet er maksimert"
+
+#: data/com.tecncr.Corer.gschema.xml:18
+msgid "Keep downloaded firmware"
+msgstr "Behold nedlastet fastvare"
+
+#: data/com.tecncr.Corer.gschema.xml:19
+msgid ""
+"Keep downloaded firmware files in the cache after a successful restore so "
+"they can be reused."
+msgstr ""
+"Beholder nedlastede fastvarefiler i hurtigbufferen etter en vellykket "
+"gjenoppretting slik at de kan gjenbrukes."
+
+#: data/com.tecncr.Corer.gschema.xml:23
+msgid "Verbose logging"
+msgstr "Detaljert logging"
+
+#: data/com.tecncr.Corer.gschema.xml:24
+msgid "Ask idevicerestore to print additional debug output."
+msgstr "Ber idevicerestore om å skrive ut ekstra feilsøkingsinformasjon."
+
+#: data/com.tecncr.Corer.gschema.xml:28
+msgid "Allow restoring from restore mode"
+msgstr "Tillat gjenoppretting fra gjenopprettingsmodus"
+
+#: data/com.tecncr.Corer.gschema.xml:32
+msgid "Continue after certain errors"
+msgstr "Fortsett etter visse feil"
+
+#: data/com.tecncr.Corer.gschema.xml:33
+msgid ""
+"Try to continue the restore process after certain errors, like a failed "
+"baseband update."
+msgstr ""
+"Prøver å fortsette gjenopprettingen etter visse feil, for eksempel en "
+"mislykket baseband-oppdatering."
+
+#: data/com.tecncr.Corer.gschema.xml:37
+msgid "Skip NOR and baseband upgrade"
+msgstr "Hopp over oppgradering av NOR og baseband"
+
+#: data/com.tecncr.Corer.gschema.xml:41
+msgid "Keep personalized components"
+msgstr "Behold tilpassede komponenter"
+
+#: data/com.tecncr.Corer.gschema.xml:42
+msgid "Write personalized components to files for debugging."
+msgstr "Skriver tilpassede komponenter til filer for feilsøking."
+
+#: data/com.tecncr.Corer.gschema.xml:46
+msgid "Restore custom firmware"
+msgstr "Gjenopprett egendefinert fastvare"
+
+#: data/com.tecncr.Corer.gschema.xml:47
+msgid "Restore with a custom firmware. Requires a bootrom exploit."
+msgstr ""
+"Gjenoppretter med egendefinert fastvare. Krever en bootrom-utnyttelse."
+
+#: data/com.tecncr.Corer.gschema.xml:51
+msgid "Stop after booting the ramdisk"
+msgstr "Stopp etter oppstart av ramdisk"
+
+#: data/com.tecncr.Corer.gschema.xml:55
+msgid "Signing server URL"
+msgstr "URL til signeringstjener"
+
+#: data/com.tecncr.Corer.gschema.xml:56
+msgid ""
+"Overrides the default signing server request URL. Empty uses the default."
+msgstr ""
+"Overstyrer standard-URL for forespørsler til signeringstjeneren. Hvis den er"
+" tom, brukes standarden."
+
+#: data/com.tecncr.Corer.gschema.xml:60
+msgid "Restore variant"
+msgstr "Gjenopprettingsvariant"
+
+#: data/com.tecncr.Corer.gschema.xml:61
+msgid "Build identity variant to use. Empty selects it automatically."
+msgstr ""
+"Bygge-identitetsvarianten som skal brukes. Hvis den er tom, velges den "
+"automatisk."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:8
+msgid "Restore and update Apple devices"
+msgstr "Gjenopprett og oppdater Apple-enheter"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:10
+msgid ""
+"Corer installs firmware on Apple devices, including Mac computers with Apple"
+" silicon in DFU mode. Connect a device, pick a version and choose whether to"
+" keep or erase its content."
+msgstr ""
+"Corer installerer fastvare på Apple-enheter, inkludert Mac-maskiner med "
+"Apple silicon i DFU-modus. Koble til en enhet, velg en versjon og bestem om "
+"innholdet skal beholdes eller slettes."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:16
+msgid "Update a device while keeping its data, or erase and restore it"
+msgstr "Oppdater en enhet og behold dataene, eller slett og gjenopprett den"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:17
+msgid "Download currently signed firmware on demand and reuse it later"
+msgstr "Last ned gjeldende signert fastvare ved behov og gjenbruk den senere"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:18
+msgid "Use a firmware file you already have"
+msgstr "Bruk en fastvarefil du allerede har"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:19
+msgid "Recover devices stuck in recovery or DFU mode"
+msgstr "Redd enheter som sitter fast i gjenopprettings- eller DFU-modus"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:21
+msgid ""
+"Corer is powered by idevicerestore and libimobiledevice. It is not "
+"affiliated with or endorsed by Apple Inc."
+msgstr ""
+"Corer drives av idevicerestore og libimobiledevice. Det er ikke tilknyttet "
+"eller godkjent av Apple Inc."
+
+#: src/devices.py:89
+msgid "Recovery Mode"
+msgstr "Gjenopprettingsmodus"
+
+#: src/devices.py:91
+msgid "DFU Mode"
+msgstr "DFU-modus"
+
+#: src/firmware.py:145 src/firmware.py:150
+msgid "Could not load the list of available versions"
+msgstr "Kunne ikke laste listen over tilgjengelige versjoner"
+
+#: src/firmware.py:185
+msgid "This is not a valid firmware file"
+msgstr "Dette er ikke en gyldig fastvarefil"
+
+#: src/firmware.py:335
+msgid "This firmware is not available for download"
+msgstr "Denne fastvaren er ikke tilgjengelig for nedlasting"
+
+#: src/firmware.py:349
+msgid "Not enough free disk space to download the firmware"
+msgstr "Ikke nok ledig diskplass til å laste ned fastvaren"
+
+#: src/firmware.py:360
+msgid "The download server refused the request"
+msgstr "Nedlastingstjeneren avviste forespørselen"
+
+#: src/firmware.py:367
+msgid "The download failed. Check your network connection"
+msgstr "Nedlastingen mislyktes. Sjekk nettverkstilkoblingen"
+
+#: src/firmware.py:374
+msgid "The downloaded firmware is incomplete"
+msgstr "Den nedlastede fastvaren er ufullstendig"
+
+#: src/firmware.py:377
+msgid "The downloaded firmware is corrupted"
+msgstr "Den nedlastede fastvaren er ødelagt"
+
+#: src/log_dialog.py:16
+msgid "Log"
+msgstr "Logg"
+
+#: src/log_dialog.py:24
+msgid "Copy"
+msgstr "Kopier"
+
+#: src/log_dialog.py:28
+msgid "Save…"
+msgstr "Lagre …"
+
+#: src/log_dialog.py:36
+msgid "No Log Yet"
+msgstr "Ingen logg ennå"
+
+#: src/log_dialog.py:37
+msgid "Output appears here when a device is restored."
+msgstr "Utdata vises her når en enhet gjenopprettes."
+
+#: src/log_dialog.py:81 src/window.py:310
+msgid "Copied to clipboard"
+msgstr "Kopiert til utklippstavlen"
+
+#: src/log_dialog.py:84
+msgid "Save Log"
+msgstr "Lagre logg"
+
+#. Translators: Replace "translator-credits" with your name/username, and
+#. optionally an email or URL.
+#: src/main.py:90
+msgid "translator-credits"
+msgstr "Nícolas Castillo <code@tecncr.com>"
+
+#: src/main.py:96
+msgid "Powered By"
+msgstr "Drevet av"
+
+#. Firmware
+#: src/preferences.py:23 src/preferences.py:77
+msgid "Firmware"
+msgstr "Fastvare"
+
+#: src/preferences.py:28
+msgid "Downloads"
+msgstr "Nedlastinger"
+
+#: src/preferences.py:29
+msgid ""
+"Downloaded firmware is stored so that it does not have to be downloaded "
+"again."
+msgstr "Nedlastet fastvare lagres slik at den ikke må lastes ned på nytt."
+
+#: src/preferences.py:33
+msgid "_Keep Downloaded Firmware"
+msgstr "_Behold nedlastet fastvare"
+
+#: src/preferences.py:34
+msgid "Turn off to delete firmware after a successful restore"
+msgstr "Slå av for å slette fastvaren etter en vellykket gjenoppretting"
+
+#: src/preferences.py:36
+msgid "Stored Firmware"
+msgstr "Lagret fastvare"
+
+#: src/preferences.py:37
+msgid "Calculating…"
+msgstr "Beregner …"
+
+#: src/preferences.py:39 src/preferences.py:96
+msgid "Open Folder"
+msgstr "Åpne mappe"
+
+#: src/preferences.py:44 src/preferences.py:145
+msgid "_Delete"
+msgstr "_Slett"
+
+#. Advanced
+#: src/preferences.py:54
+msgid "Advanced"
+msgstr "Avansert"
+
+#: src/preferences.py:59
+msgid "Restore"
+msgstr "Gjenoppretting"
+
+#: src/preferences.py:60
+msgid ""
+"These options can leave a device unable to start. Change them only if you "
+"know what they do."
+msgstr ""
+"Disse valgene kan gjøre at en enhet ikke starter. Endre dem bare hvis du vet"
+" hva de gjør."
+
+#: src/preferences.py:64
+msgid "Restore From _Restore Mode"
+msgstr "Gjenopprett fra _gjenopprettingsmodus"
+
+#: src/preferences.py:65
+msgid "Allow starting with a device that is already in restore mode"
+msgstr "Lar deg starte med en enhet som allerede er i gjenopprettingsmodus"
+
+#: src/preferences.py:67
+msgid "_Ignore Errors"
+msgstr "_Ignorer feil"
+
+#: src/preferences.py:68
+msgid "Try to continue after certain errors, like a failed baseband update"
+msgstr ""
+"Prøver å fortsette etter visse feil, for eksempel en mislykket baseband-"
+"oppdatering"
+
+#: src/preferences.py:71
+msgid "Skip _Baseband"
+msgstr "Hopp over _baseband"
+
+#: src/preferences.py:72
+msgid "Do not upgrade NOR and baseband on legacy devices"
+msgstr "Ikke oppgrader NOR og baseband på eldre enheter"
+
+#: src/preferences.py:74
+msgid "_Stop After Ramdisk"
+msgstr "_Stopp etter ramdisk"
+
+#: src/preferences.py:75
+msgid "Boot the restore ramdisk without restoring"
+msgstr "Starter gjenopprettings-ramdisken uten å gjenopprette"
+
+#: src/preferences.py:80
+msgid "_Custom Firmware"
+msgstr "_Egendefinert fastvare"
+
+#: src/preferences.py:81
+msgid "Restore custom firmware. Requires a bootrom exploit"
+msgstr "Gjenoppretter egendefinert fastvare. Krever en bootrom-utnyttelse"
+
+#: src/preferences.py:82
+msgid "Restore _Variant"
+msgstr "Gjenopprettings_variant"
+
+#: src/preferences.py:83
+msgid "Signing Server _URL"
+msgstr "_URL til signeringstjener"
+
+#: src/preferences.py:86
+msgid "Troubleshooting"
+msgstr "Feilsøking"
+
+#: src/preferences.py:89
+msgid "_Detailed Log"
+msgstr "_Detaljert logg"
+
+#: src/preferences.py:90
+msgid "Include all debugging output from idevicerestore in the log"
+msgstr "Ta med all feilsøkingsutdata fra idevicerestore i loggen"
+
+#: src/preferences.py:92
+msgid "Log Files"
+msgstr "Loggfiler"
+
+#: src/preferences.py:93
+msgid "Every restore is recorded, even if Corer quits unexpectedly"
+msgstr "Hver gjenoppretting registreres, selv om Corer avsluttes uventet"
+
+#: src/preferences.py:103
+msgid "Keep _Personalized Components"
+msgstr "Behold _tilpassede komponenter"
+
+#: src/preferences.py:104
+msgid "Write personalized components to files for debugging"
+msgstr "Skriver tilpassede komponenter til filer for feilsøking"
+
+#: src/preferences.py:141
+msgid "Delete Stored Firmware?"
+msgstr "Slette lagret fastvare?"
+
+#: src/preferences.py:142
+msgid "Firmware will be downloaded again the next time it is needed."
+msgstr "Fastvaren lastes ned på nytt neste gang den trengs."
+
+#: src/preferences.py:144 src/window.py:585 src/window.ui:322
+msgid "_Cancel"
+msgstr "_Avbryt"
+
+#: src/restore.py:27
+msgid "Detecting Device"
+msgstr "Oppdager enhet"
+
+#: src/restore.py:28
+msgid "Preparing Device"
+msgstr "Forbereder enhet"
+
+#: src/restore.py:29
+msgid "Sending Filesystem"
+msgstr "Sender filsystem"
+
+#: src/restore.py:30
+msgid "Verifying Filesystem"
+msgstr "Bekrefter filsystem"
+
+#: src/restore.py:31
+msgid "Installing Firmware"
+msgstr "Installerer fastvare"
+
+#: src/restore.py:32
+msgid "Updating Baseband"
+msgstr "Oppdaterer baseband"
+
+#: src/restore.py:33
+msgid "Updating Components"
+msgstr "Oppdaterer komponenter"
+
+#: src/restore.py:34
+msgid "Sending Images"
+msgstr "Sender avbilder"
+
+#: src/restore.py:63
+msgid "Restoring"
+msgstr "Gjenoppretter"
+
+#: src/restore.py:134
+msgid "idevicerestore could not be started"
+msgstr "Kunne ikke starte idevicerestore"
+
+#: src/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "Device"
+msgstr "Enhet"
+
+#: src/shortcuts-dialog.ui:9
+msgctxt "shortcut window"
+msgid "Choose Firmware File"
+msgstr "Velg fastvarefil"
+
+#: src/shortcuts-dialog.ui:15
+msgctxt "shortcut window"
+msgid "Look for Devices"
+msgstr "Se etter enheter"
+
+#: src/shortcuts-dialog.ui:21
+msgctxt "shortcut window"
+msgid "View Log"
+msgstr "Vis logg"
+
+#: src/shortcuts-dialog.ui:29
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Generelt"
+
+#: src/shortcuts-dialog.ui:32
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr "Innstillinger"
+
+#: src/shortcuts-dialog.ui:38
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Vis hurtigtaster"
+
+#: src/shortcuts-dialog.ui:44
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Avslutt"
+
+#: src/window.py:149
+msgid "Apple Device"
+msgstr "Apple-enhet"
+
+#: src/window.py:217
+msgid "Corer needs permission to access this device over USB"
+msgstr "Corer trenger tillatelse til å få tilgang til denne enheten via USB"
+
+#: src/window.py:218
+msgid "_Set Up"
+msgstr "_Sett opp"
+
+#: src/window.py:223
+msgid "The system device service (usbmuxd) is not responding"
+msgstr "Systemets enhetstjeneste (usbmuxd) svarer ikke"
+
+#: src/window.py:224
+msgid "_Restart It"
+msgstr "_Start på nytt"
+
+#: src/window.py:229
+msgid "The device service (usbmuxd) is not available"
+msgstr "Enhetstjenesten (usbmuxd) er ikke tilgjengelig"
+
+#: src/window.py:260
+msgid "USB access was set up"
+msgstr "USB-tilgang ble satt opp"
+
+#: src/window.py:273
+msgid "The device service was restarted"
+msgstr "Enhetstjenesten ble startet på nytt"
+
+#: src/window.py:275
+msgid ""
+"Could not restart it. Run “sudo systemctl restart usbmuxd” in a terminal"
+msgstr ""
+"Kunne ikke starte på nytt. Kjør «sudo systemctl restart usbmuxd» i en "
+"terminal"
+
+#: src/window.py:284
+msgid "Set Up USB Access Manually"
+msgstr "Sett opp USB-tilgang manuelt"
+
+#: src/window.py:285
+msgid ""
+"The setup could not be completed. Run these commands in a terminal to "
+"install the device access rule, then reconnect the device."
+msgstr ""
+"Oppsettet kunne ikke fullføres. Kjør disse kommandoene i en terminal for å "
+"installere regelen for enhetstilgang, og koble deretter til enheten på nytt."
+
+#: src/window.py:301
+msgid "_Close"
+msgstr "_Lukk"
+
+#: src/window.py:302
+msgid "C_opy Commands"
+msgstr "K_opier kommandoer"
+
+#: src/window.py:410
+msgid "Looking for available versions…"
+msgstr "Ser etter tilgjengelige versjoner …"
+
+#: src/window.py:414
+msgid "Choose a firmware file for this device"
+msgstr "Velg en fastvarefil for denne enheten"
+
+#: src/window.py:416
+msgid "No firmware is currently signed for this device"
+msgstr "Ingen fastvare er for øyeblikket signert for denne enheten"
+
+#: src/window.py:418
+msgid "Using the firmware file"
+msgstr "Bruker fastvarefilen"
+
+#: src/window.py:422
+msgid "Downloaded"
+msgstr "Lastet ned"
+
+#. Translators: {size} is a file size such as “8.1 GB”
+#: src/window.py:425
+#, python-brace-format
+msgid "{size} download"
+msgstr "{size} nedlasting"
+
+#: src/window.py:429
+msgid "Offline — showing downloaded firmware"
+msgstr "Frakoblet – viser nedlastet fastvare"
+
+#: src/window.py:436
+msgid "Use an IPSW file from this computer"
+msgstr "Bruk en IPSW-fil fra denne datamaskinen"
+
+#. Translators: {filename} is the name of a firmware file
+#: src/window.py:440
+#, python-brace-format
+msgid "{filename} is not compatible with this device"
+msgstr "{filename} er ikke kompatibel med denne enheten"
+
+#: src/window.py:453 src/window.py:587
+msgid "_Erase and Restore"
+msgstr "_Slett og gjenopprett"
+
+#: src/window.py:453 src/window.py:591
+msgid "_Update"
+msgstr "_Oppdater"
+
+#: src/window.py:468
+msgid "Exit _Recovery Mode"
+msgstr "Avslutt _gjenopprettingsmodus"
+
+#: src/window.py:471
+msgid "Enter _Recovery Mode"
+msgstr "Gå inn i _gjenopprettingsmodus"
+
+#: src/window.py:502
+msgid "Firmware Files"
+msgstr "Fastvarefiler"
+
+#: src/window.py:507
+msgid "Choose Firmware File"
+msgstr "Velg fastvarefil"
+
+#: src/window.py:518
+msgid "This file cannot be used"
+msgstr "Denne filen kan ikke brukes"
+
+#. Translators: {name} is the name of a device
+#: src/window.py:563
+#, python-brace-format
+msgid "Erase “{name}”?"
+msgstr "Slette «{name}»?"
+
+#. Translators: {version} is a system version such as “iOS 18.1”
+#: src/window.py:565
+#, python-brace-format
+msgid ""
+"All content and settings will be permanently erased and {version} will be "
+"installed. This cannot be undone."
+msgstr ""
+"Alt innhold og alle innstillinger slettes permanent, og {version} "
+"installeres. Dette kan ikke angres."
+
+#: src/window.py:569
+#, python-brace-format
+msgid "Update “{name}”?"
+msgstr "Oppdatere «{name}»?"
+
+#: src/window.py:570
+#, python-brace-format
+msgid ""
+"{version} will be installed and your content and settings will be kept. Make"
+" sure you have a backup before continuing."
+msgstr ""
+"{version} installeres, og innholdet og innstillingene dine beholdes. Pass på"
+" at du har en sikkerhetskopi før du fortsetter."
+
+#: src/window.py:576
+msgid ""
+"This version is older than the one on the device. Downgrading without "
+"erasing is likely to fail and can cause complete data loss."
+msgstr ""
+"Denne versjonen er eldre enn den som er på enheten. Nedgradering uten "
+"sletting vil sannsynligvis mislykkes og kan føre til fullstendig datatap."
+
+#: src/window.py:580
+msgid ""
+"This firmware no longer appears to be signed, so the device will probably "
+"refuse it."
+msgstr ""
+"Denne fastvaren ser ikke lenger ut til å være signert, så enheten vil "
+"sannsynligvis avvise den."
+
+#: src/window.py:582
+msgid "Keep the device connected until the process finishes."
+msgstr "Hold enheten tilkoblet til prosessen er ferdig."
+
+#: src/window.py:628
+msgid "A device is being restored"
+msgstr "En enhet gjenopprettes"
+
+#: src/window.py:640 src/window.py:666
+msgid "Verifying Firmware"
+msgstr "Bekrefter fastvare"
+
+#: src/window.py:642 src/window.py:668
+msgid "Downloading Firmware"
+msgstr "Laster ned fastvare"
+
+#. Translators: download progress, e.g. “1.2 GB of 8.1 GB”
+#: src/window.py:672
+#, python-brace-format
+msgid "{done} of {total}"
+msgstr "{done} av {total}"
+
+#. Translators: download speed, e.g. “12.5 MB/s”
+#: src/window.py:679
+#, python-brace-format
+msgid "{speed}/s"
+msgstr "{speed}/s"
+
+#: src/window.py:785
+msgid "Stop the Process?"
+msgstr "Stoppe prosessen?"
+
+#: src/window.py:786
+msgid ""
+"Interrupting now can leave the device unusable until it is restored again."
+msgstr ""
+"Hvis du avbryter nå, kan enheten bli ubrukelig til den gjenopprettes på "
+"nytt."
+
+#: src/window.py:788 src/window.py:962
+msgid "_Continue"
+msgstr "_Fortsett"
+
+#: src/window.py:789
+msgid "_Stop"
+msgstr "_Stopp"
+
+#: src/window.py:807
+msgid "Stopping…"
+msgstr "Stopper …"
+
+#: src/window.py:839
+msgid "Stopped"
+msgstr "Stoppet"
+
+#: src/window.py:842
+msgid "SHSH Blobs Saved"
+msgstr "SHSH-blobber lagret"
+
+#: src/window.py:845
+msgid "Device Restored"
+msgstr "Enheten er gjenopprettet"
+
+#: src/window.py:846
+msgid "The device will restart and show the setup assistant."
+msgstr "Enheten starter på nytt og viser oppsettsassistenten."
+
+#: src/window.py:849
+msgid "Device Updated"
+msgstr "Enheten er oppdatert"
+
+#: src/window.py:850
+msgid "The device will restart when it has finished updating."
+msgstr "Enheten starter på nytt når oppdateringen er ferdig."
+
+#: src/window.py:858
+msgid "Could Not Save SHSH Blobs"
+msgstr "Kunne ikke lagre SHSH-blobber"
+
+#: src/window.py:859
+msgid "Restore Failed"
+msgstr "Gjenopprettingen mislyktes"
+
+#: src/window.py:863
+msgid "Check the log for details."
+msgstr "Se loggen for detaljer."
+
+#: src/window.py:899
+msgid "The device was not found. Reconnect it and try again"
+msgstr "Enheten ble ikke funnet. Koble den til på nytt og prøv igjen"
+
+#: src/window.py:925
+msgid "The device is restarting"
+msgstr "Enheten starter på nytt"
+
+#: src/window.py:926
+msgid "Could not exit recovery mode"
+msgstr "Kunne ikke avslutte gjenopprettingsmodus"
+
+#: src/window.py:929
+msgid "The device is restarting in recovery mode"
+msgstr "Enheten starter på nytt i gjenopprettingsmodus"
+
+#: src/window.py:930
+msgid ""
+"Could not enter recovery mode. Unlock the device and trust this computer"
+msgstr ""
+"Kunne ikke gå inn i gjenopprettingsmodus. Lås opp enheten og stol på denne "
+"datamaskinen"
+
+#: src/window.py:959
+msgid "Stop and Quit?"
+msgstr "Stoppe og avslutte?"
+
+#: src/window.py:960
+msgid ""
+"A device is being restored. Interrupting now can leave it unusable until it "
+"is restored again."
+msgstr ""
+"En enhet gjenopprettes. Hvis du avbryter nå, kan den bli ubrukelig til den "
+"gjenopprettes på nytt."
+
+#: src/window.py:963
+msgid "_Stop and Quit"
+msgstr "_Stopp og avslutt"
+
+#: src/window.ui:21
+msgid "Main Menu"
+msgstr "Hovedmeny"
+
+#: src/window.ui:56
+msgid "Connect a Device"
+msgstr "Koble til en enhet"
+
+#: src/window.ui:57
+msgid ""
+"Plug in an Apple device with a USB cable. Devices in recovery or DFU mode "
+"work too. A Mac with Apple silicon has to be in DFU mode."
+msgstr ""
+"Koble en Apple-enhet til med en USB-kabel. Enheter i gjenopprettings- eller "
+"DFU-modus fungerer også. En Mac med Apple silicon må være i DFU-modus."
+
+#: src/window.ui:124
+msgid "Device"
+msgstr "Enhet"
+
+#: src/window.ui:131
+msgid "Version"
+msgstr "Versjon"
+
+#: src/window.ui:145
+msgid "Try Again"
+msgstr "Prøv igjen"
+
+#: src/window.ui:156
+msgid "Firmware File"
+msgstr "Fastvarefil"
+
+#: src/window.ui:164
+msgid "Remove File"
+msgstr "Fjern fil"
+
+#: src/window.ui:175
+msgid "Choose File"
+msgstr "Velg fil"
+
+#: src/window.ui:190
+msgid "Erase Device"
+msgstr "Slett enhet"
+
+#: src/window.ui:191
+msgid "Remove all content and settings"
+msgstr "Fjern alt innhold og alle innstillinger"
+
+#: src/window.ui:312 src/window.ui:377 src/window.ui:427
+msgid "View _Log"
+msgstr "Vis _logg"
+
+#: src/window.ui:349
+msgid "_Done"
+msgstr "_Ferdig"
+
+#: src/window.ui:387
+msgid "_Back"
+msgstr "_Tilbake"
+
+#: src/window.ui:397
+msgid "_Try Again"
+msgstr "_Prøv igjen"
+
+#: src/window.ui:423
+msgid "_Save SHSH Blobs"
+msgstr "_Lagre SHSH-blobber"
+
+#: src/window.ui:433
+msgid "_Preferences"
+msgstr "_Innstillinger"
+
+#: src/window.ui:437
+msgid "_Keyboard Shortcuts"
+msgstr "_Hurtigtaster"
+
+#: src/window.ui:441
+msgid "_About Corer"
+msgstr "_Om Corer"

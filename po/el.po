@@ -1,0 +1,872 @@
+# Greek translation for Corer.
+# Copyright (C) 2026 Corer contributors
+# This file is distributed under the same license as the corer package.
+# Nícolas Castillo <code@tecncr.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: corer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 02:42-0500\n"
+"PO-Revision-Date: 2026-11-17 03:39-0500\n"
+"Last-Translator: Nícolas Castillo <code@tecncr.com>\n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/com.tecncr.Corer.desktop.in.in:2
+#: data/com.tecncr.Corer.metainfo.xml.in.in:7 src/window.ui:6
+msgid "Corer"
+msgstr "Corer"
+
+#. Translators: Short description shown in GNOME Shell search and app grids.
+#. Keep it under 80 characters.
+#: data/com.tecncr.Corer.desktop.in.in:5
+msgid "Restore firmware to Apple devices"
+msgstr "Επαναφορά υλικολογισμικού σε συσκευές Apple"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/com.tecncr.Corer.desktop.in.in:12
+msgid ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;"
+msgstr ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Υλικολογισμικό;Restore;Επαναφορά;Update;Ενημέρωση;IPSW;Recovery;Ανάκτηση;DFU;"
+
+#: data/com.tecncr.Corer.gschema.xml:6
+msgid "Window width"
+msgstr "Πλάτος παραθύρου"
+
+#: data/com.tecncr.Corer.gschema.xml:10
+msgid "Window height"
+msgstr "Ύψος παραθύρου"
+
+#: data/com.tecncr.Corer.gschema.xml:14
+msgid "Whether the window is maximized"
+msgstr "Αν το παράθυρο είναι μεγιστοποιημένο"
+
+#: data/com.tecncr.Corer.gschema.xml:18
+msgid "Keep downloaded firmware"
+msgstr "Διατήρηση του ληφθέντος υλικολογισμικού"
+
+#: data/com.tecncr.Corer.gschema.xml:19
+msgid ""
+"Keep downloaded firmware files in the cache after a successful restore so "
+"they can be reused."
+msgstr ""
+"Διατηρεί στην προσωρινή μνήμη τα ληφθέντα αρχεία υλικολογισμικού μετά από "
+"μια επιτυχή επαναφορά, ώστε να μπορούν να επαναχρησιμοποιηθούν."
+
+#: data/com.tecncr.Corer.gschema.xml:23
+msgid "Verbose logging"
+msgstr "Αναλυτική καταγραφή"
+
+#: data/com.tecncr.Corer.gschema.xml:24
+msgid "Ask idevicerestore to print additional debug output."
+msgstr ""
+"Ζητά από το idevicerestore να εμφανίζει πρόσθετες πληροφορίες εντοπισμού "
+"σφαλμάτων."
+
+#: data/com.tecncr.Corer.gschema.xml:28
+msgid "Allow restoring from restore mode"
+msgstr "Να επιτρέπεται η επαναφορά από τη λειτουργία επαναφοράς"
+
+#: data/com.tecncr.Corer.gschema.xml:32
+msgid "Continue after certain errors"
+msgstr "Συνέχεια μετά από ορισμένα σφάλματα"
+
+#: data/com.tecncr.Corer.gschema.xml:33
+msgid ""
+"Try to continue the restore process after certain errors, like a failed "
+"baseband update."
+msgstr ""
+"Επιχειρεί να συνεχίσει τη διαδικασία επαναφοράς μετά από ορισμένα σφάλματα, "
+"όπως μια αποτυχημένη ενημέρωση του baseband."
+
+#: data/com.tecncr.Corer.gschema.xml:37
+msgid "Skip NOR and baseband upgrade"
+msgstr "Παράλειψη αναβάθμισης NOR και baseband"
+
+#: data/com.tecncr.Corer.gschema.xml:41
+msgid "Keep personalized components"
+msgstr "Διατήρηση των προσαρμοσμένων στοιχείων"
+
+#: data/com.tecncr.Corer.gschema.xml:42
+msgid "Write personalized components to files for debugging."
+msgstr "Γράφει τα προσαρμοσμένα στοιχεία σε αρχεία για εντοπισμό σφαλμάτων."
+
+#: data/com.tecncr.Corer.gschema.xml:46
+msgid "Restore custom firmware"
+msgstr "Επαναφορά προσαρμοσμένου υλικολογισμικού"
+
+#: data/com.tecncr.Corer.gschema.xml:47
+msgid "Restore with a custom firmware. Requires a bootrom exploit."
+msgstr ""
+"Επαναφέρει με προσαρμοσμένο υλικολογισμικό. Απαιτεί ευπάθεια του bootrom."
+
+#: data/com.tecncr.Corer.gschema.xml:51
+msgid "Stop after booting the ramdisk"
+msgstr "Διακοπή μετά την εκκίνηση του ramdisk"
+
+#: data/com.tecncr.Corer.gschema.xml:55
+msgid "Signing server URL"
+msgstr "URL διακομιστή υπογραφών"
+
+#: data/com.tecncr.Corer.gschema.xml:56
+msgid ""
+"Overrides the default signing server request URL. Empty uses the default."
+msgstr ""
+"Αντικαθιστά το προεπιλεγμένο URL των αιτημάτων προς τον διακομιστή "
+"υπογραφών. Αν είναι κενό, χρησιμοποιείται το προεπιλεγμένο."
+
+#: data/com.tecncr.Corer.gschema.xml:60
+msgid "Restore variant"
+msgstr "Παραλλαγή επαναφοράς"
+
+#: data/com.tecncr.Corer.gschema.xml:61
+msgid "Build identity variant to use. Empty selects it automatically."
+msgstr ""
+"Η παραλλαγή της ταυτότητας κατασκευής που θα χρησιμοποιηθεί. Αν είναι κενή, "
+"επιλέγεται αυτόματα."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:8
+msgid "Restore and update Apple devices"
+msgstr "Επαναφορά και ενημέρωση συσκευών Apple"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:10
+msgid ""
+"Corer installs firmware on Apple devices, including Mac computers with Apple"
+" silicon in DFU mode. Connect a device, pick a version and choose whether to"
+" keep or erase its content."
+msgstr ""
+"Το Corer εγκαθιστά υλικολογισμικό σε συσκευές Apple, συμπεριλαμβανομένων των"
+" Mac με Apple silicon σε λειτουργία DFU. Συνδέστε μια συσκευή, επιλέξτε μια "
+"έκδοση και αποφασίστε αν θα διατηρηθεί ή θα διαγραφεί το περιεχόμενό της."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:16
+msgid "Update a device while keeping its data, or erase and restore it"
+msgstr ""
+"Ενημερώστε μια συσκευή διατηρώντας τα δεδομένα της ή διαγράψτε και "
+"επαναφέρετέ την"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:17
+msgid "Download currently signed firmware on demand and reuse it later"
+msgstr ""
+"Λάβετε κατά παραγγελία το τρέχον υπογεγραμμένο υλικολογισμικό και "
+"επαναχρησιμοποιήστε το αργότερα"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:18
+msgid "Use a firmware file you already have"
+msgstr "Χρησιμοποιήστε ένα αρχείο υλικολογισμικού που ήδη έχετε"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:19
+msgid "Recover devices stuck in recovery or DFU mode"
+msgstr "Ανακτήστε συσκευές που έχουν κολλήσει σε λειτουργία ανάκτησης ή DFU"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:21
+msgid ""
+"Corer is powered by idevicerestore and libimobiledevice. It is not "
+"affiliated with or endorsed by Apple Inc."
+msgstr ""
+"Το Corer βασίζεται στα idevicerestore και libimobiledevice. Δεν σχετίζεται "
+"με την Apple Inc. ούτε εγκρίνεται από αυτήν."
+
+#: src/devices.py:89
+msgid "Recovery Mode"
+msgstr "Λειτουργία ανάκτησης"
+
+#: src/devices.py:91
+msgid "DFU Mode"
+msgstr "Λειτουργία DFU"
+
+#: src/firmware.py:145 src/firmware.py:150
+msgid "Could not load the list of available versions"
+msgstr "Αδυναμία φόρτωσης της λίστας των διαθέσιμων εκδόσεων"
+
+#: src/firmware.py:185
+msgid "This is not a valid firmware file"
+msgstr "Αυτό δεν είναι έγκυρο αρχείο υλικολογισμικού"
+
+#: src/firmware.py:335
+msgid "This firmware is not available for download"
+msgstr "Αυτό το υλικολογισμικό δεν είναι διαθέσιμο για λήψη"
+
+#: src/firmware.py:349
+msgid "Not enough free disk space to download the firmware"
+msgstr ""
+"Δεν υπάρχει αρκετός ελεύθερος χώρος στον δίσκο για τη λήψη του "
+"υλικολογισμικού"
+
+#: src/firmware.py:360
+msgid "The download server refused the request"
+msgstr "Ο διακομιστής λήψεων απέρριψε το αίτημα"
+
+#: src/firmware.py:367
+msgid "The download failed. Check your network connection"
+msgstr "Η λήψη απέτυχε. Ελέγξτε τη σύνδεσή σας στο δίκτυο"
+
+#: src/firmware.py:374
+msgid "The downloaded firmware is incomplete"
+msgstr "Το ληφθέν υλικολογισμικό είναι ελλιπές"
+
+#: src/firmware.py:377
+msgid "The downloaded firmware is corrupted"
+msgstr "Το ληφθέν υλικολογισμικό είναι κατεστραμμένο"
+
+#: src/log_dialog.py:16
+msgid "Log"
+msgstr "Αρχείο καταγραφής"
+
+#: src/log_dialog.py:24
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+#: src/log_dialog.py:28
+msgid "Save…"
+msgstr "Αποθήκευση…"
+
+#: src/log_dialog.py:36
+msgid "No Log Yet"
+msgstr "Δεν υπάρχει ακόμη καταγραφή"
+
+#: src/log_dialog.py:37
+msgid "Output appears here when a device is restored."
+msgstr "Η έξοδος θα εμφανιστεί εδώ όταν γίνει επαναφορά μιας συσκευής."
+
+#: src/log_dialog.py:81 src/window.py:310
+msgid "Copied to clipboard"
+msgstr "Αντιγράφηκε στο πρόχειρο"
+
+#: src/log_dialog.py:84
+msgid "Save Log"
+msgstr "Αποθήκευση καταγραφής"
+
+#. Translators: Replace "translator-credits" with your name/username, and
+#. optionally an email or URL.
+#: src/main.py:90
+msgid "translator-credits"
+msgstr "Nícolas Castillo <code@tecncr.com>"
+
+#: src/main.py:96
+msgid "Powered By"
+msgstr "Με την ισχύ των"
+
+#. Firmware
+#: src/preferences.py:23 src/preferences.py:77
+msgid "Firmware"
+msgstr "Υλικολογισμικό"
+
+#: src/preferences.py:28
+msgid "Downloads"
+msgstr "Λήψεις"
+
+#: src/preferences.py:29
+msgid ""
+"Downloaded firmware is stored so that it does not have to be downloaded "
+"again."
+msgstr ""
+"Το ληφθέν υλικολογισμικό αποθηκεύεται ώστε να μην χρειάζεται να ληφθεί ξανά."
+
+#: src/preferences.py:33
+msgid "_Keep Downloaded Firmware"
+msgstr "_Διατήρηση του ληφθέντος υλικολογισμικού"
+
+#: src/preferences.py:34
+msgid "Turn off to delete firmware after a successful restore"
+msgstr ""
+"Απενεργοποιήστε για να διαγράφεται το υλικολογισμικό μετά από μια επιτυχή "
+"επαναφορά"
+
+#: src/preferences.py:36
+msgid "Stored Firmware"
+msgstr "Αποθηκευμένο υλικολογισμικό"
+
+#: src/preferences.py:37
+msgid "Calculating…"
+msgstr "Υπολογισμός…"
+
+#: src/preferences.py:39 src/preferences.py:96
+msgid "Open Folder"
+msgstr "Άνοιγμα φακέλου"
+
+#: src/preferences.py:44 src/preferences.py:145
+msgid "_Delete"
+msgstr "_Διαγραφή"
+
+#. Advanced
+#: src/preferences.py:54
+msgid "Advanced"
+msgstr "Για προχωρημένους"
+
+#: src/preferences.py:59
+msgid "Restore"
+msgstr "Επαναφορά"
+
+#: src/preferences.py:60
+msgid ""
+"These options can leave a device unable to start. Change them only if you "
+"know what they do."
+msgstr ""
+"Αυτές οι επιλογές μπορεί να κάνουν μια συσκευή να μην εκκινεί. Αλλάξτε τις "
+"μόνο αν γνωρίζετε τι κάνουν."
+
+#: src/preferences.py:64
+msgid "Restore From _Restore Mode"
+msgstr "Επαναφορά από τη λειτουργία _επαναφοράς"
+
+#: src/preferences.py:65
+msgid "Allow starting with a device that is already in restore mode"
+msgstr ""
+"Επιτρέπει την έναρξη με μια συσκευή που βρίσκεται ήδη σε λειτουργία "
+"επαναφοράς"
+
+#: src/preferences.py:67
+msgid "_Ignore Errors"
+msgstr "_Αγνόηση σφαλμάτων"
+
+#: src/preferences.py:68
+msgid "Try to continue after certain errors, like a failed baseband update"
+msgstr ""
+"Επιχειρεί να συνεχίσει μετά από ορισμένα σφάλματα, όπως μια αποτυχημένη "
+"ενημέρωση του baseband"
+
+#: src/preferences.py:71
+msgid "Skip _Baseband"
+msgstr "Παράλειψη του _baseband"
+
+#: src/preferences.py:72
+msgid "Do not upgrade NOR and baseband on legacy devices"
+msgstr "Να μην αναβαθμίζονται τα NOR και baseband σε παλαιότερες συσκευές"
+
+#: src/preferences.py:74
+msgid "_Stop After Ramdisk"
+msgstr "_Διακοπή μετά το ramdisk"
+
+#: src/preferences.py:75
+msgid "Boot the restore ramdisk without restoring"
+msgstr "Εκκινεί το ramdisk επαναφοράς χωρίς να γίνει επαναφορά"
+
+#: src/preferences.py:80
+msgid "_Custom Firmware"
+msgstr "_Προσαρμοσμένο υλικολογισμικό"
+
+#: src/preferences.py:81
+msgid "Restore custom firmware. Requires a bootrom exploit"
+msgstr "Επαναφέρει προσαρμοσμένο υλικολογισμικό. Απαιτεί ευπάθεια του bootrom"
+
+#: src/preferences.py:82
+msgid "Restore _Variant"
+msgstr "_Παραλλαγή επαναφοράς"
+
+#: src/preferences.py:83
+msgid "Signing Server _URL"
+msgstr "_URL διακομιστή υπογραφών"
+
+#: src/preferences.py:86
+msgid "Troubleshooting"
+msgstr "Αντιμετώπιση προβλημάτων"
+
+#: src/preferences.py:89
+msgid "_Detailed Log"
+msgstr "_Αναλυτική καταγραφή"
+
+#: src/preferences.py:90
+msgid "Include all debugging output from idevicerestore in the log"
+msgstr ""
+"Συμπερίληψη στην καταγραφή όλης της εξόδου εντοπισμού σφαλμάτων του "
+"idevicerestore"
+
+#: src/preferences.py:92
+msgid "Log Files"
+msgstr "Αρχεία καταγραφής"
+
+#: src/preferences.py:93
+msgid "Every restore is recorded, even if Corer quits unexpectedly"
+msgstr ""
+"Κάθε επαναφορά καταγράφεται, ακόμη και αν το Corer κλείσει απροσδόκητα"
+
+#: src/preferences.py:103
+msgid "Keep _Personalized Components"
+msgstr "Διατήρηση των _προσαρμοσμένων στοιχείων"
+
+#: src/preferences.py:104
+msgid "Write personalized components to files for debugging"
+msgstr "Γράφει τα προσαρμοσμένα στοιχεία σε αρχεία για εντοπισμό σφαλμάτων"
+
+#: src/preferences.py:141
+msgid "Delete Stored Firmware?"
+msgstr "Διαγραφή του αποθηκευμένου υλικολογισμικού;"
+
+#: src/preferences.py:142
+msgid "Firmware will be downloaded again the next time it is needed."
+msgstr "Το υλικολογισμικό θα ληφθεί ξανά την επόμενη φορά που θα χρειαστεί."
+
+#: src/preferences.py:144 src/window.py:585 src/window.ui:322
+msgid "_Cancel"
+msgstr "_Ακύρωση"
+
+#: src/restore.py:27
+msgid "Detecting Device"
+msgstr "Εντοπισμός συσκευής"
+
+#: src/restore.py:28
+msgid "Preparing Device"
+msgstr "Προετοιμασία συσκευής"
+
+#: src/restore.py:29
+msgid "Sending Filesystem"
+msgstr "Αποστολή συστήματος αρχείων"
+
+#: src/restore.py:30
+msgid "Verifying Filesystem"
+msgstr "Επαλήθευση συστήματος αρχείων"
+
+#: src/restore.py:31
+msgid "Installing Firmware"
+msgstr "Εγκατάσταση υλικολογισμικού"
+
+#: src/restore.py:32
+msgid "Updating Baseband"
+msgstr "Ενημέρωση του baseband"
+
+#: src/restore.py:33
+msgid "Updating Components"
+msgstr "Ενημέρωση στοιχείων"
+
+#: src/restore.py:34
+msgid "Sending Images"
+msgstr "Αποστολή εικόνων"
+
+#: src/restore.py:63
+msgid "Restoring"
+msgstr "Επαναφορά"
+
+#: src/restore.py:134
+msgid "idevicerestore could not be started"
+msgstr "Δεν ήταν δυνατή η εκκίνηση του idevicerestore"
+
+#: src/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "Device"
+msgstr "Συσκευή"
+
+#: src/shortcuts-dialog.ui:9
+msgctxt "shortcut window"
+msgid "Choose Firmware File"
+msgstr "Επιλογή αρχείου υλικολογισμικού"
+
+#: src/shortcuts-dialog.ui:15
+msgctxt "shortcut window"
+msgid "Look for Devices"
+msgstr "Αναζήτηση συσκευών"
+
+#: src/shortcuts-dialog.ui:21
+msgctxt "shortcut window"
+msgid "View Log"
+msgstr "Προβολή καταγραφής"
+
+#: src/shortcuts-dialog.ui:29
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Γενικά"
+
+#: src/shortcuts-dialog.ui:32
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: src/shortcuts-dialog.ui:38
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Εμφάνιση συντομεύσεων"
+
+#: src/shortcuts-dialog.ui:44
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Έξοδος"
+
+#: src/window.py:149
+msgid "Apple Device"
+msgstr "Συσκευή Apple"
+
+#: src/window.py:217
+msgid "Corer needs permission to access this device over USB"
+msgstr "Το Corer χρειάζεται άδεια για πρόσβαση σε αυτή τη συσκευή μέσω USB"
+
+#: src/window.py:218
+msgid "_Set Up"
+msgstr "_Ρύθμιση"
+
+#: src/window.py:223
+msgid "The system device service (usbmuxd) is not responding"
+msgstr "Η υπηρεσία συσκευών του συστήματος (usbmuxd) δεν αποκρίνεται"
+
+#: src/window.py:224
+msgid "_Restart It"
+msgstr "_Επανεκκίνηση"
+
+#: src/window.py:229
+msgid "The device service (usbmuxd) is not available"
+msgstr "Η υπηρεσία συσκευών (usbmuxd) δεν είναι διαθέσιμη"
+
+#: src/window.py:260
+msgid "USB access was set up"
+msgstr "Η πρόσβαση USB ρυθμίστηκε"
+
+#: src/window.py:273
+msgid "The device service was restarted"
+msgstr "Η υπηρεσία συσκευών επανεκκινήθηκε"
+
+#: src/window.py:275
+msgid ""
+"Could not restart it. Run “sudo systemctl restart usbmuxd” in a terminal"
+msgstr ""
+"Δεν ήταν δυνατή η επανεκκίνηση. Εκτελέστε «sudo systemctl restart usbmuxd» "
+"σε ένα τερματικό"
+
+#: src/window.py:284
+msgid "Set Up USB Access Manually"
+msgstr "Μη αυτόματη ρύθμιση της πρόσβασης USB"
+
+#: src/window.py:285
+msgid ""
+"The setup could not be completed. Run these commands in a terminal to "
+"install the device access rule, then reconnect the device."
+msgstr ""
+"Η ρύθμιση δεν ολοκληρώθηκε. Εκτελέστε αυτές τις εντολές σε ένα τερματικό για"
+" να εγκαταστήσετε τον κανόνα πρόσβασης στη συσκευή και, στη συνέχεια, "
+"συνδέστε ξανά τη συσκευή."
+
+#: src/window.py:301
+msgid "_Close"
+msgstr "_Κλείσιμο"
+
+#: src/window.py:302
+msgid "C_opy Commands"
+msgstr "Α_ντιγραφή εντολών"
+
+#: src/window.py:410
+msgid "Looking for available versions…"
+msgstr "Αναζήτηση διαθέσιμων εκδόσεων…"
+
+#: src/window.py:414
+msgid "Choose a firmware file for this device"
+msgstr "Επιλέξτε ένα αρχείο υλικολογισμικού για αυτή τη συσκευή"
+
+#: src/window.py:416
+msgid "No firmware is currently signed for this device"
+msgstr ""
+"Προς το παρόν δεν υπάρχει υπογεγραμμένο υλικολογισμικό για αυτή τη συσκευή"
+
+#: src/window.py:418
+msgid "Using the firmware file"
+msgstr "Χρήση του αρχείου υλικολογισμικού"
+
+#: src/window.py:422
+msgid "Downloaded"
+msgstr "Ελήφθη"
+
+#. Translators: {size} is a file size such as “8.1 GB”
+#: src/window.py:425
+#, python-brace-format
+msgid "{size} download"
+msgstr "Λήψη {size}"
+
+#: src/window.py:429
+msgid "Offline — showing downloaded firmware"
+msgstr "Εκτός σύνδεσης — εμφανίζεται το ληφθέν υλικολογισμικό"
+
+#: src/window.py:436
+msgid "Use an IPSW file from this computer"
+msgstr "Χρήση αρχείου IPSW από αυτόν τον υπολογιστή"
+
+#. Translators: {filename} is the name of a firmware file
+#: src/window.py:440
+#, python-brace-format
+msgid "{filename} is not compatible with this device"
+msgstr "Το {filename} δεν είναι συμβατό με αυτή τη συσκευή"
+
+#: src/window.py:453 src/window.py:587
+msgid "_Erase and Restore"
+msgstr "_Διαγραφή και επαναφορά"
+
+#: src/window.py:453 src/window.py:591
+msgid "_Update"
+msgstr "_Ενημέρωση"
+
+#: src/window.py:468
+msgid "Exit _Recovery Mode"
+msgstr "Έξοδος από τη λειτουργία _ανάκτησης"
+
+#: src/window.py:471
+msgid "Enter _Recovery Mode"
+msgstr "Είσοδος στη λειτουργία _ανάκτησης"
+
+#: src/window.py:502
+msgid "Firmware Files"
+msgstr "Αρχεία υλικολογισμικού"
+
+#: src/window.py:507
+msgid "Choose Firmware File"
+msgstr "Επιλογή αρχείου υλικολογισμικού"
+
+#: src/window.py:518
+msgid "This file cannot be used"
+msgstr "Αυτό το αρχείο δεν μπορεί να χρησιμοποιηθεί"
+
+#. Translators: {name} is the name of a device
+#: src/window.py:563
+#, python-brace-format
+msgid "Erase “{name}”?"
+msgstr "Διαγραφή του «{name}»;"
+
+#. Translators: {version} is a system version such as “iOS 18.1”
+#: src/window.py:565
+#, python-brace-format
+msgid ""
+"All content and settings will be permanently erased and {version} will be "
+"installed. This cannot be undone."
+msgstr ""
+"Όλο το περιεχόμενο και οι ρυθμίσεις θα διαγραφούν οριστικά και θα "
+"εγκατασταθεί το {version}. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί."
+
+#: src/window.py:569
+#, python-brace-format
+msgid "Update “{name}”?"
+msgstr "Ενημέρωση του «{name}»;"
+
+#: src/window.py:570
+#, python-brace-format
+msgid ""
+"{version} will be installed and your content and settings will be kept. Make"
+" sure you have a backup before continuing."
+msgstr ""
+"Θα εγκατασταθεί το {version} και το περιεχόμενο και οι ρυθμίσεις σας θα "
+"διατηρηθούν. Βεβαιωθείτε ότι έχετε αντίγραφο ασφαλείας πριν συνεχίσετε."
+
+#: src/window.py:576
+msgid ""
+"This version is older than the one on the device. Downgrading without "
+"erasing is likely to fail and can cause complete data loss."
+msgstr ""
+"Αυτή η έκδοση είναι παλαιότερη από αυτήν της συσκευής. Η υποβάθμιση χωρίς "
+"διαγραφή είναι πιθανό να αποτύχει και μπορεί να προκαλέσει πλήρη απώλεια "
+"δεδομένων."
+
+#: src/window.py:580
+msgid ""
+"This firmware no longer appears to be signed, so the device will probably "
+"refuse it."
+msgstr ""
+"Αυτό το υλικολογισμικό φαίνεται να μην είναι πλέον υπογεγραμμένο, επομένως η"
+" συσκευή πιθανότατα θα το απορρίψει."
+
+#: src/window.py:582
+msgid "Keep the device connected until the process finishes."
+msgstr "Κρατήστε τη συσκευή συνδεδεμένη μέχρι να ολοκληρωθεί η διαδικασία."
+
+#: src/window.py:628
+msgid "A device is being restored"
+msgstr "Γίνεται επαναφορά μιας συσκευής"
+
+#: src/window.py:640 src/window.py:666
+msgid "Verifying Firmware"
+msgstr "Επαλήθευση υλικολογισμικού"
+
+#: src/window.py:642 src/window.py:668
+msgid "Downloading Firmware"
+msgstr "Λήψη υλικολογισμικού"
+
+#. Translators: download progress, e.g. “1.2 GB of 8.1 GB”
+#: src/window.py:672
+#, python-brace-format
+msgid "{done} of {total}"
+msgstr "{done} από {total}"
+
+#. Translators: download speed, e.g. “12.5 MB/s”
+#: src/window.py:679
+#, python-brace-format
+msgid "{speed}/s"
+msgstr "{speed}/s"
+
+#: src/window.py:785
+msgid "Stop the Process?"
+msgstr "Διακοπή της διαδικασίας;"
+
+#: src/window.py:786
+msgid ""
+"Interrupting now can leave the device unusable until it is restored again."
+msgstr ""
+"Η διακοπή τώρα μπορεί να αφήσει τη συσκευή μη λειτουργική μέχρι να γίνει "
+"ξανά επαναφορά."
+
+#: src/window.py:788 src/window.py:962
+msgid "_Continue"
+msgstr "_Συνέχεια"
+
+#: src/window.py:789
+msgid "_Stop"
+msgstr "_Διακοπή"
+
+#: src/window.py:807
+msgid "Stopping…"
+msgstr "Διακοπή…"
+
+#: src/window.py:839
+msgid "Stopped"
+msgstr "Διακόπηκε"
+
+#: src/window.py:842
+msgid "SHSH Blobs Saved"
+msgstr "Τα SHSH blobs αποθηκεύτηκαν"
+
+#: src/window.py:845
+msgid "Device Restored"
+msgstr "Η συσκευή επαναφέρθηκε"
+
+#: src/window.py:846
+msgid "The device will restart and show the setup assistant."
+msgstr "Η συσκευή θα επανεκκινήσει και θα εμφανίσει τον βοηθό ρύθμισης."
+
+#: src/window.py:849
+msgid "Device Updated"
+msgstr "Η συσκευή ενημερώθηκε"
+
+#: src/window.py:850
+msgid "The device will restart when it has finished updating."
+msgstr "Η συσκευή θα επανεκκινήσει όταν ολοκληρωθεί η ενημέρωση."
+
+#: src/window.py:858
+msgid "Could Not Save SHSH Blobs"
+msgstr "Αδυναμία αποθήκευσης των SHSH blobs"
+
+#: src/window.py:859
+msgid "Restore Failed"
+msgstr "Η επαναφορά απέτυχε"
+
+#: src/window.py:863
+msgid "Check the log for details."
+msgstr "Ανατρέξτε στην καταγραφή για λεπτομέρειες."
+
+#: src/window.py:899
+msgid "The device was not found. Reconnect it and try again"
+msgstr "Η συσκευή δεν βρέθηκε. Συνδέστε την ξανά και δοκιμάστε πάλι"
+
+#: src/window.py:925
+msgid "The device is restarting"
+msgstr "Η συσκευή επανεκκινείται"
+
+#: src/window.py:926
+msgid "Could not exit recovery mode"
+msgstr "Δεν ήταν δυνατή η έξοδος από τη λειτουργία ανάκτησης"
+
+#: src/window.py:929
+msgid "The device is restarting in recovery mode"
+msgstr "Η συσκευή επανεκκινείται σε λειτουργία ανάκτησης"
+
+#: src/window.py:930
+msgid ""
+"Could not enter recovery mode. Unlock the device and trust this computer"
+msgstr ""
+"Δεν ήταν δυνατή η είσοδος στη λειτουργία ανάκτησης. Ξεκλειδώστε τη συσκευή "
+"και εμπιστευτείτε αυτόν τον υπολογιστή"
+
+#: src/window.py:959
+msgid "Stop and Quit?"
+msgstr "Διακοπή και έξοδος;"
+
+#: src/window.py:960
+msgid ""
+"A device is being restored. Interrupting now can leave it unusable until it "
+"is restored again."
+msgstr ""
+"Γίνεται επαναφορά μιας συσκευής. Η διακοπή τώρα μπορεί να την αφήσει μη "
+"λειτουργική μέχρι να γίνει ξανά επαναφορά."
+
+#: src/window.py:963
+msgid "_Stop and Quit"
+msgstr "_Διακοπή και έξοδος"
+
+#: src/window.ui:21
+msgid "Main Menu"
+msgstr "Κύριο μενού"
+
+#: src/window.ui:56
+msgid "Connect a Device"
+msgstr "Σύνδεση συσκευής"
+
+#: src/window.ui:57
+msgid ""
+"Plug in an Apple device with a USB cable. Devices in recovery or DFU mode "
+"work too. A Mac with Apple silicon has to be in DFU mode."
+msgstr ""
+"Συνδέστε μια συσκευή Apple με καλώδιο USB. Λειτουργούν και συσκευές σε "
+"λειτουργία ανάκτησης ή DFU. Ένα Mac με Apple silicon πρέπει να βρίσκεται σε "
+"λειτουργία DFU."
+
+#: src/window.ui:124
+msgid "Device"
+msgstr "Συσκευή"
+
+#: src/window.ui:131
+msgid "Version"
+msgstr "Έκδοση"
+
+#: src/window.ui:145
+msgid "Try Again"
+msgstr "Δοκιμή ξανά"
+
+#: src/window.ui:156
+msgid "Firmware File"
+msgstr "Αρχείο υλικολογισμικού"
+
+#: src/window.ui:164
+msgid "Remove File"
+msgstr "Αφαίρεση αρχείου"
+
+#: src/window.ui:175
+msgid "Choose File"
+msgstr "Επιλογή αρχείου"
+
+#: src/window.ui:190
+msgid "Erase Device"
+msgstr "Διαγραφή συσκευής"
+
+#: src/window.ui:191
+msgid "Remove all content and settings"
+msgstr "Αφαίρεση όλου του περιεχομένου και των ρυθμίσεων"
+
+#: src/window.ui:312 src/window.ui:377 src/window.ui:427
+msgid "View _Log"
+msgstr "Προβολή _καταγραφής"
+
+#: src/window.ui:349
+msgid "_Done"
+msgstr "_Τέλος"
+
+#: src/window.ui:387
+msgid "_Back"
+msgstr "_Πίσω"
+
+#: src/window.ui:397
+msgid "_Try Again"
+msgstr "_Δοκιμή ξανά"
+
+#: src/window.ui:423
+msgid "_Save SHSH Blobs"
+msgstr "_Αποθήκευση SHSH blobs"
+
+#: src/window.ui:433
+msgid "_Preferences"
+msgstr "_Προτιμήσεις"
+
+#: src/window.ui:437
+msgid "_Keyboard Shortcuts"
+msgstr "Συντομεύσεις _πληκτρολογίου"
+
+#: src/window.ui:441
+msgid "_About Corer"
+msgstr "Πληροφορίες για το _Corer"

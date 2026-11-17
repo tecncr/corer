@@ -1,0 +1,866 @@
+# Romanian translation for Corer.
+# Copyright (C) 2026 Corer contributors
+# This file is distributed under the same license as the corer package.
+# Nícolas Castillo <code@tecncr.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: corer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 02:42-0500\n"
+"PO-Revision-Date: 2026-11-17 03:50-0500\n"
+"Last-Translator: Nícolas Castillo <code@tecncr.com>\n"
+"Language-Team: Romanian\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+
+#: data/com.tecncr.Corer.desktop.in.in:2
+#: data/com.tecncr.Corer.metainfo.xml.in.in:7 src/window.ui:6
+msgid "Corer"
+msgstr "Corer"
+
+#. Translators: Short description shown in GNOME Shell search and app grids.
+#. Keep it under 80 characters.
+#: data/com.tecncr.Corer.desktop.in.in:5
+msgid "Restore firmware to Apple devices"
+msgstr "Restaurează firmware-ul dispozitivelor Apple"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/com.tecncr.Corer.desktop.in.in:12
+msgid ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;"
+msgstr ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Restaurare;Update;Actualizare;IPSW;Recovery;Recuperare;DFU;"
+
+#: data/com.tecncr.Corer.gschema.xml:6
+msgid "Window width"
+msgstr "Lățimea ferestrei"
+
+#: data/com.tecncr.Corer.gschema.xml:10
+msgid "Window height"
+msgstr "Înălțimea ferestrei"
+
+#: data/com.tecncr.Corer.gschema.xml:14
+msgid "Whether the window is maximized"
+msgstr "Dacă fereastra este maximizată"
+
+#: data/com.tecncr.Corer.gschema.xml:18
+msgid "Keep downloaded firmware"
+msgstr "Păstrează firmware-ul descărcat"
+
+#: data/com.tecncr.Corer.gschema.xml:19
+msgid ""
+"Keep downloaded firmware files in the cache after a successful restore so "
+"they can be reused."
+msgstr ""
+"Păstrează fișierele de firmware descărcate în cache după o restaurare "
+"reușită, pentru a putea fi refolosite."
+
+#: data/com.tecncr.Corer.gschema.xml:23
+msgid "Verbose logging"
+msgstr "Jurnalizare detaliată"
+
+#: data/com.tecncr.Corer.gschema.xml:24
+msgid "Ask idevicerestore to print additional debug output."
+msgstr ""
+"Cere ca idevicerestore să afișeze informații suplimentare de depanare."
+
+#: data/com.tecncr.Corer.gschema.xml:28
+msgid "Allow restoring from restore mode"
+msgstr "Permite restaurarea din modul de restaurare"
+
+#: data/com.tecncr.Corer.gschema.xml:32
+msgid "Continue after certain errors"
+msgstr "Continuă după anumite erori"
+
+#: data/com.tecncr.Corer.gschema.xml:33
+msgid ""
+"Try to continue the restore process after certain errors, like a failed "
+"baseband update."
+msgstr ""
+"Încearcă să continue procesul de restaurare după anumite erori, precum o "
+"actualizare eșuată a baseband-ului."
+
+#: data/com.tecncr.Corer.gschema.xml:37
+msgid "Skip NOR and baseband upgrade"
+msgstr "Omite actualizarea NOR și a baseband-ului"
+
+#: data/com.tecncr.Corer.gschema.xml:41
+msgid "Keep personalized components"
+msgstr "Păstrează componentele personalizate"
+
+#: data/com.tecncr.Corer.gschema.xml:42
+msgid "Write personalized components to files for debugging."
+msgstr "Scrie componentele personalizate în fișiere pentru depanare."
+
+#: data/com.tecncr.Corer.gschema.xml:46
+msgid "Restore custom firmware"
+msgstr "Restaurează firmware personalizat"
+
+#: data/com.tecncr.Corer.gschema.xml:47
+msgid "Restore with a custom firmware. Requires a bootrom exploit."
+msgstr ""
+"Restaurează cu un firmware personalizat. Necesită un exploit pentru bootrom."
+
+#: data/com.tecncr.Corer.gschema.xml:51
+msgid "Stop after booting the ramdisk"
+msgstr "Oprește după pornirea ramdisk-ului"
+
+#: data/com.tecncr.Corer.gschema.xml:55
+msgid "Signing server URL"
+msgstr "URL-ul serverului de semnare"
+
+#: data/com.tecncr.Corer.gschema.xml:56
+msgid ""
+"Overrides the default signing server request URL. Empty uses the default."
+msgstr ""
+"Înlocuiește URL-ul implicit al cererilor către serverul de semnare. Dacă "
+"este gol, se folosește cel implicit."
+
+#: data/com.tecncr.Corer.gschema.xml:60
+msgid "Restore variant"
+msgstr "Varianta de restaurare"
+
+#: data/com.tecncr.Corer.gschema.xml:61
+msgid "Build identity variant to use. Empty selects it automatically."
+msgstr ""
+"Varianta identității de compilare care va fi folosită. Dacă este goală, se "
+"alege automat."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:8
+msgid "Restore and update Apple devices"
+msgstr "Restaurează și actualizează dispozitive Apple"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:10
+msgid ""
+"Corer installs firmware on Apple devices, including Mac computers with Apple"
+" silicon in DFU mode. Connect a device, pick a version and choose whether to"
+" keep or erase its content."
+msgstr ""
+"Corer instalează firmware pe dispozitivele Apple, inclusiv pe calculatoarele"
+" Mac cu Apple silicon în modul DFU. Conectați un dispozitiv, alegeți o "
+"versiune și hotărâți dacă să păstrați sau să ștergeți conținutul acestuia."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:16
+msgid "Update a device while keeping its data, or erase and restore it"
+msgstr ""
+"Actualizați un dispozitiv păstrându-i datele sau ștergeți-l și restaurați-l"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:17
+msgid "Download currently signed firmware on demand and reuse it later"
+msgstr ""
+"Descărcați la cerere firmware-ul semnat în prezent și refolosiți-l mai "
+"târziu"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:18
+msgid "Use a firmware file you already have"
+msgstr "Folosiți un fișier de firmware pe care îl aveți deja"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:19
+msgid "Recover devices stuck in recovery or DFU mode"
+msgstr "Recuperați dispozitivele blocate în modul de recuperare sau DFU"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:21
+msgid ""
+"Corer is powered by idevicerestore and libimobiledevice. It is not "
+"affiliated with or endorsed by Apple Inc."
+msgstr ""
+"Corer este construit pe idevicerestore și libimobiledevice. Nu este afiliat "
+"cu Apple Inc. și nici susținut de aceasta."
+
+#: src/devices.py:89
+msgid "Recovery Mode"
+msgstr "Modul de recuperare"
+
+#: src/devices.py:91
+msgid "DFU Mode"
+msgstr "Modul DFU"
+
+#: src/firmware.py:145 src/firmware.py:150
+msgid "Could not load the list of available versions"
+msgstr "Lista versiunilor disponibile nu a putut fi încărcată"
+
+#: src/firmware.py:185
+msgid "This is not a valid firmware file"
+msgstr "Acesta nu este un fișier de firmware valid"
+
+#: src/firmware.py:335
+msgid "This firmware is not available for download"
+msgstr "Acest firmware nu este disponibil pentru descărcare"
+
+#: src/firmware.py:349
+msgid "Not enough free disk space to download the firmware"
+msgstr ""
+"Nu există suficient spațiu liber pe disc pentru a descărca firmware-ul"
+
+#: src/firmware.py:360
+msgid "The download server refused the request"
+msgstr "Serverul de descărcare a refuzat cererea"
+
+#: src/firmware.py:367
+msgid "The download failed. Check your network connection"
+msgstr "Descărcarea a eșuat. Verificați conexiunea la rețea"
+
+#: src/firmware.py:374
+msgid "The downloaded firmware is incomplete"
+msgstr "Firmware-ul descărcat este incomplet"
+
+#: src/firmware.py:377
+msgid "The downloaded firmware is corrupted"
+msgstr "Firmware-ul descărcat este corupt"
+
+#: src/log_dialog.py:16
+msgid "Log"
+msgstr "Jurnal"
+
+#: src/log_dialog.py:24
+msgid "Copy"
+msgstr "Copiază"
+
+#: src/log_dialog.py:28
+msgid "Save…"
+msgstr "Salvează…"
+
+#: src/log_dialog.py:36
+msgid "No Log Yet"
+msgstr "Încă nu există jurnal"
+
+#: src/log_dialog.py:37
+msgid "Output appears here when a device is restored."
+msgstr "Ieșirea va apărea aici când se restaurează un dispozitiv."
+
+#: src/log_dialog.py:81 src/window.py:310
+msgid "Copied to clipboard"
+msgstr "Copiat în clipboard"
+
+#: src/log_dialog.py:84
+msgid "Save Log"
+msgstr "Salvează jurnalul"
+
+#. Translators: Replace "translator-credits" with your name/username, and
+#. optionally an email or URL.
+#: src/main.py:90
+msgid "translator-credits"
+msgstr "Nícolas Castillo <code@tecncr.com>"
+
+#: src/main.py:96
+msgid "Powered By"
+msgstr "Cu sprijinul"
+
+#. Firmware
+#: src/preferences.py:23 src/preferences.py:77
+msgid "Firmware"
+msgstr "Firmware"
+
+#: src/preferences.py:28
+msgid "Downloads"
+msgstr "Descărcări"
+
+#: src/preferences.py:29
+msgid ""
+"Downloaded firmware is stored so that it does not have to be downloaded "
+"again."
+msgstr ""
+"Firmware-ul descărcat este păstrat pentru a nu fi nevoie să fie descărcat "
+"din nou."
+
+#: src/preferences.py:33
+msgid "_Keep Downloaded Firmware"
+msgstr "_Păstrează firmware-ul descărcat"
+
+#: src/preferences.py:34
+msgid "Turn off to delete firmware after a successful restore"
+msgstr "Dezactivați pentru a șterge firmware-ul după o restaurare reușită"
+
+#: src/preferences.py:36
+msgid "Stored Firmware"
+msgstr "Firmware stocat"
+
+#: src/preferences.py:37
+msgid "Calculating…"
+msgstr "Se calculează…"
+
+#: src/preferences.py:39 src/preferences.py:96
+msgid "Open Folder"
+msgstr "Deschide dosarul"
+
+#: src/preferences.py:44 src/preferences.py:145
+msgid "_Delete"
+msgstr "_Șterge"
+
+#. Advanced
+#: src/preferences.py:54
+msgid "Advanced"
+msgstr "Avansat"
+
+#: src/preferences.py:59
+msgid "Restore"
+msgstr "Restaurare"
+
+#: src/preferences.py:60
+msgid ""
+"These options can leave a device unable to start. Change them only if you "
+"know what they do."
+msgstr ""
+"Aceste opțiuni pot face ca un dispozitiv să nu mai pornească. Modificați-le "
+"doar dacă știți ce fac."
+
+#: src/preferences.py:64
+msgid "Restore From _Restore Mode"
+msgstr "Restaurează din modul de _restaurare"
+
+#: src/preferences.py:65
+msgid "Allow starting with a device that is already in restore mode"
+msgstr ""
+"Permite pornirea cu un dispozitiv care este deja în modul de restaurare"
+
+#: src/preferences.py:67
+msgid "_Ignore Errors"
+msgstr "_Ignoră erorile"
+
+#: src/preferences.py:68
+msgid "Try to continue after certain errors, like a failed baseband update"
+msgstr ""
+"Încearcă să continue după anumite erori, precum o actualizare eșuată a "
+"baseband-ului"
+
+#: src/preferences.py:71
+msgid "Skip _Baseband"
+msgstr "Omite _baseband-ul"
+
+#: src/preferences.py:72
+msgid "Do not upgrade NOR and baseband on legacy devices"
+msgstr "Nu actualizează NOR și baseband-ul pe dispozitivele vechi"
+
+#: src/preferences.py:74
+msgid "_Stop After Ramdisk"
+msgstr "Oprește după _ramdisk"
+
+#: src/preferences.py:75
+msgid "Boot the restore ramdisk without restoring"
+msgstr "Pornește ramdisk-ul de restaurare fără a restaura"
+
+#: src/preferences.py:80
+msgid "_Custom Firmware"
+msgstr "Firmware _personalizat"
+
+#: src/preferences.py:81
+msgid "Restore custom firmware. Requires a bootrom exploit"
+msgstr ""
+"Restaurează un firmware personalizat. Necesită un exploit pentru bootrom"
+
+#: src/preferences.py:82
+msgid "Restore _Variant"
+msgstr "_Varianta de restaurare"
+
+#: src/preferences.py:83
+msgid "Signing Server _URL"
+msgstr "_URL-ul serverului de semnare"
+
+#: src/preferences.py:86
+msgid "Troubleshooting"
+msgstr "Depanare"
+
+#: src/preferences.py:89
+msgid "_Detailed Log"
+msgstr "Jurnal _detaliat"
+
+#: src/preferences.py:90
+msgid "Include all debugging output from idevicerestore in the log"
+msgstr "Include în jurnal toată ieșirea de depanare de la idevicerestore"
+
+#: src/preferences.py:92
+msgid "Log Files"
+msgstr "Fișiere jurnal"
+
+#: src/preferences.py:93
+msgid "Every restore is recorded, even if Corer quits unexpectedly"
+msgstr ""
+"Fiecare restaurare este înregistrată, chiar dacă Corer se închide neașteptat"
+
+#: src/preferences.py:103
+msgid "Keep _Personalized Components"
+msgstr "Păstrează componentele _personalizate"
+
+#: src/preferences.py:104
+msgid "Write personalized components to files for debugging"
+msgstr "Scrie componentele personalizate în fișiere pentru depanare"
+
+#: src/preferences.py:141
+msgid "Delete Stored Firmware?"
+msgstr "Ștergeți firmware-ul stocat?"
+
+#: src/preferences.py:142
+msgid "Firmware will be downloaded again the next time it is needed."
+msgstr "Firmware-ul va fi descărcat din nou data viitoare când va fi necesar."
+
+#: src/preferences.py:144 src/window.py:585 src/window.ui:322
+msgid "_Cancel"
+msgstr "_Renunță"
+
+#: src/restore.py:27
+msgid "Detecting Device"
+msgstr "Se detectează dispozitivul"
+
+#: src/restore.py:28
+msgid "Preparing Device"
+msgstr "Se pregătește dispozitivul"
+
+#: src/restore.py:29
+msgid "Sending Filesystem"
+msgstr "Se trimite sistemul de fișiere"
+
+#: src/restore.py:30
+msgid "Verifying Filesystem"
+msgstr "Se verifică sistemul de fișiere"
+
+#: src/restore.py:31
+msgid "Installing Firmware"
+msgstr "Se instalează firmware-ul"
+
+#: src/restore.py:32
+msgid "Updating Baseband"
+msgstr "Se actualizează baseband-ul"
+
+#: src/restore.py:33
+msgid "Updating Components"
+msgstr "Se actualizează componentele"
+
+#: src/restore.py:34
+msgid "Sending Images"
+msgstr "Se trimit imaginile"
+
+#: src/restore.py:63
+msgid "Restoring"
+msgstr "Se restaurează"
+
+#: src/restore.py:134
+msgid "idevicerestore could not be started"
+msgstr "idevicerestore nu a putut fi pornit"
+
+#: src/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "Device"
+msgstr "Dispozitiv"
+
+#: src/shortcuts-dialog.ui:9
+msgctxt "shortcut window"
+msgid "Choose Firmware File"
+msgstr "Alege fișierul de firmware"
+
+#: src/shortcuts-dialog.ui:15
+msgctxt "shortcut window"
+msgid "Look for Devices"
+msgstr "Caută dispozitive"
+
+#: src/shortcuts-dialog.ui:21
+msgctxt "shortcut window"
+msgid "View Log"
+msgstr "Vezi jurnalul"
+
+#: src/shortcuts-dialog.ui:29
+msgctxt "shortcut window"
+msgid "General"
+msgstr "General"
+
+#: src/shortcuts-dialog.ui:32
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr "Preferințe"
+
+#: src/shortcuts-dialog.ui:38
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Arată scurtăturile"
+
+#: src/shortcuts-dialog.ui:44
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Ieșire"
+
+#: src/window.py:149
+msgid "Apple Device"
+msgstr "Dispozitiv Apple"
+
+#: src/window.py:217
+msgid "Corer needs permission to access this device over USB"
+msgstr ""
+"Corer are nevoie de permisiune pentru a accesa acest dispozitiv prin USB"
+
+#: src/window.py:218
+msgid "_Set Up"
+msgstr "_Configurează"
+
+#: src/window.py:223
+msgid "The system device service (usbmuxd) is not responding"
+msgstr "Serviciul de dispozitive al sistemului (usbmuxd) nu răspunde"
+
+#: src/window.py:224
+msgid "_Restart It"
+msgstr "_Repornește"
+
+#: src/window.py:229
+msgid "The device service (usbmuxd) is not available"
+msgstr "Serviciul de dispozitive (usbmuxd) nu este disponibil"
+
+#: src/window.py:260
+msgid "USB access was set up"
+msgstr "Accesul USB a fost configurat"
+
+#: src/window.py:273
+msgid "The device service was restarted"
+msgstr "Serviciul de dispozitive a fost repornit"
+
+#: src/window.py:275
+msgid ""
+"Could not restart it. Run “sudo systemctl restart usbmuxd” in a terminal"
+msgstr ""
+"Nu a putut fi repornit. Rulați „sudo systemctl restart usbmuxd” într-un "
+"terminal"
+
+#: src/window.py:284
+msgid "Set Up USB Access Manually"
+msgstr "Configurează manual accesul USB"
+
+#: src/window.py:285
+msgid ""
+"The setup could not be completed. Run these commands in a terminal to "
+"install the device access rule, then reconnect the device."
+msgstr ""
+"Configurarea nu a putut fi finalizată. Rulați aceste comenzi într-un "
+"terminal pentru a instala regula de acces la dispozitiv, apoi reconectați "
+"dispozitivul."
+
+#: src/window.py:301
+msgid "_Close"
+msgstr "_Închide"
+
+#: src/window.py:302
+msgid "C_opy Commands"
+msgstr "C_opiază comenzile"
+
+#: src/window.py:410
+msgid "Looking for available versions…"
+msgstr "Se caută versiuni disponibile…"
+
+#: src/window.py:414
+msgid "Choose a firmware file for this device"
+msgstr "Alegeți un fișier de firmware pentru acest dispozitiv"
+
+#: src/window.py:416
+msgid "No firmware is currently signed for this device"
+msgstr "În prezent nu este semnat niciun firmware pentru acest dispozitiv"
+
+#: src/window.py:418
+msgid "Using the firmware file"
+msgstr "Se folosește fișierul de firmware"
+
+#: src/window.py:422
+msgid "Downloaded"
+msgstr "Descărcat"
+
+#. Translators: {size} is a file size such as “8.1 GB”
+#: src/window.py:425
+#, python-brace-format
+msgid "{size} download"
+msgstr "Descărcare de {size}"
+
+#: src/window.py:429
+msgid "Offline — showing downloaded firmware"
+msgstr "Deconectat — se afișează firmware-ul descărcat"
+
+#: src/window.py:436
+msgid "Use an IPSW file from this computer"
+msgstr "Folosește un fișier IPSW de pe acest calculator"
+
+#. Translators: {filename} is the name of a firmware file
+#: src/window.py:440
+#, python-brace-format
+msgid "{filename} is not compatible with this device"
+msgstr "{filename} nu este compatibil cu acest dispozitiv"
+
+#: src/window.py:453 src/window.py:587
+msgid "_Erase and Restore"
+msgstr "_Șterge și restaurează"
+
+#: src/window.py:453 src/window.py:591
+msgid "_Update"
+msgstr "_Actualizează"
+
+#: src/window.py:468
+msgid "Exit _Recovery Mode"
+msgstr "Ieși din modul de _recuperare"
+
+#: src/window.py:471
+msgid "Enter _Recovery Mode"
+msgstr "Intră în modul de _recuperare"
+
+#: src/window.py:502
+msgid "Firmware Files"
+msgstr "Fișiere de firmware"
+
+#: src/window.py:507
+msgid "Choose Firmware File"
+msgstr "Alege fișierul de firmware"
+
+#: src/window.py:518
+msgid "This file cannot be used"
+msgstr "Acest fișier nu poate fi folosit"
+
+#. Translators: {name} is the name of a device
+#: src/window.py:563
+#, python-brace-format
+msgid "Erase “{name}”?"
+msgstr "Ștergeți „{name}”?"
+
+#. Translators: {version} is a system version such as “iOS 18.1”
+#: src/window.py:565
+#, python-brace-format
+msgid ""
+"All content and settings will be permanently erased and {version} will be "
+"installed. This cannot be undone."
+msgstr ""
+"Tot conținutul și toate setările vor fi șterse definitiv și se va instala "
+"{version}. Această acțiune nu poate fi anulată."
+
+#: src/window.py:569
+#, python-brace-format
+msgid "Update “{name}”?"
+msgstr "Actualizați „{name}”?"
+
+#: src/window.py:570
+#, python-brace-format
+msgid ""
+"{version} will be installed and your content and settings will be kept. Make"
+" sure you have a backup before continuing."
+msgstr ""
+"Se va instala {version}, iar conținutul și setările dvs. vor fi păstrate. "
+"Asigurați-vă că aveți o copie de rezervă înainte de a continua."
+
+#: src/window.py:576
+msgid ""
+"This version is older than the one on the device. Downgrading without "
+"erasing is likely to fail and can cause complete data loss."
+msgstr ""
+"Această versiune este mai veche decât cea de pe dispozitiv. Revenirea la o "
+"versiune anterioară fără ștergere va eșua probabil și poate cauza pierderea "
+"completă a datelor."
+
+#: src/window.py:580
+msgid ""
+"This firmware no longer appears to be signed, so the device will probably "
+"refuse it."
+msgstr ""
+"Acest firmware pare să nu mai fie semnat, așa că dispozitivul îl va refuza "
+"probabil."
+
+#: src/window.py:582
+msgid "Keep the device connected until the process finishes."
+msgstr "Păstrați dispozitivul conectat până se termină procesul."
+
+#: src/window.py:628
+msgid "A device is being restored"
+msgstr "Un dispozitiv este în curs de restaurare"
+
+#: src/window.py:640 src/window.py:666
+msgid "Verifying Firmware"
+msgstr "Se verifică firmware-ul"
+
+#: src/window.py:642 src/window.py:668
+msgid "Downloading Firmware"
+msgstr "Se descarcă firmware-ul"
+
+#. Translators: download progress, e.g. “1.2 GB of 8.1 GB”
+#: src/window.py:672
+#, python-brace-format
+msgid "{done} of {total}"
+msgstr "{done} din {total}"
+
+#. Translators: download speed, e.g. “12.5 MB/s”
+#: src/window.py:679
+#, python-brace-format
+msgid "{speed}/s"
+msgstr "{speed}/s"
+
+#: src/window.py:785
+msgid "Stop the Process?"
+msgstr "Opriți procesul?"
+
+#: src/window.py:786
+msgid ""
+"Interrupting now can leave the device unusable until it is restored again."
+msgstr ""
+"Întreruperea acum poate lăsa dispozitivul inutilizabil până când este "
+"restaurat din nou."
+
+#: src/window.py:788 src/window.py:962
+msgid "_Continue"
+msgstr "_Continuă"
+
+#: src/window.py:789
+msgid "_Stop"
+msgstr "_Oprește"
+
+#: src/window.py:807
+msgid "Stopping…"
+msgstr "Se oprește…"
+
+#: src/window.py:839
+msgid "Stopped"
+msgstr "Oprit"
+
+#: src/window.py:842
+msgid "SHSH Blobs Saved"
+msgstr "SHSH blobs salvate"
+
+#: src/window.py:845
+msgid "Device Restored"
+msgstr "Dispozitiv restaurat"
+
+#: src/window.py:846
+msgid "The device will restart and show the setup assistant."
+msgstr "Dispozitivul va reporni și va afișa asistentul de configurare."
+
+#: src/window.py:849
+msgid "Device Updated"
+msgstr "Dispozitiv actualizat"
+
+#: src/window.py:850
+msgid "The device will restart when it has finished updating."
+msgstr "Dispozitivul va reporni când se termină actualizarea."
+
+#: src/window.py:858
+msgid "Could Not Save SHSH Blobs"
+msgstr "SHSH blobs nu au putut fi salvate"
+
+#: src/window.py:859
+msgid "Restore Failed"
+msgstr "Restaurarea a eșuat"
+
+#: src/window.py:863
+msgid "Check the log for details."
+msgstr "Consultați jurnalul pentru detalii."
+
+#: src/window.py:899
+msgid "The device was not found. Reconnect it and try again"
+msgstr "Dispozitivul nu a fost găsit. Reconectați-l și încercați din nou"
+
+#: src/window.py:925
+msgid "The device is restarting"
+msgstr "Dispozitivul repornește"
+
+#: src/window.py:926
+msgid "Could not exit recovery mode"
+msgstr "Nu s-a putut ieși din modul de recuperare"
+
+#: src/window.py:929
+msgid "The device is restarting in recovery mode"
+msgstr "Dispozitivul repornește în modul de recuperare"
+
+#: src/window.py:930
+msgid ""
+"Could not enter recovery mode. Unlock the device and trust this computer"
+msgstr ""
+"Nu s-a putut intra în modul de recuperare. Deblocați dispozitivul și "
+"acordați încredere acestui calculator"
+
+#: src/window.py:959
+msgid "Stop and Quit?"
+msgstr "Opriți și ieșiți?"
+
+#: src/window.py:960
+msgid ""
+"A device is being restored. Interrupting now can leave it unusable until it "
+"is restored again."
+msgstr ""
+"Un dispozitiv este în curs de restaurare. Întreruperea acum îl poate lăsa "
+"inutilizabil până când este restaurat din nou."
+
+#: src/window.py:963
+msgid "_Stop and Quit"
+msgstr "_Oprește și ieși"
+
+#: src/window.ui:21
+msgid "Main Menu"
+msgstr "Meniul principal"
+
+#: src/window.ui:56
+msgid "Connect a Device"
+msgstr "Conectați un dispozitiv"
+
+#: src/window.ui:57
+msgid ""
+"Plug in an Apple device with a USB cable. Devices in recovery or DFU mode "
+"work too. A Mac with Apple silicon has to be in DFU mode."
+msgstr ""
+"Conectați un dispozitiv Apple cu un cablu USB. Funcționează și dispozitivele"
+" în modul de recuperare sau DFU. Un Mac cu Apple silicon trebuie să fie în "
+"modul DFU."
+
+#: src/window.ui:124
+msgid "Device"
+msgstr "Dispozitiv"
+
+#: src/window.ui:131
+msgid "Version"
+msgstr "Versiune"
+
+#: src/window.ui:145
+msgid "Try Again"
+msgstr "Încearcă din nou"
+
+#: src/window.ui:156
+msgid "Firmware File"
+msgstr "Fișier de firmware"
+
+#: src/window.ui:164
+msgid "Remove File"
+msgstr "Elimină fișierul"
+
+#: src/window.ui:175
+msgid "Choose File"
+msgstr "Alege fișierul"
+
+#: src/window.ui:190
+msgid "Erase Device"
+msgstr "Șterge dispozitivul"
+
+#: src/window.ui:191
+msgid "Remove all content and settings"
+msgstr "Elimină tot conținutul și toate setările"
+
+#: src/window.ui:312 src/window.ui:377 src/window.ui:427
+msgid "View _Log"
+msgstr "Vezi _jurnalul"
+
+#: src/window.ui:349
+msgid "_Done"
+msgstr "_Gata"
+
+#: src/window.ui:387
+msgid "_Back"
+msgstr "_Înapoi"
+
+#: src/window.ui:397
+msgid "_Try Again"
+msgstr "_Încearcă din nou"
+
+#: src/window.ui:423
+msgid "_Save SHSH Blobs"
+msgstr "_Salvează SHSH blobs"
+
+#: src/window.ui:433
+msgid "_Preferences"
+msgstr "_Preferințe"
+
+#: src/window.ui:437
+msgid "_Keyboard Shortcuts"
+msgstr "Scurtături de _tastatură"
+
+#: src/window.ui:441
+msgid "_About Corer"
+msgstr "_Despre Corer"

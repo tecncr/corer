@@ -1,0 +1,836 @@
+# Hebrew translation for Corer.
+# Copyright (C) 2026 Corer contributors
+# This file is distributed under the same license as the corer package.
+# Nícolas Castillo <code@tecncr.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: corer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 02:42-0500\n"
+"PO-Revision-Date: 2026-11-17 03:43-0500\n"
+"Last-Translator: Nícolas Castillo <code@tecncr.com>\n"
+"Language-Team: Hebrew\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/com.tecncr.Corer.desktop.in.in:2
+#: data/com.tecncr.Corer.metainfo.xml.in.in:7 src/window.ui:6
+msgid "Corer"
+msgstr "Corer"
+
+#. Translators: Short description shown in GNOME Shell search and app grids.
+#. Keep it under 80 characters.
+#: data/com.tecncr.Corer.desktop.in.in:5
+msgid "Restore firmware to Apple devices"
+msgstr "שחזור קושחה במכשירי Apple"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/com.tecncr.Corer.desktop.in.in:12
+msgid ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;"
+msgstr ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;קושחה;שחזור;עדכון;"
+
+#: data/com.tecncr.Corer.gschema.xml:6
+msgid "Window width"
+msgstr "רוחב החלון"
+
+#: data/com.tecncr.Corer.gschema.xml:10
+msgid "Window height"
+msgstr "גובה החלון"
+
+#: data/com.tecncr.Corer.gschema.xml:14
+msgid "Whether the window is maximized"
+msgstr "האם החלון מוגדל"
+
+#: data/com.tecncr.Corer.gschema.xml:18
+msgid "Keep downloaded firmware"
+msgstr "שמירת הקושחה שהורדה"
+
+#: data/com.tecncr.Corer.gschema.xml:19
+msgid ""
+"Keep downloaded firmware files in the cache after a successful restore so "
+"they can be reused."
+msgstr ""
+"שומר את קובצי הקושחה שהורדו במטמון לאחר שחזור מוצלח כדי שניתן יהיה להשתמש "
+"בהם שוב."
+
+#: data/com.tecncr.Corer.gschema.xml:23
+msgid "Verbose logging"
+msgstr "תיעוד מפורט"
+
+#: data/com.tecncr.Corer.gschema.xml:24
+msgid "Ask idevicerestore to print additional debug output."
+msgstr "מבקש מ־idevicerestore להדפיס פלט ניפוי שגיאות נוסף."
+
+#: data/com.tecncr.Corer.gschema.xml:28
+msgid "Allow restoring from restore mode"
+msgstr "אפשר שחזור ממצב שחזור"
+
+#: data/com.tecncr.Corer.gschema.xml:32
+msgid "Continue after certain errors"
+msgstr "המשך לאחר שגיאות מסוימות"
+
+#: data/com.tecncr.Corer.gschema.xml:33
+msgid ""
+"Try to continue the restore process after certain errors, like a failed "
+"baseband update."
+msgstr ""
+"מנסה להמשיך בתהליך השחזור לאחר שגיאות מסוימות, כגון עדכון baseband שנכשל."
+
+#: data/com.tecncr.Corer.gschema.xml:37
+msgid "Skip NOR and baseband upgrade"
+msgstr "דילוג על שדרוג NOR ו־baseband"
+
+#: data/com.tecncr.Corer.gschema.xml:41
+msgid "Keep personalized components"
+msgstr "שמירת רכיבים מותאמים אישית"
+
+#: data/com.tecncr.Corer.gschema.xml:42
+msgid "Write personalized components to files for debugging."
+msgstr "כותב רכיבים מותאמים אישית לקבצים לצורך ניפוי שגיאות."
+
+#: data/com.tecncr.Corer.gschema.xml:46
+msgid "Restore custom firmware"
+msgstr "שחזור קושחה מותאמת אישית"
+
+#: data/com.tecncr.Corer.gschema.xml:47
+msgid "Restore with a custom firmware. Requires a bootrom exploit."
+msgstr "משחזר עם קושחה מותאמת אישית. דורש ניצול פרצה ב־bootrom."
+
+#: data/com.tecncr.Corer.gschema.xml:51
+msgid "Stop after booting the ramdisk"
+msgstr "עצירה לאחר עליית ה־ramdisk"
+
+#: data/com.tecncr.Corer.gschema.xml:55
+msgid "Signing server URL"
+msgstr "כתובת URL של שרת החתימות"
+
+#: data/com.tecncr.Corer.gschema.xml:56
+msgid ""
+"Overrides the default signing server request URL. Empty uses the default."
+msgstr ""
+"עוקף את כתובת ה־URL המוגדרת כברירת מחדל לבקשות לשרת החתימות. אם השדה ריק, "
+"נעשה שימוש בברירת המחדל."
+
+#: data/com.tecncr.Corer.gschema.xml:60
+msgid "Restore variant"
+msgstr "וריאנט שחזור"
+
+#: data/com.tecncr.Corer.gschema.xml:61
+msgid "Build identity variant to use. Empty selects it automatically."
+msgstr "וריאנט זהות הבנייה שבו יש להשתמש. אם השדה ריק, הוא נבחר אוטומטית."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:8
+msgid "Restore and update Apple devices"
+msgstr "שחזור ועדכון של מכשירי Apple"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:10
+msgid ""
+"Corer installs firmware on Apple devices, including Mac computers with Apple"
+" silicon in DFU mode. Connect a device, pick a version and choose whether to"
+" keep or erase its content."
+msgstr ""
+"Corer מתקין קושחה במכשירי Apple, כולל מחשבי Mac עם שבב של Apple במצב DFU. "
+"חברו מכשיר, בחרו גרסה והחליטו אם לשמור את התוכן או למחוק אותו."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:16
+msgid "Update a device while keeping its data, or erase and restore it"
+msgstr "עדכנו מכשיר תוך שמירה על הנתונים שלו, או מחקו ושחזרו אותו"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:17
+msgid "Download currently signed firmware on demand and reuse it later"
+msgstr "הורידו לפי דרישה את הקושחה החתומה כעת והשתמשו בה שוב מאוחר יותר"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:18
+msgid "Use a firmware file you already have"
+msgstr "השתמשו בקובץ קושחה שכבר יש לכם"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:19
+msgid "Recover devices stuck in recovery or DFU mode"
+msgstr "חלצו מכשירים שנתקעו במצב שחזור או DFU"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:21
+msgid ""
+"Corer is powered by idevicerestore and libimobiledevice. It is not "
+"affiliated with or endorsed by Apple Inc."
+msgstr ""
+"Corer מבוסס על idevicerestore ו־libimobiledevice. הוא אינו קשור ל־Apple Inc."
+" ואינו מאושר על ידה."
+
+#: src/devices.py:89
+msgid "Recovery Mode"
+msgstr "מצב שחזור"
+
+#: src/devices.py:91
+msgid "DFU Mode"
+msgstr "מצב DFU"
+
+#: src/firmware.py:145 src/firmware.py:150
+msgid "Could not load the list of available versions"
+msgstr "לא ניתן לטעון את רשימת הגרסאות הזמינות"
+
+#: src/firmware.py:185
+msgid "This is not a valid firmware file"
+msgstr "זה אינו קובץ קושחה תקין"
+
+#: src/firmware.py:335
+msgid "This firmware is not available for download"
+msgstr "קושחה זו אינה זמינה להורדה"
+
+#: src/firmware.py:349
+msgid "Not enough free disk space to download the firmware"
+msgstr "אין מספיק מקום פנוי בדיסק להורדת הקושחה"
+
+#: src/firmware.py:360
+msgid "The download server refused the request"
+msgstr "שרת ההורדות דחה את הבקשה"
+
+#: src/firmware.py:367
+msgid "The download failed. Check your network connection"
+msgstr "ההורדה נכשלה. בדקו את חיבור הרשת"
+
+#: src/firmware.py:374
+msgid "The downloaded firmware is incomplete"
+msgstr "הקושחה שהורדה אינה שלמה"
+
+#: src/firmware.py:377
+msgid "The downloaded firmware is corrupted"
+msgstr "הקושחה שהורדה פגומה"
+
+#: src/log_dialog.py:16
+msgid "Log"
+msgstr "יומן"
+
+#: src/log_dialog.py:24
+msgid "Copy"
+msgstr "העתקה"
+
+#: src/log_dialog.py:28
+msgid "Save…"
+msgstr "שמירה…"
+
+#: src/log_dialog.py:36
+msgid "No Log Yet"
+msgstr "אין יומן עדיין"
+
+#: src/log_dialog.py:37
+msgid "Output appears here when a device is restored."
+msgstr "הפלט יופיע כאן כאשר מכשיר ישוחזר."
+
+#: src/log_dialog.py:81 src/window.py:310
+msgid "Copied to clipboard"
+msgstr "הועתק ללוח"
+
+#: src/log_dialog.py:84
+msgid "Save Log"
+msgstr "שמירת היומן"
+
+#. Translators: Replace "translator-credits" with your name/username, and
+#. optionally an email or URL.
+#: src/main.py:90
+msgid "translator-credits"
+msgstr "Nícolas Castillo <code@tecncr.com>"
+
+#: src/main.py:96
+msgid "Powered By"
+msgstr "מופעל על ידי"
+
+#. Firmware
+#: src/preferences.py:23 src/preferences.py:77
+msgid "Firmware"
+msgstr "קושחה"
+
+#: src/preferences.py:28
+msgid "Downloads"
+msgstr "הורדות"
+
+#: src/preferences.py:29
+msgid ""
+"Downloaded firmware is stored so that it does not have to be downloaded "
+"again."
+msgstr "הקושחה שהורדה נשמרת כדי שלא יהיה צורך להוריד אותה שוב."
+
+#: src/preferences.py:33
+msgid "_Keep Downloaded Firmware"
+msgstr "_שמירת הקושחה שהורדה"
+
+#: src/preferences.py:34
+msgid "Turn off to delete firmware after a successful restore"
+msgstr "כבו כדי למחוק את הקושחה לאחר שחזור מוצלח"
+
+#: src/preferences.py:36
+msgid "Stored Firmware"
+msgstr "קושחה שמורה"
+
+#: src/preferences.py:37
+msgid "Calculating…"
+msgstr "מחשב…"
+
+#: src/preferences.py:39 src/preferences.py:96
+msgid "Open Folder"
+msgstr "פתיחת תיקייה"
+
+#: src/preferences.py:44 src/preferences.py:145
+msgid "_Delete"
+msgstr "_מחיקה"
+
+#. Advanced
+#: src/preferences.py:54
+msgid "Advanced"
+msgstr "מתקדם"
+
+#: src/preferences.py:59
+msgid "Restore"
+msgstr "שחזור"
+
+#: src/preferences.py:60
+msgid ""
+"These options can leave a device unable to start. Change them only if you "
+"know what they do."
+msgstr ""
+"אפשרויות אלה עלולות למנוע ממכשיר לעלות. שנו אותן רק אם אתם יודעים מה הן "
+"עושות."
+
+#: src/preferences.py:64
+msgid "Restore From _Restore Mode"
+msgstr "שחזור מ_מצב שחזור"
+
+#: src/preferences.py:65
+msgid "Allow starting with a device that is already in restore mode"
+msgstr "מאפשר להתחיל עם מכשיר שכבר נמצא במצב שחזור"
+
+#: src/preferences.py:67
+msgid "_Ignore Errors"
+msgstr "_התעלמות משגיאות"
+
+#: src/preferences.py:68
+msgid "Try to continue after certain errors, like a failed baseband update"
+msgstr "מנסה להמשיך לאחר שגיאות מסוימות, כגון עדכון baseband שנכשל"
+
+#: src/preferences.py:71
+msgid "Skip _Baseband"
+msgstr "דילוג על ה־_baseband"
+
+#: src/preferences.py:72
+msgid "Do not upgrade NOR and baseband on legacy devices"
+msgstr "לא לשדרג NOR ו־baseband במכשירים ישנים"
+
+#: src/preferences.py:74
+msgid "_Stop After Ramdisk"
+msgstr "ע_צירה לאחר ה־ramdisk"
+
+#: src/preferences.py:75
+msgid "Boot the restore ramdisk without restoring"
+msgstr "מעלה את ה־ramdisk של השחזור ללא ביצוע שחזור"
+
+#: src/preferences.py:80
+msgid "_Custom Firmware"
+msgstr "קושחה _מותאמת אישית"
+
+#: src/preferences.py:81
+msgid "Restore custom firmware. Requires a bootrom exploit"
+msgstr "משחזר קושחה מותאמת אישית. דורש ניצול פרצה ב־bootrom"
+
+#: src/preferences.py:82
+msgid "Restore _Variant"
+msgstr "_וריאנט שחזור"
+
+#: src/preferences.py:83
+msgid "Signing Server _URL"
+msgstr "כתובת _URL של שרת החתימות"
+
+#: src/preferences.py:86
+msgid "Troubleshooting"
+msgstr "פתרון בעיות"
+
+#: src/preferences.py:89
+msgid "_Detailed Log"
+msgstr "יומן _מפורט"
+
+#: src/preferences.py:90
+msgid "Include all debugging output from idevicerestore in the log"
+msgstr "כולל ביומן את כל פלט ניפוי השגיאות של idevicerestore"
+
+#: src/preferences.py:92
+msgid "Log Files"
+msgstr "קובצי יומן"
+
+#: src/preferences.py:93
+msgid "Every restore is recorded, even if Corer quits unexpectedly"
+msgstr "כל שחזור נרשם, גם אם Corer נסגר באופן בלתי צפוי"
+
+#: src/preferences.py:103
+msgid "Keep _Personalized Components"
+msgstr "שמירת רכיבים מותאמים _אישית"
+
+#: src/preferences.py:104
+msgid "Write personalized components to files for debugging"
+msgstr "כותב רכיבים מותאמים אישית לקבצים לצורך ניפוי שגיאות"
+
+#: src/preferences.py:141
+msgid "Delete Stored Firmware?"
+msgstr "למחוק את הקושחה השמורה?"
+
+#: src/preferences.py:142
+msgid "Firmware will be downloaded again the next time it is needed."
+msgstr "הקושחה תורד שוב בפעם הבאה שתהיה נחוצה."
+
+#: src/preferences.py:144 src/window.py:585 src/window.ui:322
+msgid "_Cancel"
+msgstr "_ביטול"
+
+#: src/restore.py:27
+msgid "Detecting Device"
+msgstr "מזהה את המכשיר"
+
+#: src/restore.py:28
+msgid "Preparing Device"
+msgstr "מכין את המכשיר"
+
+#: src/restore.py:29
+msgid "Sending Filesystem"
+msgstr "שולח את מערכת הקבצים"
+
+#: src/restore.py:30
+msgid "Verifying Filesystem"
+msgstr "מאמת את מערכת הקבצים"
+
+#: src/restore.py:31
+msgid "Installing Firmware"
+msgstr "מתקין קושחה"
+
+#: src/restore.py:32
+msgid "Updating Baseband"
+msgstr "מעדכן את ה־baseband"
+
+#: src/restore.py:33
+msgid "Updating Components"
+msgstr "מעדכן רכיבים"
+
+#: src/restore.py:34
+msgid "Sending Images"
+msgstr "שולח תמונות"
+
+#: src/restore.py:63
+msgid "Restoring"
+msgstr "משחזר"
+
+#: src/restore.py:134
+msgid "idevicerestore could not be started"
+msgstr "לא ניתן להפעיל את idevicerestore"
+
+#: src/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "Device"
+msgstr "מכשיר"
+
+#: src/shortcuts-dialog.ui:9
+msgctxt "shortcut window"
+msgid "Choose Firmware File"
+msgstr "בחירת קובץ קושחה"
+
+#: src/shortcuts-dialog.ui:15
+msgctxt "shortcut window"
+msgid "Look for Devices"
+msgstr "חיפוש מכשירים"
+
+#: src/shortcuts-dialog.ui:21
+msgctxt "shortcut window"
+msgid "View Log"
+msgstr "הצגת היומן"
+
+#: src/shortcuts-dialog.ui:29
+msgctxt "shortcut window"
+msgid "General"
+msgstr "כללי"
+
+#: src/shortcuts-dialog.ui:32
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr "העדפות"
+
+#: src/shortcuts-dialog.ui:38
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "הצגת קיצורי דרך"
+
+#: src/shortcuts-dialog.ui:44
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "יציאה"
+
+#: src/window.py:149
+msgid "Apple Device"
+msgstr "מכשיר Apple"
+
+#: src/window.py:217
+msgid "Corer needs permission to access this device over USB"
+msgstr "Corer זקוק להרשאה כדי לגשת למכשיר זה דרך USB"
+
+#: src/window.py:218
+msgid "_Set Up"
+msgstr "_הגדרה"
+
+#: src/window.py:223
+msgid "The system device service (usbmuxd) is not responding"
+msgstr "שירות המכשירים של המערכת (usbmuxd) אינו מגיב"
+
+#: src/window.py:224
+msgid "_Restart It"
+msgstr "_הפעלה מחדש"
+
+#: src/window.py:229
+msgid "The device service (usbmuxd) is not available"
+msgstr "שירות המכשירים (usbmuxd) אינו זמין"
+
+#: src/window.py:260
+msgid "USB access was set up"
+msgstr "הגישה דרך USB הוגדרה"
+
+#: src/window.py:273
+msgid "The device service was restarted"
+msgstr "שירות המכשירים הופעל מחדש"
+
+#: src/window.py:275
+msgid ""
+"Could not restart it. Run “sudo systemctl restart usbmuxd” in a terminal"
+msgstr "לא ניתן היה להפעיל מחדש. הריצו „sudo systemctl restart usbmuxd” במסוף"
+
+#: src/window.py:284
+msgid "Set Up USB Access Manually"
+msgstr "הגדרת גישת USB ידנית"
+
+#: src/window.py:285
+msgid ""
+"The setup could not be completed. Run these commands in a terminal to "
+"install the device access rule, then reconnect the device."
+msgstr ""
+"לא ניתן היה להשלים את ההגדרה. הריצו פקודות אלה במסוף כדי להתקין את כלל הגישה"
+" למכשיר, ולאחר מכן חברו את המכשיר מחדש."
+
+#: src/window.py:301
+msgid "_Close"
+msgstr "_סגירה"
+
+#: src/window.py:302
+msgid "C_opy Commands"
+msgstr "ה_עתקת פקודות"
+
+#: src/window.py:410
+msgid "Looking for available versions…"
+msgstr "מחפש גרסאות זמינות…"
+
+#: src/window.py:414
+msgid "Choose a firmware file for this device"
+msgstr "בחרו קובץ קושחה למכשיר זה"
+
+#: src/window.py:416
+msgid "No firmware is currently signed for this device"
+msgstr "כרגע אין קושחה חתומה למכשיר זה"
+
+#: src/window.py:418
+msgid "Using the firmware file"
+msgstr "משתמש בקובץ הקושחה"
+
+#: src/window.py:422
+msgid "Downloaded"
+msgstr "הורד"
+
+#. Translators: {size} is a file size such as “8.1 GB”
+#: src/window.py:425
+#, python-brace-format
+msgid "{size} download"
+msgstr "הורדה של {size}"
+
+#: src/window.py:429
+msgid "Offline — showing downloaded firmware"
+msgstr "לא מקוון — מוצגת קושחה שהורדה"
+
+#: src/window.py:436
+msgid "Use an IPSW file from this computer"
+msgstr "שימוש בקובץ IPSW ממחשב זה"
+
+#. Translators: {filename} is the name of a firmware file
+#: src/window.py:440
+#, python-brace-format
+msgid "{filename} is not compatible with this device"
+msgstr "הקובץ {filename} אינו תואם למכשיר זה"
+
+#: src/window.py:453 src/window.py:587
+msgid "_Erase and Restore"
+msgstr "_מחיקה ושחזור"
+
+#: src/window.py:453 src/window.py:591
+msgid "_Update"
+msgstr "_עדכון"
+
+#: src/window.py:468
+msgid "Exit _Recovery Mode"
+msgstr "יציאה _ממצב שחזור"
+
+#: src/window.py:471
+msgid "Enter _Recovery Mode"
+msgstr "כניסה _למצב שחזור"
+
+#: src/window.py:502
+msgid "Firmware Files"
+msgstr "קובצי קושחה"
+
+#: src/window.py:507
+msgid "Choose Firmware File"
+msgstr "בחירת קובץ קושחה"
+
+#: src/window.py:518
+msgid "This file cannot be used"
+msgstr "לא ניתן להשתמש בקובץ זה"
+
+#. Translators: {name} is the name of a device
+#: src/window.py:563
+#, python-brace-format
+msgid "Erase “{name}”?"
+msgstr "למחוק את „{name}”?"
+
+#. Translators: {version} is a system version such as “iOS 18.1”
+#: src/window.py:565
+#, python-brace-format
+msgid ""
+"All content and settings will be permanently erased and {version} will be "
+"installed. This cannot be undone."
+msgstr ""
+"כל התוכן וההגדרות יימחקו לצמיתות ו־{version} יותקן. לא ניתן לבטל פעולה זו."
+
+#: src/window.py:569
+#, python-brace-format
+msgid "Update “{name}”?"
+msgstr "לעדכן את „{name}”?"
+
+#: src/window.py:570
+#, python-brace-format
+msgid ""
+"{version} will be installed and your content and settings will be kept. Make"
+" sure you have a backup before continuing."
+msgstr ""
+"{version} יותקן והתוכן וההגדרות שלכם יישמרו. ודאו שיש לכם גיבוי לפני "
+"שתמשיכו."
+
+#: src/window.py:576
+msgid ""
+"This version is older than the one on the device. Downgrading without "
+"erasing is likely to fail and can cause complete data loss."
+msgstr ""
+"גרסה זו ישנה יותר מהגרסה שבמכשיר. סביר שהחזרה לגרסה ישנה יותר ללא מחיקה "
+"תיכשל ועלולה לגרום לאובדן מוחלט של הנתונים."
+
+#: src/window.py:580
+msgid ""
+"This firmware no longer appears to be signed, so the device will probably "
+"refuse it."
+msgstr "נראה שקושחה זו אינה חתומה עוד, ולכן סביר שהמכשיר ידחה אותה."
+
+#: src/window.py:582
+msgid "Keep the device connected until the process finishes."
+msgstr "השאירו את המכשיר מחובר עד לסיום התהליך."
+
+#: src/window.py:628
+msgid "A device is being restored"
+msgstr "מכשיר משוחזר כעת"
+
+#: src/window.py:640 src/window.py:666
+msgid "Verifying Firmware"
+msgstr "מאמת קושחה"
+
+#: src/window.py:642 src/window.py:668
+msgid "Downloading Firmware"
+msgstr "מוריד קושחה"
+
+#. Translators: download progress, e.g. “1.2 GB of 8.1 GB”
+#: src/window.py:672
+#, python-brace-format
+msgid "{done} of {total}"
+msgstr "{done} מתוך {total}"
+
+#. Translators: download speed, e.g. “12.5 MB/s”
+#: src/window.py:679
+#, python-brace-format
+msgid "{speed}/s"
+msgstr "{speed}/שנ׳"
+
+#: src/window.py:785
+msgid "Stop the Process?"
+msgstr "לעצור את התהליך?"
+
+#: src/window.py:786
+msgid ""
+"Interrupting now can leave the device unusable until it is restored again."
+msgstr "הפסקה כעת עלולה להשאיר את המכשיר בלתי שמיש עד שישוחזר שוב."
+
+#: src/window.py:788 src/window.py:962
+msgid "_Continue"
+msgstr "_המשך"
+
+#: src/window.py:789
+msgid "_Stop"
+msgstr "_עצירה"
+
+#: src/window.py:807
+msgid "Stopping…"
+msgstr "עוצר…"
+
+#: src/window.py:839
+msgid "Stopped"
+msgstr "נעצר"
+
+#: src/window.py:842
+msgid "SHSH Blobs Saved"
+msgstr "‏SHSH blobs נשמרו"
+
+#: src/window.py:845
+msgid "Device Restored"
+msgstr "המכשיר שוחזר"
+
+#: src/window.py:846
+msgid "The device will restart and show the setup assistant."
+msgstr "המכשיר יופעל מחדש ויציג את אשף ההגדרה."
+
+#: src/window.py:849
+msgid "Device Updated"
+msgstr "המכשיר עודכן"
+
+#: src/window.py:850
+msgid "The device will restart when it has finished updating."
+msgstr "המכשיר יופעל מחדש כשהעדכון יסתיים."
+
+#: src/window.py:858
+msgid "Could Not Save SHSH Blobs"
+msgstr "לא ניתן היה לשמור את SHSH blobs"
+
+#: src/window.py:859
+msgid "Restore Failed"
+msgstr "השחזור נכשל"
+
+#: src/window.py:863
+msgid "Check the log for details."
+msgstr "פרטים נוספים ביומן."
+
+#: src/window.py:899
+msgid "The device was not found. Reconnect it and try again"
+msgstr "המכשיר לא נמצא. חברו אותו מחדש ונסו שוב"
+
+#: src/window.py:925
+msgid "The device is restarting"
+msgstr "המכשיר מופעל מחדש"
+
+#: src/window.py:926
+msgid "Could not exit recovery mode"
+msgstr "לא ניתן היה לצאת ממצב שחזור"
+
+#: src/window.py:929
+msgid "The device is restarting in recovery mode"
+msgstr "המכשיר מופעל מחדש במצב שחזור"
+
+#: src/window.py:930
+msgid ""
+"Could not enter recovery mode. Unlock the device and trust this computer"
+msgstr ""
+"לא ניתן היה להיכנס למצב שחזור. בטלו את נעילת המכשיר ואשרו אמון במחשב זה"
+
+#: src/window.py:959
+msgid "Stop and Quit?"
+msgstr "לעצור ולצאת?"
+
+#: src/window.py:960
+msgid ""
+"A device is being restored. Interrupting now can leave it unusable until it "
+"is restored again."
+msgstr ""
+"מכשיר משוחזר כעת. הפסקה כעת עלולה להשאיר אותו בלתי שמיש עד שישוחזר שוב."
+
+#: src/window.py:963
+msgid "_Stop and Quit"
+msgstr "_עצירה ויציאה"
+
+#: src/window.ui:21
+msgid "Main Menu"
+msgstr "תפריט ראשי"
+
+#: src/window.ui:56
+msgid "Connect a Device"
+msgstr "חיבור מכשיר"
+
+#: src/window.ui:57
+msgid ""
+"Plug in an Apple device with a USB cable. Devices in recovery or DFU mode "
+"work too. A Mac with Apple silicon has to be in DFU mode."
+msgstr ""
+"חברו מכשיר Apple בכבל USB. מכשירים במצב שחזור או DFU פועלים גם הם. Mac עם "
+"שבב של Apple חייב להיות במצב DFU."
+
+#: src/window.ui:124
+msgid "Device"
+msgstr "מכשיר"
+
+#: src/window.ui:131
+msgid "Version"
+msgstr "גרסה"
+
+#: src/window.ui:145
+msgid "Try Again"
+msgstr "ניסיון חוזר"
+
+#: src/window.ui:156
+msgid "Firmware File"
+msgstr "קובץ קושחה"
+
+#: src/window.ui:164
+msgid "Remove File"
+msgstr "הסרת הקובץ"
+
+#: src/window.ui:175
+msgid "Choose File"
+msgstr "בחירת קובץ"
+
+#: src/window.ui:190
+msgid "Erase Device"
+msgstr "מחיקת המכשיר"
+
+#: src/window.ui:191
+msgid "Remove all content and settings"
+msgstr "הסרת כל התוכן וההגדרות"
+
+#: src/window.ui:312 src/window.ui:377 src/window.ui:427
+msgid "View _Log"
+msgstr "הצגת _יומן"
+
+#: src/window.ui:349
+msgid "_Done"
+msgstr "_סיום"
+
+#: src/window.ui:387
+msgid "_Back"
+msgstr "_חזרה"
+
+#: src/window.ui:397
+msgid "_Try Again"
+msgstr "_ניסיון חוזר"
+
+#: src/window.ui:423
+msgid "_Save SHSH Blobs"
+msgstr "_שמירת SHSH blobs"
+
+#: src/window.ui:433
+msgid "_Preferences"
+msgstr "_העדפות"
+
+#: src/window.ui:437
+msgid "_Keyboard Shortcuts"
+msgstr "קיצורי _מקלדת"
+
+#: src/window.ui:441
+msgid "_About Corer"
+msgstr "_על אודות Corer"

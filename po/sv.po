@@ -1,0 +1,861 @@
+# Swedish translation for Corer.
+# Copyright (C) 2026 Corer contributors
+# This file is distributed under the same license as the corer package.
+# Nícolas Castillo <code@tecncr.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: corer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 02:42-0500\n"
+"PO-Revision-Date: 2026-11-17 03:51-0500\n"
+"Last-Translator: Nícolas Castillo <code@tecncr.com>\n"
+"Language-Team: Swedish\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/com.tecncr.Corer.desktop.in.in:2
+#: data/com.tecncr.Corer.metainfo.xml.in.in:7 src/window.ui:6
+msgid "Corer"
+msgstr "Corer"
+
+#. Translators: Short description shown in GNOME Shell search and app grids.
+#. Keep it under 80 characters.
+#: data/com.tecncr.Corer.desktop.in.in:5
+msgid "Restore firmware to Apple devices"
+msgstr "Återställ inbyggd programvara på Apple-enheter"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/com.tecncr.Corer.desktop.in.in:12
+msgid ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;"
+msgstr ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Inbyggd "
+"programvara;Restore;Återställ;Update;Uppdatera;IPSW;Recovery;DFU;"
+
+#: data/com.tecncr.Corer.gschema.xml:6
+msgid "Window width"
+msgstr "Fönsterbredd"
+
+#: data/com.tecncr.Corer.gschema.xml:10
+msgid "Window height"
+msgstr "Fönsterhöjd"
+
+#: data/com.tecncr.Corer.gschema.xml:14
+msgid "Whether the window is maximized"
+msgstr "Om fönstret är maximerat"
+
+#: data/com.tecncr.Corer.gschema.xml:18
+msgid "Keep downloaded firmware"
+msgstr "Behåll hämtad inbyggd programvara"
+
+#: data/com.tecncr.Corer.gschema.xml:19
+msgid ""
+"Keep downloaded firmware files in the cache after a successful restore so "
+"they can be reused."
+msgstr ""
+"Behåller hämtade filer för inbyggd programvara i cachen efter en lyckad "
+"återställning så att de kan återanvändas."
+
+#: data/com.tecncr.Corer.gschema.xml:23
+msgid "Verbose logging"
+msgstr "Utförlig loggning"
+
+#: data/com.tecncr.Corer.gschema.xml:24
+msgid "Ask idevicerestore to print additional debug output."
+msgstr "Ber idevicerestore att skriva ut ytterligare felsökningsutdata."
+
+#: data/com.tecncr.Corer.gschema.xml:28
+msgid "Allow restoring from restore mode"
+msgstr "Tillåt återställning från återställningsläget"
+
+#: data/com.tecncr.Corer.gschema.xml:32
+msgid "Continue after certain errors"
+msgstr "Fortsätt efter vissa fel"
+
+#: data/com.tecncr.Corer.gschema.xml:33
+msgid ""
+"Try to continue the restore process after certain errors, like a failed "
+"baseband update."
+msgstr ""
+"Försöker fortsätta återställningen efter vissa fel, till exempel en "
+"misslyckad baseband-uppdatering."
+
+#: data/com.tecncr.Corer.gschema.xml:37
+msgid "Skip NOR and baseband upgrade"
+msgstr "Hoppa över uppgradering av NOR och baseband"
+
+#: data/com.tecncr.Corer.gschema.xml:41
+msgid "Keep personalized components"
+msgstr "Behåll anpassade komponenter"
+
+#: data/com.tecncr.Corer.gschema.xml:42
+msgid "Write personalized components to files for debugging."
+msgstr "Skriver anpassade komponenter till filer för felsökning."
+
+#: data/com.tecncr.Corer.gschema.xml:46
+msgid "Restore custom firmware"
+msgstr "Återställ anpassad inbyggd programvara"
+
+#: data/com.tecncr.Corer.gschema.xml:47
+msgid "Restore with a custom firmware. Requires a bootrom exploit."
+msgstr ""
+"Återställer med en anpassad inbyggd programvara. Kräver en bootrom-exploit."
+
+#: data/com.tecncr.Corer.gschema.xml:51
+msgid "Stop after booting the ramdisk"
+msgstr "Stanna efter start av ramdisk"
+
+#: data/com.tecncr.Corer.gschema.xml:55
+msgid "Signing server URL"
+msgstr "Signeringsserverns URL"
+
+#: data/com.tecncr.Corer.gschema.xml:56
+msgid ""
+"Overrides the default signing server request URL. Empty uses the default."
+msgstr ""
+"Åsidosätter standardadressen för förfrågningar till signeringsservern. Om "
+"tom används standardadressen."
+
+#: data/com.tecncr.Corer.gschema.xml:60
+msgid "Restore variant"
+msgstr "Återställningsvariant"
+
+#: data/com.tecncr.Corer.gschema.xml:61
+msgid "Build identity variant to use. Empty selects it automatically."
+msgstr "Byggidentitetsvariant som ska användas. Om tom väljs den automatiskt."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:8
+msgid "Restore and update Apple devices"
+msgstr "Återställ och uppdatera Apple-enheter"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:10
+msgid ""
+"Corer installs firmware on Apple devices, including Mac computers with Apple"
+" silicon in DFU mode. Connect a device, pick a version and choose whether to"
+" keep or erase its content."
+msgstr ""
+"Corer installerar inbyggd programvara på Apple-enheter, inklusive Mac-"
+"datorer med Apple silicon i DFU-läge. Anslut en enhet, välj en version och "
+"bestäm om innehållet ska behållas eller raderas."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:16
+msgid "Update a device while keeping its data, or erase and restore it"
+msgstr ""
+"Uppdatera en enhet och behåll dess data, eller radera och återställ den"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:17
+msgid "Download currently signed firmware on demand and reuse it later"
+msgstr ""
+"Hämta den för närvarande signerade inbyggda programvaran vid behov och "
+"återanvänd den senare"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:18
+msgid "Use a firmware file you already have"
+msgstr "Använd en fil med inbyggd programvara som du redan har"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:19
+msgid "Recover devices stuck in recovery or DFU mode"
+msgstr "Rädda enheter som fastnat i återställnings- eller DFU-läge"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:21
+msgid ""
+"Corer is powered by idevicerestore and libimobiledevice. It is not "
+"affiliated with or endorsed by Apple Inc."
+msgstr ""
+"Corer drivs av idevicerestore och libimobiledevice. Det är inte anslutet "
+"till eller godkänt av Apple Inc."
+
+#: src/devices.py:89
+msgid "Recovery Mode"
+msgstr "Återställningsläge"
+
+#: src/devices.py:91
+msgid "DFU Mode"
+msgstr "DFU-läge"
+
+#: src/firmware.py:145 src/firmware.py:150
+msgid "Could not load the list of available versions"
+msgstr "Det gick inte att läsa in listan över tillgängliga versioner"
+
+#: src/firmware.py:185
+msgid "This is not a valid firmware file"
+msgstr "Det här är inte en giltig fil med inbyggd programvara"
+
+#: src/firmware.py:335
+msgid "This firmware is not available for download"
+msgstr "Den här inbyggda programvaran är inte tillgänglig för hämtning"
+
+#: src/firmware.py:349
+msgid "Not enough free disk space to download the firmware"
+msgstr ""
+"Det finns inte tillräckligt med ledigt diskutrymme för att hämta den "
+"inbyggda programvaran"
+
+#: src/firmware.py:360
+msgid "The download server refused the request"
+msgstr "Hämtningsservern avvisade förfrågan"
+
+#: src/firmware.py:367
+msgid "The download failed. Check your network connection"
+msgstr "Hämtningen misslyckades. Kontrollera nätverksanslutningen"
+
+#: src/firmware.py:374
+msgid "The downloaded firmware is incomplete"
+msgstr "Den hämtade inbyggda programvaran är ofullständig"
+
+#: src/firmware.py:377
+msgid "The downloaded firmware is corrupted"
+msgstr "Den hämtade inbyggda programvaran är skadad"
+
+#: src/log_dialog.py:16
+msgid "Log"
+msgstr "Logg"
+
+#: src/log_dialog.py:24
+msgid "Copy"
+msgstr "Kopiera"
+
+#: src/log_dialog.py:28
+msgid "Save…"
+msgstr "Spara …"
+
+#: src/log_dialog.py:36
+msgid "No Log Yet"
+msgstr "Ingen logg ännu"
+
+#: src/log_dialog.py:37
+msgid "Output appears here when a device is restored."
+msgstr "Utdata visas här när en enhet återställs."
+
+#: src/log_dialog.py:81 src/window.py:310
+msgid "Copied to clipboard"
+msgstr "Kopierat till klippbordet"
+
+#: src/log_dialog.py:84
+msgid "Save Log"
+msgstr "Spara logg"
+
+#. Translators: Replace "translator-credits" with your name/username, and
+#. optionally an email or URL.
+#: src/main.py:90
+msgid "translator-credits"
+msgstr "Nícolas Castillo <code@tecncr.com>"
+
+#: src/main.py:96
+msgid "Powered By"
+msgstr "Drivs av"
+
+#. Firmware
+#: src/preferences.py:23 src/preferences.py:77
+msgid "Firmware"
+msgstr "Inbyggd programvara"
+
+#: src/preferences.py:28
+msgid "Downloads"
+msgstr "Hämtningar"
+
+#: src/preferences.py:29
+msgid ""
+"Downloaded firmware is stored so that it does not have to be downloaded "
+"again."
+msgstr ""
+"Hämtad inbyggd programvara sparas så att den inte behöver hämtas igen."
+
+#: src/preferences.py:33
+msgid "_Keep Downloaded Firmware"
+msgstr "_Behåll hämtad inbyggd programvara"
+
+#: src/preferences.py:34
+msgid "Turn off to delete firmware after a successful restore"
+msgstr ""
+"Stäng av för att ta bort den inbyggda programvaran efter en lyckad "
+"återställning"
+
+#: src/preferences.py:36
+msgid "Stored Firmware"
+msgstr "Sparad inbyggd programvara"
+
+#: src/preferences.py:37
+msgid "Calculating…"
+msgstr "Beräknar …"
+
+#: src/preferences.py:39 src/preferences.py:96
+msgid "Open Folder"
+msgstr "Öppna mapp"
+
+#: src/preferences.py:44 src/preferences.py:145
+msgid "_Delete"
+msgstr "_Ta bort"
+
+#. Advanced
+#: src/preferences.py:54
+msgid "Advanced"
+msgstr "Avancerat"
+
+#: src/preferences.py:59
+msgid "Restore"
+msgstr "Återställning"
+
+#: src/preferences.py:60
+msgid ""
+"These options can leave a device unable to start. Change them only if you "
+"know what they do."
+msgstr ""
+"De här alternativen kan göra att en enhet inte startar. Ändra dem bara om du"
+" vet vad de gör."
+
+#: src/preferences.py:64
+msgid "Restore From _Restore Mode"
+msgstr "Återställ från _återställningsläge"
+
+#: src/preferences.py:65
+msgid "Allow starting with a device that is already in restore mode"
+msgstr ""
+"Gör det möjligt att börja med en enhet som redan är i återställningsläge"
+
+#: src/preferences.py:67
+msgid "_Ignore Errors"
+msgstr "_Ignorera fel"
+
+#: src/preferences.py:68
+msgid "Try to continue after certain errors, like a failed baseband update"
+msgstr ""
+"Försöker fortsätta efter vissa fel, till exempel en misslyckad baseband-"
+"uppdatering"
+
+#: src/preferences.py:71
+msgid "Skip _Baseband"
+msgstr "Hoppa över _baseband"
+
+#: src/preferences.py:72
+msgid "Do not upgrade NOR and baseband on legacy devices"
+msgstr "Uppgradera inte NOR och baseband på äldre enheter"
+
+#: src/preferences.py:74
+msgid "_Stop After Ramdisk"
+msgstr "_Stanna efter ramdisk"
+
+#: src/preferences.py:75
+msgid "Boot the restore ramdisk without restoring"
+msgstr "Startar återställnings-ramdisken utan att återställa"
+
+#: src/preferences.py:80
+msgid "_Custom Firmware"
+msgstr "_Anpassad inbyggd programvara"
+
+#: src/preferences.py:81
+msgid "Restore custom firmware. Requires a bootrom exploit"
+msgstr ""
+"Återställer en anpassad inbyggd programvara. Kräver en bootrom-exploit"
+
+#: src/preferences.py:82
+msgid "Restore _Variant"
+msgstr "Återställnings_variant"
+
+#: src/preferences.py:83
+msgid "Signing Server _URL"
+msgstr "_URL till signeringsserver"
+
+#: src/preferences.py:86
+msgid "Troubleshooting"
+msgstr "Felsökning"
+
+#: src/preferences.py:89
+msgid "_Detailed Log"
+msgstr "_Utförlig logg"
+
+#: src/preferences.py:90
+msgid "Include all debugging output from idevicerestore in the log"
+msgstr "Ta med alla felsökningsutdata från idevicerestore i loggen"
+
+#: src/preferences.py:92
+msgid "Log Files"
+msgstr "Loggfiler"
+
+#: src/preferences.py:93
+msgid "Every restore is recorded, even if Corer quits unexpectedly"
+msgstr "Varje återställning registreras, även om Corer avslutas oväntat"
+
+#: src/preferences.py:103
+msgid "Keep _Personalized Components"
+msgstr "Behåll _anpassade komponenter"
+
+#: src/preferences.py:104
+msgid "Write personalized components to files for debugging"
+msgstr "Skriver anpassade komponenter till filer för felsökning"
+
+#: src/preferences.py:141
+msgid "Delete Stored Firmware?"
+msgstr "Ta bort sparad inbyggd programvara?"
+
+#: src/preferences.py:142
+msgid "Firmware will be downloaded again the next time it is needed."
+msgstr "Den inbyggda programvaran hämtas igen nästa gång den behövs."
+
+#: src/preferences.py:144 src/window.py:585 src/window.ui:322
+msgid "_Cancel"
+msgstr "_Avbryt"
+
+#: src/restore.py:27
+msgid "Detecting Device"
+msgstr "Identifierar enhet"
+
+#: src/restore.py:28
+msgid "Preparing Device"
+msgstr "Förbereder enhet"
+
+#: src/restore.py:29
+msgid "Sending Filesystem"
+msgstr "Skickar filsystem"
+
+#: src/restore.py:30
+msgid "Verifying Filesystem"
+msgstr "Verifierar filsystem"
+
+#: src/restore.py:31
+msgid "Installing Firmware"
+msgstr "Installerar inbyggd programvara"
+
+#: src/restore.py:32
+msgid "Updating Baseband"
+msgstr "Uppdaterar baseband"
+
+#: src/restore.py:33
+msgid "Updating Components"
+msgstr "Uppdaterar komponenter"
+
+#: src/restore.py:34
+msgid "Sending Images"
+msgstr "Skickar avbilder"
+
+#: src/restore.py:63
+msgid "Restoring"
+msgstr "Återställer"
+
+#: src/restore.py:134
+msgid "idevicerestore could not be started"
+msgstr "idevicerestore kunde inte startas"
+
+#: src/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "Device"
+msgstr "Enhet"
+
+#: src/shortcuts-dialog.ui:9
+msgctxt "shortcut window"
+msgid "Choose Firmware File"
+msgstr "Välj fil med inbyggd programvara"
+
+#: src/shortcuts-dialog.ui:15
+msgctxt "shortcut window"
+msgid "Look for Devices"
+msgstr "Leta efter enheter"
+
+#: src/shortcuts-dialog.ui:21
+msgctxt "shortcut window"
+msgid "View Log"
+msgstr "Visa logg"
+
+#: src/shortcuts-dialog.ui:29
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Allmänt"
+
+#: src/shortcuts-dialog.ui:32
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr "Inställningar"
+
+#: src/shortcuts-dialog.ui:38
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Visa kortkommandon"
+
+#: src/shortcuts-dialog.ui:44
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Avsluta"
+
+#: src/window.py:149
+msgid "Apple Device"
+msgstr "Apple-enhet"
+
+#: src/window.py:217
+msgid "Corer needs permission to access this device over USB"
+msgstr "Corer behöver behörighet för att komma åt den här enheten via USB"
+
+#: src/window.py:218
+msgid "_Set Up"
+msgstr "_Konfigurera"
+
+#: src/window.py:223
+msgid "The system device service (usbmuxd) is not responding"
+msgstr "Systemets enhetstjänst (usbmuxd) svarar inte"
+
+#: src/window.py:224
+msgid "_Restart It"
+msgstr "_Starta om den"
+
+#: src/window.py:229
+msgid "The device service (usbmuxd) is not available"
+msgstr "Enhetstjänsten (usbmuxd) är inte tillgänglig"
+
+#: src/window.py:260
+msgid "USB access was set up"
+msgstr "USB-åtkomst har konfigurerats"
+
+#: src/window.py:273
+msgid "The device service was restarted"
+msgstr "Enhetstjänsten har startats om"
+
+#: src/window.py:275
+msgid ""
+"Could not restart it. Run “sudo systemctl restart usbmuxd” in a terminal"
+msgstr ""
+"Det gick inte att starta om. Kör ”sudo systemctl restart usbmuxd” i en "
+"terminal"
+
+#: src/window.py:284
+msgid "Set Up USB Access Manually"
+msgstr "Konfigurera USB-åtkomst manuellt"
+
+#: src/window.py:285
+msgid ""
+"The setup could not be completed. Run these commands in a terminal to "
+"install the device access rule, then reconnect the device."
+msgstr ""
+"Konfigurationen kunde inte slutföras. Kör de här kommandona i en terminal "
+"för att installera regeln för enhetsåtkomst och anslut sedan enheten igen."
+
+#: src/window.py:301
+msgid "_Close"
+msgstr "_Stäng"
+
+#: src/window.py:302
+msgid "C_opy Commands"
+msgstr "K_opiera kommandon"
+
+#: src/window.py:410
+msgid "Looking for available versions…"
+msgstr "Letar efter tillgängliga versioner …"
+
+#: src/window.py:414
+msgid "Choose a firmware file for this device"
+msgstr "Välj en fil med inbyggd programvara för den här enheten"
+
+#: src/window.py:416
+msgid "No firmware is currently signed for this device"
+msgstr ""
+"Ingen inbyggd programvara är för närvarande signerad för den här enheten"
+
+#: src/window.py:418
+msgid "Using the firmware file"
+msgstr "Använder filen med inbyggd programvara"
+
+#: src/window.py:422
+msgid "Downloaded"
+msgstr "Hämtad"
+
+#. Translators: {size} is a file size such as “8.1 GB”
+#: src/window.py:425
+#, python-brace-format
+msgid "{size} download"
+msgstr "{size} hämtning"
+
+#: src/window.py:429
+msgid "Offline — showing downloaded firmware"
+msgstr "Offline – visar hämtad inbyggd programvara"
+
+#: src/window.py:436
+msgid "Use an IPSW file from this computer"
+msgstr "Använd en IPSW-fil från den här datorn"
+
+#. Translators: {filename} is the name of a firmware file
+#: src/window.py:440
+#, python-brace-format
+msgid "{filename} is not compatible with this device"
+msgstr "{filename} är inte kompatibel med den här enheten"
+
+#: src/window.py:453 src/window.py:587
+msgid "_Erase and Restore"
+msgstr "_Radera och återställ"
+
+#: src/window.py:453 src/window.py:591
+msgid "_Update"
+msgstr "_Uppdatera"
+
+#: src/window.py:468
+msgid "Exit _Recovery Mode"
+msgstr "Avsluta _återställningsläge"
+
+#: src/window.py:471
+msgid "Enter _Recovery Mode"
+msgstr "Starta _återställningsläge"
+
+#: src/window.py:502
+msgid "Firmware Files"
+msgstr "Filer med inbyggd programvara"
+
+#: src/window.py:507
+msgid "Choose Firmware File"
+msgstr "Välj fil med inbyggd programvara"
+
+#: src/window.py:518
+msgid "This file cannot be used"
+msgstr "Den här filen kan inte användas"
+
+#. Translators: {name} is the name of a device
+#: src/window.py:563
+#, python-brace-format
+msgid "Erase “{name}”?"
+msgstr "Radera ”{name}”?"
+
+#. Translators: {version} is a system version such as “iOS 18.1”
+#: src/window.py:565
+#, python-brace-format
+msgid ""
+"All content and settings will be permanently erased and {version} will be "
+"installed. This cannot be undone."
+msgstr ""
+"Allt innehåll och alla inställningar raderas permanent och {version} "
+"installeras. Detta kan inte ångras."
+
+#: src/window.py:569
+#, python-brace-format
+msgid "Update “{name}”?"
+msgstr "Uppdatera ”{name}”?"
+
+#: src/window.py:570
+#, python-brace-format
+msgid ""
+"{version} will be installed and your content and settings will be kept. Make"
+" sure you have a backup before continuing."
+msgstr ""
+"{version} installeras och ditt innehåll och dina inställningar behålls. Se "
+"till att du har en säkerhetskopia innan du fortsätter."
+
+#: src/window.py:576
+msgid ""
+"This version is older than the one on the device. Downgrading without "
+"erasing is likely to fail and can cause complete data loss."
+msgstr ""
+"Den här versionen är äldre än den som finns på enheten. Att nedgradera utan "
+"att radera misslyckas troligen och kan leda till fullständig dataförlust."
+
+#: src/window.py:580
+msgid ""
+"This firmware no longer appears to be signed, so the device will probably "
+"refuse it."
+msgstr ""
+"Den här inbyggda programvaran verkar inte längre vara signerad, så enheten "
+"kommer troligen att avvisa den."
+
+#: src/window.py:582
+msgid "Keep the device connected until the process finishes."
+msgstr "Låt enheten vara ansluten tills processen är klar."
+
+#: src/window.py:628
+msgid "A device is being restored"
+msgstr "En enhet återställs"
+
+#: src/window.py:640 src/window.py:666
+msgid "Verifying Firmware"
+msgstr "Verifierar inbyggd programvara"
+
+#: src/window.py:642 src/window.py:668
+msgid "Downloading Firmware"
+msgstr "Hämtar inbyggd programvara"
+
+#. Translators: download progress, e.g. “1.2 GB of 8.1 GB”
+#: src/window.py:672
+#, python-brace-format
+msgid "{done} of {total}"
+msgstr "{done} av {total}"
+
+#. Translators: download speed, e.g. “12.5 MB/s”
+#: src/window.py:679
+#, python-brace-format
+msgid "{speed}/s"
+msgstr "{speed}/s"
+
+#: src/window.py:785
+msgid "Stop the Process?"
+msgstr "Stoppa processen?"
+
+#: src/window.py:786
+msgid ""
+"Interrupting now can leave the device unusable until it is restored again."
+msgstr ""
+"Om du avbryter nu kan enheten bli oanvändbar tills den återställs igen."
+
+#: src/window.py:788 src/window.py:962
+msgid "_Continue"
+msgstr "_Fortsätt"
+
+#: src/window.py:789
+msgid "_Stop"
+msgstr "_Stoppa"
+
+#: src/window.py:807
+msgid "Stopping…"
+msgstr "Stoppar …"
+
+#: src/window.py:839
+msgid "Stopped"
+msgstr "Stoppad"
+
+#: src/window.py:842
+msgid "SHSH Blobs Saved"
+msgstr "SHSH-blobbar sparade"
+
+#: src/window.py:845
+msgid "Device Restored"
+msgstr "Enheten återställd"
+
+#: src/window.py:846
+msgid "The device will restart and show the setup assistant."
+msgstr "Enheten startar om och visar installationsassistenten."
+
+#: src/window.py:849
+msgid "Device Updated"
+msgstr "Enheten uppdaterad"
+
+#: src/window.py:850
+msgid "The device will restart when it has finished updating."
+msgstr "Enheten startar om när uppdateringen är klar."
+
+#: src/window.py:858
+msgid "Could Not Save SHSH Blobs"
+msgstr "Det gick inte att spara SHSH-blobbar"
+
+#: src/window.py:859
+msgid "Restore Failed"
+msgstr "Återställningen misslyckades"
+
+#: src/window.py:863
+msgid "Check the log for details."
+msgstr "Se loggen för mer information."
+
+#: src/window.py:899
+msgid "The device was not found. Reconnect it and try again"
+msgstr "Enheten hittades inte. Anslut den igen och försök på nytt"
+
+#: src/window.py:925
+msgid "The device is restarting"
+msgstr "Enheten startar om"
+
+#: src/window.py:926
+msgid "Could not exit recovery mode"
+msgstr "Det gick inte att avsluta återställningsläget"
+
+#: src/window.py:929
+msgid "The device is restarting in recovery mode"
+msgstr "Enheten startar om i återställningsläge"
+
+#: src/window.py:930
+msgid ""
+"Could not enter recovery mode. Unlock the device and trust this computer"
+msgstr ""
+"Det gick inte att starta återställningsläget. Lås upp enheten och lita på "
+"den här datorn"
+
+#: src/window.py:959
+msgid "Stop and Quit?"
+msgstr "Stoppa och avsluta?"
+
+#: src/window.py:960
+msgid ""
+"A device is being restored. Interrupting now can leave it unusable until it "
+"is restored again."
+msgstr ""
+"En enhet återställs. Om du avbryter nu kan den bli oanvändbar tills den "
+"återställs igen."
+
+#: src/window.py:963
+msgid "_Stop and Quit"
+msgstr "_Stoppa och avsluta"
+
+#: src/window.ui:21
+msgid "Main Menu"
+msgstr "Huvudmeny"
+
+#: src/window.ui:56
+msgid "Connect a Device"
+msgstr "Anslut en enhet"
+
+#: src/window.ui:57
+msgid ""
+"Plug in an Apple device with a USB cable. Devices in recovery or DFU mode "
+"work too. A Mac with Apple silicon has to be in DFU mode."
+msgstr ""
+"Anslut en Apple-enhet med en USB-kabel. Enheter i återställnings- eller DFU-"
+"läge fungerar också. En Mac med Apple silicon måste vara i DFU-läge."
+
+#: src/window.ui:124
+msgid "Device"
+msgstr "Enhet"
+
+#: src/window.ui:131
+msgid "Version"
+msgstr "Version"
+
+#: src/window.ui:145
+msgid "Try Again"
+msgstr "Försök igen"
+
+#: src/window.ui:156
+msgid "Firmware File"
+msgstr "Fil med inbyggd programvara"
+
+#: src/window.ui:164
+msgid "Remove File"
+msgstr "Ta bort fil"
+
+#: src/window.ui:175
+msgid "Choose File"
+msgstr "Välj fil"
+
+#: src/window.ui:190
+msgid "Erase Device"
+msgstr "Radera enhet"
+
+#: src/window.ui:191
+msgid "Remove all content and settings"
+msgstr "Ta bort allt innehåll och alla inställningar"
+
+#: src/window.ui:312 src/window.ui:377 src/window.ui:427
+msgid "View _Log"
+msgstr "Visa _logg"
+
+#: src/window.ui:349
+msgid "_Done"
+msgstr "_Klar"
+
+#: src/window.ui:387
+msgid "_Back"
+msgstr "_Tillbaka"
+
+#: src/window.ui:397
+msgid "_Try Again"
+msgstr "_Försök igen"
+
+#: src/window.ui:423
+msgid "_Save SHSH Blobs"
+msgstr "_Spara SHSH-blobbar"
+
+#: src/window.ui:433
+msgid "_Preferences"
+msgstr "_Inställningar"
+
+#: src/window.ui:437
+msgid "_Keyboard Shortcuts"
+msgstr "_Kortkommandon"
+
+#: src/window.ui:441
+msgid "_About Corer"
+msgstr "_Om Corer"

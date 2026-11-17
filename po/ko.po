@@ -1,0 +1,821 @@
+# Korean translation for Corer.
+# Copyright (C) 2026 Corer contributors
+# This file is distributed under the same license as the corer package.
+# Nícolas Castillo <code@tecncr.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: corer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 02:42-0500\n"
+"PO-Revision-Date: 2026-11-17 03:47-0500\n"
+"Last-Translator: Nícolas Castillo <code@tecncr.com>\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/com.tecncr.Corer.desktop.in.in:2
+#: data/com.tecncr.Corer.metainfo.xml.in.in:7 src/window.ui:6
+msgid "Corer"
+msgstr "Corer"
+
+#. Translators: Short description shown in GNOME Shell search and app grids.
+#. Keep it under 80 characters.
+#: data/com.tecncr.Corer.desktop.in.in:5
+msgid "Restore firmware to Apple devices"
+msgstr "Apple 기기의 펌웨어 복원"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/com.tecncr.Corer.desktop.in.in:12
+msgid ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;"
+msgstr ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;펌웨어;Restore;복원;Update;업데이트;IPSW;Recovery;복구;DFU;"
+
+#: data/com.tecncr.Corer.gschema.xml:6
+msgid "Window width"
+msgstr "창 너비"
+
+#: data/com.tecncr.Corer.gschema.xml:10
+msgid "Window height"
+msgstr "창 높이"
+
+#: data/com.tecncr.Corer.gschema.xml:14
+msgid "Whether the window is maximized"
+msgstr "창이 최대화되었는지 여부"
+
+#: data/com.tecncr.Corer.gschema.xml:18
+msgid "Keep downloaded firmware"
+msgstr "다운로드한 펌웨어 유지"
+
+#: data/com.tecncr.Corer.gschema.xml:19
+msgid ""
+"Keep downloaded firmware files in the cache after a successful restore so "
+"they can be reused."
+msgstr "복원에 성공한 후에도 다운로드한 펌웨어 파일을 캐시에 보관하여 다시 사용할 수 있게 합니다."
+
+#: data/com.tecncr.Corer.gschema.xml:23
+msgid "Verbose logging"
+msgstr "상세 로그 기록"
+
+#: data/com.tecncr.Corer.gschema.xml:24
+msgid "Ask idevicerestore to print additional debug output."
+msgstr "idevicerestore가 추가 디버그 출력을 표시하도록 요청합니다."
+
+#: data/com.tecncr.Corer.gschema.xml:28
+msgid "Allow restoring from restore mode"
+msgstr "복원 모드에서 복원 허용"
+
+#: data/com.tecncr.Corer.gschema.xml:32
+msgid "Continue after certain errors"
+msgstr "특정 오류 후에도 계속"
+
+#: data/com.tecncr.Corer.gschema.xml:33
+msgid ""
+"Try to continue the restore process after certain errors, like a failed "
+"baseband update."
+msgstr "베이스밴드 업데이트 실패와 같은 특정 오류가 발생해도 복원 과정을 계속하려고 시도합니다."
+
+#: data/com.tecncr.Corer.gschema.xml:37
+msgid "Skip NOR and baseband upgrade"
+msgstr "NOR 및 베이스밴드 업그레이드 건너뛰기"
+
+#: data/com.tecncr.Corer.gschema.xml:41
+msgid "Keep personalized components"
+msgstr "개인화된 구성 요소 유지"
+
+#: data/com.tecncr.Corer.gschema.xml:42
+msgid "Write personalized components to files for debugging."
+msgstr "디버깅을 위해 개인화된 구성 요소를 파일에 기록합니다."
+
+#: data/com.tecncr.Corer.gschema.xml:46
+msgid "Restore custom firmware"
+msgstr "사용자 지정 펌웨어 복원"
+
+#: data/com.tecncr.Corer.gschema.xml:47
+msgid "Restore with a custom firmware. Requires a bootrom exploit."
+msgstr "사용자 지정 펌웨어로 복원합니다. bootrom 익스플로잇이 필요합니다."
+
+#: data/com.tecncr.Corer.gschema.xml:51
+msgid "Stop after booting the ramdisk"
+msgstr "ramdisk 부팅 후 중지"
+
+#: data/com.tecncr.Corer.gschema.xml:55
+msgid "Signing server URL"
+msgstr "서명 서버 URL"
+
+#: data/com.tecncr.Corer.gschema.xml:56
+msgid ""
+"Overrides the default signing server request URL. Empty uses the default."
+msgstr "서명 서버 요청의 기본 URL을 덮어씁니다. 비어 있으면 기본값을 사용합니다."
+
+#: data/com.tecncr.Corer.gschema.xml:60
+msgid "Restore variant"
+msgstr "복원 변형"
+
+#: data/com.tecncr.Corer.gschema.xml:61
+msgid "Build identity variant to use. Empty selects it automatically."
+msgstr "사용할 빌드 ID 변형입니다. 비어 있으면 자동으로 선택됩니다."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:8
+msgid "Restore and update Apple devices"
+msgstr "Apple 기기 복원 및 업데이트"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:10
+msgid ""
+"Corer installs firmware on Apple devices, including Mac computers with Apple"
+" silicon in DFU mode. Connect a device, pick a version and choose whether to"
+" keep or erase its content."
+msgstr ""
+"Corer는 DFU 모드의 Apple 실리콘 Mac을 포함한 Apple 기기에 펌웨어를 설치합니다. 기기를 연결하고 버전을 선택한 다음 "
+"콘텐츠를 유지할지 지울지 선택하세요."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:16
+msgid "Update a device while keeping its data, or erase and restore it"
+msgstr "데이터를 유지한 채 기기를 업데이트하거나, 지운 후 복원하세요"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:17
+msgid "Download currently signed firmware on demand and reuse it later"
+msgstr "현재 서명된 펌웨어를 필요할 때 다운로드하고 나중에 다시 사용하세요"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:18
+msgid "Use a firmware file you already have"
+msgstr "이미 가지고 있는 펌웨어 파일을 사용하세요"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:19
+msgid "Recover devices stuck in recovery or DFU mode"
+msgstr "복구 모드나 DFU 모드에서 멈춘 기기를 복구하세요"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:21
+msgid ""
+"Corer is powered by idevicerestore and libimobiledevice. It is not "
+"affiliated with or endorsed by Apple Inc."
+msgstr ""
+"Corer는 idevicerestore와 libimobiledevice를 기반으로 합니다. Apple Inc.와 제휴 관계가 아니며 "
+"Apple Inc.의 보증을 받지 않았습니다."
+
+#: src/devices.py:89
+msgid "Recovery Mode"
+msgstr "복구 모드"
+
+#: src/devices.py:91
+msgid "DFU Mode"
+msgstr "DFU 모드"
+
+#: src/firmware.py:145 src/firmware.py:150
+msgid "Could not load the list of available versions"
+msgstr "사용 가능한 버전 목록을 불러올 수 없습니다"
+
+#: src/firmware.py:185
+msgid "This is not a valid firmware file"
+msgstr "올바른 펌웨어 파일이 아닙니다"
+
+#: src/firmware.py:335
+msgid "This firmware is not available for download"
+msgstr "이 펌웨어는 다운로드할 수 없습니다"
+
+#: src/firmware.py:349
+msgid "Not enough free disk space to download the firmware"
+msgstr "펌웨어를 다운로드하기에 디스크 여유 공간이 부족합니다"
+
+#: src/firmware.py:360
+msgid "The download server refused the request"
+msgstr "다운로드 서버가 요청을 거부했습니다"
+
+#: src/firmware.py:367
+msgid "The download failed. Check your network connection"
+msgstr "다운로드에 실패했습니다. 네트워크 연결을 확인하세요"
+
+#: src/firmware.py:374
+msgid "The downloaded firmware is incomplete"
+msgstr "다운로드한 펌웨어가 불완전합니다"
+
+#: src/firmware.py:377
+msgid "The downloaded firmware is corrupted"
+msgstr "다운로드한 펌웨어가 손상되었습니다"
+
+#: src/log_dialog.py:16
+msgid "Log"
+msgstr "로그"
+
+#: src/log_dialog.py:24
+msgid "Copy"
+msgstr "복사"
+
+#: src/log_dialog.py:28
+msgid "Save…"
+msgstr "저장…"
+
+#: src/log_dialog.py:36
+msgid "No Log Yet"
+msgstr "아직 로그가 없습니다"
+
+#: src/log_dialog.py:37
+msgid "Output appears here when a device is restored."
+msgstr "기기를 복원하면 여기에 출력이 표시됩니다."
+
+#: src/log_dialog.py:81 src/window.py:310
+msgid "Copied to clipboard"
+msgstr "클립보드에 복사했습니다"
+
+#: src/log_dialog.py:84
+msgid "Save Log"
+msgstr "로그 저장"
+
+#. Translators: Replace "translator-credits" with your name/username, and
+#. optionally an email or URL.
+#: src/main.py:90
+msgid "translator-credits"
+msgstr "Nícolas Castillo <code@tecncr.com>"
+
+#: src/main.py:96
+msgid "Powered By"
+msgstr "사용 기술"
+
+#. Firmware
+#: src/preferences.py:23 src/preferences.py:77
+msgid "Firmware"
+msgstr "펌웨어"
+
+#: src/preferences.py:28
+msgid "Downloads"
+msgstr "다운로드"
+
+#: src/preferences.py:29
+msgid ""
+"Downloaded firmware is stored so that it does not have to be downloaded "
+"again."
+msgstr "다운로드한 펌웨어는 다시 다운로드하지 않도록 저장됩니다."
+
+#: src/preferences.py:33
+msgid "_Keep Downloaded Firmware"
+msgstr "다운로드한 펌웨어 유지(_K)"
+
+#: src/preferences.py:34
+msgid "Turn off to delete firmware after a successful restore"
+msgstr "복원에 성공한 후 펌웨어를 삭제하려면 끄세요"
+
+#: src/preferences.py:36
+msgid "Stored Firmware"
+msgstr "저장된 펌웨어"
+
+#: src/preferences.py:37
+msgid "Calculating…"
+msgstr "계산 중…"
+
+#: src/preferences.py:39 src/preferences.py:96
+msgid "Open Folder"
+msgstr "폴더 열기"
+
+#: src/preferences.py:44 src/preferences.py:145
+msgid "_Delete"
+msgstr "삭제(_D)"
+
+#. Advanced
+#: src/preferences.py:54
+msgid "Advanced"
+msgstr "고급"
+
+#: src/preferences.py:59
+msgid "Restore"
+msgstr "복원"
+
+#: src/preferences.py:60
+msgid ""
+"These options can leave a device unable to start. Change them only if you "
+"know what they do."
+msgstr "이 옵션은 기기가 시작되지 않게 만들 수 있습니다. 무엇을 하는지 아는 경우에만 변경하세요."
+
+#: src/preferences.py:64
+msgid "Restore From _Restore Mode"
+msgstr "복원 모드에서 복원(_R)"
+
+#: src/preferences.py:65
+msgid "Allow starting with a device that is already in restore mode"
+msgstr "이미 복원 모드에 있는 기기로 시작할 수 있게 합니다"
+
+#: src/preferences.py:67
+msgid "_Ignore Errors"
+msgstr "오류 무시(_I)"
+
+#: src/preferences.py:68
+msgid "Try to continue after certain errors, like a failed baseband update"
+msgstr "베이스밴드 업데이트 실패와 같은 특정 오류 후에도 계속하려고 시도합니다"
+
+#: src/preferences.py:71
+msgid "Skip _Baseband"
+msgstr "베이스밴드 건너뛰기(_B)"
+
+#: src/preferences.py:72
+msgid "Do not upgrade NOR and baseband on legacy devices"
+msgstr "구형 기기에서 NOR과 베이스밴드를 업그레이드하지 않습니다"
+
+#: src/preferences.py:74
+msgid "_Stop After Ramdisk"
+msgstr "ramdisk 후 중지(_S)"
+
+#: src/preferences.py:75
+msgid "Boot the restore ramdisk without restoring"
+msgstr "복원하지 않고 복원 ramdisk를 부팅합니다"
+
+#: src/preferences.py:80
+msgid "_Custom Firmware"
+msgstr "사용자 지정 펌웨어(_C)"
+
+#: src/preferences.py:81
+msgid "Restore custom firmware. Requires a bootrom exploit"
+msgstr "사용자 지정 펌웨어를 복원합니다. bootrom 익스플로잇이 필요합니다"
+
+#: src/preferences.py:82
+msgid "Restore _Variant"
+msgstr "복원 변형(_V)"
+
+#: src/preferences.py:83
+msgid "Signing Server _URL"
+msgstr "서명 서버 URL(_U)"
+
+#: src/preferences.py:86
+msgid "Troubleshooting"
+msgstr "문제 해결"
+
+#: src/preferences.py:89
+msgid "_Detailed Log"
+msgstr "상세 로그(_D)"
+
+#: src/preferences.py:90
+msgid "Include all debugging output from idevicerestore in the log"
+msgstr "idevicerestore의 모든 디버그 출력을 로그에 포함합니다"
+
+#: src/preferences.py:92
+msgid "Log Files"
+msgstr "로그 파일"
+
+#: src/preferences.py:93
+msgid "Every restore is recorded, even if Corer quits unexpectedly"
+msgstr "Corer가 예기치 않게 종료되더라도 모든 복원이 기록됩니다"
+
+#: src/preferences.py:103
+msgid "Keep _Personalized Components"
+msgstr "개인화된 구성 요소 유지(_P)"
+
+#: src/preferences.py:104
+msgid "Write personalized components to files for debugging"
+msgstr "디버깅을 위해 개인화된 구성 요소를 파일에 기록합니다"
+
+#: src/preferences.py:141
+msgid "Delete Stored Firmware?"
+msgstr "저장된 펌웨어를 삭제하시겠습니까?"
+
+#: src/preferences.py:142
+msgid "Firmware will be downloaded again the next time it is needed."
+msgstr "다음에 필요할 때 펌웨어를 다시 다운로드합니다."
+
+#: src/preferences.py:144 src/window.py:585 src/window.ui:322
+msgid "_Cancel"
+msgstr "취소(_C)"
+
+#: src/restore.py:27
+msgid "Detecting Device"
+msgstr "기기 감지 중"
+
+#: src/restore.py:28
+msgid "Preparing Device"
+msgstr "기기 준비 중"
+
+#: src/restore.py:29
+msgid "Sending Filesystem"
+msgstr "파일 시스템 전송 중"
+
+#: src/restore.py:30
+msgid "Verifying Filesystem"
+msgstr "파일 시스템 확인 중"
+
+#: src/restore.py:31
+msgid "Installing Firmware"
+msgstr "펌웨어 설치 중"
+
+#: src/restore.py:32
+msgid "Updating Baseband"
+msgstr "베이스밴드 업데이트 중"
+
+#: src/restore.py:33
+msgid "Updating Components"
+msgstr "구성 요소 업데이트 중"
+
+#: src/restore.py:34
+msgid "Sending Images"
+msgstr "이미지 전송 중"
+
+#: src/restore.py:63
+msgid "Restoring"
+msgstr "복원 중"
+
+#: src/restore.py:134
+msgid "idevicerestore could not be started"
+msgstr "idevicerestore를 시작할 수 없습니다"
+
+#: src/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "Device"
+msgstr "기기"
+
+#: src/shortcuts-dialog.ui:9
+msgctxt "shortcut window"
+msgid "Choose Firmware File"
+msgstr "펌웨어 파일 선택"
+
+#: src/shortcuts-dialog.ui:15
+msgctxt "shortcut window"
+msgid "Look for Devices"
+msgstr "기기 찾기"
+
+#: src/shortcuts-dialog.ui:21
+msgctxt "shortcut window"
+msgid "View Log"
+msgstr "로그 보기"
+
+#: src/shortcuts-dialog.ui:29
+msgctxt "shortcut window"
+msgid "General"
+msgstr "일반"
+
+#: src/shortcuts-dialog.ui:32
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr "환경 설정"
+
+#: src/shortcuts-dialog.ui:38
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "단축키 표시"
+
+#: src/shortcuts-dialog.ui:44
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "종료"
+
+#: src/window.py:149
+msgid "Apple Device"
+msgstr "Apple 기기"
+
+#: src/window.py:217
+msgid "Corer needs permission to access this device over USB"
+msgstr "USB를 통해 이 기기에 접근하려면 Corer에 권한이 필요합니다"
+
+#: src/window.py:218
+msgid "_Set Up"
+msgstr "설정(_S)"
+
+#: src/window.py:223
+msgid "The system device service (usbmuxd) is not responding"
+msgstr "시스템 기기 서비스(usbmuxd)가 응답하지 않습니다"
+
+#: src/window.py:224
+msgid "_Restart It"
+msgstr "다시 시작(_R)"
+
+#: src/window.py:229
+msgid "The device service (usbmuxd) is not available"
+msgstr "기기 서비스(usbmuxd)를 사용할 수 없습니다"
+
+#: src/window.py:260
+msgid "USB access was set up"
+msgstr "USB 접근이 설정되었습니다"
+
+#: src/window.py:273
+msgid "The device service was restarted"
+msgstr "기기 서비스가 다시 시작되었습니다"
+
+#: src/window.py:275
+msgid ""
+"Could not restart it. Run “sudo systemctl restart usbmuxd” in a terminal"
+msgstr "다시 시작할 수 없습니다. 터미널에서 “sudo systemctl restart usbmuxd”를 실행하세요"
+
+#: src/window.py:284
+msgid "Set Up USB Access Manually"
+msgstr "USB 접근 수동 설정"
+
+#: src/window.py:285
+msgid ""
+"The setup could not be completed. Run these commands in a terminal to "
+"install the device access rule, then reconnect the device."
+msgstr "설정을 완료할 수 없습니다. 터미널에서 다음 명령을 실행하여 기기 접근 규칙을 설치한 다음 기기를 다시 연결하세요."
+
+#: src/window.py:301
+msgid "_Close"
+msgstr "닫기(_C)"
+
+#: src/window.py:302
+msgid "C_opy Commands"
+msgstr "명령 복사(_O)"
+
+#: src/window.py:410
+msgid "Looking for available versions…"
+msgstr "사용 가능한 버전을 찾는 중…"
+
+#: src/window.py:414
+msgid "Choose a firmware file for this device"
+msgstr "이 기기에 사용할 펌웨어 파일을 선택하세요"
+
+#: src/window.py:416
+msgid "No firmware is currently signed for this device"
+msgstr "현재 이 기기에 서명된 펌웨어가 없습니다"
+
+#: src/window.py:418
+msgid "Using the firmware file"
+msgstr "사용 중인 펌웨어 파일"
+
+#: src/window.py:422
+msgid "Downloaded"
+msgstr "다운로드됨"
+
+#. Translators: {size} is a file size such as “8.1 GB”
+#: src/window.py:425
+#, python-brace-format
+msgid "{size} download"
+msgstr "{size} 다운로드"
+
+#: src/window.py:429
+msgid "Offline — showing downloaded firmware"
+msgstr "오프라인 — 다운로드한 펌웨어를 표시하는 중"
+
+#: src/window.py:436
+msgid "Use an IPSW file from this computer"
+msgstr "이 컴퓨터의 IPSW 파일 사용"
+
+#. Translators: {filename} is the name of a firmware file
+#: src/window.py:440
+#, python-brace-format
+msgid "{filename} is not compatible with this device"
+msgstr "{filename}은(는) 이 기기와 호환되지 않습니다"
+
+#: src/window.py:453 src/window.py:587
+msgid "_Erase and Restore"
+msgstr "지우고 복원(_E)"
+
+#: src/window.py:453 src/window.py:591
+msgid "_Update"
+msgstr "업데이트(_U)"
+
+#: src/window.py:468
+msgid "Exit _Recovery Mode"
+msgstr "복구 모드 나가기(_R)"
+
+#: src/window.py:471
+msgid "Enter _Recovery Mode"
+msgstr "복구 모드 진입(_R)"
+
+#: src/window.py:502
+msgid "Firmware Files"
+msgstr "펌웨어 파일"
+
+#: src/window.py:507
+msgid "Choose Firmware File"
+msgstr "펌웨어 파일 선택"
+
+#: src/window.py:518
+msgid "This file cannot be used"
+msgstr "이 파일은 사용할 수 없습니다"
+
+#. Translators: {name} is the name of a device
+#: src/window.py:563
+#, python-brace-format
+msgid "Erase “{name}”?"
+msgstr "“{name}”을(를) 지우시겠습니까?"
+
+#. Translators: {version} is a system version such as “iOS 18.1”
+#: src/window.py:565
+#, python-brace-format
+msgid ""
+"All content and settings will be permanently erased and {version} will be "
+"installed. This cannot be undone."
+msgstr "모든 콘텐츠와 설정이 영구적으로 지워지고 {version}이(가) 설치됩니다. 이 작업은 되돌릴 수 없습니다."
+
+#: src/window.py:569
+#, python-brace-format
+msgid "Update “{name}”?"
+msgstr "“{name}”을(를) 업데이트하시겠습니까?"
+
+#: src/window.py:570
+#, python-brace-format
+msgid ""
+"{version} will be installed and your content and settings will be kept. Make"
+" sure you have a backup before continuing."
+msgstr "{version}이(가) 설치되며 콘텐츠와 설정은 유지됩니다. 계속하기 전에 백업이 있는지 확인하세요."
+
+#: src/window.py:576
+msgid ""
+"This version is older than the one on the device. Downgrading without "
+"erasing is likely to fail and can cause complete data loss."
+msgstr ""
+"이 버전은 기기에 있는 버전보다 오래되었습니다. 지우지 않고 다운그레이드하면 실패할 가능성이 높으며 모든 데이터를 잃을 수 있습니다."
+
+#: src/window.py:580
+msgid ""
+"This firmware no longer appears to be signed, so the device will probably "
+"refuse it."
+msgstr "이 펌웨어는 더 이상 서명되지 않은 것으로 보여, 기기가 거부할 가능성이 높습니다."
+
+#: src/window.py:582
+msgid "Keep the device connected until the process finishes."
+msgstr "프로세스가 끝날 때까지 기기를 연결해 두세요."
+
+#: src/window.py:628
+msgid "A device is being restored"
+msgstr "기기를 복원하는 중입니다"
+
+#: src/window.py:640 src/window.py:666
+msgid "Verifying Firmware"
+msgstr "펌웨어 확인 중"
+
+#: src/window.py:642 src/window.py:668
+msgid "Downloading Firmware"
+msgstr "펌웨어 다운로드 중"
+
+#. Translators: download progress, e.g. “1.2 GB of 8.1 GB”
+#: src/window.py:672
+#, python-brace-format
+msgid "{done} of {total}"
+msgstr "{done} / {total}"
+
+#. Translators: download speed, e.g. “12.5 MB/s”
+#: src/window.py:679
+#, python-brace-format
+msgid "{speed}/s"
+msgstr "{speed}/초"
+
+#: src/window.py:785
+msgid "Stop the Process?"
+msgstr "프로세스를 중지하시겠습니까?"
+
+#: src/window.py:786
+msgid ""
+"Interrupting now can leave the device unusable until it is restored again."
+msgstr "지금 중단하면 다시 복원할 때까지 기기를 사용할 수 없게 될 수 있습니다."
+
+#: src/window.py:788 src/window.py:962
+msgid "_Continue"
+msgstr "계속(_C)"
+
+#: src/window.py:789
+msgid "_Stop"
+msgstr "중지(_S)"
+
+#: src/window.py:807
+msgid "Stopping…"
+msgstr "중지하는 중…"
+
+#: src/window.py:839
+msgid "Stopped"
+msgstr "중지됨"
+
+#: src/window.py:842
+msgid "SHSH Blobs Saved"
+msgstr "SHSH blob 저장됨"
+
+#: src/window.py:845
+msgid "Device Restored"
+msgstr "기기 복원됨"
+
+#: src/window.py:846
+msgid "The device will restart and show the setup assistant."
+msgstr "기기가 다시 시작되고 설정 도우미가 표시됩니다."
+
+#: src/window.py:849
+msgid "Device Updated"
+msgstr "기기 업데이트됨"
+
+#: src/window.py:850
+msgid "The device will restart when it has finished updating."
+msgstr "업데이트가 끝나면 기기가 다시 시작됩니다."
+
+#: src/window.py:858
+msgid "Could Not Save SHSH Blobs"
+msgstr "SHSH blob을 저장할 수 없습니다"
+
+#: src/window.py:859
+msgid "Restore Failed"
+msgstr "복원 실패"
+
+#: src/window.py:863
+msgid "Check the log for details."
+msgstr "자세한 내용은 로그를 확인하세요."
+
+#: src/window.py:899
+msgid "The device was not found. Reconnect it and try again"
+msgstr "기기를 찾을 수 없습니다. 다시 연결한 후 다시 시도하세요"
+
+#: src/window.py:925
+msgid "The device is restarting"
+msgstr "기기가 다시 시작되는 중입니다"
+
+#: src/window.py:926
+msgid "Could not exit recovery mode"
+msgstr "복구 모드를 나갈 수 없습니다"
+
+#: src/window.py:929
+msgid "The device is restarting in recovery mode"
+msgstr "기기가 복구 모드로 다시 시작되는 중입니다"
+
+#: src/window.py:930
+msgid ""
+"Could not enter recovery mode. Unlock the device and trust this computer"
+msgstr "복구 모드로 진입할 수 없습니다. 기기의 잠금을 해제하고 이 컴퓨터를 신뢰하세요"
+
+#: src/window.py:959
+msgid "Stop and Quit?"
+msgstr "중지하고 종료하시겠습니까?"
+
+#: src/window.py:960
+msgid ""
+"A device is being restored. Interrupting now can leave it unusable until it "
+"is restored again."
+msgstr "기기를 복원하는 중입니다. 지금 중단하면 다시 복원할 때까지 기기를 사용할 수 없게 될 수 있습니다."
+
+#: src/window.py:963
+msgid "_Stop and Quit"
+msgstr "중지 후 종료(_S)"
+
+#: src/window.ui:21
+msgid "Main Menu"
+msgstr "주 메뉴"
+
+#: src/window.ui:56
+msgid "Connect a Device"
+msgstr "기기 연결"
+
+#: src/window.ui:57
+msgid ""
+"Plug in an Apple device with a USB cable. Devices in recovery or DFU mode "
+"work too. A Mac with Apple silicon has to be in DFU mode."
+msgstr ""
+"USB 케이블로 Apple 기기를 연결하세요. 복구 모드나 DFU 모드의 기기도 사용할 수 있습니다. Apple 실리콘 Mac은 DFU "
+"모드여야 합니다."
+
+#: src/window.ui:124
+msgid "Device"
+msgstr "기기"
+
+#: src/window.ui:131
+msgid "Version"
+msgstr "버전"
+
+#: src/window.ui:145
+msgid "Try Again"
+msgstr "다시 시도"
+
+#: src/window.ui:156
+msgid "Firmware File"
+msgstr "펌웨어 파일"
+
+#: src/window.ui:164
+msgid "Remove File"
+msgstr "파일 제거"
+
+#: src/window.ui:175
+msgid "Choose File"
+msgstr "파일 선택"
+
+#: src/window.ui:190
+msgid "Erase Device"
+msgstr "기기 지우기"
+
+#: src/window.ui:191
+msgid "Remove all content and settings"
+msgstr "모든 콘텐츠와 설정 제거"
+
+#: src/window.ui:312 src/window.ui:377 src/window.ui:427
+msgid "View _Log"
+msgstr "로그 보기(_L)"
+
+#: src/window.ui:349
+msgid "_Done"
+msgstr "완료(_D)"
+
+#: src/window.ui:387
+msgid "_Back"
+msgstr "뒤로(_B)"
+
+#: src/window.ui:397
+msgid "_Try Again"
+msgstr "다시 시도(_T)"
+
+#: src/window.ui:423
+msgid "_Save SHSH Blobs"
+msgstr "SHSH blob 저장(_S)"
+
+#: src/window.ui:433
+msgid "_Preferences"
+msgstr "환경 설정(_P)"
+
+#: src/window.ui:437
+msgid "_Keyboard Shortcuts"
+msgstr "키보드 단축키(_K)"
+
+#: src/window.ui:441
+msgid "_About Corer"
+msgstr "Corer 정보(_A)"

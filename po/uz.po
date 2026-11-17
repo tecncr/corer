@@ -1,0 +1,867 @@
+# Uzbek translation for Corer.
+# Copyright (C) 2026 Corer contributors
+# This file is distributed under the same license as the corer package.
+# Nícolas Castillo <code@tecncr.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: corer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 02:42-0500\n"
+"PO-Revision-Date: 2026-11-17 03:53-0500\n"
+"Last-Translator: Nícolas Castillo <code@tecncr.com>\n"
+"Language-Team: Uzbek\n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/com.tecncr.Corer.desktop.in.in:2
+#: data/com.tecncr.Corer.metainfo.xml.in.in:7 src/window.ui:6
+msgid "Corer"
+msgstr "Corer"
+
+#. Translators: Short description shown in GNOME Shell search and app grids.
+#. Keep it under 80 characters.
+#: data/com.tecncr.Corer.desktop.in.in:5
+msgid "Restore firmware to Apple devices"
+msgstr "Apple qurilmalarining proshivkasini tiklash"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/com.tecncr.Corer.desktop.in.in:12
+msgid ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;"
+msgstr ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Proshivka;Restore;Tiklash;Update;Yangilash;IPSW;Recovery;DFU;"
+
+#: data/com.tecncr.Corer.gschema.xml:6
+msgid "Window width"
+msgstr "Oyna kengligi"
+
+#: data/com.tecncr.Corer.gschema.xml:10
+msgid "Window height"
+msgstr "Oyna balandligi"
+
+#: data/com.tecncr.Corer.gschema.xml:14
+msgid "Whether the window is maximized"
+msgstr "Oyna kattalashtirilgan yoki yoʻqligi"
+
+#: data/com.tecncr.Corer.gschema.xml:18
+msgid "Keep downloaded firmware"
+msgstr "Yuklab olingan proshivkani saqlash"
+
+#: data/com.tecncr.Corer.gschema.xml:19
+msgid ""
+"Keep downloaded firmware files in the cache after a successful restore so "
+"they can be reused."
+msgstr ""
+"Muvaffaqiyatli tiklashdan keyin yuklab olingan proshivka fayllarini keshda "
+"saqlaydi, shunda ulardan qayta foydalanish mumkin."
+
+#: data/com.tecncr.Corer.gschema.xml:23
+msgid "Verbose logging"
+msgstr "Batafsil jurnal yuritish"
+
+#: data/com.tecncr.Corer.gschema.xml:24
+msgid "Ask idevicerestore to print additional debug output."
+msgstr ""
+"idevicerestore’dan qoʻshimcha nosozliklarni tuzatish maʼlumotlarini "
+"chiqarishni soʻraydi."
+
+#: data/com.tecncr.Corer.gschema.xml:28
+msgid "Allow restoring from restore mode"
+msgstr "Tiklash rejimidan tiklashga ruxsat berish"
+
+#: data/com.tecncr.Corer.gschema.xml:32
+msgid "Continue after certain errors"
+msgstr "Baʼzi xatolardan keyin davom etish"
+
+#: data/com.tecncr.Corer.gschema.xml:33
+msgid ""
+"Try to continue the restore process after certain errors, like a failed "
+"baseband update."
+msgstr ""
+"Baseband yangilanishi muvaffaqiyatsiz boʻlishi kabi baʼzi xatolardan keyin "
+"tiklash jarayonini davom ettirishga urinadi."
+
+#: data/com.tecncr.Corer.gschema.xml:37
+msgid "Skip NOR and baseband upgrade"
+msgstr "NOR va baseband yangilanishini oʻtkazib yuborish"
+
+#: data/com.tecncr.Corer.gschema.xml:41
+msgid "Keep personalized components"
+msgstr "Shaxsiylashtirilgan komponentlarni saqlash"
+
+#: data/com.tecncr.Corer.gschema.xml:42
+msgid "Write personalized components to files for debugging."
+msgstr ""
+"Nosozliklarni tuzatish uchun shaxsiylashtirilgan komponentlarni fayllarga "
+"yozadi."
+
+#: data/com.tecncr.Corer.gschema.xml:46
+msgid "Restore custom firmware"
+msgstr "Maxsus proshivkani tiklash"
+
+#: data/com.tecncr.Corer.gschema.xml:47
+msgid "Restore with a custom firmware. Requires a bootrom exploit."
+msgstr ""
+"Maxsus proshivka bilan tiklaydi. bootrom ekspluatatsiyasi talab qilinadi."
+
+#: data/com.tecncr.Corer.gschema.xml:51
+msgid "Stop after booting the ramdisk"
+msgstr "ramdisk yuklangandan keyin toʻxtash"
+
+#: data/com.tecncr.Corer.gschema.xml:55
+msgid "Signing server URL"
+msgstr "Imzolash serveri URL manzili"
+
+#: data/com.tecncr.Corer.gschema.xml:56
+msgid ""
+"Overrides the default signing server request URL. Empty uses the default."
+msgstr ""
+"Imzolash serveriga soʻrovlarning standart URL manzilini almashtiradi. Boʻsh "
+"qoldirilsa, standart manzil ishlatiladi."
+
+#: data/com.tecncr.Corer.gschema.xml:60
+msgid "Restore variant"
+msgstr "Tiklash varianti"
+
+#: data/com.tecncr.Corer.gschema.xml:61
+msgid "Build identity variant to use. Empty selects it automatically."
+msgstr ""
+"Ishlatiladigan yigʻma identifikatori varianti. Boʻsh qoldirilsa, avtomatik "
+"tanlanadi."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:8
+msgid "Restore and update Apple devices"
+msgstr "Apple qurilmalarini tiklash va yangilash"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:10
+msgid ""
+"Corer installs firmware on Apple devices, including Mac computers with Apple"
+" silicon in DFU mode. Connect a device, pick a version and choose whether to"
+" keep or erase its content."
+msgstr ""
+"Corer proshivkani Apple qurilmalariga, jumladan DFU rejimidagi Apple silicon"
+" li Mac kompyuterlariga oʻrnatadi. Qurilmani ulang, versiyani tanlang va "
+"uning tarkibini saqlash yoki oʻchirishni hal qiling."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:16
+msgid "Update a device while keeping its data, or erase and restore it"
+msgstr ""
+"Qurilmani maʼlumotlarini saqlagan holda yangilang yoki oʻchirib, tiklang"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:17
+msgid "Download currently signed firmware on demand and reuse it later"
+msgstr ""
+"Hozirda imzolangan proshivkani kerak boʻlganda yuklab oling va keyinroq "
+"qayta ishlating"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:18
+msgid "Use a firmware file you already have"
+msgstr "Sizda allaqachon mavjud proshivka faylidan foydalaning"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:19
+msgid "Recover devices stuck in recovery or DFU mode"
+msgstr "Tiklash yoki DFU rejimida qotib qolgan qurilmalarni qutqaring"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:21
+msgid ""
+"Corer is powered by idevicerestore and libimobiledevice. It is not "
+"affiliated with or endorsed by Apple Inc."
+msgstr ""
+"Corer idevicerestore va libimobiledevice asosida ishlaydi. U Apple Inc. "
+"bilan bogʻlanmagan va u tomonidan tasdiqlanmagan."
+
+#: src/devices.py:89
+msgid "Recovery Mode"
+msgstr "Tiklash rejimi"
+
+#: src/devices.py:91
+msgid "DFU Mode"
+msgstr "DFU rejimi"
+
+#: src/firmware.py:145 src/firmware.py:150
+msgid "Could not load the list of available versions"
+msgstr "Mavjud versiyalar roʻyxatini yuklab boʻlmadi"
+
+#: src/firmware.py:185
+msgid "This is not a valid firmware file"
+msgstr "Bu yaroqli proshivka fayli emas"
+
+#: src/firmware.py:335
+msgid "This firmware is not available for download"
+msgstr "Bu proshivkani yuklab olib boʻlmaydi"
+
+#: src/firmware.py:349
+msgid "Not enough free disk space to download the firmware"
+msgstr "Proshivkani yuklab olish uchun diskda boʻsh joy yetarli emas"
+
+#: src/firmware.py:360
+msgid "The download server refused the request"
+msgstr "Yuklab olish serveri soʻrovni rad etdi"
+
+#: src/firmware.py:367
+msgid "The download failed. Check your network connection"
+msgstr "Yuklab olish muvaffaqiyatsiz tugadi. Tarmoq ulanishini tekshiring"
+
+#: src/firmware.py:374
+msgid "The downloaded firmware is incomplete"
+msgstr "Yuklab olingan proshivka toʻliq emas"
+
+#: src/firmware.py:377
+msgid "The downloaded firmware is corrupted"
+msgstr "Yuklab olingan proshivka shikastlangan"
+
+#: src/log_dialog.py:16
+msgid "Log"
+msgstr "Jurnal"
+
+#: src/log_dialog.py:24
+msgid "Copy"
+msgstr "Nusxa olish"
+
+#: src/log_dialog.py:28
+msgid "Save…"
+msgstr "Saqlash…"
+
+#: src/log_dialog.py:36
+msgid "No Log Yet"
+msgstr "Hozircha jurnal yoʻq"
+
+#: src/log_dialog.py:37
+msgid "Output appears here when a device is restored."
+msgstr "Qurilma tiklanganda chiqish shu yerda paydo boʻladi."
+
+#: src/log_dialog.py:81 src/window.py:310
+msgid "Copied to clipboard"
+msgstr "Vaqtinchalik xotiraga nusxalandi"
+
+#: src/log_dialog.py:84
+msgid "Save Log"
+msgstr "Jurnalni saqlash"
+
+#. Translators: Replace "translator-credits" with your name/username, and
+#. optionally an email or URL.
+#: src/main.py:90
+msgid "translator-credits"
+msgstr "Nícolas Castillo <code@tecncr.com>"
+
+#: src/main.py:96
+msgid "Powered By"
+msgstr "Quyidagilar asosida ishlaydi"
+
+#. Firmware
+#: src/preferences.py:23 src/preferences.py:77
+msgid "Firmware"
+msgstr "Proshivka"
+
+#: src/preferences.py:28
+msgid "Downloads"
+msgstr "Yuklab olishlar"
+
+#: src/preferences.py:29
+msgid ""
+"Downloaded firmware is stored so that it does not have to be downloaded "
+"again."
+msgstr ""
+"Yuklab olingan proshivka qayta yuklab olish shart boʻlmasligi uchun "
+"saqlanadi."
+
+#: src/preferences.py:33
+msgid "_Keep Downloaded Firmware"
+msgstr "Yuklab olingan proshivkani _saqlash"
+
+#: src/preferences.py:34
+msgid "Turn off to delete firmware after a successful restore"
+msgstr "Muvaffaqiyatli tiklashdan keyin proshivkani oʻchirish uchun oʻchiring"
+
+#: src/preferences.py:36
+msgid "Stored Firmware"
+msgstr "Saqlangan proshivka"
+
+#: src/preferences.py:37
+msgid "Calculating…"
+msgstr "Hisoblanmoqda…"
+
+#: src/preferences.py:39 src/preferences.py:96
+msgid "Open Folder"
+msgstr "Jildni ochish"
+
+#: src/preferences.py:44 src/preferences.py:145
+msgid "_Delete"
+msgstr "_Oʻchirish"
+
+#. Advanced
+#: src/preferences.py:54
+msgid "Advanced"
+msgstr "Qoʻshimcha"
+
+#: src/preferences.py:59
+msgid "Restore"
+msgstr "Tiklash"
+
+#: src/preferences.py:60
+msgid ""
+"These options can leave a device unable to start. Change them only if you "
+"know what they do."
+msgstr ""
+"Bu sozlamalar qurilmaning ishga tushmasligiga olib kelishi mumkin. Ularni "
+"faqat nima qilishini bilsangizgina oʻzgartiring."
+
+#: src/preferences.py:64
+msgid "Restore From _Restore Mode"
+msgstr "_Tiklash rejimidan tiklash"
+
+#: src/preferences.py:65
+msgid "Allow starting with a device that is already in restore mode"
+msgstr ""
+"Allaqachon tiklash rejimida turgan qurilma bilan boshlashga ruxsat beradi"
+
+#: src/preferences.py:67
+msgid "_Ignore Errors"
+msgstr "Xatolarga _eʼtibor bermaslik"
+
+#: src/preferences.py:68
+msgid "Try to continue after certain errors, like a failed baseband update"
+msgstr ""
+"Baseband yangilanishi muvaffaqiyatsiz boʻlishi kabi baʼzi xatolardan keyin "
+"davom etishga urinadi"
+
+#: src/preferences.py:71
+msgid "Skip _Baseband"
+msgstr "_Basebandni oʻtkazib yuborish"
+
+#: src/preferences.py:72
+msgid "Do not upgrade NOR and baseband on legacy devices"
+msgstr "Eski qurilmalarda NOR va basebandni yangilamaslik"
+
+#: src/preferences.py:74
+msgid "_Stop After Ramdisk"
+msgstr "ramdisk’dan keyin _toʻxtash"
+
+#: src/preferences.py:75
+msgid "Boot the restore ramdisk without restoring"
+msgstr "Tiklamasdan tiklash ramdisk’ini yuklaydi"
+
+#: src/preferences.py:80
+msgid "_Custom Firmware"
+msgstr "_Maxsus proshivka"
+
+#: src/preferences.py:81
+msgid "Restore custom firmware. Requires a bootrom exploit"
+msgstr "Maxsus proshivkani tiklaydi. bootrom ekspluatatsiyasi talab qilinadi"
+
+#: src/preferences.py:82
+msgid "Restore _Variant"
+msgstr "Tiklash _varianti"
+
+#: src/preferences.py:83
+msgid "Signing Server _URL"
+msgstr "Imzolash serveri _URL manzili"
+
+#: src/preferences.py:86
+msgid "Troubleshooting"
+msgstr "Nosozliklarni bartaraf etish"
+
+#: src/preferences.py:89
+msgid "_Detailed Log"
+msgstr "_Batafsil jurnal"
+
+#: src/preferences.py:90
+msgid "Include all debugging output from idevicerestore in the log"
+msgstr ""
+"Jurnalga idevicerestore’ning barcha nosozliklarni tuzatish chiqishini "
+"kiritish"
+
+#: src/preferences.py:92
+msgid "Log Files"
+msgstr "Jurnal fayllari"
+
+#: src/preferences.py:93
+msgid "Every restore is recorded, even if Corer quits unexpectedly"
+msgstr "Corer kutilmaganda yopilsa ham, har bir tiklash qayd etiladi"
+
+#: src/preferences.py:103
+msgid "Keep _Personalized Components"
+msgstr "_Shaxsiylashtirilgan komponentlarni saqlash"
+
+#: src/preferences.py:104
+msgid "Write personalized components to files for debugging"
+msgstr ""
+"Nosozliklarni tuzatish uchun shaxsiylashtirilgan komponentlarni fayllarga "
+"yozadi"
+
+#: src/preferences.py:141
+msgid "Delete Stored Firmware?"
+msgstr "Saqlangan proshivka oʻchirilsinmi?"
+
+#: src/preferences.py:142
+msgid "Firmware will be downloaded again the next time it is needed."
+msgstr "Proshivka keyingi safar kerak boʻlganda qayta yuklab olinadi."
+
+#: src/preferences.py:144 src/window.py:585 src/window.ui:322
+msgid "_Cancel"
+msgstr "_Bekor qilish"
+
+#: src/restore.py:27
+msgid "Detecting Device"
+msgstr "Qurilma aniqlanmoqda"
+
+#: src/restore.py:28
+msgid "Preparing Device"
+msgstr "Qurilma tayyorlanmoqda"
+
+#: src/restore.py:29
+msgid "Sending Filesystem"
+msgstr "Fayl tizimi yuborilmoqda"
+
+#: src/restore.py:30
+msgid "Verifying Filesystem"
+msgstr "Fayl tizimi tekshirilmoqda"
+
+#: src/restore.py:31
+msgid "Installing Firmware"
+msgstr "Proshivka oʻrnatilmoqda"
+
+#: src/restore.py:32
+msgid "Updating Baseband"
+msgstr "Baseband yangilanmoqda"
+
+#: src/restore.py:33
+msgid "Updating Components"
+msgstr "Komponentlar yangilanmoqda"
+
+#: src/restore.py:34
+msgid "Sending Images"
+msgstr "Tasvirlar yuborilmoqda"
+
+#: src/restore.py:63
+msgid "Restoring"
+msgstr "Tiklanmoqda"
+
+#: src/restore.py:134
+msgid "idevicerestore could not be started"
+msgstr "idevicerestore’ni ishga tushirib boʻlmadi"
+
+#: src/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "Device"
+msgstr "Qurilma"
+
+#: src/shortcuts-dialog.ui:9
+msgctxt "shortcut window"
+msgid "Choose Firmware File"
+msgstr "Proshivka faylini tanlash"
+
+#: src/shortcuts-dialog.ui:15
+msgctxt "shortcut window"
+msgid "Look for Devices"
+msgstr "Qurilmalarni qidirish"
+
+#: src/shortcuts-dialog.ui:21
+msgctxt "shortcut window"
+msgid "View Log"
+msgstr "Jurnalni koʻrish"
+
+#: src/shortcuts-dialog.ui:29
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Umumiy"
+
+#: src/shortcuts-dialog.ui:32
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr "Moslamalar"
+
+#: src/shortcuts-dialog.ui:38
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Yorliqlarni koʻrsatish"
+
+#: src/shortcuts-dialog.ui:44
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Chiqish"
+
+#: src/window.py:149
+msgid "Apple Device"
+msgstr "Apple qurilmasi"
+
+#: src/window.py:217
+msgid "Corer needs permission to access this device over USB"
+msgstr "Corer’ga bu qurilmaga USB orqali kirish uchun ruxsat kerak"
+
+#: src/window.py:218
+msgid "_Set Up"
+msgstr "_Sozlash"
+
+#: src/window.py:223
+msgid "The system device service (usbmuxd) is not responding"
+msgstr "Tizim qurilma xizmati (usbmuxd) javob bermayapti"
+
+#: src/window.py:224
+msgid "_Restart It"
+msgstr "_Qayta ishga tushirish"
+
+#: src/window.py:229
+msgid "The device service (usbmuxd) is not available"
+msgstr "Qurilma xizmati (usbmuxd) mavjud emas"
+
+#: src/window.py:260
+msgid "USB access was set up"
+msgstr "USB orqali kirish sozlandi"
+
+#: src/window.py:273
+msgid "The device service was restarted"
+msgstr "Qurilma xizmati qayta ishga tushirildi"
+
+#: src/window.py:275
+msgid ""
+"Could not restart it. Run “sudo systemctl restart usbmuxd” in a terminal"
+msgstr ""
+"Qayta ishga tushirib boʻlmadi. Terminalda “sudo systemctl restart usbmuxd” "
+"buyrugʻini bajaring"
+
+#: src/window.py:284
+msgid "Set Up USB Access Manually"
+msgstr "USB orqali kirishni qoʻlda sozlash"
+
+#: src/window.py:285
+msgid ""
+"The setup could not be completed. Run these commands in a terminal to "
+"install the device access rule, then reconnect the device."
+msgstr ""
+"Sozlashni yakunlab boʻlmadi. Qurilmaga kirish qoidasini oʻrnatish uchun "
+"terminalda ushbu buyruqlarni bajaring, soʻng qurilmani qayta ulang."
+
+#: src/window.py:301
+msgid "_Close"
+msgstr "_Yopish"
+
+#: src/window.py:302
+msgid "C_opy Commands"
+msgstr "Buyruqlardan _nusxa olish"
+
+#: src/window.py:410
+msgid "Looking for available versions…"
+msgstr "Mavjud versiyalar qidirilmoqda…"
+
+#: src/window.py:414
+msgid "Choose a firmware file for this device"
+msgstr "Ushbu qurilma uchun proshivka faylini tanlang"
+
+#: src/window.py:416
+msgid "No firmware is currently signed for this device"
+msgstr "Hozirda bu qurilma uchun imzolangan proshivka yoʻq"
+
+#: src/window.py:418
+msgid "Using the firmware file"
+msgstr "Proshivka fayli ishlatilmoqda"
+
+#: src/window.py:422
+msgid "Downloaded"
+msgstr "Yuklab olingan"
+
+#. Translators: {size} is a file size such as “8.1 GB”
+#: src/window.py:425
+#, python-brace-format
+msgid "{size} download"
+msgstr "{size} yuklab olish"
+
+#: src/window.py:429
+msgid "Offline — showing downloaded firmware"
+msgstr "Oflayn — yuklab olingan proshivka koʻrsatilmoqda"
+
+#: src/window.py:436
+msgid "Use an IPSW file from this computer"
+msgstr "Ushbu kompyuterdagi IPSW faylidan foydalanish"
+
+#. Translators: {filename} is the name of a firmware file
+#: src/window.py:440
+#, python-brace-format
+msgid "{filename} is not compatible with this device"
+msgstr "{filename} ushbu qurilma bilan mos emas"
+
+#: src/window.py:453 src/window.py:587
+msgid "_Erase and Restore"
+msgstr "_Oʻchirish va tiklash"
+
+#: src/window.py:453 src/window.py:591
+msgid "_Update"
+msgstr "_Yangilash"
+
+#: src/window.py:468
+msgid "Exit _Recovery Mode"
+msgstr "_Tiklash rejimidan chiqish"
+
+#: src/window.py:471
+msgid "Enter _Recovery Mode"
+msgstr "_Tiklash rejimiga kirish"
+
+#: src/window.py:502
+msgid "Firmware Files"
+msgstr "Proshivka fayllari"
+
+#: src/window.py:507
+msgid "Choose Firmware File"
+msgstr "Proshivka faylini tanlash"
+
+#: src/window.py:518
+msgid "This file cannot be used"
+msgstr "Bu fayldan foydalanib boʻlmaydi"
+
+#. Translators: {name} is the name of a device
+#: src/window.py:563
+#, python-brace-format
+msgid "Erase “{name}”?"
+msgstr "“{name}” oʻchirilsinmi?"
+
+#. Translators: {version} is a system version such as “iOS 18.1”
+#: src/window.py:565
+#, python-brace-format
+msgid ""
+"All content and settings will be permanently erased and {version} will be "
+"installed. This cannot be undone."
+msgstr ""
+"Barcha kontent va sozlamalar butunlay oʻchiriladi va {version} oʻrnatiladi. "
+"Buni bekor qilib boʻlmaydi."
+
+#: src/window.py:569
+#, python-brace-format
+msgid "Update “{name}”?"
+msgstr "“{name}” yangilansinmi?"
+
+#: src/window.py:570
+#, python-brace-format
+msgid ""
+"{version} will be installed and your content and settings will be kept. Make"
+" sure you have a backup before continuing."
+msgstr ""
+"{version} oʻrnatiladi, kontent va sozlamalaringiz saqlanadi. Davom etishdan "
+"oldin zaxira nusxangiz borligiga ishonch hosil qiling."
+
+#: src/window.py:576
+msgid ""
+"This version is older than the one on the device. Downgrading without "
+"erasing is likely to fail and can cause complete data loss."
+msgstr ""
+"Bu versiya qurilmadagidan eski. Oʻchirmasdan eski versiyaga qaytish "
+"koʻpincha muvaffaqiyatsiz boʻladi va barcha maʼlumotlarning yoʻqolishiga "
+"olib kelishi mumkin."
+
+#: src/window.py:580
+msgid ""
+"This firmware no longer appears to be signed, so the device will probably "
+"refuse it."
+msgstr ""
+"Bu proshivka endi imzolanmaganga oʻxshaydi, shuning uchun qurilma uni rad "
+"etishi mumkin."
+
+#: src/window.py:582
+msgid "Keep the device connected until the process finishes."
+msgstr "Jarayon tugaguncha qurilmani ulangan holda qoldiring."
+
+#: src/window.py:628
+msgid "A device is being restored"
+msgstr "Qurilma tiklanmoqda"
+
+#: src/window.py:640 src/window.py:666
+msgid "Verifying Firmware"
+msgstr "Proshivka tekshirilmoqda"
+
+#: src/window.py:642 src/window.py:668
+msgid "Downloading Firmware"
+msgstr "Proshivka yuklab olinmoqda"
+
+#. Translators: download progress, e.g. “1.2 GB of 8.1 GB”
+#: src/window.py:672
+#, python-brace-format
+msgid "{done} of {total}"
+msgstr "{total} dan {done}"
+
+#. Translators: download speed, e.g. “12.5 MB/s”
+#: src/window.py:679
+#, python-brace-format
+msgid "{speed}/s"
+msgstr "{speed}/s"
+
+#: src/window.py:785
+msgid "Stop the Process?"
+msgstr "Jarayon toʻxtatilsinmi?"
+
+#: src/window.py:786
+msgid ""
+"Interrupting now can leave the device unusable until it is restored again."
+msgstr ""
+"Hozir toʻxtatish qurilmani qayta tiklanmaguncha ishlatib boʻlmaydigan holga "
+"keltirishi mumkin."
+
+#: src/window.py:788 src/window.py:962
+msgid "_Continue"
+msgstr "_Davom etish"
+
+#: src/window.py:789
+msgid "_Stop"
+msgstr "_Toʻxtatish"
+
+#: src/window.py:807
+msgid "Stopping…"
+msgstr "Toʻxtatilmoqda…"
+
+#: src/window.py:839
+msgid "Stopped"
+msgstr "Toʻxtatildi"
+
+#: src/window.py:842
+msgid "SHSH Blobs Saved"
+msgstr "SHSH blob’lar saqlandi"
+
+#: src/window.py:845
+msgid "Device Restored"
+msgstr "Qurilma tiklandi"
+
+#: src/window.py:846
+msgid "The device will restart and show the setup assistant."
+msgstr "Qurilma qayta ishga tushadi va sozlash yordamchisini koʻrsatadi."
+
+#: src/window.py:849
+msgid "Device Updated"
+msgstr "Qurilma yangilandi"
+
+#: src/window.py:850
+msgid "The device will restart when it has finished updating."
+msgstr "Yangilash tugagach, qurilma qayta ishga tushadi."
+
+#: src/window.py:858
+msgid "Could Not Save SHSH Blobs"
+msgstr "SHSH blob’larni saqlab boʻlmadi"
+
+#: src/window.py:859
+msgid "Restore Failed"
+msgstr "Tiklash muvaffaqiyatsiz tugadi"
+
+#: src/window.py:863
+msgid "Check the log for details."
+msgstr "Tafsilotlar uchun jurnalni tekshiring."
+
+#: src/window.py:899
+msgid "The device was not found. Reconnect it and try again"
+msgstr "Qurilma topilmadi. Uni qayta ulab, yana urinib koʻring"
+
+#: src/window.py:925
+msgid "The device is restarting"
+msgstr "Qurilma qayta ishga tushmoqda"
+
+#: src/window.py:926
+msgid "Could not exit recovery mode"
+msgstr "Tiklash rejimidan chiqib boʻlmadi"
+
+#: src/window.py:929
+msgid "The device is restarting in recovery mode"
+msgstr "Qurilma tiklash rejimida qayta ishga tushmoqda"
+
+#: src/window.py:930
+msgid ""
+"Could not enter recovery mode. Unlock the device and trust this computer"
+msgstr ""
+"Tiklash rejimiga kirib boʻlmadi. Qurilma qulfini oching va ushbu kompyuterga"
+" ishoning"
+
+#: src/window.py:959
+msgid "Stop and Quit?"
+msgstr "Toʻxtatib, chiqilsinmi?"
+
+#: src/window.py:960
+msgid ""
+"A device is being restored. Interrupting now can leave it unusable until it "
+"is restored again."
+msgstr ""
+"Qurilma tiklanmoqda. Hozir toʻxtatish uni qayta tiklanmaguncha ishlatib "
+"boʻlmaydigan holga keltirishi mumkin."
+
+#: src/window.py:963
+msgid "_Stop and Quit"
+msgstr "_Toʻxtatib, chiqish"
+
+#: src/window.ui:21
+msgid "Main Menu"
+msgstr "Asosiy menyu"
+
+#: src/window.ui:56
+msgid "Connect a Device"
+msgstr "Qurilmani ulang"
+
+#: src/window.ui:57
+msgid ""
+"Plug in an Apple device with a USB cable. Devices in recovery or DFU mode "
+"work too. A Mac with Apple silicon has to be in DFU mode."
+msgstr ""
+"Apple qurilmasini USB kabel bilan ulang. Tiklash yoki DFU rejimidagi "
+"qurilmalar ham ishlaydi. Apple silicon li Mac DFU rejimida boʻlishi kerak."
+
+#: src/window.ui:124
+msgid "Device"
+msgstr "Qurilma"
+
+#: src/window.ui:131
+msgid "Version"
+msgstr "Versiya"
+
+#: src/window.ui:145
+msgid "Try Again"
+msgstr "Qayta urinish"
+
+#: src/window.ui:156
+msgid "Firmware File"
+msgstr "Proshivka fayli"
+
+#: src/window.ui:164
+msgid "Remove File"
+msgstr "Faylni olib tashlash"
+
+#: src/window.ui:175
+msgid "Choose File"
+msgstr "Fayl tanlash"
+
+#: src/window.ui:190
+msgid "Erase Device"
+msgstr "Qurilmani oʻchirish"
+
+#: src/window.ui:191
+msgid "Remove all content and settings"
+msgstr "Barcha kontent va sozlamalarni olib tashlash"
+
+#: src/window.ui:312 src/window.ui:377 src/window.ui:427
+msgid "View _Log"
+msgstr "_Jurnalni koʻrish"
+
+#: src/window.ui:349
+msgid "_Done"
+msgstr "_Tayyor"
+
+#: src/window.ui:387
+msgid "_Back"
+msgstr "_Orqaga"
+
+#: src/window.ui:397
+msgid "_Try Again"
+msgstr "_Qayta urinish"
+
+#: src/window.ui:423
+msgid "_Save SHSH Blobs"
+msgstr "SHSH blob’larni _saqlash"
+
+#: src/window.ui:433
+msgid "_Preferences"
+msgstr "_Moslamalar"
+
+#: src/window.ui:437
+msgid "_Keyboard Shortcuts"
+msgstr "_Klaviatura yorliqlari"
+
+#: src/window.ui:441
+msgid "_About Corer"
+msgstr "Corer _haqida"

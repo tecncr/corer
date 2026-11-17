@@ -1,0 +1,858 @@
+# Hindi translation for Corer.
+# Copyright (C) 2026 Corer contributors
+# This file is distributed under the same license as the corer package.
+# Nícolas Castillo <code@tecncr.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: corer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 02:42-0500\n"
+"PO-Revision-Date: 2026-11-17 03:43-0500\n"
+"Last-Translator: Nícolas Castillo <code@tecncr.com>\n"
+"Language-Team: Hindi\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/com.tecncr.Corer.desktop.in.in:2
+#: data/com.tecncr.Corer.metainfo.xml.in.in:7 src/window.ui:6
+msgid "Corer"
+msgstr "Corer"
+
+#. Translators: Short description shown in GNOME Shell search and app grids.
+#. Keep it under 80 characters.
+#: data/com.tecncr.Corer.desktop.in.in:5
+msgid "Restore firmware to Apple devices"
+msgstr "Apple डिवाइसों का फ़र्मवेयर रीस्टोर करें"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/com.tecncr.Corer.desktop.in.in:12
+msgid ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;"
+msgstr ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;फ़र्मवेयर;Restore;रीस्टोर;Update;अपडेट;IPSW;Recovery;DFU;"
+
+#: data/com.tecncr.Corer.gschema.xml:6
+msgid "Window width"
+msgstr "विंडो की चौड़ाई"
+
+#: data/com.tecncr.Corer.gschema.xml:10
+msgid "Window height"
+msgstr "विंडो की ऊँचाई"
+
+#: data/com.tecncr.Corer.gschema.xml:14
+msgid "Whether the window is maximized"
+msgstr "क्या विंडो बड़ी की गई है"
+
+#: data/com.tecncr.Corer.gschema.xml:18
+msgid "Keep downloaded firmware"
+msgstr "डाउनलोड किया गया फ़र्मवेयर रखें"
+
+#: data/com.tecncr.Corer.gschema.xml:19
+msgid ""
+"Keep downloaded firmware files in the cache after a successful restore so "
+"they can be reused."
+msgstr ""
+"सफल रीस्टोर के बाद डाउनलोड की गई फ़र्मवेयर फ़ाइलें कैश में रखता है ताकि उनका"
+" दोबारा उपयोग किया जा सके।"
+
+#: data/com.tecncr.Corer.gschema.xml:23
+msgid "Verbose logging"
+msgstr "विस्तृत लॉगिंग"
+
+#: data/com.tecncr.Corer.gschema.xml:24
+msgid "Ask idevicerestore to print additional debug output."
+msgstr "idevicerestore से अतिरिक्त डीबग आउटपुट दिखाने को कहता है।"
+
+#: data/com.tecncr.Corer.gschema.xml:28
+msgid "Allow restoring from restore mode"
+msgstr "रीस्टोर मोड से रीस्टोर करने दें"
+
+#: data/com.tecncr.Corer.gschema.xml:32
+msgid "Continue after certain errors"
+msgstr "कुछ त्रुटियों के बाद भी जारी रखें"
+
+#: data/com.tecncr.Corer.gschema.xml:33
+msgid ""
+"Try to continue the restore process after certain errors, like a failed "
+"baseband update."
+msgstr ""
+"कुछ त्रुटियों के बाद, जैसे बेसबैंड अपडेट विफल होने पर, रीस्टोर प्रक्रिया "
+"जारी रखने का प्रयास करता है।"
+
+#: data/com.tecncr.Corer.gschema.xml:37
+msgid "Skip NOR and baseband upgrade"
+msgstr "NOR और बेसबैंड अपग्रेड छोड़ें"
+
+#: data/com.tecncr.Corer.gschema.xml:41
+msgid "Keep personalized components"
+msgstr "वैयक्तिकृत घटक रखें"
+
+#: data/com.tecncr.Corer.gschema.xml:42
+msgid "Write personalized components to files for debugging."
+msgstr "डीबगिंग के लिए वैयक्तिकृत घटकों को फ़ाइलों में लिखता है।"
+
+#: data/com.tecncr.Corer.gschema.xml:46
+msgid "Restore custom firmware"
+msgstr "कस्टम फ़र्मवेयर रीस्टोर करें"
+
+#: data/com.tecncr.Corer.gschema.xml:47
+msgid "Restore with a custom firmware. Requires a bootrom exploit."
+msgstr ""
+"कस्टम फ़र्मवेयर के साथ रीस्टोर करता है। इसके लिए bootrom एक्सप्लॉइट आवश्यक "
+"है।"
+
+#: data/com.tecncr.Corer.gschema.xml:51
+msgid "Stop after booting the ramdisk"
+msgstr "ramdisk बूट करने के बाद रुकें"
+
+#: data/com.tecncr.Corer.gschema.xml:55
+msgid "Signing server URL"
+msgstr "साइनिंग सर्वर का URL"
+
+#: data/com.tecncr.Corer.gschema.xml:56
+msgid ""
+"Overrides the default signing server request URL. Empty uses the default."
+msgstr ""
+"साइनिंग सर्वर अनुरोधों का डिफ़ॉल्ट URL बदलता है। खाली होने पर डिफ़ॉल्ट उपयोग"
+" होता है।"
+
+#: data/com.tecncr.Corer.gschema.xml:60
+msgid "Restore variant"
+msgstr "रीस्टोर वेरिएंट"
+
+#: data/com.tecncr.Corer.gschema.xml:61
+msgid "Build identity variant to use. Empty selects it automatically."
+msgstr ""
+"उपयोग किया जाने वाला बिल्ड आइडेंटिटी वेरिएंट। खाली होने पर यह अपने-आप चुना "
+"जाता है।"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:8
+msgid "Restore and update Apple devices"
+msgstr "Apple डिवाइसों को रीस्टोर और अपडेट करें"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:10
+msgid ""
+"Corer installs firmware on Apple devices, including Mac computers with Apple"
+" silicon in DFU mode. Connect a device, pick a version and choose whether to"
+" keep or erase its content."
+msgstr ""
+"Corer Apple डिवाइसों पर फ़र्मवेयर इंस्टॉल करता है, जिनमें DFU मोड में Apple "
+"सिलिकॉन वाले Mac कंप्यूटर भी शामिल हैं। डिवाइस कनेक्ट करें, संस्करण चुनें और"
+" तय करें कि उसकी सामग्री रखनी है या मिटानी है।"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:16
+msgid "Update a device while keeping its data, or erase and restore it"
+msgstr "डिवाइस को डेटा रखते हुए अपडेट करें, या उसे मिटाकर रीस्टोर करें"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:17
+msgid "Download currently signed firmware on demand and reuse it later"
+msgstr ""
+"वर्तमान में हस्ताक्षरित फ़र्मवेयर ज़रूरत पड़ने पर डाउनलोड करें और बाद में "
+"दोबारा उपयोग करें"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:18
+msgid "Use a firmware file you already have"
+msgstr "वह फ़र्मवेयर फ़ाइल उपयोग करें जो आपके पास पहले से है"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:19
+msgid "Recover devices stuck in recovery or DFU mode"
+msgstr "रिकवरी या DFU मोड में अटके डिवाइस ठीक करें"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:21
+msgid ""
+"Corer is powered by idevicerestore and libimobiledevice. It is not "
+"affiliated with or endorsed by Apple Inc."
+msgstr ""
+"Corer, idevicerestore और libimobiledevice पर आधारित है। यह Apple Inc. से "
+"संबद्ध नहीं है और न ही उसके द्वारा समर्थित है।"
+
+#: src/devices.py:89
+msgid "Recovery Mode"
+msgstr "रिकवरी मोड"
+
+#: src/devices.py:91
+msgid "DFU Mode"
+msgstr "DFU मोड"
+
+#: src/firmware.py:145 src/firmware.py:150
+msgid "Could not load the list of available versions"
+msgstr "उपलब्ध संस्करणों की सूची लोड नहीं की जा सकी"
+
+#: src/firmware.py:185
+msgid "This is not a valid firmware file"
+msgstr "यह मान्य फ़र्मवेयर फ़ाइल नहीं है"
+
+#: src/firmware.py:335
+msgid "This firmware is not available for download"
+msgstr "यह फ़र्मवेयर डाउनलोड के लिए उपलब्ध नहीं है"
+
+#: src/firmware.py:349
+msgid "Not enough free disk space to download the firmware"
+msgstr "फ़र्मवेयर डाउनलोड करने के लिए डिस्क पर पर्याप्त खाली जगह नहीं है"
+
+#: src/firmware.py:360
+msgid "The download server refused the request"
+msgstr "डाउनलोड सर्वर ने अनुरोध अस्वीकार कर दिया"
+
+#: src/firmware.py:367
+msgid "The download failed. Check your network connection"
+msgstr "डाउनलोड विफल रहा। अपना नेटवर्क कनेक्शन जाँचें"
+
+#: src/firmware.py:374
+msgid "The downloaded firmware is incomplete"
+msgstr "डाउनलोड किया गया फ़र्मवेयर अधूरा है"
+
+#: src/firmware.py:377
+msgid "The downloaded firmware is corrupted"
+msgstr "डाउनलोड किया गया फ़र्मवेयर दूषित है"
+
+#: src/log_dialog.py:16
+msgid "Log"
+msgstr "लॉग"
+
+#: src/log_dialog.py:24
+msgid "Copy"
+msgstr "कॉपी करें"
+
+#: src/log_dialog.py:28
+msgid "Save…"
+msgstr "सहेजें…"
+
+#: src/log_dialog.py:36
+msgid "No Log Yet"
+msgstr "अभी तक कोई लॉग नहीं"
+
+#: src/log_dialog.py:37
+msgid "Output appears here when a device is restored."
+msgstr "डिवाइस रीस्टोर होने पर आउटपुट यहाँ दिखाई देगा।"
+
+#: src/log_dialog.py:81 src/window.py:310
+msgid "Copied to clipboard"
+msgstr "क्लिपबोर्ड पर कॉपी किया गया"
+
+#: src/log_dialog.py:84
+msgid "Save Log"
+msgstr "लॉग सहेजें"
+
+#. Translators: Replace "translator-credits" with your name/username, and
+#. optionally an email or URL.
+#: src/main.py:90
+msgid "translator-credits"
+msgstr "Nícolas Castillo <code@tecncr.com>"
+
+#: src/main.py:96
+msgid "Powered By"
+msgstr "इनसे संचालित"
+
+#. Firmware
+#: src/preferences.py:23 src/preferences.py:77
+msgid "Firmware"
+msgstr "फ़र्मवेयर"
+
+#: src/preferences.py:28
+msgid "Downloads"
+msgstr "डाउनलोड"
+
+#: src/preferences.py:29
+msgid ""
+"Downloaded firmware is stored so that it does not have to be downloaded "
+"again."
+msgstr ""
+"डाउनलोड किया गया फ़र्मवेयर सहेजा जाता है ताकि उसे दोबारा डाउनलोड न करना "
+"पड़े।"
+
+#: src/preferences.py:33
+msgid "_Keep Downloaded Firmware"
+msgstr "डाउनलोड किया गया फ़र्मवेयर _रखें"
+
+#: src/preferences.py:34
+msgid "Turn off to delete firmware after a successful restore"
+msgstr "सफल रीस्टोर के बाद फ़र्मवेयर हटाने के लिए बंद करें"
+
+#: src/preferences.py:36
+msgid "Stored Firmware"
+msgstr "सहेजा गया फ़र्मवेयर"
+
+#: src/preferences.py:37
+msgid "Calculating…"
+msgstr "गणना हो रही है…"
+
+#: src/preferences.py:39 src/preferences.py:96
+msgid "Open Folder"
+msgstr "फ़ोल्डर खोलें"
+
+#: src/preferences.py:44 src/preferences.py:145
+msgid "_Delete"
+msgstr "_हटाएँ"
+
+#. Advanced
+#: src/preferences.py:54
+msgid "Advanced"
+msgstr "उन्नत"
+
+#: src/preferences.py:59
+msgid "Restore"
+msgstr "रीस्टोर"
+
+#: src/preferences.py:60
+msgid ""
+"These options can leave a device unable to start. Change them only if you "
+"know what they do."
+msgstr ""
+"ये विकल्प किसी डिवाइस को शुरू होने से रोक सकते हैं। इन्हें तभी बदलें जब आप "
+"जानते हों कि ये क्या करते हैं।"
+
+#: src/preferences.py:64
+msgid "Restore From _Restore Mode"
+msgstr "_रीस्टोर मोड से रीस्टोर करें"
+
+#: src/preferences.py:65
+msgid "Allow starting with a device that is already in restore mode"
+msgstr "ऐसे डिवाइस के साथ शुरू करने देता है जो पहले से रीस्टोर मोड में है"
+
+#: src/preferences.py:67
+msgid "_Ignore Errors"
+msgstr "त्रुटियाँ _अनदेखी करें"
+
+#: src/preferences.py:68
+msgid "Try to continue after certain errors, like a failed baseband update"
+msgstr ""
+"कुछ त्रुटियों के बाद, जैसे बेसबैंड अपडेट विफल होने पर, जारी रखने का प्रयास "
+"करता है"
+
+#: src/preferences.py:71
+msgid "Skip _Baseband"
+msgstr "_बेसबैंड छोड़ें"
+
+#: src/preferences.py:72
+msgid "Do not upgrade NOR and baseband on legacy devices"
+msgstr "पुराने डिवाइसों पर NOR और बेसबैंड अपग्रेड न करें"
+
+#: src/preferences.py:74
+msgid "_Stop After Ramdisk"
+msgstr "ramdisk के बाद _रुकें"
+
+#: src/preferences.py:75
+msgid "Boot the restore ramdisk without restoring"
+msgstr "रीस्टोर किए बिना रीस्टोर ramdisk बूट करता है"
+
+#: src/preferences.py:80
+msgid "_Custom Firmware"
+msgstr "_कस्टम फ़र्मवेयर"
+
+#: src/preferences.py:81
+msgid "Restore custom firmware. Requires a bootrom exploit"
+msgstr "कस्टम फ़र्मवेयर रीस्टोर करता है। bootrom एक्सप्लॉइट आवश्यक है"
+
+#: src/preferences.py:82
+msgid "Restore _Variant"
+msgstr "रीस्टोर _वेरिएंट"
+
+#: src/preferences.py:83
+msgid "Signing Server _URL"
+msgstr "साइनिंग सर्वर _URL"
+
+#: src/preferences.py:86
+msgid "Troubleshooting"
+msgstr "समस्या निवारण"
+
+#: src/preferences.py:89
+msgid "_Detailed Log"
+msgstr "_विस्तृत लॉग"
+
+#: src/preferences.py:90
+msgid "Include all debugging output from idevicerestore in the log"
+msgstr "लॉग में idevicerestore का सारा डीबग आउटपुट शामिल करें"
+
+#: src/preferences.py:92
+msgid "Log Files"
+msgstr "लॉग फ़ाइलें"
+
+#: src/preferences.py:93
+msgid "Every restore is recorded, even if Corer quits unexpectedly"
+msgstr ""
+"हर रीस्टोर दर्ज किया जाता है, भले ही Corer अप्रत्याशित रूप से बंद हो जाए"
+
+#: src/preferences.py:103
+msgid "Keep _Personalized Components"
+msgstr "_वैयक्तिकृत घटक रखें"
+
+#: src/preferences.py:104
+msgid "Write personalized components to files for debugging"
+msgstr "डीबगिंग के लिए वैयक्तिकृत घटकों को फ़ाइलों में लिखता है"
+
+#: src/preferences.py:141
+msgid "Delete Stored Firmware?"
+msgstr "सहेजा गया फ़र्मवेयर हटाएँ?"
+
+#: src/preferences.py:142
+msgid "Firmware will be downloaded again the next time it is needed."
+msgstr "अगली बार ज़रूरत पड़ने पर फ़र्मवेयर दोबारा डाउनलोड किया जाएगा।"
+
+#: src/preferences.py:144 src/window.py:585 src/window.ui:322
+msgid "_Cancel"
+msgstr "_रद्द करें"
+
+#: src/restore.py:27
+msgid "Detecting Device"
+msgstr "डिवाइस का पता लगाया जा रहा है"
+
+#: src/restore.py:28
+msgid "Preparing Device"
+msgstr "डिवाइस तैयार किया जा रहा है"
+
+#: src/restore.py:29
+msgid "Sending Filesystem"
+msgstr "फ़ाइल सिस्टम भेजा जा रहा है"
+
+#: src/restore.py:30
+msgid "Verifying Filesystem"
+msgstr "फ़ाइल सिस्टम सत्यापित किया जा रहा है"
+
+#: src/restore.py:31
+msgid "Installing Firmware"
+msgstr "फ़र्मवेयर इंस्टॉल किया जा रहा है"
+
+#: src/restore.py:32
+msgid "Updating Baseband"
+msgstr "बेसबैंड अपडेट किया जा रहा है"
+
+#: src/restore.py:33
+msgid "Updating Components"
+msgstr "घटक अपडेट किए जा रहे हैं"
+
+#: src/restore.py:34
+msgid "Sending Images"
+msgstr "इमेज भेजी जा रही हैं"
+
+#: src/restore.py:63
+msgid "Restoring"
+msgstr "रीस्टोर किया जा रहा है"
+
+#: src/restore.py:134
+msgid "idevicerestore could not be started"
+msgstr "idevicerestore शुरू नहीं किया जा सका"
+
+#: src/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "Device"
+msgstr "डिवाइस"
+
+#: src/shortcuts-dialog.ui:9
+msgctxt "shortcut window"
+msgid "Choose Firmware File"
+msgstr "फ़र्मवेयर फ़ाइल चुनें"
+
+#: src/shortcuts-dialog.ui:15
+msgctxt "shortcut window"
+msgid "Look for Devices"
+msgstr "डिवाइस खोजें"
+
+#: src/shortcuts-dialog.ui:21
+msgctxt "shortcut window"
+msgid "View Log"
+msgstr "लॉग देखें"
+
+#: src/shortcuts-dialog.ui:29
+msgctxt "shortcut window"
+msgid "General"
+msgstr "सामान्य"
+
+#: src/shortcuts-dialog.ui:32
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr "प्राथमिकताएँ"
+
+#: src/shortcuts-dialog.ui:38
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "शॉर्टकट दिखाएँ"
+
+#: src/shortcuts-dialog.ui:44
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "बाहर निकलें"
+
+#: src/window.py:149
+msgid "Apple Device"
+msgstr "Apple डिवाइस"
+
+#: src/window.py:217
+msgid "Corer needs permission to access this device over USB"
+msgstr "Corer को USB के ज़रिए इस डिवाइस तक पहुँचने की अनुमति चाहिए"
+
+#: src/window.py:218
+msgid "_Set Up"
+msgstr "_सेट अप करें"
+
+#: src/window.py:223
+msgid "The system device service (usbmuxd) is not responding"
+msgstr "सिस्टम डिवाइस सेवा (usbmuxd) प्रतिक्रिया नहीं दे रही है"
+
+#: src/window.py:224
+msgid "_Restart It"
+msgstr "_पुनः आरंभ करें"
+
+#: src/window.py:229
+msgid "The device service (usbmuxd) is not available"
+msgstr "डिवाइस सेवा (usbmuxd) उपलब्ध नहीं है"
+
+#: src/window.py:260
+msgid "USB access was set up"
+msgstr "USB एक्सेस सेट अप किया गया"
+
+#: src/window.py:273
+msgid "The device service was restarted"
+msgstr "डिवाइस सेवा पुनः आरंभ की गई"
+
+#: src/window.py:275
+msgid ""
+"Could not restart it. Run “sudo systemctl restart usbmuxd” in a terminal"
+msgstr ""
+"इसे पुनः आरंभ नहीं किया जा सका। टर्मिनल में “sudo systemctl restart usbmuxd”"
+" चलाएँ"
+
+#: src/window.py:284
+msgid "Set Up USB Access Manually"
+msgstr "USB एक्सेस मैन्युअल रूप से सेट अप करें"
+
+#: src/window.py:285
+msgid ""
+"The setup could not be completed. Run these commands in a terminal to "
+"install the device access rule, then reconnect the device."
+msgstr ""
+"सेटअप पूरा नहीं हो सका। डिवाइस एक्सेस नियम इंस्टॉल करने के लिए टर्मिनल में "
+"ये कमांड चलाएँ, फिर डिवाइस को दोबारा कनेक्ट करें।"
+
+#: src/window.py:301
+msgid "_Close"
+msgstr "_बंद करें"
+
+#: src/window.py:302
+msgid "C_opy Commands"
+msgstr "कमांड _कॉपी करें"
+
+#: src/window.py:410
+msgid "Looking for available versions…"
+msgstr "उपलब्ध संस्करण खोजे जा रहे हैं…"
+
+#: src/window.py:414
+msgid "Choose a firmware file for this device"
+msgstr "इस डिवाइस के लिए फ़र्मवेयर फ़ाइल चुनें"
+
+#: src/window.py:416
+msgid "No firmware is currently signed for this device"
+msgstr "इस डिवाइस के लिए अभी कोई फ़र्मवेयर हस्ताक्षरित नहीं है"
+
+#: src/window.py:418
+msgid "Using the firmware file"
+msgstr "फ़र्मवेयर फ़ाइल का उपयोग हो रहा है"
+
+#: src/window.py:422
+msgid "Downloaded"
+msgstr "डाउनलोड हो चुका"
+
+#. Translators: {size} is a file size such as “8.1 GB”
+#: src/window.py:425
+#, python-brace-format
+msgid "{size} download"
+msgstr "{size} डाउनलोड"
+
+#: src/window.py:429
+msgid "Offline — showing downloaded firmware"
+msgstr "ऑफ़लाइन — डाउनलोड किया गया फ़र्मवेयर दिखाया जा रहा है"
+
+#: src/window.py:436
+msgid "Use an IPSW file from this computer"
+msgstr "इस कंप्यूटर की IPSW फ़ाइल उपयोग करें"
+
+#. Translators: {filename} is the name of a firmware file
+#: src/window.py:440
+#, python-brace-format
+msgid "{filename} is not compatible with this device"
+msgstr "{filename} इस डिवाइस के साथ संगत नहीं है"
+
+#: src/window.py:453 src/window.py:587
+msgid "_Erase and Restore"
+msgstr "_मिटाएँ और रीस्टोर करें"
+
+#: src/window.py:453 src/window.py:591
+msgid "_Update"
+msgstr "_अपडेट करें"
+
+#: src/window.py:468
+msgid "Exit _Recovery Mode"
+msgstr "_रिकवरी मोड से बाहर निकलें"
+
+#: src/window.py:471
+msgid "Enter _Recovery Mode"
+msgstr "_रिकवरी मोड में जाएँ"
+
+#: src/window.py:502
+msgid "Firmware Files"
+msgstr "फ़र्मवेयर फ़ाइलें"
+
+#: src/window.py:507
+msgid "Choose Firmware File"
+msgstr "फ़र्मवेयर फ़ाइल चुनें"
+
+#: src/window.py:518
+msgid "This file cannot be used"
+msgstr "इस फ़ाइल का उपयोग नहीं किया जा सकता"
+
+#. Translators: {name} is the name of a device
+#: src/window.py:563
+#, python-brace-format
+msgid "Erase “{name}”?"
+msgstr "“{name}” मिटाएँ?"
+
+#. Translators: {version} is a system version such as “iOS 18.1”
+#: src/window.py:565
+#, python-brace-format
+msgid ""
+"All content and settings will be permanently erased and {version} will be "
+"installed. This cannot be undone."
+msgstr ""
+"सारी सामग्री और सेटिंग हमेशा के लिए मिटा दी जाएँगी और {version} इंस्टॉल किया"
+" जाएगा। इसे पूर्ववत नहीं किया जा सकता।"
+
+#: src/window.py:569
+#, python-brace-format
+msgid "Update “{name}”?"
+msgstr "“{name}” अपडेट करें?"
+
+#: src/window.py:570
+#, python-brace-format
+msgid ""
+"{version} will be installed and your content and settings will be kept. Make"
+" sure you have a backup before continuing."
+msgstr ""
+"{version} इंस्टॉल किया जाएगा और आपकी सामग्री व सेटिंग बनी रहेंगी। जारी रखने "
+"से पहले सुनिश्चित करें कि आपके पास बैकअप है।"
+
+#: src/window.py:576
+msgid ""
+"This version is older than the one on the device. Downgrading without "
+"erasing is likely to fail and can cause complete data loss."
+msgstr ""
+"यह संस्करण डिवाइस पर मौजूद संस्करण से पुराना है। बिना मिटाए डाउनग्रेड करना "
+"संभवतः विफल होगा और इससे पूरा डेटा खो सकता है।"
+
+#: src/window.py:580
+msgid ""
+"This firmware no longer appears to be signed, so the device will probably "
+"refuse it."
+msgstr ""
+"ऐसा लगता है कि यह फ़र्मवेयर अब हस्ताक्षरित नहीं है, इसलिए डिवाइस संभवतः इसे "
+"अस्वीकार कर देगा।"
+
+#: src/window.py:582
+msgid "Keep the device connected until the process finishes."
+msgstr "प्रक्रिया पूरी होने तक डिवाइस को कनेक्ट रखें।"
+
+#: src/window.py:628
+msgid "A device is being restored"
+msgstr "एक डिवाइस रीस्टोर किया जा रहा है"
+
+#: src/window.py:640 src/window.py:666
+msgid "Verifying Firmware"
+msgstr "फ़र्मवेयर सत्यापित किया जा रहा है"
+
+#: src/window.py:642 src/window.py:668
+msgid "Downloading Firmware"
+msgstr "फ़र्मवेयर डाउनलोड किया जा रहा है"
+
+#. Translators: download progress, e.g. “1.2 GB of 8.1 GB”
+#: src/window.py:672
+#, python-brace-format
+msgid "{done} of {total}"
+msgstr "{total} में से {done}"
+
+#. Translators: download speed, e.g. “12.5 MB/s”
+#: src/window.py:679
+#, python-brace-format
+msgid "{speed}/s"
+msgstr "{speed}/से"
+
+#: src/window.py:785
+msgid "Stop the Process?"
+msgstr "प्रक्रिया रोकें?"
+
+#: src/window.py:786
+msgid ""
+"Interrupting now can leave the device unusable until it is restored again."
+msgstr ""
+"अभी रोकने से डिवाइस तब तक अनुपयोगी रह सकता है जब तक उसे दोबारा रीस्टोर न "
+"किया जाए।"
+
+#: src/window.py:788 src/window.py:962
+msgid "_Continue"
+msgstr "_जारी रखें"
+
+#: src/window.py:789
+msgid "_Stop"
+msgstr "_रोकें"
+
+#: src/window.py:807
+msgid "Stopping…"
+msgstr "रोका जा रहा है…"
+
+#: src/window.py:839
+msgid "Stopped"
+msgstr "रोका गया"
+
+#: src/window.py:842
+msgid "SHSH Blobs Saved"
+msgstr "SHSH blobs सहेजे गए"
+
+#: src/window.py:845
+msgid "Device Restored"
+msgstr "डिवाइस रीस्टोर हो गया"
+
+#: src/window.py:846
+msgid "The device will restart and show the setup assistant."
+msgstr "डिवाइस पुनः आरंभ होगा और सेटअप असिस्टेंट दिखाएगा।"
+
+#: src/window.py:849
+msgid "Device Updated"
+msgstr "डिवाइस अपडेट हो गया"
+
+#: src/window.py:850
+msgid "The device will restart when it has finished updating."
+msgstr "अपडेट पूरा होने पर डिवाइस पुनः आरंभ होगा।"
+
+#: src/window.py:858
+msgid "Could Not Save SHSH Blobs"
+msgstr "SHSH blobs सहेजे नहीं जा सके"
+
+#: src/window.py:859
+msgid "Restore Failed"
+msgstr "रीस्टोर विफल रहा"
+
+#: src/window.py:863
+msgid "Check the log for details."
+msgstr "विवरण के लिए लॉग देखें।"
+
+#: src/window.py:899
+msgid "The device was not found. Reconnect it and try again"
+msgstr "डिवाइस नहीं मिला। उसे दोबारा कनेक्ट करें और फिर प्रयास करें"
+
+#: src/window.py:925
+msgid "The device is restarting"
+msgstr "डिवाइस पुनः आरंभ हो रहा है"
+
+#: src/window.py:926
+msgid "Could not exit recovery mode"
+msgstr "रिकवरी मोड से बाहर नहीं निकला जा सका"
+
+#: src/window.py:929
+msgid "The device is restarting in recovery mode"
+msgstr "डिवाइस रिकवरी मोड में पुनः आरंभ हो रहा है"
+
+#: src/window.py:930
+msgid ""
+"Could not enter recovery mode. Unlock the device and trust this computer"
+msgstr ""
+"रिकवरी मोड में नहीं जाया जा सका। डिवाइस अनलॉक करें और इस कंप्यूटर पर भरोसा "
+"करें"
+
+#: src/window.py:959
+msgid "Stop and Quit?"
+msgstr "रोकें और बाहर निकलें?"
+
+#: src/window.py:960
+msgid ""
+"A device is being restored. Interrupting now can leave it unusable until it "
+"is restored again."
+msgstr ""
+"एक डिवाइस रीस्टोर किया जा रहा है। अभी रोकने से वह तब तक अनुपयोगी रह सकता है "
+"जब तक उसे दोबारा रीस्टोर न किया जाए।"
+
+#: src/window.py:963
+msgid "_Stop and Quit"
+msgstr "_रोकें और बाहर निकलें"
+
+#: src/window.ui:21
+msgid "Main Menu"
+msgstr "मुख्य मेनू"
+
+#: src/window.ui:56
+msgid "Connect a Device"
+msgstr "डिवाइस कनेक्ट करें"
+
+#: src/window.ui:57
+msgid ""
+"Plug in an Apple device with a USB cable. Devices in recovery or DFU mode "
+"work too. A Mac with Apple silicon has to be in DFU mode."
+msgstr ""
+"USB केबल से Apple डिवाइस कनेक्ट करें। रिकवरी या DFU मोड वाले डिवाइस भी काम "
+"करते हैं। Apple सिलिकॉन वाला Mac DFU मोड में होना चाहिए।"
+
+#: src/window.ui:124
+msgid "Device"
+msgstr "डिवाइस"
+
+#: src/window.ui:131
+msgid "Version"
+msgstr "संस्करण"
+
+#: src/window.ui:145
+msgid "Try Again"
+msgstr "दोबारा प्रयास करें"
+
+#: src/window.ui:156
+msgid "Firmware File"
+msgstr "फ़र्मवेयर फ़ाइल"
+
+#: src/window.ui:164
+msgid "Remove File"
+msgstr "फ़ाइल हटाएँ"
+
+#: src/window.ui:175
+msgid "Choose File"
+msgstr "फ़ाइल चुनें"
+
+#: src/window.ui:190
+msgid "Erase Device"
+msgstr "डिवाइस मिटाएँ"
+
+#: src/window.ui:191
+msgid "Remove all content and settings"
+msgstr "सारी सामग्री और सेटिंग हटाएँ"
+
+#: src/window.ui:312 src/window.ui:377 src/window.ui:427
+msgid "View _Log"
+msgstr "_लॉग देखें"
+
+#: src/window.ui:349
+msgid "_Done"
+msgstr "_हो गया"
+
+#: src/window.ui:387
+msgid "_Back"
+msgstr "_वापस"
+
+#: src/window.ui:397
+msgid "_Try Again"
+msgstr "_दोबारा प्रयास करें"
+
+#: src/window.ui:423
+msgid "_Save SHSH Blobs"
+msgstr "SHSH blobs _सहेजें"
+
+#: src/window.ui:433
+msgid "_Preferences"
+msgstr "_प्राथमिकताएँ"
+
+#: src/window.ui:437
+msgid "_Keyboard Shortcuts"
+msgstr "_कीबोर्ड शॉर्टकट"
+
+#: src/window.ui:441
+msgid "_About Corer"
+msgstr "Corer के _बारे में"

@@ -1,0 +1,849 @@
+# Vietnamese translation for Corer.
+# Copyright (C) 2026 Corer contributors
+# This file is distributed under the same license as the corer package.
+# Nícolas Castillo <code@tecncr.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: corer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 02:42-0500\n"
+"PO-Revision-Date: 2026-11-17 03:53-0500\n"
+"Last-Translator: Nícolas Castillo <code@tecncr.com>\n"
+"Language-Team: Vietnamese\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/com.tecncr.Corer.desktop.in.in:2
+#: data/com.tecncr.Corer.metainfo.xml.in.in:7 src/window.ui:6
+msgid "Corer"
+msgstr "Corer"
+
+#. Translators: Short description shown in GNOME Shell search and app grids.
+#. Keep it under 80 characters.
+#: data/com.tecncr.Corer.desktop.in.in:5
+msgid "Restore firmware to Apple devices"
+msgstr "Khôi phục firmware cho thiết bị Apple"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/com.tecncr.Corer.desktop.in.in:12
+msgid ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Update;IPSW;Recovery;DFU;"
+msgstr ""
+"iOS;iPhone;iPad;Mac;macOS;Apple;Firmware;Restore;Khôi phục;Update;Cập "
+"nhật;IPSW;Recovery;DFU;"
+
+#: data/com.tecncr.Corer.gschema.xml:6
+msgid "Window width"
+msgstr "Chiều rộng cửa sổ"
+
+#: data/com.tecncr.Corer.gschema.xml:10
+msgid "Window height"
+msgstr "Chiều cao cửa sổ"
+
+#: data/com.tecncr.Corer.gschema.xml:14
+msgid "Whether the window is maximized"
+msgstr "Cửa sổ có được phóng to hay không"
+
+#: data/com.tecncr.Corer.gschema.xml:18
+msgid "Keep downloaded firmware"
+msgstr "Giữ firmware đã tải về"
+
+#: data/com.tecncr.Corer.gschema.xml:19
+msgid ""
+"Keep downloaded firmware files in the cache after a successful restore so "
+"they can be reused."
+msgstr ""
+"Giữ các tệp firmware đã tải về trong bộ nhớ đệm sau khi khôi phục thành công"
+" để có thể dùng lại."
+
+#: data/com.tecncr.Corer.gschema.xml:23
+msgid "Verbose logging"
+msgstr "Ghi nhật ký chi tiết"
+
+#: data/com.tecncr.Corer.gschema.xml:24
+msgid "Ask idevicerestore to print additional debug output."
+msgstr "Yêu cầu idevicerestore in thêm thông tin gỡ lỗi."
+
+#: data/com.tecncr.Corer.gschema.xml:28
+msgid "Allow restoring from restore mode"
+msgstr "Cho phép khôi phục từ chế độ khôi phục"
+
+#: data/com.tecncr.Corer.gschema.xml:32
+msgid "Continue after certain errors"
+msgstr "Tiếp tục sau một số lỗi nhất định"
+
+#: data/com.tecncr.Corer.gschema.xml:33
+msgid ""
+"Try to continue the restore process after certain errors, like a failed "
+"baseband update."
+msgstr ""
+"Cố gắng tiếp tục quá trình khôi phục sau một số lỗi nhất định, chẳng hạn như"
+" cập nhật baseband bị lỗi."
+
+#: data/com.tecncr.Corer.gschema.xml:37
+msgid "Skip NOR and baseband upgrade"
+msgstr "Bỏ qua nâng cấp NOR và baseband"
+
+#: data/com.tecncr.Corer.gschema.xml:41
+msgid "Keep personalized components"
+msgstr "Giữ các thành phần được cá nhân hóa"
+
+#: data/com.tecncr.Corer.gschema.xml:42
+msgid "Write personalized components to files for debugging."
+msgstr "Ghi các thành phần được cá nhân hóa vào tệp để gỡ lỗi."
+
+#: data/com.tecncr.Corer.gschema.xml:46
+msgid "Restore custom firmware"
+msgstr "Khôi phục firmware tùy chỉnh"
+
+#: data/com.tecncr.Corer.gschema.xml:47
+msgid "Restore with a custom firmware. Requires a bootrom exploit."
+msgstr "Khôi phục bằng firmware tùy chỉnh. Cần có khai thác lỗ hổng bootrom."
+
+#: data/com.tecncr.Corer.gschema.xml:51
+msgid "Stop after booting the ramdisk"
+msgstr "Dừng sau khi khởi động ramdisk"
+
+#: data/com.tecncr.Corer.gschema.xml:55
+msgid "Signing server URL"
+msgstr "URL máy chủ ký"
+
+#: data/com.tecncr.Corer.gschema.xml:56
+msgid ""
+"Overrides the default signing server request URL. Empty uses the default."
+msgstr ""
+"Ghi đè URL mặc định của các yêu cầu tới máy chủ ký. Để trống sẽ dùng giá trị"
+" mặc định."
+
+#: data/com.tecncr.Corer.gschema.xml:60
+msgid "Restore variant"
+msgstr "Biến thể khôi phục"
+
+#: data/com.tecncr.Corer.gschema.xml:61
+msgid "Build identity variant to use. Empty selects it automatically."
+msgstr "Biến thể danh tính bản dựng sẽ dùng. Để trống sẽ tự động chọn."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:8
+msgid "Restore and update Apple devices"
+msgstr "Khôi phục và cập nhật thiết bị Apple"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:10
+msgid ""
+"Corer installs firmware on Apple devices, including Mac computers with Apple"
+" silicon in DFU mode. Connect a device, pick a version and choose whether to"
+" keep or erase its content."
+msgstr ""
+"Corer cài đặt firmware cho các thiết bị Apple, bao gồm máy tính Mac dùng "
+"chip Apple ở chế độ DFU. Kết nối thiết bị, chọn phiên bản và quyết định giữ "
+"lại hay xóa nội dung của thiết bị."
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:16
+msgid "Update a device while keeping its data, or erase and restore it"
+msgstr "Cập nhật thiết bị và giữ lại dữ liệu, hoặc xóa và khôi phục thiết bị"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:17
+msgid "Download currently signed firmware on demand and reuse it later"
+msgstr "Tải firmware hiện đang được ký khi cần và dùng lại sau đó"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:18
+msgid "Use a firmware file you already have"
+msgstr "Dùng tệp firmware bạn đã có"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:19
+msgid "Recover devices stuck in recovery or DFU mode"
+msgstr "Cứu các thiết bị bị kẹt ở chế độ khôi phục hoặc DFU"
+
+#: data/com.tecncr.Corer.metainfo.xml.in.in:21
+msgid ""
+"Corer is powered by idevicerestore and libimobiledevice. It is not "
+"affiliated with or endorsed by Apple Inc."
+msgstr ""
+"Corer chạy trên idevicerestore và libimobiledevice. Corer không liên kết với"
+" Apple Inc. và không được Apple Inc. chứng thực."
+
+#: src/devices.py:89
+msgid "Recovery Mode"
+msgstr "Chế độ khôi phục"
+
+#: src/devices.py:91
+msgid "DFU Mode"
+msgstr "Chế độ DFU"
+
+#: src/firmware.py:145 src/firmware.py:150
+msgid "Could not load the list of available versions"
+msgstr "Không thể tải danh sách các phiên bản khả dụng"
+
+#: src/firmware.py:185
+msgid "This is not a valid firmware file"
+msgstr "Đây không phải là tệp firmware hợp lệ"
+
+#: src/firmware.py:335
+msgid "This firmware is not available for download"
+msgstr "Firmware này không có sẵn để tải về"
+
+#: src/firmware.py:349
+msgid "Not enough free disk space to download the firmware"
+msgstr "Không đủ dung lượng trống trên đĩa để tải firmware"
+
+#: src/firmware.py:360
+msgid "The download server refused the request"
+msgstr "Máy chủ tải về đã từ chối yêu cầu"
+
+#: src/firmware.py:367
+msgid "The download failed. Check your network connection"
+msgstr "Tải về không thành công. Hãy kiểm tra kết nối mạng"
+
+#: src/firmware.py:374
+msgid "The downloaded firmware is incomplete"
+msgstr "Firmware đã tải về chưa hoàn chỉnh"
+
+#: src/firmware.py:377
+msgid "The downloaded firmware is corrupted"
+msgstr "Firmware đã tải về bị hỏng"
+
+#: src/log_dialog.py:16
+msgid "Log"
+msgstr "Nhật ký"
+
+#: src/log_dialog.py:24
+msgid "Copy"
+msgstr "Chép"
+
+#: src/log_dialog.py:28
+msgid "Save…"
+msgstr "Lưu…"
+
+#: src/log_dialog.py:36
+msgid "No Log Yet"
+msgstr "Chưa có nhật ký"
+
+#: src/log_dialog.py:37
+msgid "Output appears here when a device is restored."
+msgstr "Kết quả xuất sẽ xuất hiện ở đây khi một thiết bị được khôi phục."
+
+#: src/log_dialog.py:81 src/window.py:310
+msgid "Copied to clipboard"
+msgstr "Đã chép vào bộ nhớ tạm"
+
+#: src/log_dialog.py:84
+msgid "Save Log"
+msgstr "Lưu nhật ký"
+
+#. Translators: Replace "translator-credits" with your name/username, and
+#. optionally an email or URL.
+#: src/main.py:90
+msgid "translator-credits"
+msgstr "Nícolas Castillo <code@tecncr.com>"
+
+#: src/main.py:96
+msgid "Powered By"
+msgstr "Được hỗ trợ bởi"
+
+#. Firmware
+#: src/preferences.py:23 src/preferences.py:77
+msgid "Firmware"
+msgstr "Firmware"
+
+#: src/preferences.py:28
+msgid "Downloads"
+msgstr "Tải về"
+
+#: src/preferences.py:29
+msgid ""
+"Downloaded firmware is stored so that it does not have to be downloaded "
+"again."
+msgstr "Firmware đã tải về được lưu để không phải tải lại."
+
+#: src/preferences.py:33
+msgid "_Keep Downloaded Firmware"
+msgstr "_Giữ firmware đã tải về"
+
+#: src/preferences.py:34
+msgid "Turn off to delete firmware after a successful restore"
+msgstr "Tắt để xóa firmware sau khi khôi phục thành công"
+
+#: src/preferences.py:36
+msgid "Stored Firmware"
+msgstr "Firmware đã lưu"
+
+#: src/preferences.py:37
+msgid "Calculating…"
+msgstr "Đang tính…"
+
+#: src/preferences.py:39 src/preferences.py:96
+msgid "Open Folder"
+msgstr "Mở thư mục"
+
+#: src/preferences.py:44 src/preferences.py:145
+msgid "_Delete"
+msgstr "_Xóa"
+
+#. Advanced
+#: src/preferences.py:54
+msgid "Advanced"
+msgstr "Nâng cao"
+
+#: src/preferences.py:59
+msgid "Restore"
+msgstr "Khôi phục"
+
+#: src/preferences.py:60
+msgid ""
+"These options can leave a device unable to start. Change them only if you "
+"know what they do."
+msgstr ""
+"Những tùy chọn này có thể khiến thiết bị không khởi động được. Chỉ thay đổi "
+"nếu bạn biết chúng làm gì."
+
+#: src/preferences.py:64
+msgid "Restore From _Restore Mode"
+msgstr "Khôi phục từ _chế độ khôi phục"
+
+#: src/preferences.py:65
+msgid "Allow starting with a device that is already in restore mode"
+msgstr "Cho phép bắt đầu với thiết bị đã ở chế độ khôi phục"
+
+#: src/preferences.py:67
+msgid "_Ignore Errors"
+msgstr "_Bỏ qua lỗi"
+
+#: src/preferences.py:68
+msgid "Try to continue after certain errors, like a failed baseband update"
+msgstr ""
+"Cố gắng tiếp tục sau một số lỗi nhất định, chẳng hạn như cập nhật baseband "
+"bị lỗi"
+
+#: src/preferences.py:71
+msgid "Skip _Baseband"
+msgstr "Bỏ qua _baseband"
+
+#: src/preferences.py:72
+msgid "Do not upgrade NOR and baseband on legacy devices"
+msgstr "Không nâng cấp NOR và baseband trên các thiết bị cũ"
+
+#: src/preferences.py:74
+msgid "_Stop After Ramdisk"
+msgstr "_Dừng sau ramdisk"
+
+#: src/preferences.py:75
+msgid "Boot the restore ramdisk without restoring"
+msgstr "Khởi động ramdisk khôi phục mà không khôi phục"
+
+#: src/preferences.py:80
+msgid "_Custom Firmware"
+msgstr "Firmware _tùy chỉnh"
+
+#: src/preferences.py:81
+msgid "Restore custom firmware. Requires a bootrom exploit"
+msgstr "Khôi phục firmware tùy chỉnh. Cần có khai thác lỗ hổng bootrom"
+
+#: src/preferences.py:82
+msgid "Restore _Variant"
+msgstr "_Biến thể khôi phục"
+
+#: src/preferences.py:83
+msgid "Signing Server _URL"
+msgstr "_URL máy chủ ký"
+
+#: src/preferences.py:86
+msgid "Troubleshooting"
+msgstr "Khắc phục sự cố"
+
+#: src/preferences.py:89
+msgid "_Detailed Log"
+msgstr "Nhật ký _chi tiết"
+
+#: src/preferences.py:90
+msgid "Include all debugging output from idevicerestore in the log"
+msgstr "Đưa toàn bộ kết quả gỡ lỗi của idevicerestore vào nhật ký"
+
+#: src/preferences.py:92
+msgid "Log Files"
+msgstr "Tệp nhật ký"
+
+#: src/preferences.py:93
+msgid "Every restore is recorded, even if Corer quits unexpectedly"
+msgstr "Mỗi lần khôi phục đều được ghi lại, kể cả khi Corer thoát đột ngột"
+
+#: src/preferences.py:103
+msgid "Keep _Personalized Components"
+msgstr "Giữ các thành phần _cá nhân hóa"
+
+#: src/preferences.py:104
+msgid "Write personalized components to files for debugging"
+msgstr "Ghi các thành phần được cá nhân hóa vào tệp để gỡ lỗi"
+
+#: src/preferences.py:141
+msgid "Delete Stored Firmware?"
+msgstr "Xóa firmware đã lưu?"
+
+#: src/preferences.py:142
+msgid "Firmware will be downloaded again the next time it is needed."
+msgstr "Firmware sẽ được tải lại vào lần tới khi cần."
+
+#: src/preferences.py:144 src/window.py:585 src/window.ui:322
+msgid "_Cancel"
+msgstr "_Hủy"
+
+#: src/restore.py:27
+msgid "Detecting Device"
+msgstr "Đang phát hiện thiết bị"
+
+#: src/restore.py:28
+msgid "Preparing Device"
+msgstr "Đang chuẩn bị thiết bị"
+
+#: src/restore.py:29
+msgid "Sending Filesystem"
+msgstr "Đang gửi hệ thống tệp"
+
+#: src/restore.py:30
+msgid "Verifying Filesystem"
+msgstr "Đang xác minh hệ thống tệp"
+
+#: src/restore.py:31
+msgid "Installing Firmware"
+msgstr "Đang cài đặt firmware"
+
+#: src/restore.py:32
+msgid "Updating Baseband"
+msgstr "Đang cập nhật baseband"
+
+#: src/restore.py:33
+msgid "Updating Components"
+msgstr "Đang cập nhật các thành phần"
+
+#: src/restore.py:34
+msgid "Sending Images"
+msgstr "Đang gửi ảnh đĩa"
+
+#: src/restore.py:63
+msgid "Restoring"
+msgstr "Đang khôi phục"
+
+#: src/restore.py:134
+msgid "idevicerestore could not be started"
+msgstr "Không thể khởi động idevicerestore"
+
+#: src/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "Device"
+msgstr "Thiết bị"
+
+#: src/shortcuts-dialog.ui:9
+msgctxt "shortcut window"
+msgid "Choose Firmware File"
+msgstr "Chọn tệp firmware"
+
+#: src/shortcuts-dialog.ui:15
+msgctxt "shortcut window"
+msgid "Look for Devices"
+msgstr "Tìm thiết bị"
+
+#: src/shortcuts-dialog.ui:21
+msgctxt "shortcut window"
+msgid "View Log"
+msgstr "Xem nhật ký"
+
+#: src/shortcuts-dialog.ui:29
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Chung"
+
+#: src/shortcuts-dialog.ui:32
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr "Tùy chọn"
+
+#: src/shortcuts-dialog.ui:38
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Hiện phím tắt"
+
+#: src/shortcuts-dialog.ui:44
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Thoát"
+
+#: src/window.py:149
+msgid "Apple Device"
+msgstr "Thiết bị Apple"
+
+#: src/window.py:217
+msgid "Corer needs permission to access this device over USB"
+msgstr "Corer cần quyền để truy cập thiết bị này qua USB"
+
+#: src/window.py:218
+msgid "_Set Up"
+msgstr "_Thiết lập"
+
+#: src/window.py:223
+msgid "The system device service (usbmuxd) is not responding"
+msgstr "Dịch vụ thiết bị của hệ thống (usbmuxd) không phản hồi"
+
+#: src/window.py:224
+msgid "_Restart It"
+msgstr "_Khởi động lại"
+
+#: src/window.py:229
+msgid "The device service (usbmuxd) is not available"
+msgstr "Dịch vụ thiết bị (usbmuxd) không khả dụng"
+
+#: src/window.py:260
+msgid "USB access was set up"
+msgstr "Đã thiết lập quyền truy cập USB"
+
+#: src/window.py:273
+msgid "The device service was restarted"
+msgstr "Đã khởi động lại dịch vụ thiết bị"
+
+#: src/window.py:275
+msgid ""
+"Could not restart it. Run “sudo systemctl restart usbmuxd” in a terminal"
+msgstr ""
+"Không thể khởi động lại. Hãy chạy “sudo systemctl restart usbmuxd” trong cửa"
+" sổ dòng lệnh"
+
+#: src/window.py:284
+msgid "Set Up USB Access Manually"
+msgstr "Thiết lập quyền truy cập USB thủ công"
+
+#: src/window.py:285
+msgid ""
+"The setup could not be completed. Run these commands in a terminal to "
+"install the device access rule, then reconnect the device."
+msgstr ""
+"Không thể hoàn tất thiết lập. Hãy chạy các lệnh này trong cửa sổ dòng lệnh "
+"để cài đặt quy tắc truy cập thiết bị, sau đó kết nối lại thiết bị."
+
+#: src/window.py:301
+msgid "_Close"
+msgstr "_Đóng"
+
+#: src/window.py:302
+msgid "C_opy Commands"
+msgstr "_Chép các lệnh"
+
+#: src/window.py:410
+msgid "Looking for available versions…"
+msgstr "Đang tìm các phiên bản khả dụng…"
+
+#: src/window.py:414
+msgid "Choose a firmware file for this device"
+msgstr "Chọn một tệp firmware cho thiết bị này"
+
+#: src/window.py:416
+msgid "No firmware is currently signed for this device"
+msgstr "Hiện không có firmware nào được ký cho thiết bị này"
+
+#: src/window.py:418
+msgid "Using the firmware file"
+msgstr "Đang dùng tệp firmware"
+
+#: src/window.py:422
+msgid "Downloaded"
+msgstr "Đã tải về"
+
+#. Translators: {size} is a file size such as “8.1 GB”
+#: src/window.py:425
+#, python-brace-format
+msgid "{size} download"
+msgstr "Tải về {size}"
+
+#: src/window.py:429
+msgid "Offline — showing downloaded firmware"
+msgstr "Ngoại tuyến — đang hiện firmware đã tải về"
+
+#: src/window.py:436
+msgid "Use an IPSW file from this computer"
+msgstr "Dùng tệp IPSW từ máy tính này"
+
+#. Translators: {filename} is the name of a firmware file
+#: src/window.py:440
+#, python-brace-format
+msgid "{filename} is not compatible with this device"
+msgstr "{filename} không tương thích với thiết bị này"
+
+#: src/window.py:453 src/window.py:587
+msgid "_Erase and Restore"
+msgstr "_Xóa và khôi phục"
+
+#: src/window.py:453 src/window.py:591
+msgid "_Update"
+msgstr "_Cập nhật"
+
+#: src/window.py:468
+msgid "Exit _Recovery Mode"
+msgstr "Thoát _chế độ khôi phục"
+
+#: src/window.py:471
+msgid "Enter _Recovery Mode"
+msgstr "Vào _chế độ khôi phục"
+
+#: src/window.py:502
+msgid "Firmware Files"
+msgstr "Tệp firmware"
+
+#: src/window.py:507
+msgid "Choose Firmware File"
+msgstr "Chọn tệp firmware"
+
+#: src/window.py:518
+msgid "This file cannot be used"
+msgstr "Không thể dùng tệp này"
+
+#. Translators: {name} is the name of a device
+#: src/window.py:563
+#, python-brace-format
+msgid "Erase “{name}”?"
+msgstr "Xóa “{name}”?"
+
+#. Translators: {version} is a system version such as “iOS 18.1”
+#: src/window.py:565
+#, python-brace-format
+msgid ""
+"All content and settings will be permanently erased and {version} will be "
+"installed. This cannot be undone."
+msgstr ""
+"Toàn bộ nội dung và cài đặt sẽ bị xóa vĩnh viễn và {version} sẽ được cài "
+"đặt. Không thể hoàn tác thao tác này."
+
+#: src/window.py:569
+#, python-brace-format
+msgid "Update “{name}”?"
+msgstr "Cập nhật “{name}”?"
+
+#: src/window.py:570
+#, python-brace-format
+msgid ""
+"{version} will be installed and your content and settings will be kept. Make"
+" sure you have a backup before continuing."
+msgstr ""
+"{version} sẽ được cài đặt và nội dung cùng cài đặt của bạn sẽ được giữ lại. "
+"Hãy chắc chắn bạn đã có bản sao lưu trước khi tiếp tục."
+
+#: src/window.py:576
+msgid ""
+"This version is older than the one on the device. Downgrading without "
+"erasing is likely to fail and can cause complete data loss."
+msgstr ""
+"Phiên bản này cũ hơn phiên bản trên thiết bị. Hạ cấp mà không xóa nhiều khả "
+"năng sẽ thất bại và có thể gây mất toàn bộ dữ liệu."
+
+#: src/window.py:580
+msgid ""
+"This firmware no longer appears to be signed, so the device will probably "
+"refuse it."
+msgstr ""
+"Firmware này dường như không còn được ký, vì vậy thiết bị nhiều khả năng sẽ "
+"từ chối nó."
+
+#: src/window.py:582
+msgid "Keep the device connected until the process finishes."
+msgstr "Hãy giữ thiết bị được kết nối cho đến khi quá trình kết thúc."
+
+#: src/window.py:628
+msgid "A device is being restored"
+msgstr "Một thiết bị đang được khôi phục"
+
+#: src/window.py:640 src/window.py:666
+msgid "Verifying Firmware"
+msgstr "Đang xác minh firmware"
+
+#: src/window.py:642 src/window.py:668
+msgid "Downloading Firmware"
+msgstr "Đang tải firmware"
+
+#. Translators: download progress, e.g. “1.2 GB of 8.1 GB”
+#: src/window.py:672
+#, python-brace-format
+msgid "{done} of {total}"
+msgstr "{done} trên {total}"
+
+#. Translators: download speed, e.g. “12.5 MB/s”
+#: src/window.py:679
+#, python-brace-format
+msgid "{speed}/s"
+msgstr "{speed}/giây"
+
+#: src/window.py:785
+msgid "Stop the Process?"
+msgstr "Dừng quá trình?"
+
+#: src/window.py:786
+msgid ""
+"Interrupting now can leave the device unusable until it is restored again."
+msgstr ""
+"Ngắt ngay bây giờ có thể khiến thiết bị không dùng được cho đến khi được "
+"khôi phục lại."
+
+#: src/window.py:788 src/window.py:962
+msgid "_Continue"
+msgstr "_Tiếp tục"
+
+#: src/window.py:789
+msgid "_Stop"
+msgstr "_Dừng"
+
+#: src/window.py:807
+msgid "Stopping…"
+msgstr "Đang dừng…"
+
+#: src/window.py:839
+msgid "Stopped"
+msgstr "Đã dừng"
+
+#: src/window.py:842
+msgid "SHSH Blobs Saved"
+msgstr "Đã lưu SHSH blob"
+
+#: src/window.py:845
+msgid "Device Restored"
+msgstr "Đã khôi phục thiết bị"
+
+#: src/window.py:846
+msgid "The device will restart and show the setup assistant."
+msgstr "Thiết bị sẽ khởi động lại và hiện trình hỗ trợ thiết lập."
+
+#: src/window.py:849
+msgid "Device Updated"
+msgstr "Đã cập nhật thiết bị"
+
+#: src/window.py:850
+msgid "The device will restart when it has finished updating."
+msgstr "Thiết bị sẽ khởi động lại khi cập nhật xong."
+
+#: src/window.py:858
+msgid "Could Not Save SHSH Blobs"
+msgstr "Không thể lưu SHSH blob"
+
+#: src/window.py:859
+msgid "Restore Failed"
+msgstr "Khôi phục không thành công"
+
+#: src/window.py:863
+msgid "Check the log for details."
+msgstr "Hãy xem nhật ký để biết chi tiết."
+
+#: src/window.py:899
+msgid "The device was not found. Reconnect it and try again"
+msgstr "Không tìm thấy thiết bị. Hãy kết nối lại và thử lại"
+
+#: src/window.py:925
+msgid "The device is restarting"
+msgstr "Thiết bị đang khởi động lại"
+
+#: src/window.py:926
+msgid "Could not exit recovery mode"
+msgstr "Không thể thoát chế độ khôi phục"
+
+#: src/window.py:929
+msgid "The device is restarting in recovery mode"
+msgstr "Thiết bị đang khởi động lại ở chế độ khôi phục"
+
+#: src/window.py:930
+msgid ""
+"Could not enter recovery mode. Unlock the device and trust this computer"
+msgstr ""
+"Không thể vào chế độ khôi phục. Hãy mở khóa thiết bị và tin cậy máy tính này"
+
+#: src/window.py:959
+msgid "Stop and Quit?"
+msgstr "Dừng và thoát?"
+
+#: src/window.py:960
+msgid ""
+"A device is being restored. Interrupting now can leave it unusable until it "
+"is restored again."
+msgstr ""
+"Một thiết bị đang được khôi phục. Ngắt ngay bây giờ có thể khiến thiết bị "
+"không dùng được cho đến khi được khôi phục lại."
+
+#: src/window.py:963
+msgid "_Stop and Quit"
+msgstr "_Dừng và thoát"
+
+#: src/window.ui:21
+msgid "Main Menu"
+msgstr "Trình đơn chính"
+
+#: src/window.ui:56
+msgid "Connect a Device"
+msgstr "Kết nối thiết bị"
+
+#: src/window.ui:57
+msgid ""
+"Plug in an Apple device with a USB cable. Devices in recovery or DFU mode "
+"work too. A Mac with Apple silicon has to be in DFU mode."
+msgstr ""
+"Cắm thiết bị Apple bằng cáp USB. Các thiết bị ở chế độ khôi phục hoặc DFU "
+"cũng dùng được. Máy Mac dùng chip Apple phải ở chế độ DFU."
+
+#: src/window.ui:124
+msgid "Device"
+msgstr "Thiết bị"
+
+#: src/window.ui:131
+msgid "Version"
+msgstr "Phiên bản"
+
+#: src/window.ui:145
+msgid "Try Again"
+msgstr "Thử lại"
+
+#: src/window.ui:156
+msgid "Firmware File"
+msgstr "Tệp firmware"
+
+#: src/window.ui:164
+msgid "Remove File"
+msgstr "Gỡ tệp"
+
+#: src/window.ui:175
+msgid "Choose File"
+msgstr "Chọn tệp"
+
+#: src/window.ui:190
+msgid "Erase Device"
+msgstr "Xóa thiết bị"
+
+#: src/window.ui:191
+msgid "Remove all content and settings"
+msgstr "Gỡ toàn bộ nội dung và cài đặt"
+
+#: src/window.ui:312 src/window.ui:377 src/window.ui:427
+msgid "View _Log"
+msgstr "Xem _nhật ký"
+
+#: src/window.ui:349
+msgid "_Done"
+msgstr "_Xong"
+
+#: src/window.ui:387
+msgid "_Back"
+msgstr "_Quay lại"
+
+#: src/window.ui:397
+msgid "_Try Again"
+msgstr "_Thử lại"
+
+#: src/window.ui:423
+msgid "_Save SHSH Blobs"
+msgstr "_Lưu SHSH blob"
+
+#: src/window.ui:433
+msgid "_Preferences"
+msgstr "_Tùy chọn"
+
+#: src/window.ui:437
+msgid "_Keyboard Shortcuts"
+msgstr "_Phím tắt bàn phím"
+
+#: src/window.ui:441
+msgid "_About Corer"
+msgstr "_Giới thiệu Corer"

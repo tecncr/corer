@@ -5,6 +5,7 @@
 
   **Restore and update Apple devices from the GNOME desktop**
 
+  [![Latest release](https://img.shields.io/github/v/release/tecncr/corer?sort=semver)](https://github.com/tecncr/corer/releases/latest)
   [![License: GPL-3.0-or-later](https://img.shields.io/badge/license-GPL--3.0--or--later-blue.svg)](COPYING)
 </div>
 
@@ -45,6 +46,34 @@ A restore makes the device disconnect and reconnect several times as it moves
 from normal mode to recovery mode and on to restore mode. Corer keeps track of
 it across those changes, including inside the Flatpak sandbox, where the
 system's `usbmuxd` socket cannot be followed directly.
+
+## Installing
+
+Corer is distributed as a Flatpak bundle on the
+[Releases page](https://github.com/tecncr/corer/releases/latest). Download the
+file for your machine, `corer-<version>-x86_64.flatpak` for most PCs or
+`corer-<version>-aarch64.flatpak` for 64-bit ARM, along with `SHA256SUMS`.
+
+Check the download, then install the GNOME runtime from Flathub and the bundle
+itself:
+
+```sh
+sha256sum -c --ignore-missing SHA256SUMS
+flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install --user flathub org.gnome.Platform//51
+flatpak install --user corer-v0.1.0-x86_64.flatpak
+```
+
+Corer then shows up in the app grid, or can be started with
+`flatpak run com.tecncr.Corer`. To update, download the bundle from a newer
+release and install it the same way. To remove it:
+
+```sh
+flatpak uninstall --user com.tecncr.Corer
+```
+
+The first time a device is in recovery or DFU mode, Corer offers to install the
+udev rule it needs to reach it (see [Device access](#device-access)).
 
 ## Building
 
@@ -119,20 +148,6 @@ meson compile -C build corer-pot          # refresh po/corer.pot
 msginit -i po/corer.pot -o po/es.po -l es  # start a new translation
 meson compile -C build corer-update-po    # merge new strings into all catalogs
 ```
-
-## Releasing
-
-Pushing a version tag builds the Flatpak bundle and publishes it as a GitHub
-release. The tag has to point to a commit on `master` and match the version in
-`meson.build`:
-
-```sh
-git tag -s v0.1.0 -m "Corer 0.1.0"
-git push origin v0.1.0
-```
-
-Remember to add the release to `data/com.tecncr.Corer.metainfo.xml.in.in`
-before tagging.
 
 ## Acknowledgements
 

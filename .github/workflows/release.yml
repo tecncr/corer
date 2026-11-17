@@ -1,0 +1,92 @@
+name: Release
+
+# Builds the Flatpak bundle and publishes a GitHub release when a version tag
+# such as v0.1.0 is pushed. The tagged commit has to be on master and the tag
+# has to match the version in meson.build.
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Check tag
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Tagged commit is on master
+        run: |
+          if ! git merge-base --is-ancestor "$GITHUB_SHA" origin/master; then
+            echo "::error::$GITHUB_REF_NAME does not point to a commit on master"
+            exit 1
+          fi
+
+      - name: Tag matches the project version
+        run: |
+          version=$(sed -n "s/^ *version: *'\([^']*\)'.*/\1/p" meson.build | head -n 1)
+          if [ "v$version" != "$GITHUB_REF_NAME" ]; then
+            echo "::error::Tag $GITHUB_REF_NAME does not match version $version in meson.build"
+            exit 1
+          fi
+
+  flatpak:
+    name: Flatpak (${{ matrix.variant.arch }})
+    needs: check
+    strategy:
+      matrix:
+        variant:
+          - arch: x86_64
+            runner: ubuntu-24.04
+          - arch: aarch64
+            runner: ubuntu-24.04-arm
+    runs-on: ${{ matrix.variant.runner }}
+    container:
+      image: ghcr.io/flathub-infra/flatpak-github-actions:gnome-51
+      options: --privileged
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      # The manifest follows the master branches of the libimobiledevice
+      # stack, so a release is always built from scratch.
+      - uses: flatpak/flatpak-github-actions/flatpak-builder@79327416609af08178ad73b352877e51450790b3 # v6.8
+        with:
+          manifest-path: com.tecncr.Corer.json
+          arch: ${{ matrix.variant.arch }}
+          bundle: corer-${{ github.ref_name }}-${{ matrix.variant.arch }}.flatpak
+          artifact-name: corer-flatpak-${{ matrix.variant.arch }}
+          cache: false
+
+  release:
+    name: Publish release
+    needs: flatpak
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          pattern: corer-flatpak-*
+          merge-multiple: true
+          path: dist
+
+      - name: Checksums
+        working-directory: dist
+        run: sha256sum -- *.flatpak > SHA256SUMS
+
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" dist/*.flatpak dist/SHA256SUMS \
+            --verify-tag --generate-notes --title "Corer ${GITHUB_REF_NAME#v}"

@@ -120,6 +120,20 @@ msginit -i po/corer.pot -o po/es.po -l es  # start a new translation
 meson compile -C build corer-update-po    # merge new strings into all catalogs
 ```
 
+## Releasing
+
+Pushing a version tag builds the Flatpak bundle and publishes it as a GitHub
+release. The tag has to point to a commit on `master` and match the version in
+`meson.build`:
+
+```sh
+git tag -s v0.1.0 -m "Corer 0.1.0"
+git push origin v0.1.0
+```
+
+Remember to add the release to `data/com.tecncr.Corer.metainfo.xml.in.in`
+before tagging.
+
 ## Acknowledgements
 
 Corer would not exist without the [libimobiledevice](https://libimobiledevice.org)

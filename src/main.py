@@ -88,7 +88,7 @@ class CorerApplication(Adw.Application):
             issue_url='https://github.com/tecncr/corer/issues',
             # Translators: Replace "translator-credits" with your name/username, and optionally an email or URL.
             translator_credits=_('translator-credits'),
-            developers=['Nícolas Castillo'],
+            developers=['Nícolas Castillo <code@tecncr.com>'],
             copyright='© 2026 Nícolas Castillo',
             license_type=Gtk.License.GPL_3_0,
         )

@@ -61,7 +61,7 @@ itself:
 sha256sum -c --ignore-missing SHA256SUMS
 flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install --user flathub org.gnome.Platform//51
-flatpak install --user corer-v0.1.0-x86_64.flatpak
+flatpak install --user corer-v0.2.0-x86_64.flatpak
 ```
 
 Corer then shows up in the app grid, or can be started with

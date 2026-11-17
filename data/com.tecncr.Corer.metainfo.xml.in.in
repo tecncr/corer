@@ -52,6 +52,11 @@
   </branding>
 
   <releases>
+    <release version="0.2.0" date="2026-11-17">
+      <description translate="no">
+        <p>Corer is now available in 39 languages and follows the system language.</p>
+      </description>
+    </release>
     <release version="0.1.0" date="2026-11-16">
       <description translate="no">
         <p>Initial release.</p>

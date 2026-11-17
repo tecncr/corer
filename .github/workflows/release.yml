@@ -1,7 +1,7 @@
 name: Release
 
 # Builds the Flatpak bundle and publishes a GitHub release when a version tag
-# such as v0.1.0 is pushed. The tagged commit has to be on master and the tag
+# such as v0.2.0 is pushed. The tagged commit has to be on master and the tag
 # has to match the version in meson.build.
 
 on:

@@ -65,7 +65,8 @@ flatpak install --user corer-v0.1.0-x86_64.flatpak
 ```
 
 Corer then shows up in the app grid, or can be started with
-`flatpak run com.tecncr.Corer`. To update, download the bundle from a newer
+`flatpak run com.tecncr.Corer`. The bundle includes every translation, so
+Corer follows your system language. To update, download the bundle from a newer
 release and install it the same way. To remove it:
 
 ```sh
@@ -97,6 +98,15 @@ flatpak run com.tecncr.Corer
 
 Use `com.tecncr.Corer.Devel.json` for a development build that installs next
 to the stable one with its own icon and ID.
+
+Local builds follow Flatpak's convention and put translations in a separate
+`com.tecncr.Corer.Locale` extension. Only the languages in
+`flatpak config --user languages` get installed, so run
+`flatpak config --user --set languages '*'` before building to get all of them.
+To try a language without changing your system language, run
+`flatpak run --env=LANGUAGE=fr com.tecncr.Corer`. Release bundles include
+every translation in the app itself, because a single-file bundle cannot
+carry the extension.
 
 ### Meson only
 

@@ -56,11 +56,20 @@ jobs:
         with:
           persist-credentials: false
 
+      # Flatpak normally moves translations to a separate .Locale extension
+      # that is installed from a remote. A single-file bundle can't carry it,
+      # so the release bundle keeps every translation in the app itself.
+      - name: Keep translations in the bundle
+        run: |
+          sed 's/^\( *\)"command": "corer",$/&\n\1"separate-locales": false,/' \
+            com.tecncr.Corer.json > com.tecncr.Corer.Release.json
+          grep -q '"separate-locales": false' com.tecncr.Corer.Release.json
+
       # The manifest follows the master branches of the libimobiledevice
       # stack, so a release is always built from scratch.
       - uses: flatpak/flatpak-github-actions/flatpak-builder@79327416609af08178ad73b352877e51450790b3 # v6.8
         with:
-          manifest-path: com.tecncr.Corer.json
+          manifest-path: com.tecncr.Corer.Release.json
           arch: ${{ matrix.variant.arch }}
           bundle: corer-${{ github.ref_name }}-${{ matrix.variant.arch }}.flatpak
           artifact-name: corer-flatpak-${{ matrix.variant.arch }}
